@@ -13,63 +13,63 @@ enum Nerubar
     SPELL_FREED_WARSONG_PEON    = 45532
 };
 
-const uint32 nerubarVictims[3] = {SPELL_FREED_WARSONG_MAGE, SPELL_FREED_WARSONG_SHAMAN, SPELL_FREED_WARSONG_WARRIOR};
+const uint32 nerubarVictims[3] = { SPELL_FREED_WARSONG_MAGE, SPELL_FREED_WARSONG_SHAMAN, SPELL_FREED_WARSONG_WARRIOR };
 
 class npc_nerubar_victim_groupquests : public CreatureScript
 {
-public:
-    npc_nerubar_victim_groupquests() : CreatureScript("npc_nerubar_victim") {}
+    public:
+        npc_nerubar_victim_groupquests() : CreatureScript("npc_nerubar_victim") {}
 
-    struct npc_nerubar_victim_groupquestsAI : public NullCreatureAI
-    {
-        npc_nerubar_victim_groupquestsAI(Creature* creature) : NullCreatureAI(creature) {}
-
-        void JustDied(Unit* killer) override
+        struct npc_nerubar_victim_groupquestsAI : public NullCreatureAI
         {
-            if (!killer || killer->GetTypeId() != TYPEID_PLAYER)
-            {
-                return;
-            }
+            npc_nerubar_victim_groupquestsAI(Creature* creature) : NullCreatureAI(creature) {}
 
-            Player* player = killer->ToPlayer();
-            uint8 uiRand   = urand(0, 99);
-
-            if (uiRand < 40)
+            void JustDied(Unit* killer) override
             {
-                if (Group* group = player->GetGroup())
+                if (!killer || killer->GetTypeId() != TYPEID_PLAYER)
                 {
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                    return;
+                }
+
+                Player* player = killer->ToPlayer();
+                uint8 uiRand   = urand(0, 99);
+
+                if (uiRand < 40)
+                {
+                    if (Group* group = player->GetGroup())
                     {
-                        if (Player* member = groupRef->GetSource())
+                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
                         {
-                            if (member->IsInMap(player) && member->GetQuestStatus(QUEST_TAKEN_BY_THE_SCOURGE) == QUEST_STATUS_INCOMPLETE)
+                            if (Player* member = groupRef->GetSource())
                             {
-                                member->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
-                                member->KilledMonsterCredit(NPC_WARSONG_PEON);
+                                if (member->IsInMap(player) && member->GetQuestStatus(QUEST_TAKEN_BY_THE_SCOURGE) == QUEST_STATUS_INCOMPLETE)
+                                {
+                                    member->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
+                                    member->KilledMonsterCredit(NPC_WARSONG_PEON);
+                                }
                             }
                         }
                     }
-                }
-                else
-                {
-                    if (player->GetQuestStatus(QUEST_TAKEN_BY_THE_SCOURGE) == QUEST_STATUS_INCOMPLETE)
+                    else
                     {
-                        player->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
-                        player->KilledMonsterCredit(NPC_WARSONG_PEON);
+                        if (player->GetQuestStatus(QUEST_TAKEN_BY_THE_SCOURGE) == QUEST_STATUS_INCOMPLETE)
+                        {
+                            player->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
+                            player->KilledMonsterCredit(NPC_WARSONG_PEON);
+                        }
                     }
                 }
+                else if (uiRand < 80)
+                {
+                    player->CastSpell(me, nerubarVictims[urand(0, 2)], true);
+                }
             }
-            else if (uiRand < 80)
-            {
-                player->CastSpell(me, nerubarVictims[urand(0, 2)], true);
-            }
-        }
-    };
+        };
 
-    CreatureAI* GetAI(Creature* creature) const override
-    {
-        return new npc_nerubar_victim_groupquestsAI(creature);
-    }
+        CreatureAI* GetAI(Creature* creature) const override
+        {
+            return new npc_nerubar_victim_groupquestsAI(creature);
+        }
 };
 
 void AddSC_zone_borean_tundra_groupquests()

@@ -117,3 +117,11 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21408 AND `ItemId`=30716;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21408, 3, 30716);
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21878 AND `ItemId`=30716;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21878, 1, 30716);
+
+-- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (11606))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=24566 AND `ItemId`=34709;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (24566, 0, 34709);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25294 AND `ItemId`=34709;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25294, 1, 34709);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25445 AND `ItemId`=34709;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25445, 1, 34709);

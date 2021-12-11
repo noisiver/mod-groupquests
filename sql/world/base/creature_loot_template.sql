@@ -100,3 +100,8 @@ DELETE FROM `creature_loot_template` WHERE `Entry`=21408 AND `Item`=30716;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21408, 30716, 31, 1, 'Felfire Diemetradon - Ever-burning Ash');
 DELETE FROM `creature_loot_template` WHERE `Entry`=21878 AND `Item`=30716;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21878, 30716, 35, 1, 'Felboar - Ever-burning Ash');
+
+-- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (11606))
+UPDATE `creature_loot_template` SET `Chance`=41 WHERE `Entry`=24566 AND `Item`=34709;
+UPDATE `creature_loot_template` SET `Chance`=48 WHERE `Entry`=25294 AND `Item`=34709;
+UPDATE `creature_loot_template` SET `Chance`=49 WHERE `Entry`=25445 AND `Item`=34709;
