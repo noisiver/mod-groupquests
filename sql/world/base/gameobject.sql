@@ -27,3 +27,6 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184466;
 
 -- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
 UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=182095;
+
+-- Pneumatic Tank Transjigamarig (Quest: Mobu's Pneumatic Tank Transjigamarig (Id: 11643))
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187683;

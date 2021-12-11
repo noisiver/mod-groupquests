@@ -125,3 +125,9 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25294 AND `ItemId`=34709;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25294, 1, 34709);
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25445 AND `ItemId`=34709;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25445, 1, 34709);
+
+-- Super Strong Metal Plate (Quest: Super Strong Metal Plates! (11644))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25496 AND `ItemId`=34786;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25496, 2, 34786);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25479 AND `ItemId`=34786;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25479, 3, 34786);

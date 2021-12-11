@@ -105,3 +105,8 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 UPDATE `creature_loot_template` SET `Chance`=41 WHERE `Entry`=24566 AND `Item`=34709;
 UPDATE `creature_loot_template` SET `Chance`=48 WHERE `Entry`=25294 AND `Item`=34709;
 UPDATE `creature_loot_template` SET `Chance`=49 WHERE `Entry`=25445 AND `Item`=34709;
+
+-- Super Strong Metal Plate (Quest: Super Strong Metal Plates! (11644))
+UPDATE `creature_loot_template` SET `Chance`=40 WHERE `Entry`=25496 AND `Item`=34786;
+DELETE FROM `creature_loot_template` WHERE `Entry`=25479 AND `Item`=34786;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25479, 34786, 39, 1, 'Kvaldir Mistweaver - Super Strong Metal Plate');
