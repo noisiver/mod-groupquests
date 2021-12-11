@@ -44,11 +44,12 @@ class npc_nerubar_victim_groupquests : public CreatureScript
                             {
                                 if (member->IsInMap(player) && member->GetQuestStatus(QUEST_TAKEN_BY_THE_SCOURGE) == QUEST_STATUS_INCOMPLETE)
                                 {
-                                    member->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
                                     member->KilledMonsterCredit(NPC_WARSONG_PEON);
                                 }
                             }
                         }
+
+                        player->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
                     }
                     else
                     {
