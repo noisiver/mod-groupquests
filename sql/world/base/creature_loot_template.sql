@@ -101,12 +101,19 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=21878 AND `Item`=30716;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21878, 30716, 35, 1, 'Felboar - Ever-burning Ash');
 
--- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (11606))
+-- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
 UPDATE `creature_loot_template` SET `Chance`=41 WHERE `Entry`=24566 AND `Item`=34709;
 UPDATE `creature_loot_template` SET `Chance`=48 WHERE `Entry`=25294 AND `Item`=34709;
 UPDATE `creature_loot_template` SET `Chance`=49 WHERE `Entry`=25445 AND `Item`=34709;
 
--- Super Strong Metal Plate (Quest: Super Strong Metal Plates! (11644))
+-- Super Strong Metal Plate (Quest: Super Strong Metal Plates! (Id: 11644))
 UPDATE `creature_loot_template` SET `Chance`=47 WHERE `Entry`=25496 AND `Item`=34786;
 DELETE FROM `creature_loot_template` WHERE `Entry`=25479 AND `Item`=34786;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25479, 34786, 42, 1, 'Kvaldir Mistweaver - Super Strong Metal Plate');
+
+-- Bloodspore Carpel (Quest: The Wondrous Bloodspore (Id: 11716))
+UPDATE `creature_loot_template` SET `Chance`=49 WHERE `Entry`=25468 AND `Item`=34974;
+DELETE FROM `creature_loot_template` WHERE `Entry`=25467 AND `Item`=34974;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25467, 34974, 44, 1, 'Bloodspore Harvester - Bloodspore Carpel');
+DELETE FROM `creature_loot_template` WHERE `Entry`=25470 AND `Item`=34974;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25470, 34974, 43, 1, 'Bloodspore Firestarter - Bloodspore Carpel');

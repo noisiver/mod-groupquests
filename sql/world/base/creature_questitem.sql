@@ -131,3 +131,11 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25496 AND `ItemId`=34786;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25496, 2, 34786);
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25479 AND `ItemId`=34786;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25479, 3, 34786);
+
+-- Bloodspore Carpel (Quest: The Wondrous Bloodspore (Id: 11716))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25468 AND `ItemId`=34974;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25468, 0, 34974);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25467 AND `ItemId`=34974;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25467, 0, 34974);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25470 AND `ItemId`=34974;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25470, 0, 34974);
