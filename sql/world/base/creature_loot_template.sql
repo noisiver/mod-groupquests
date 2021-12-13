@@ -117,3 +117,9 @@ DELETE FROM `creature_loot_template` WHERE `Entry`=25467 AND `Item`=34974;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25467, 34974, 44, 1, 'Bloodspore Harvester - Bloodspore Carpel');
 DELETE FROM `creature_loot_template` WHERE `Entry`=25470 AND `Item`=34974;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25470, 34974, 43, 1, 'Bloodspore Firestarter - Bloodspore Carpel');
+
+-- Shipment of Animal Parts (Quest: Not On Our Watch (Id: 11871))
+UPDATE `creature_loot_template` SET `Chance`=48 WHERE `Entry`=25839 AND `Item`=35222;
+UPDATE `creature_loot_template` SET `Chance`=55 WHERE `Entry`=25843 AND `Item`=35222;
+DELETE FROM `creature_loot_template` WHERE `Entry`=25844 AND `Item`=35222;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25844, 35222, 52, 1, 'Northsea Thug - Shipment of Animal Parts');

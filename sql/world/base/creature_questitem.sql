@@ -139,3 +139,11 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25467 AND `ItemId`=34974;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25467, 0, 34974);
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25470 AND `ItemId`=34974;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25470, 0, 34974);
+
+-- Shipment of Animal Parts (Quest: Not On Our Watch (Id: 11871))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25839 AND `ItemId`=35222;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25839, 0, 35222);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25843 AND `ItemId`=35222;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25843, 0, 35222);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25844 AND `ItemId`=35222;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25844, 0, 35222);
