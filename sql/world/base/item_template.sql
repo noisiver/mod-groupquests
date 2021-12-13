@@ -68,3 +68,6 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24419;
 
 -- Ever-burning Ash (Quest: A Haunted History (Horde) / A Ghost in the Machine (Alliance) (Id: 10624 (Horde), 10642 (Alliance)))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=30716;
+
+-- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34713;

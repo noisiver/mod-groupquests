@@ -147,3 +147,7 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25843 AND `ItemId`=35222;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25843, 0, 35222);
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25844 AND `ItemId`=35222;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25844, 0, 35222);
+
+-- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25353 AND `ItemId`=34713;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25353, 0, 34713);

@@ -123,3 +123,7 @@ UPDATE `creature_loot_template` SET `Chance`=48 WHERE `Entry`=25839 AND `Item`=3
 UPDATE `creature_loot_template` SET `Chance`=55 WHERE `Entry`=25843 AND `Item`=35222;
 DELETE FROM `creature_loot_template` WHERE `Entry`=25844 AND `Item`=35222;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25844, 35222, 52, 1, 'Northsea Thug - Shipment of Animal Parts');
+
+-- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
+DELETE FROM `creature_loot_template` WHERE `Entry`=25353 AND `Item`=34713;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25353, 34713, 46, 1, 'Beryl Treasure Hunter - Tuskarr Ritual Object');
