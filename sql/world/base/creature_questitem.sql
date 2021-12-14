@@ -155,3 +155,25 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2535
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
+
+-- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27224 AND `ItemId`=37580;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27224, 2, 37580);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27225 AND `ItemId`=37580;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27225, 2, 37580);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27226 AND `ItemId`=37580;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27226, 2, 37580);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27229 AND `ItemId`=37580;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27229, 2, 37580);
+
+-- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27203 AND `ItemId`=37136;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27203, 0, 37136);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27206 AND `ItemId`=37136;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27206, 1, 37136);
+
+-- Scarlet Onslaught Weapon (Quest: Materiel Plunder (Id: 12209))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27234 AND `ItemId`=37137;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27234, 0, 37137);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27207 AND `ItemId`=37137;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27207, 0, 37137);

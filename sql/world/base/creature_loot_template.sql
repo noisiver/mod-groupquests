@@ -131,3 +131,20 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26605, 36725, 45, 1, 'Anub\'ar Underlord - Black Blood of Yogg-Saron Sample');
+
+-- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
+UPDATE `creature_loot_template` SET `Chance`=38 WHERE `Entry`=27226 AND `Item`=37580;
+DELETE FROM `creature_loot_template` WHERE `Entry`=27224 AND `Item`=37580;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27224, 37580, 46, 1, 'Forgotten Knight - Forgotten Treasure');
+DELETE FROM `creature_loot_template` WHERE `Entry`=27225 AND `Item`=37580;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27225, 37580, 41, 1, 'Forgotten Rifleman - Forgotten Treasure');
+DELETE FROM `creature_loot_template` WHERE `Entry`=27229 AND `Item`=37580;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27229, 37580, 44, 1, 'Forgotten Footman - Forgotten Treasure');
+
+-- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
+UPDATE `creature_loot_template` SET `Chance`=42 WHERE `Entry`=27203 AND `Item`=37136;
+UPDATE `creature_loot_template` SET `Chance`=41 WHERE `Entry`=27206 AND `Item`=37136;
+
+-- Scarlet Onslaught Weapon (Quest: Materiel Plunder (Id: 12209))
+UPDATE `creature_loot_template` SET `Chance`=82 WHERE `Entry`=27234 AND `Item`=37137;
+UPDATE `creature_loot_template` SET `Chance`=63 WHERE `Entry`=27207 AND `Item`=37137;
