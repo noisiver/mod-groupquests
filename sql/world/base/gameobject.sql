@@ -30,3 +30,7 @@ UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=182095;
 
 -- Pneumatic Tank Transjigamarig (Quest: Mobu's Pneumatic Tank Transjigamarig (Id: 11643))
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187683;
+
+-- Ruby Lilac (Quest: In Search of the Ruby Lilac (Id: 12102))
+-- Change respawn time from 5 minutes to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;
