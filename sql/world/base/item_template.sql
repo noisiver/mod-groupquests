@@ -71,3 +71,6 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=30716;
 
 -- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34713;
+
+-- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36725;

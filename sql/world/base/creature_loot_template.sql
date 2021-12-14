@@ -127,3 +127,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
 DELETE FROM `creature_loot_template` WHERE `Entry`=25353 AND `Item`=34713;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25353, 34713, 46, 1, 'Beryl Treasure Hunter - Tuskarr Ritual Object');
+
+-- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
+DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26605, 36725, 45, 1, 'Anub\'ar Underlord - Black Blood of Yogg-Saron Sample');

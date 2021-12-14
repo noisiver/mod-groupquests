@@ -151,3 +151,7 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2584
 -- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25353 AND `ItemId`=34713;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25353, 0, 34713);
+
+-- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
