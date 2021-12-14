@@ -148,3 +148,6 @@ UPDATE `creature_loot_template` SET `Chance`=41 WHERE `Entry`=27206 AND `Item`=3
 -- Scarlet Onslaught Weapon (Quest: Materiel Plunder (Id: 12209))
 UPDATE `creature_loot_template` SET `Chance`=82 WHERE `Entry`=27234 AND `Item`=37137;
 UPDATE `creature_loot_template` SET `Chance`=63 WHERE `Entry`=27207 AND `Item`=37137;
+
+-- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
+UPDATE `creature_loot_template` SET `Chance`=46 WHERE `Entry`=27254 AND `Item`=37124;

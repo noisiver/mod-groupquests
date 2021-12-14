@@ -177,3 +177,7 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27234 AND `ItemId`=37137;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27234, 0, 37137);
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27207 AND `ItemId`=37137;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27207, 0, 37137);
+
+-- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27254 AND `ItemId`=37124;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27254, 2, 37124);
