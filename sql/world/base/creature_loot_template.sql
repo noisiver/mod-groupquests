@@ -151,3 +151,9 @@ UPDATE `creature_loot_template` SET `Chance`=63 WHERE `Entry`=27207 AND `Item`=3
 
 -- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
 UPDATE `creature_loot_template` SET `Chance`=46 WHERE `Entry`=27254 AND `Item`=37124;
+
+-- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242) (Horde), Vordrassil's Seeds (Id: 12250) (Alliance))
+DELETE FROM `creature_loot_template` WHERE `Entry`=26356 AND `Item`=37302;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26356, 37302, 43, 1, 'Redfang Hunter - Vordrassil\'s Seed');
+DELETE FROM `creature_loot_template` WHERE `Entry`=26357 AND `Item`=37302;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 45, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');

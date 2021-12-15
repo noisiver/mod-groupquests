@@ -181,3 +181,9 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2720
 -- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27254 AND `ItemId`=37124;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27254, 2, 37124);
+
+-- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242) (Horde), Vordrassil's Seeds (Id: 12250) (Alliance))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26356 AND `ItemId`=37302;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26356, 1, 37302);
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26357 AND `ItemId`=37302;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);

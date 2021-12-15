@@ -74,3 +74,6 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34713;
 
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36725;
+
+-- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242) (Horde), Vordrassil's Seeds (Id: 12250) (Alliance))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37302;
