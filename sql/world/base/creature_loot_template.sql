@@ -157,3 +157,10 @@ DELETE FROM `creature_loot_template` WHERE `Entry`=26356 AND `Item`=37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26356, 37302, 43, 1, 'Redfang Hunter - Vordrassil\'s Seed');
 DELETE FROM `creature_loot_template` WHERE `Entry`=26357 AND `Item`=37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 45, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
+
+-- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
+UPDATE `creature_loot_template` SET `Chance`=42 WHERE `Entry`=26446 AND `Item`=35782;
+
+-- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
+DELETE FROM `creature_loot_template` WHERE `Entry`=26457 AND `Item`=37087;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26457, 37087, 46, 1, 'Diseased Drakkari - Sweetroot');

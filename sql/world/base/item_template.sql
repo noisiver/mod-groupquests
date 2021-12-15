@@ -77,3 +77,6 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36725;
 
 -- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242) (Horde), Vordrassil's Seeds (Id: 12250) (Alliance))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37302;
+
+-- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37087;

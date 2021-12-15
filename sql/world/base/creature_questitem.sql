@@ -187,3 +187,11 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26356 AND `ItemId`=37302;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26356, 1, 37302);
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26357 AND `ItemId`=37302;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);
+
+-- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26446 AND `ItemId`=35782;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26446, 1, 35782);
+
+-- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26457 AND `ItemId`=37087;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26457, 1, 37087);
