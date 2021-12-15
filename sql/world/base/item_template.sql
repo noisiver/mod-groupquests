@@ -24,7 +24,7 @@ OR `it`.`entry` = `qt`.`RequiredItemId6`
 WHERE `it`.`entry` IN (insert entries here) 
 ORDER BY `it`.`entry`, `qt`.`ID` ASC
 
-I scrolled through each line and kept an eye on whenever the entry changed. That means another quest requires the same item
+I scrolled through each line and kept an eye on whenever the entry didn't change. That means another quest require the same item
 For these items I merged the lines togheter, moving the name and id of the other quests to the first entry
 
 I used a query to find all items that have a drop chance of 1 from creatures
