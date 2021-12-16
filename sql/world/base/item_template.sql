@@ -516,6 +516,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=4897;
 -- Lightning Gland (Quest: Chen's Empty Keg (Id: 822))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=4898;
 
+-- Sack of Supplies (Quest: Winds in the Desert (Id: 834))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=4918;
+
 -- Nitroglycerin (Quest: Revenge of Gann (Id: 846))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5017;
 
@@ -1016,6 +1019,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=11503;
 
 -- Ravasaur Pheromone Gland (Quest: The Scent of Lar'korwi (Id: 4291))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=11509;
+
+-- Cactus Apple (Quest: Galgar's Cactus Apple Surprise (Id: 4402))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=11583;
 
 -- Solid Crystal Leg Shaft (Quest: Ledger from Tanaris (Id: 4450))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=11725;

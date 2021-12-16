@@ -1,0 +1,11 @@
+[2021-12-15]
+- Complete rewrite started.
+
+[2021-12-16]
+- Added Cactus Apple to the loot table of Mottled Boar for the quest Galgar's Cactus Apple Surprise.
+- Added Cactus Apple to the tooltip of Mottled Boar while the quest is active.
+- Modified the flags of Cactus Apple to allow every member of a group to loot it.
+
+- Added Sack of Supplies to the loot table of Dustwind Harpy and Dustwind Pillager for the quest Winds in the Desert.
+- Added Sack of Supplies to the tooltip of Dustwind Harpy and Dustwind Pillager while the quest is active.
+- Modified the flags of Sack of Supplies to allow every member of a group to loot it.
