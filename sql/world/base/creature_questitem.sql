@@ -15,3 +15,8 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3461
 -- Mottled Boar (Id: 3098)
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 3098 AND `ItemId` = 11583;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3098, 0, 11583);
+
+-- Highperch Wyvern Egg (Quest: Wind Rider (Id: 4767))
+-- Highperch Wyvern (Id: 4107)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4107 AND `ItemId` = 12356;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4107, 1, 12356);

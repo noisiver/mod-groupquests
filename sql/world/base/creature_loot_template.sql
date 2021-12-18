@@ -15,3 +15,8 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Mottled Boar (Id: 3098)
 DELETE FROM `creature_loot_template` WHERE `Entry` = 3098 AND `Item` = 11583;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (3098, 11583, 32, 1, 'Mottled Boar - Cactus Apple');
+
+-- Highperch Wyvern Egg (Quest: Wind Rider (Id: 4767))
+-- Highperch Wyvern (Id: 4107)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4107 AND `Item` = 12356;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4107, 12356, 38, 1, 'Highperch Wyvern - Highperch Wyvern Egg');

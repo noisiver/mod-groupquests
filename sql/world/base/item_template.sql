@@ -570,6 +570,15 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5086;
 -- Plainstrider Beak (Quest: Plainstrider Menace (Id: 844))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5087;
 
+-- Charred Razormane Wand (Quest: Weapons of Choice (Id: 893))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5092;
+
+-- Razormane Backstabber (Quest: Weapons of Choice (Id: 893))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5093;
+
+-- Razormane War Shield (Quest: Weapons of Choice (Id: 893))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5094;
+
 -- Prowler Claws (Quest: Prowlers of the Barrens (Id: 903))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5096;
 
@@ -1061,6 +1070,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12336;
 
 -- Gemstone of Bloodaxe (Quest: Seal of Ascension (Id: 4742))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12337;
+
+-- Highperch Wyvern Egg (Quest: Wind Rider (Id: 4767))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12356;
 
 -- Thick Yeti Fur (Quest: Are We There, Yeti? (Id: 3783))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12366;
