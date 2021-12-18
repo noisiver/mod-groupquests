@@ -9,3 +9,8 @@
 - Added Sack of Supplies to the loot table of Dustwind Harpy and Dustwind Pillager for the quest Winds in the Desert.
 - Added Sack of Supplies to the tooltip of Dustwind Harpy and Dustwind Pillager while the quest is active.
 - Modified the flags of Sack of Supplies to allow every member of a group to loot it.
+
+[2021-12-17]
+- Added Fungal Spores to the loot table of Oasis Snapjaw for the quest Fungal Spores.
+- Added Fungal Spores to the tooltip of Oasis Snapjaw while the quest is active.
+- Modified flags of Fungal Spores to allow every member of a group to loot it.
