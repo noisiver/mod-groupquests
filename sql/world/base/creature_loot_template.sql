@@ -11,6 +11,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 3461 AND `Item` = 5012;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (3461, 5012, 31, 1, 'Oasis Snapjaw - Fungal Spores');
 
+-- Deepmoss Egg (Quest: Deepmoss Spider Eggs (Id: 1069))
+-- Deepmoss Creeper
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4005 AND `Item` = 5570;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4005, 5570, 33, 1, 'Deepmoss Creeper - Deepmoss Egg');
+-- Deepmoss Webspinner
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4006 AND `Item` = 5570;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4006, 5570, 31, 1, 'Deepmoss Webspinner - Deepmoss Egg');
+-- Deepmoss Venomspitter
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4007 AND `Item` = 5570;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4007, 5570, 30, 1, 'Deepmoss Venomspitter - Deepmoss Egg');
+
 -- Cactus Apple (Quest: Galgar's Cactus Apple Surprise (Id: 4402))
 -- Mottled Boar (Id: 3098)
 DELETE FROM `creature_loot_template` WHERE `Entry` = 3098 AND `Item` = 11583;

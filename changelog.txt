@@ -28,4 +28,14 @@
 
 [2021-12-20]
 - Added Venomhide Ravasaur Egg to the loot table of Venomhide Ravasaur for the quest Venomhide Eggs.
+- Added Venomhide Ravasaur Egg to the tooltip of Venomhide Ravasaur while the quest is active.
 - Changed flags of Venomhide Ravasaur Egg to allow every member of a group to loot it.
+
+[2021-12-21]
+- Added Deepmoss Egg to the loot table of Deepmoss Creeper for the quest Deepmoss Spider Eggs.
+- Added Deepmoss Egg to the tooltip of Deepmoss Creeper while the quest is active.
+- Added Deepmoss Egg to the loot table of Deepmoss Webspinner for the quest Deepmoss Spider Eggs.
+- Added Deepmoss Egg to the tooltip of Deepmoss Webspinner while the quest is active.
+- Added Deepmoss Egg to the loot table of Deepmoss Venomspitter for the quest Deepmoss Spider Eggs.
+- Added Deepmoss Egg to the tooltip of Deepmoss Venomspitter while the quest is active.
+- Changed flags of Deepmoss Egg to allow every member of a group to loot it.

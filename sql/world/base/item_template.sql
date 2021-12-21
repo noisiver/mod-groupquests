@@ -636,6 +636,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5481;
 -- Wrathtail Head (Quest: The Zoram Strand (Id: 1008), Quest: Naga at the Zoram Strand (Id: 6442))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5490;
 
+-- Deepmoss Egg (Quest: Deepmoss Spider Eggs (Id: 1069))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5570;
+
 -- Stonetalon Sap (Quest: Jin'Zil's Forest Magic (Id: 1058))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=5582;
 

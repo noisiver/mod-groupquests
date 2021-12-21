@@ -11,6 +11,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3116
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 3461 AND `ItemId` = 5012;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3461, 1, 5012);
 
+-- Deepmoss Egg (Quest: Deepmoss Spider Eggs (Id: 1069))
+-- Deepmoss Creeper
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4005 AND `ItemId` = 5570;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4005, 0, 5570);
+-- Deepmoss Webspinner
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4006 AND `ItemId` = 5570;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4006, 0, 5570);
+-- Deepmoss Venomspitter
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4007 AND `ItemId` = 5570;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4007, 0, 5570);
+
 -- Cactus Apple (Quest: Galgar's Cactus Apple Surprise (Id: 4402))
 -- Mottled Boar (Id: 3098)
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 3098 AND `ItemId` = 11583;
