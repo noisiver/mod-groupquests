@@ -25,3 +25,7 @@
 - Added Highperch Wyvern Egg to the loot table of Highperch Wyvern for the quest Wind Rider.
 - Added Highperch Wyvern Egg to the tooltip of Highperch Wyvern while the quest is active.
 - Changed flags of Highperch Wyvern Egg to allow every member of a group to loot it.
+
+[2021-12-20]
+- Added Venomhide Ravasaur Egg to the loot table of Venomhide Ravasaur for the quest Venomhide Eggs.
+- Changed flags of Venomhide Ravasaur Egg to allow every member of a group to loot it.

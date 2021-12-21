@@ -20,3 +20,8 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Highperch Wyvern (Id: 4107)
 DELETE FROM `creature_loot_template` WHERE `Entry` = 4107 AND `Item` = 12356;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4107, 12356, 38, 1, 'Highperch Wyvern - Highperch Wyvern Egg');
+
+-- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
+-- Venomhide Ravasaur
+DELETE FROM `creature_loot_template` WHERE `Entry` = 6508 AND `Item` = 46364;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (6508, 46364, 32, 1, 'Venomhide Ravasaur - Venomhide Ravasaur Egg');

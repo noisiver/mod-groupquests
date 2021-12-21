@@ -2238,6 +2238,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44631;
 -- Gundrak Raptor Egg (Quest: Eggs for Dubra'Jin (Id: 13556))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44921;
 
+-- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=46364;
+
 -- Searing Roc Plumage (Quest: Searing Roc Feathers (Id: 13905), Quest: Searing Roc Feathers (Id: 13914))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=46381;
 
