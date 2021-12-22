@@ -39,3 +39,22 @@
 - Added Deepmoss Egg to the loot table of Deepmoss Venomspitter for the quest Deepmoss Spider Eggs.
 - Added Deepmoss Egg to the tooltip of Deepmoss Venomspitter while the quest is active.
 - Changed flags of Deepmoss Egg to allow every member of a group to loot it.
+
+[2021-12-22]
+- Added Gaea Seed to the loot table of Pridewing Wyvern for the quest Cycle of Rebirth.
+- Added Gaea Seed to the tooltip of Pridewing Wyvern while the quest is active.
+- Added Gaea Seed to the loot table of Pridewing Skyhunter for the quest Cycle of Rebirth.
+- Added Gaea Seed to the tooltip of Pridewing Skyhunter while the quest is active.
+- Added Gaea Seed to the loot table of Pridewing Consort for the quest Cycle of Rebirth.
+- Added Gaea Seed to the tooltip of Pridewing Consort while the quest is active.
+- Changed flags of Gaea Seed to allow every member of a group to loot it.
+
+- Added Kodo Bone to the loot table of Aged Kodo for the quest Bone Collector.
+- Added Kodo Bone to the tooltip of Aged Kodo while the quest is active.
+- Added Kodo Bone to the loot table of Dying Kodo for the quest Bone Collector.
+- Added Kodo Bone to the tooltip of Dying Kodo while the quest is active.
+- Added Kodo Bone to the loot table of Ancient Kodo for the quest Bone Collector.
+- Added Kodo Bone to the tooltip of Ancient Kodo while the quest is active.
+- Changed flags of Kodo Bone to allow every member of a group to loot it.
+
+- Added the script for Desolace to make the quest Kodo Roundup trigger for every member of a group.

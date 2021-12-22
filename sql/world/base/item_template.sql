@@ -1119,6 +1119,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=13174;
 -- Insignia of the Black Guard (Quest: Corruption (Id: 5307))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=13350;
 
+-- Kodo Bone (Quest: Bone Collector (Id: 5501))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=13703;
+
 -- Slab of Carrion Worm Meat (Quest: Carrion Grubbage (Id: 5544))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=13853;
 
@@ -1136,6 +1139,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=15852;
 
 -- Soft-shelled Clam Meat (Quest: Clam Bait (Id: 6142))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=15924;
+
+-- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=16205;
 
 -- Incendrites (Quest: Elemental War (Id: 6393))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=16312;

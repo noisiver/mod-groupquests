@@ -32,6 +32,28 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 4107 AND `Item` = 12356;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4107, 12356, 38, 1, 'Highperch Wyvern - Highperch Wyvern Egg');
 
+-- Kodo Bone (Quest: Bone Collector (Id: 5501))
+-- Aged Kodo (Id: 4700)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4700 AND `Item` = 13703;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4700, 13703, 32, 1, 'Aged Kodo - Kodo Bone');
+-- Dying Kodo (Id: 4701)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4701 AND `Item` = 13703;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4701, 13703, 33, 1, 'Dying Kodo - Kodo Bone');
+-- Ancient Kodo (Id: 4702)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4702 AND `Item` = 13703;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4702, 13703, 35, 1, 'Ancient Kodo - Kodo Bone');
+
+-- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
+-- Pridewing Wyvern (Id: 4012)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4012 AND `Item` = 16205;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4012, 16205, 34, 1, 'Pridewing Wyvern - Gaea Seed');
+-- Pridewing Skyhunter (Id: 4013)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4013 AND `Item` = 16205;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4013, 16205, 37, 1, 'Pridewing Skyhunter - Gaea Seed');
+-- Pridewing Consort (Id: 4014)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4014 AND `Item` = 16205;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4014, 16205, 34, 1, 'Pridewing Consort - Gaea Seed');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry` = 6508 AND `Item` = 46364;

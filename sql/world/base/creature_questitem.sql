@@ -32,6 +32,28 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3098
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4107 AND `ItemId` = 12356;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4107, 1, 12356);
 
+-- Kodo Bone (Quest: Bone Collector (Id: 5501))
+-- Aged Kodo (Id: 4700)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4700 AND `ItemId` = 13703;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4700, 2, 13703);
+-- Dying Kodo (Id: 4701)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4701 AND `ItemId` = 13703;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4701, 1, 13703);
+-- Ancient Kodo (Id: 4702)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4702 AND `ItemId` = 13703;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4702, 1, 13703);
+
+-- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
+-- Pridewing Wyvern (Id: 4012)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4012 AND `ItemId` = 16205;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4012, 1, 16205);
+-- Pridewing Skyhunter (Id: 4013)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4013 AND `ItemId` = 16205;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4013, 1, 16205);
+-- Pridewing Consort (Id: 4014)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4014 AND `ItemId` = 16205;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4014, 1, 16205);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 6508 AND `ItemId` = 46364;
