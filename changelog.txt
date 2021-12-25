@@ -58,3 +58,6 @@
 - Changed flags of Kodo Bone to allow every member of a group to loot it.
 
 - Added the script for Desolace to make the quest Kodo Roundup trigger for every member of a group.
+
+[2021-12-24]
+- Changed the respawn time of the object, Gri'lek the Wanderer, from 60 seconds to 1 second.
