@@ -11,6 +11,8 @@ This module is part of my collection of modules.
 
 [Assistant](https://github.com/tkn963/mod-assistant) : Allows players to obtain certain items and utilities from an NPC.
 
+[DynamicRates](https://github.com/tkn963/mod-dynamicrates) : Increases the gained experience and reputation based on the players current level.
+
 [LearnSpells](https://github.com/tkn963/mod-learnspells) : Lets players learn class spells, talent ranks, proficiencies and mounts when leveling up or logging into the world.
 
 [LevelReward](https://github.com/tkn963/mod-levelreward) : Gives players a reward of gold when reaching specific levels.
