@@ -54,6 +54,24 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4013
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4014 AND `ItemId` = 16205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4014, 1, 16205);
 
+-- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
+-- Bonechewer Scavenger
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18952 AND `ItemId` = 25911;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18952, 1, 25911);
+
+-- Salvaged Metal (Quest: I Work... For the Horde! (Id: 10086))
+-- Bonechewer Scavenger
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18952 AND `ItemId` = 25912;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18952, 2, 25912);
+
+-- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
+-- Felfire Diemetradon
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 21408 AND `ItemId` = 30716;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21408, 3, 30716);
+-- Felboar
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 21878 AND `ItemId` = 30716;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21878, 1, 30716);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 6508 AND `ItemId` = 46364;

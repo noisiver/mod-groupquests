@@ -1734,6 +1734,12 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25812;
 -- Pristine Shimmerscale Eel (Quest: Rather Be Fishin' (Id: 10037))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25891;
 
+-- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25911;
+
+-- Salvaged Metal (Quest: I Work... For the Horde! (Id: 10086))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25912;
+
 -- Flaming Torch (Quest: Laying Waste to the Unwanted (Id: 10078))
 UPDATE `item_template` SET `Flags`=2112 WHERE `entry`=26002;
 
@@ -1838,6 +1844,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=30640;
 
 -- Sunfury Glaive (Quest: Karabor Training Grounds (Id: 10587), Quest: Karabor Training Grounds (Id: 10687))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=30679;
+
+-- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=30716;
 
 -- Proto-Nether Drake Essence (Quest: What Came First, the Drake or the Egg? (Id: 10609))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=30743;

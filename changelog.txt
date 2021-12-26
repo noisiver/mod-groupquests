@@ -60,4 +60,21 @@
 - Added the script for Desolace to make the quest Kodo Roundup trigger for every member of a group.
 
 [2021-12-24]
-- Changed the respawn time of the object, Gri'lek the Wanderer, from 60 seconds to 1 second.
+- Changed the respawn time of Gri'lek the Wanderer.
+
+[2021-12-25]
+- Added Salvaged Wood to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
+- Added Salvaged Wood to the tooltip of Bonechewer Scavenger while the quest is active.
+- Added Salvaged Metal to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
+- Added Salvaged Metal to the tooltip of Bonechewer Scavenger while the quest is active.
+- Changed flags of Salvaged Wood to allow every member of a group to loot it.
+- Changed flags of Salvaged Metal to allow every member of a group to loot it.
+
+- Changed the respawn time of Metal Coffer.
+
+[2021-12-26]
+- Added Ever-burning Ash to the loot table of Felfire Diemetradon for the quests A Haunted History and A Ghost in the Machine.
+- Added Ever-burning Ash t othe tooltip of Felfire Diemetradon while the quest is active.
+- Added Ever-burning Ash to the loot table of Felboar for the quests A Haunted History and A Ghost in the Machine.
+- Added Ever-burning Ash t othe tooltip of Felboar while the quest is active.
+- Changed flags of Ever-burning Ash to allow every member of a group to loot it.

@@ -54,6 +54,24 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 4014 AND `Item` = 16205;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4014, 16205, 34, 1, 'Pridewing Consort - Gaea Seed');
 
+-- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
+-- Bonechewer Scavenger
+DELETE FROM `creature_loot_template` WHERE `Entry` = 18952 AND `Item` = 25911;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18952, 25911, 33, 1, 'Bonechewer Scavenger - Salvaged Wood');
+
+-- Salvaged Metal (Quest: I Work... For the Horde! (Id: 10086))
+-- Bonechewer Scavenger
+DELETE FROM `creature_loot_template` WHERE `Entry` = 18952 AND `Item` = 25912;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18952, 25912, 33, 1, 'Bonechewer Scavenger - Salvaged Metal');
+
+-- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
+-- Felfire Diemetradon
+DELETE FROM `creature_loot_template` WHERE `Entry` = 21408 AND `Item` = 30716;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21408, 30716, 31, 1, 'Felfire Diemetradon - Ever-burning Ash');
+-- Felboar
+DELETE FROM `creature_loot_template` WHERE `Entry` = 21878 AND `Item` = 30716;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21878, 30716, 30, 1, 'Felboar - Ever-burning Ash');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry` = 6508 AND `Item` = 46364;
