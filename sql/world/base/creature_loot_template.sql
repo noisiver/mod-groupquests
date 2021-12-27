@@ -64,6 +64,19 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 18952 AND `Item` = 25912;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18952, 25912, 33, 1, 'Bonechewer Scavenger - Salvaged Metal');
 
+-- Etherlithium Matrix Crystal (Quest: You're Hired! (Id: 10186))
+-- Disembodied Vindicator
+DELETE FROM `creature_loot_template` WHERE `Entry` = 18872 AND `Item` = 28364;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18872, 28364, 32, 1, 'Disembodied Vindicator - Etherlithium Matrix Crystal');
+-- Disembodied Protector
+DELETE FROM `creature_loot_template` WHERE `Entry` = 18873 AND `Item` = 28364;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18873, 28364, 31, 1, 'Disembodied Protector - Etherlithium Matrix Crystal');
+
+-- Ethereal Technology (Quest: Pick Your Part (Id: 10206))
+-- Zaxxis Raider
+DELETE FROM `creature_loot_template` WHERE `Entry` = 18875 AND `Item` = 28457;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18875, 28457, 34, 1, 'Zaxxis Raider - Salvaged Metal');
+
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon
 DELETE FROM `creature_loot_template` WHERE `Entry` = 21408 AND `Item` = 30716;

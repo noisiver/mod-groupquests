@@ -64,6 +64,19 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1895
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18952 AND `ItemId` = 25912;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18952, 2, 25912);
 
+-- Etherlithium Matrix Crystal (Quest: You're Hired! (Id: 10186))
+-- Disembodied Vindicator
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18872 AND `ItemId` = 28364;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18872, 1, 28364);
+-- Disembodied Protector
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18873 AND `ItemId` = 28364;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18873, 1, 28364);
+
+-- Ethereal Technology (Quest: Pick Your Part (Id: 10206))
+-- Zaxxis Raider
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18875 AND `ItemId` = 28457;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18875, 0, 28457);
+
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 21408 AND `ItemId` = 30716;

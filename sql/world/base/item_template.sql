@@ -1749,8 +1749,14 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=27807;
 -- Lathrai's Stolen Goods (Quest: A Personal Favor (Id: 10112))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=27861;
 
+-- Etherlithium Matrix Crystal (Quest: You're Hired! (Id: 10186))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28364;
+
 -- Nether Ray Stinger (Quest: That Little Extra Kick (Id: 10199))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28417;
+
+-- Ethereal Technology (Quest: Pick Your Part (Id: 10206))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28457;
 
 -- Mana Wraith Essence (Quest: Essence for the Engines (Id: 10224))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28527;
