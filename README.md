@@ -19,7 +19,7 @@ This module is part of my collection of modules.
 
 [GroupQuests](https://github.com/tkn963/mod-groupquests) : Makes quest items drop for all members of a group. In some cases it also help certain objectives count for all members of a group.
 
-[ReferAFriend](https://github.com/tkn963/mod-referafriend) : Lets players activate refer a friend with an in-game command.
+[RecruitAFriend](https://github.com/tkn963/mod-recruitafriend) : Lets players activate recruit a friend with an in-game command.
 
 [SpawnPoints](https://github.com/tkn963/mod-spawnpoints) : Makes new characters spawn in specified locations when entering the world for the first time.
 
