@@ -85,6 +85,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2140
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 21878 AND `ItemId` = 30716;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21878, 1, 30716);
 
+-- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
+-- Nerub'ar Skitterer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 24566 AND `ItemId` = 34709;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (24566, 0, 34709);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 6508 AND `ItemId` = 46364;

@@ -85,6 +85,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 21878 AND `Item` = 30716;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21878, 30716, 30, 1, 'Felboar - Ever-burning Ash');
 
+-- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
+-- Nerub'ar Skitterer
+DELETE FROM `creature_loot_template` WHERE `Entry` = 24566 AND `Item` = 34709;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (24566, 34709, 32, 1, 'Nerub\'ar Skitterer - Warsong Munitions');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry` = 6508 AND `Item` = 46364;

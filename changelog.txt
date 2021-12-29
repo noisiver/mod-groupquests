@@ -68,3 +68,7 @@
 
 - Added Ethereal Technology to the loot table of Zaxxis Raider for the quest Pick Your Part.
 - Changed flags of Ethereal Technology to allow every member of a group to loot it.
+
+[2021-12-29]
+- Added Warsong Munitions to the loot table of Nerub'ar Skitterer for the quest Patience is a Virtue that We Don't Need.
+- Changed flags of Warsong Munitions to allow every member of a group to loot it.

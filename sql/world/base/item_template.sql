@@ -2007,6 +2007,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34387;
 -- Succulent Orca Blubber (Quest: Succulent Orca Stew (Id: 11564))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34618;
 
+-- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34709;
+
 -- Scourged Mammoth Pelt (Quest: Shrouds of the Scourge (Id: 11628))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34775;
 
