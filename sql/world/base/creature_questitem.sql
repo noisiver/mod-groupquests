@@ -91,6 +91,9 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 21878 AND `ItemId` = 30
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21878, 1, 30716);
 
 -- Intact Plague Container (Quest: The New Plague (Id: 11167))
+-- North Fleet Sailor
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23866 AND `ItemId` = 33099;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23866, 0, 33099);
 -- North Fleet Salvager
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23934 AND `ItemId` = 33099;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23934, 0, 33099);

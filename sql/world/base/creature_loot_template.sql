@@ -91,6 +91,9 @@ DELETE FROM `creature_loot_template` WHERE `Entry` = 21878 AND `Item` = 30716;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21878, 30716, 30, 1, 'Felboar - Ever-burning Ash');
 
 -- Intact Plague Container (Quest: The New Plague (Id: 11167))
+-- North Fleet Sailor
+DELETE FROM `creature_loot_template` WHERE `Entry` = 23866 AND `Item` = 33099;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23866, 33099, 32, 1, 'North Fleet Sailor - Intact Plague Container');
 -- North Fleet Salvager
 DELETE FROM `creature_loot_template` WHERE `Entry` = 23934 AND `Item` = 33099;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23934, 33099, 49, 1, 'North Fleet Salvager - Intact Plague Container');

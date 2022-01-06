@@ -78,4 +78,5 @@
 - Changed flags of Digested Caracoli to allow every member of a group to loot it.
 
 - Added Intact Plague Container to the loot table of North Fleet Salvager for the quest The New Plague.
+- Added Intact Plague Container to the loot table of North Fleet Sailor for the quest The New Plague.
 - Changed flags of Intact Plague Container to allow every member of a group to loot it.
