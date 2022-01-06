@@ -76,3 +76,6 @@
 [2022-01-06]
 - Added Digested Caracoli to the loot table of Talbuk Thorngrazer for the quest A Rare Bean.
 - Changed flags of Digested Caracoli to allow every member of a group to loot it.
+
+- Added Intact Plague Container to the loot table of North Fleet Salvager for the quest The New Plague.
+- Changed flags of Intact Plague Container to allow every member of a group to loot it.

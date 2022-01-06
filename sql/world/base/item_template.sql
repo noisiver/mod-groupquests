@@ -1944,6 +1944,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=33085;
 -- Stonemaul Banner (Quest: Banner of the Stonemaul (Id: 11160))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=33086;
 
+-- Intact Plague Container (Quest: The New Plague (Id: 11167))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=33099;
+
 -- Blood of Zul'jin (Quest: Blood of the Warlord (Id: 11178))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=33102;
 
