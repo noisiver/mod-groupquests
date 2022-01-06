@@ -72,3 +72,7 @@
 [2021-12-29]
 - Added Warsong Munitions to the loot table of Nerub'ar Skitterer for the quest Patience is a Virtue that We Don't Need.
 - Changed flags of Warsong Munitions to allow every member of a group to loot it.
+
+[2022-01-06]
+- Added Digested Caracoli to the loot table of Talbuk Thorngrazer for the quest A Rare Bean.
+- Changed flags of Digested Caracoli to allow every member of a group to loot it.

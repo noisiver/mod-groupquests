@@ -54,6 +54,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4013
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4014 AND `ItemId` = 16205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4014, 1, 16205);
 
+-- Digested Caracoli (Quest: A Rare Bean (Id: 9800))
+-- Talbuk Thorngrazer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 17131 AND `ItemId` = 24419;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17131, 0, 24419);
+
 -- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
 -- Bonechewer Scavenger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18952 AND `ItemId` = 25911;

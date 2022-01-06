@@ -1665,6 +1665,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24375;
 -- Unidentified Plant Parts (Quest: Identify Plant Parts (Id: 9784), Quest: Plants of Zangarmarsh (Id: 9802))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24401;
 
+-- Digested Caracoli (Quest: A Rare Bean (Id: 9800))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24419;
+
 -- Sporebat Eye (Quest: Gathering the Reagents (Id: 9801))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24426;
 
