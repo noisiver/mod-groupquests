@@ -80,3 +80,13 @@
 - Added Intact Plague Container to the loot table of North Fleet Salvager for the quest The New Plague.
 - Added Intact Plague Container to the loot table of North Fleet Sailor for the quest The New Plague.
 - Changed flags of Intact Plague Container to allow every member of a group to loot it.
+
+[2022-01-07]
+- Added Spotted Hippogryph Down to the loot table of Shoveltusk Forager for the quest Hasty Preparations.
+- Changed flags of Spotted Hippogryph Down to allow every member of a group to loot it.
+
+- Changed flags of Book of Runes - Chapter 1 to allow every member of a group to loot it.
+- Changed flags of Book of Runes - Chapter 2 to allow every member of a group to loot it.
+- Changed flags of Book of Runes - Chapter 3 to allow every member of a group to loot it.
+
+- Changed the respawn time of Iron Rune Carving Tools.

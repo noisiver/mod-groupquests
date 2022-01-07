@@ -98,6 +98,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2386
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23934 AND `ItemId` = 33099;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23934, 0, 33099);
 
+-- Spotted Hippogryph Down (Quest: Hasty Preparations (Id: 11271))
+-- Shoveltusk Forager
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 29479 AND `ItemId` = 33348;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29479, 1, 33348);
+
 -- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
 -- Nerub'ar Skitterer
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 24566 AND `ItemId` = 34709;

@@ -98,6 +98,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 23934 AND `Item` = 33099;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23934, 33099, 49, 1, 'North Fleet Salvager - Intact Plague Container');
 
+-- Spotted Hippogryph Down (Quest: Hasty Preparations (Id: 11271))
+-- Shoveltusk Forager
+DELETE FROM `creature_loot_template` WHERE `Entry` = 29479 AND `Item` = 33348;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29479, 33348, 28, 1, 'Shoveltusk Forager - Spotted Hippogryph Down');
+
 -- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
 -- Nerub'ar Skitterer
 DELETE FROM `creature_loot_template` WHERE `Entry` = 24566 AND `Item` = 34709;
