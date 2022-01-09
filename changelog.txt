@@ -95,3 +95,6 @@
 - Added Wyrmtail to the loot table of Searing Whelp for the quest Catch a Dragon by the Tail.
 - Added Wyrmtail to the loot table of Drywallow Daggermaw for the quest Catch a Dragon by the Tail.
 - Changed flags of Wyrmtail to allow every member of a group to loot it.
+
+- Added Milly's Harvest to the loot table of Defias Thug for the quest Milly's Harvest.
+- Changed flags of Milly's Harvest to allow every member of a group to loot it.

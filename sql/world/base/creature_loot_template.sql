@@ -22,6 +22,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 4007 AND `Item` = 5570;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4007, 5570, 30, 1, 'Deepmoss Venomspitter - Deepmoss Egg');
 
+-- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
+-- Defias Thug
+DELETE FROM `creature_loot_template` WHERE `Entry` = 38 AND `Item` = 11119;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (38, 11119, 28, 1, 'Defias Thug - Milly\'s Harvest');
+
 -- Cactus Apple (Quest: Galgar's Cactus Apple Surprise (Id: 4402))
 -- Mottled Boar (Id: 3098)
 DELETE FROM `creature_loot_template` WHERE `Entry` = 3098 AND `Item` = 11583;

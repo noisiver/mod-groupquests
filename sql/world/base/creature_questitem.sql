@@ -22,6 +22,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4006
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4007 AND `ItemId` = 5570;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4007, 0, 5570);
 
+-- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
+-- Defias Thug
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 38 AND `ItemId` = 11119;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (38, 1, 11119);
+
 -- Cactus Apple (Quest: Galgar's Cactus Apple Surprise (Id: 4402))
 -- Mottled Boar (Id: 3098)
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 3098 AND `ItemId` = 11583;
