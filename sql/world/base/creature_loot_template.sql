@@ -98,6 +98,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 23934 AND `Item` = 33099;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23934, 33099, 49, 1, 'North Fleet Salvager - Intact Plague Container');
 
+-- Wyrmtail (Quest: Catch a Dragon by the Tail (Id: 11217))
+-- Searing Whelp
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4324 AND `Item` = 33175;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4324, 33175, 32, 1, 'Searing Whelp - Wyrmtail');
+-- Drywallow Daggermaw
+DELETE FROM `creature_loot_template` WHERE `Entry` = 4345 AND `Item` = 33175;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4345, 33175, 29, 1, 'Drywallow Daggermaw - Wyrmtail');
+
 -- Spotted Hippogryph Down (Quest: Hasty Preparations (Id: 11271))
 -- Shoveltusk Forager
 DELETE FROM `creature_loot_template` WHERE `Entry` = 29479 AND `Item` = 33348;

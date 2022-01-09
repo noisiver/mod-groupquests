@@ -90,3 +90,8 @@
 - Changed flags of Book of Runes - Chapter 3 to allow every member of a group to loot it.
 
 - Changed the respawn time of Iron Rune Carving Tools.
+
+[2022-01-09]
+- Added Wyrmtail to the loot table of Searing Whelp for the quest Catch a Dragon by the Tail.
+- Added Wyrmtail to the loot table of Drywallow Daggermaw for the quest Catch a Dragon by the Tail.
+- Changed flags of Wyrmtail to allow every member of a group to loot it.

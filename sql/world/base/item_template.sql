@@ -1962,6 +1962,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33120;
 -- Thresher Oil (Quest: Thresher Oil (Id: 11192))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33126;
 
+-- Wyrmtail (Quest: Catch a Dragon by the Tail (Id: 11217))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33175;
+
 -- Marsh Frog Leg (Quest: Marsh Frog Legs (Id: 1218))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33202;
 

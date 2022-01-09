@@ -98,6 +98,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2386
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23934 AND `ItemId` = 33099;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23934, 0, 33099);
 
+-- Wyrmtail (Quest: Catch a Dragon by the Tail (Id: 11217))
+-- Searing Whelp
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4324 AND `ItemId` = 33175;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4324, 2, 33175);
+-- Drywallow Daggermaw
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4345 AND `ItemId` = 33175;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4345, 0, 33175);
+
 -- Spotted Hippogryph Down (Quest: Hasty Preparations (Id: 11271))
 -- Shoveltusk Forager
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 29479 AND `ItemId` = 33348;
