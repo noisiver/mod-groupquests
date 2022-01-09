@@ -976,7 +976,7 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 10639;
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 11018;
 
 -- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
-UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 11119
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 11119;
 
 -- Dinosaur Bone (Quest: Roll the Bones (Id: 3882))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 11114;
