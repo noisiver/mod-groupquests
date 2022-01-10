@@ -36,8 +36,20 @@ All items that has only creatures with a 1 percent drop chance were removed from
 These items are obtained through objects. They will be added to this list when I discover them myself and add them to a creatures loot table
 */
 
+-- Goretusk Liver (Quest: Goretusk Liver Pie (Id: 22))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 723;
+
 -- Gnoll Paw (Quest: Patrolling Westfall (Id: 102))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 725;
+
+-- Stringy Vulture Meat (Quest: Westfall Stew (Id: 38))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 729;
+
+-- Murloc Eye (Quest: Westfall Stew (Id: 38))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 730;
+
+-- Goretusk Snout (Quest: Westfall Stew (Id: 38))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 731;
 
 -- Okra (Quest: Westfall Stew (Id: 38))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 732;
@@ -107,6 +119,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 1519;
 
 -- Skullsplitter Tusk (Quest: Skullsplitter Tusks (Id: 209))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 1524;
+
+-- Handful of Oats (Quest: Poor Old Blanchy (Id: 151))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 1528;
 
 -- Shrunken Head (Quest: Headhunting (Id: 582))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 1532;

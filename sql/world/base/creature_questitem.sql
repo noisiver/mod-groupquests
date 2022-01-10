@@ -1,3 +1,11 @@
+-- Handful of Oats (Quest: Poor Old Blanchy (Id: 151))
+-- Harvest Golem (Id: 36)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 36 AND `ItemId` = 1528;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (36, 0, 1528);
+-- Rusty Harvest Golem (Id: 480)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 480 AND `ItemId` = 1528;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (480, 0, 1528);
+
 -- Sack of Supplies (Quest: Winds in the Desert (Id: 834))
 -- Dustwind Harpy (Id: 3115)
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 3115 AND `ItemId` = 4918;

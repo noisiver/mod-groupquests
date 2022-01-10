@@ -98,3 +98,13 @@
 
 - Added Milly's Harvest to the loot table of Defias Thug for the quest Milly's Harvest.
 - Changed flags of Milly's Harvest to allow every member of a group to loot it.
+
+[2022-01-10]
+- Added Handful of Oats to the loot table of Harvest Golem for the quest Poor Old Blanchy.
+- Added Handful of Oats to the loot table of Rusty Harvest Golem for the quest Poor Old Blanchy.
+- Changed flags of Handful of Oats to allow every member of a group to loot it.
+
+- Changed flags of Goretusk Liver to allow every member of a group to loot it.
+- Changed flags of Stringy Vulture Meat to allow every member of a group to loot it.
+- Changed flags of Murloc Eye to allow every member of a group to loot it.
+- Changed flags of Goretusk Snout to allow every member of a group to loot it.
