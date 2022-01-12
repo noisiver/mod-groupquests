@@ -108,3 +108,10 @@
 - Changed flags of Stringy Vulture Meat to allow every member of a group to loot it.
 - Changed flags of Murloc Eye to allow every member of a group to loot it.
 - Changed flags of Goretusk Snout to allow every member of a group to loot it.
+
+[2022-01-12]
+- Added Hellfire Spineleaf to the loot table of Starving Helboar for the quest Preparing the Salve.
+- Added Hellfire Spineleaf to the loot table of Bonestripper Buzzard for the quest Preparing the Salve.
+- Changed flags of Hellfire Spineleaf to allow every member of a group to loot it.
+
+- Changed flags of Bleeding Hollow Blood to allow every member of a group to loot it.

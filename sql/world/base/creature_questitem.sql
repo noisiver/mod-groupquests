@@ -67,6 +67,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4013
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4014 AND `ItemId` = 16205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4014, 1, 16205);
 
+-- Hellfire Spineleaf (Quest: Preparing the Salve (Id: 9345))
+-- Starving Helboar (Id: 16879)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 16879 AND `ItemId` = 23205;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16879, 1, 23205);
+-- Bonestripper Buzzard (Id: 16972)
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 16972 AND `ItemId` = 23205;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16972, 1, 23205);
+
 -- Digested Caracoli (Quest: A Rare Bean (Id: 9800))
 -- Talbuk Thorngrazer
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 17131 AND `ItemId` = 24419;

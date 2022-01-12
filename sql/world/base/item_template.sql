@@ -1542,6 +1542,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 23166;
 -- Shadowcaster Mace (Quest: Shadowpine Weaponry (Id: 9214))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 23167;
 
+-- Hellfire Spineleaf (Quest: Preparing the Salve (Id: 9345))
+UPDATE `item_template` SET `Flags` = 34816 WHERE `entry` = 23205;
+
 -- Ravager Egg (Quest: Ravager Roundup (Id: 9348), Quest: Ravager Egg Roundup (Id: 9349))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 23217;
 
@@ -1859,6 +1862,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 30315;
 
 -- Bonechewer Blood (Quest: Bonechewer Blood (Id: 10450))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 30327;
+
+-- Bleeding Hollow Blood (Quest: Boiling Blood (Id: 10538))
+UPDATE `item_template` SET `Flags` = 2112 WHERE `entry` = 30425;
 
 -- Plucked Lashh'an Feather (Quest: Malaise (Id: 10555))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 30529;

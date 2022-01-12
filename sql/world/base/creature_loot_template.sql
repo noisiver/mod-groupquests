@@ -67,15 +67,23 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 4014 AND `Item` = 16205;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4014, 16205, 34, 1, 'Pridewing Consort - Gaea Seed');
 
--- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
--- Bonechewer Scavenger
-DELETE FROM `creature_loot_template` WHERE `Entry` = 18952 AND `Item` = 25911;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18952, 25911, 33, 1, 'Bonechewer Scavenger - Salvaged Wood');
+-- Hellfire Spineleaf (Quest: Preparing the Salve (Id: 9345))
+-- Starving Helboar (Id: 16879)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 16879 AND `Item` = 23205;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16879, 23205, 29, 1, 'Starving Helboar - Hellfire Spineleaf');
+-- Bonestripper Buzzard (Id: 16972)
+DELETE FROM `creature_loot_template` WHERE `Entry` = 16972 AND `Item` = 23205;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16972, 23205, 30, 1, 'Bonestripper Buzzard - Hellfire Spineleaf');
 
 -- Digested Caracoli (Quest: A Rare Bean (Id: 9800))
 -- Talbuk Thorngrazer
 DELETE FROM `creature_loot_template` WHERE `Entry` = 17131 AND `Item` = 24419;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17131, 24419, 31, 1, 'Talbuk Thorngrazer - Digested Caracoli');
+
+-- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
+-- Bonechewer Scavenger
+DELETE FROM `creature_loot_template` WHERE `Entry` = 18952 AND `Item` = 25911;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18952, 25911, 33, 1, 'Bonechewer Scavenger - Salvaged Wood');
 
 -- Salvaged Metal (Quest: I Work... For the Horde! (Id: 10086))
 -- Bonechewer Scavenger
