@@ -90,6 +90,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 18952 AND `Item` = 25912;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18952, 25912, 33, 1, 'Bonechewer Scavenger - Salvaged Metal');
 
+-- Zeppelin Debris (Quest: In Case of Emergency... (Id: 10161))
+-- Deranged Helboar
+DELETE FROM `creature_loot_template` WHERE `Entry` = 16863 AND `Item` = 28116;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (16863, 28116, 29, 1, 3, 'Deranged Helboar - Zeppelin Debris');
+-- Starving Helboar
+DELETE FROM `creature_loot_template` WHERE `Entry` = 16879 AND `Item` = 28116;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (16879, 28116, 30, 1, 3, 'Starving Helboar - Zeppelin Debris');
+
 -- Etherlithium Matrix Crystal (Quest: You're Hired! (Id: 10186))
 -- Disembodied Vindicator
 DELETE FROM `creature_loot_template` WHERE `Entry` = 18872 AND `Item` = 28364;

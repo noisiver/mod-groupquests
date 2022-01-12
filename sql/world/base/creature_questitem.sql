@@ -90,6 +90,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1895
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18952 AND `ItemId` = 25912;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18952, 2, 25912);
 
+-- Zeppelin Debris (Quest: In Case of Emergency... (Id: 10161))
+-- Deranged Helboar
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 16863 AND `ItemId` = 28116;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16863, 0, 28116);
+-- Starving Helboar
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 16879 AND `ItemId` = 28116;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16879, 2, 28116);
+
 -- Etherlithium Matrix Crystal (Quest: You're Hired! (Id: 10186))
 -- Disembodied Vindicator
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18872 AND `ItemId` = 28364;

@@ -1773,6 +1773,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 27807;
 -- Lathrai's Stolen Goods (Quest: A Personal Favor (Id: 10112))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 27861;
 
+-- Zeppelin Debris (Quest: In Case of Emergency... (Id: 10161))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 28116;
+
 -- Etherlithium Matrix Crystal (Quest: You're Hired! (Id: 10186))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 28364;
 

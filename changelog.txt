@@ -115,3 +115,7 @@
 - Changed flags of Hellfire Spineleaf to allow every member of a group to loot it.
 
 - Changed flags of Bleeding Hollow Blood to allow every member of a group to loot it.
+
+- Added Zeppelin Debris to the loot table of Deranged Helboar for the quest In Case of Emergency...
+- Added Zeppelin Debris to the loot table of Starving Helboar for the quest In Case of Emergency...
+- Changed flags of Zeppelin Debris to allow every member of a group to loot it.
