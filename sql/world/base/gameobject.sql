@@ -6,6 +6,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=58;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
 
+-- Ango'rosh Attack Plans (Quest: Impending Attack (Id: 9822))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182166;
+
 -- Metal Coffer (Quest: A Traitor Among Us (Id: 10367))
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184466;
