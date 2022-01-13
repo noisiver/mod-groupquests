@@ -121,3 +121,7 @@
 - Changed flags of Zeppelin Debris to allow every member of a group to loot it.
 
 - Changed the respawn time of Torn Pilgrim's Pack.
+
+[2022-01-13]
+- Added Burstcap Mushroom to the loot table of Marshfang Slicer for the quest Burstcap Mushrooms, Mon!
+Changed flags of Burstcap Mushroom to allow every member of a group to loot it.

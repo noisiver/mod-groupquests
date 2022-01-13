@@ -80,6 +80,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 17131 AND `Item` = 24419;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17131, 24419, 31, 1, 'Talbuk Thorngrazer - Digested Caracoli');
 
+-- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
+-- Marshfang Slicer
+DELETE FROM `creature_loot_template` WHERE `Entry` = 18131 AND `Item` = 24468;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18131, 24468, 30, 1, 'Marshfang Slicer - Burstcap Mushroom');
+
 -- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
 -- Bonechewer Scavenger
 DELETE FROM `creature_loot_template` WHERE `Entry` = 18952 AND `Item` = 25911;

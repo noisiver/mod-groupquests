@@ -80,6 +80,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1697
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 17131 AND `ItemId` = 24419;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17131, 0, 24419);
 
+-- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
+-- Marshfang Slicer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18131 AND `ItemId` = 24468;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18131, 1, 24468);
+
 -- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
 -- Bonechewer Scavenger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 18952 AND `ItemId` = 25911;

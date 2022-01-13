@@ -1698,6 +1698,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 24427;
 -- Fertile Spores (Quest: Fertile Spores (Id: 9806), Quest: More Fertile Spores (Id: 9807))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 24449;
 
+-- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 24468;
+
 -- Muck-ridden Core (Quest: Muck Diving (Id: 9815))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 24469;
 
