@@ -150,6 +150,30 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2947
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 24566 AND `ItemId` = 34709;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (24566, 0, 34709);
 
+-- Frostberry (Quest: Nuts for Berries (Id: 11912))
+-- Coldarra Scalesworn
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 25717 AND `ItemId` = 35492;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25717, 0, 35492);
+-- Coldarra Spellweaver
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 25722 AND `ItemId` = 35492;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25722, 0, 35492);
+-- Coldarra Wyrmkin
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 25728 AND `ItemId` = 35492;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25728, 1, 35492);
+
+-- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
+-- Anub'ar Underlord
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 26605 AND `ItemId` = 36725;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
+
+-- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
+-- Redfang Hunter
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 26356 AND `ItemId` = 37302;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26356, 1, 37302);
+-- Frostpaw Warrior
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 26357 AND `ItemId` = 37302;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 6508 AND `ItemId` = 46364;

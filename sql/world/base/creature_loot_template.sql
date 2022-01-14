@@ -150,6 +150,30 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 24566 AND `Item` = 34709;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (24566, 34709, 32, 1, 'Nerub\'ar Skitterer - Warsong Munitions');
 
+-- Frostberry (Quest: Nuts for Berries (Id: 11912))
+-- Coldarra Scalesworn
+DELETE FROM `creature_loot_template` WHERE `Entry` = 25717 AND `Item` = 35492;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25717, 35492, 30, 1, 'Coldarra Scalesworn - Frostberry');
+-- Coldarra Spellweaver
+DELETE FROM `creature_loot_template` WHERE `Entry` = 25722 AND `Item` = 35492;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25722, 35492, 28, 1, 'Coldarra Spellweaver - Frostberry');
+-- Coldarra Wyrmkin
+DELETE FROM `creature_loot_template` WHERE `Entry` = 25728 AND `Item` = 35492;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25728, 35492, 27, 1, 'Coldarra Wyrmkin - Frostberry');
+
+-- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
+-- Anub'ar Underlord
+DELETE FROM `creature_loot_template` WHERE `Entry` = 26605 AND `Item` = 36725;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26605, 36725, 29, 1, 'Anub\'ar Underlord - Black Blood of Yogg-Saron Sample');
+
+-- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
+-- Redfang Hunter
+DELETE FROM `creature_loot_template` WHERE `Entry` = 26356 AND `Item` = 37302;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26356, 37302, 30, 1, 'Redfang Hunter - Vordrassil\'s Seed');
+-- Frostpaw Warrior
+DELETE FROM `creature_loot_template` WHERE `Entry` = 26357 AND `Item` = 37302;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 29, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry` = 6508 AND `Item` = 46364;

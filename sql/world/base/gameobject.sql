@@ -21,3 +21,7 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184478;
 -- Iron Rune Carving Tools (Quest: Mastering the Runes (Id: 11349), Quest: Mastering the Runes (Id: 11351))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186684;
+
+-- Ruby Lilac (Quest: In Search of the Ruby Lilac (Id: 12102))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;

@@ -127,3 +127,18 @@
 - Changed flags of Burstcap Mushroom to allow every member of a group to loot it.
 
 - Changed the respawn time of Ango'rosh Attack Plans.
+
+[2022-01-14]
+- Added Frostberry to the loot table of Coldarra Scalesworn for the quest Nuts for Berries.
+- Added Frostberry to the loot table of Coldarra Spellweaver for the quest Nuts for Berries.
+- Added Frostberry to the loot table of Coldarra Wyrmkin for the quest Nuts for Berries.
+- Changed flags of Frostberry to allow every member of a group to loot it.
+
+- Added Black Blood of Yogg-Saron Sample to the loot table of Anub'ar Underlord for the quest Black Blood of Yogg-Saron.
+- Changed flags of Black Blood of Yogg-Saron Sample to allow every member of a group to loot it.
+
+- Changed the respawn time of Ruby Lilac.
+
+- Added Vordrassil's Seed to the loot table of Redfang Hunter for the quest Vordrassil's Seeds.
+- Added Vordrassil's Seed to the loot table of Frostpaw Warrior for the quest Vordrassil's Seeds.
+- Changed flags of Vordrassil's Seed to allow every member of a group to loot it.

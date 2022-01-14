@@ -2097,6 +2097,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 35483;
 -- Magic-Bound Splinter (Quest: Secrets of the Ancients (Id: 11910))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 35484;
 
+-- Frostberry (Quest: Nuts for Berries (Id: 11912))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 35492;
+
 -- Nexus Mana Essence (Quest: Keep the Secret Safe (Id: 11914))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 35493;
 
@@ -2111,6 +2114,9 @@ UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 35747;
 
 -- Ice Serpent Eye (Quest: Shimmercap Stew (Id: 12483))
 UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 35798;
+
+-- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
+UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 36725;
 
 -- Ice Shard Cluster (Quest: Shaved Ice (Id: 12045))
 UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 36728;
@@ -2162,6 +2168,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 37248;
 
 -- Crazed Furbolg Blood (Quest: A Possible Link (Id: 12229), Quest: A Possible Link (Id: 12246))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 37251;
+
+-- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 37302;
 
 -- Wintergarde Miner's Card (Quest: Not In Our Mine (Id: 12269))
 UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 37411;
