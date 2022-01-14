@@ -25,3 +25,7 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186684;
 -- Ruby Lilac (Quest: In Search of the Ruby Lilac (Id: 12102))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;
+
+-- Flying Machine Engine (Quest: Need an Engine, Take an Engine (Id: 12522))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190447;

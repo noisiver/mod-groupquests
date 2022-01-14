@@ -142,3 +142,5 @@
 - Added Vordrassil's Seed to the loot table of Redfang Hunter for the quest Vordrassil's Seeds.
 - Added Vordrassil's Seed to the loot table of Frostpaw Warrior for the quest Vordrassil's Seeds.
 - Changed flags of Vordrassil's Seed to allow every member of a group to loot it.
+
+- Changed respawn time of Flying Machine Engine.
