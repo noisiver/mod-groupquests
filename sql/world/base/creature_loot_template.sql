@@ -174,6 +174,30 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 26357 AND `Item` = 37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 29, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
 
+-- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+-- Mangal Crocolisk
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28002 AND `Item` = 38653;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28002, 38653, 32, 1, 'Mangal Crocolisk - Banana Bunch');
+-- Emperor Cobra
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28011 AND `Item` = 38653;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28011, 38653, 31, 1, 'Emperor Cobra - Banana Bunch');
+
+-- Papaya (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+-- Mangal Crocolisk
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28002 AND `Item` = 38655;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28002, 38655, 30, 1, 'Mangal Crocolisk - Papaya');
+-- Emperor Cobra
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28011 AND `Item` = 38655;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28011, 38655, 29, 1, 'Emperor Cobra - Papaya');
+
+-- Orange (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+-- Mangal Crocolisk
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28002 AND `Item` = 38656;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28002, 38656, 30, 1, 'Mangal Crocolisk - Orange');
+-- Emperor Cobra
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28011 AND `Item` = 38656;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28011, 38656, 29, 1, 'Emperor Cobra - Orange');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry` = 6508 AND `Item` = 46364;

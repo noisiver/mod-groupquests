@@ -174,6 +174,30 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2635
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 26357 AND `ItemId` = 37302;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);
 
+-- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+-- Mangal Crocolisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28002 AND `ItemId` = 38653;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28002, 1, 38653);
+-- Emperor Cobra
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28011 AND `ItemId` = 38653;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28011, 2, 38653);
+
+-- Papaya (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+-- Mangal Crocolisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28002 AND `ItemId` = 38655;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28002, 2, 38655);
+-- Emperor Cobra
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28011 AND `ItemId` = 38655;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28011, 3, 38655);
+
+-- Orange (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+-- Mangal Crocolisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28002 AND `ItemId` = 38656;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28002, 3, 38656);
+-- Emperor Cobra
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28011 AND `ItemId` = 38656;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28011, 4, 38656);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 6508 AND `ItemId` = 46364;

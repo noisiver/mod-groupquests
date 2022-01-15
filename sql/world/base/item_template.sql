@@ -2202,6 +2202,15 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38610;
 -- Unblemished Bat Wing (Quest: Clipping Their Wings (Id: 12610))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38620;
 
+-- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38653;
+
+-- Papaya (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 38655;
+
+-- Orange (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38656;
+
 -- Essence of the Frozen Earth (Quest: The Frozen Earth (Id: 12639))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38681;
 

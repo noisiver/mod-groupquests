@@ -29,3 +29,7 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;
 -- Flying Machine Engine (Quest: Need an Engine, Take an Engine (Id: 12522))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190447;
+
+-- Dusty Journal (Quest: The Black Knight of Westfall? (Id: 13633), Quest: The Black Knight of Silverpine? (Id: 13634))
+-- Changed from 120 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=194340;

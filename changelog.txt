@@ -143,4 +143,17 @@
 - Added Vordrassil's Seed to the loot table of Frostpaw Warrior for the quest Vordrassil's Seeds.
 - Changed flags of Vordrassil's Seed to allow every member of a group to loot it.
 
-- Changed respawn time of Flying Machine Engine.
+- Changed the respawn time of Flying Machine Engine.
+
+[2022-01-15]
+- Added Banana Bunch to the loot table of Mangal Crocolisk for the quest Some Make Lemonade, Some Make Liquor.
+- Added Banana Bunch to the loot table of Emperor Cobra for the quest Some Make Lemonade, Some Make Liquor.
+- Added Papaya to the loot table of Mangal Crocolisk for the quest Some Make Lemonade, Some Make Liquor.
+- Added Papaya to the loot table of Emperor Cobra for the quest Some Make Lemonade, Some Make Liquor.
+- Added Orange to the loot table of Mangal Crocolisk for the quest Some Make Lemonade, Some Make Liquor.
+- Added Orange to the loot table of Emperor Cobra for the quest Some Make Lemonade, Some Make Liquor.
+- Changed flags of Banana Bunch to allow every member of a group to loot it.
+- Changed flags of Papaya to allow every member of a group to loot it.
+- Changed flags of Orange to allow every member of a group to loot it.
+
+- Changed the respawn time of Dusty Journal.
