@@ -157,3 +157,6 @@
 - Changed flags of Orange to allow every member of a group to loot it.
 
 - Changed the respawn time of Dusty Journal.
+
+[2022-02-20]
+- Changed the respawn time of Warped Crates.

@@ -6,6 +6,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=58;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
 
+-- Warped Crates (Quest: Twilight of the Dawn Runner (Id: 9437))
+-- Changed from 60 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=181626;
+
 -- Ango'rosh Attack Plans (Quest: Impending Attack (Id: 9822))
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182166;
