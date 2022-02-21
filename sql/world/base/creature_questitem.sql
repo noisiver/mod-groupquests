@@ -124,6 +124,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2140
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 21878 AND `ItemId` = 30716;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21878, 1, 30716);
 
+-- Blackhoof Armaments (Quest: Arms of the Grimtotems (Id: 11148), Quest: More than Coincidence (Id: 11200))
+-- Grimtotem Breaker
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23592 AND `ItemId` = 33071;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23592, 1, 33071);
+-- Grimtotem Spirit-Shifter
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23593 AND `ItemId` = 33071;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23593, 1, 33071);
+-- Grimtotem Elder
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23714 AND `ItemId` = 33071;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23714, 1, 33071);
+
 -- Intact Plague Container (Quest: The New Plague (Id: 11167))
 -- North Fleet Sailor
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23866 AND `ItemId` = 33099;

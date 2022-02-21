@@ -124,6 +124,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 21878 AND `Item` = 30716;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21878, 30716, 30, 1, 'Felboar - Ever-burning Ash');
 
+-- Blackhoof Armaments (Quest: Arms of the Grimtotems (Id: 11148), Quest: More than Coincidence (Id: 11200))
+-- Grimtotem Breaker
+DELETE FROM `creature_loot_template` WHERE `Entry` = 23592 AND `Item` = 33071;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23592, 33071, 30, 1, 'Grimtotem Breaker - Blackhoof Armaments');
+-- Grimtotem Spirit-Shifter
+DELETE FROM `creature_loot_template` WHERE `Entry` = 23593 AND `Item` = 33071;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23593, 33071, 33, 1, 'Grimtotem Spirit-Shifter - Blackhoof Armaments');
+-- Grimtotem Elder
+DELETE FROM `creature_loot_template` WHERE `Entry` = 23714 AND `Item` = 33071;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23714, 33071, 33, 1, 'Grimtotem Elder - Blackhoof Armaments');
+
 -- Intact Plague Container (Quest: The New Plague (Id: 11167))
 -- North Fleet Sailor
 DELETE FROM `creature_loot_template` WHERE `Entry` = 23866 AND `Item` = 33099;

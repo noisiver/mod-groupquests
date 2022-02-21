@@ -1968,6 +1968,12 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 32470;
 -- Netherwing Relic (Quest: The Not-So-Friendly Skies... (Id: 11035))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 32509;
 
+-- Grimtotem Note (Quest: Confirming the Suspicion (Id: 11144), Quest: The Grimtotem Plot (Id: 11201))
+UPDATE `item_template` SET `Flags` = 3136 WHERE `entry` = 33050;
+
+-- Blackhoof Armaments (Quest: Arms of the Grimtotems (Id: 11148), Quest: More than Coincidence (Id: 11200))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33071;
+
 -- Bloodfen Feather (Quest: Bloodfen Feathers (Id: 11158))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33085;
 

@@ -160,3 +160,10 @@
 
 [2022-02-20]
 - Changed the respawn time of Warped Crates.
+
+[2022-02-21]
+- Added Blackhoof Armaments to the loot table of Grimtotem Breaker for the quests Arms of the Grimtotems and More than Coincidence.
+- Added Blackhoof Armaments to the loot table of Grimtotem Spirit-Shifter for the quests Arms of the Grimtotems and More than Coincidence.
+- Added Blackhoof Armaments to the loot table of Grimtotem Elder for the quests Arms of the Grimtotems and More than Coincidence.
+- Changed flags of Blackhoof Armaments to allow every member of a group to loot it.
+- Changed flags of Grimtotem Note to allow every member of a group to loot it.
