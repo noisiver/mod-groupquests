@@ -209,6 +209,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2800
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28011 AND `ItemId` = 38656;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28011, 4, 38656);
 
+-- Gooey Ghoul Drool (Quest: You Can Run, But You Can't Hide (Id: 12629), Quest: Silver Lining (Id: 12643))
+-- Decaying Ghoul
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28565 AND `ItemId` = 38687;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28565, 1, 38687);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 6508 AND `ItemId` = 46364;

@@ -167,3 +167,7 @@
 - Added Blackhoof Armaments to the loot table of Grimtotem Elder for the quests Arms of the Grimtotems and More than Coincidence.
 - Changed flags of Blackhoof Armaments to allow every member of a group to loot it.
 - Changed flags of Grimtotem Note to allow every member of a group to loot it.
+
+[2022-03-08]
+- Added Gooey Ghoul Drool to the loot table of Decaying Ghoul for the quest You Can Run, But You Can't Hide and Silver Lining.
+- Changed flags of Gooey Ghoul Drool to allow every member of a group to loot it.

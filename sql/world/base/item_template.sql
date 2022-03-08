@@ -2223,6 +2223,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38681;
 -- Putrid Abomination Guts (Quest: You Can Run, But You Can't Hide (Id: 12629), Quest: Silver Lining (Id: 12643))
 UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 38686;
 
+-- Gooey Ghoul Drool (Quest: You Can Run, But You Can't Hide (Id: 12629), Quest: Silver Lining (Id: 12643))
+UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 38687;
+
 -- Rhunokian Artifact (Quest: Plundering Their Own (Id: 12650))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38700;
 

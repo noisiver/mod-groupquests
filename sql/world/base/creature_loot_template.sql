@@ -209,6 +209,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 28011 AND `Item` = 38656;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28011, 38656, 29, 1, 'Emperor Cobra - Orange');
 
+-- Gooey Ghoul Drool (Quest: You Can Run, But You Can't Hide (Id: 12629), Quest: Silver Lining (Id: 12643))
+-- Decaying Ghoul
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28565 AND `Item` = 38687;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28565, 38687, 31, 1, 'Decaying Ghoul - Gooey Ghoul Drool');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry` = 6508 AND `Item` = 46364;
