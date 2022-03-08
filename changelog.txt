@@ -175,8 +175,10 @@
 - Added Scourge Scrap Metal to the loot table of Vargul Slayer for the quest Making Something Out Of Nothing.
 - Added Scourge Scrap Metal to the loot table of Vargul Blighthound for the quest Making Something Out Of Nothing.
 - Added Basilisk Crystals to the loot table of Lurking Basilisk for the quest Gluttonous Lurkers.
+- Added Dead Thornwood to the loot table of Lurking Basilisk for the quests Troll Patrol: Creature Comforts and Creature Comforts.
 - Changed flags of Gooey Ghoul Drool to allow every member of a group to loot it.
 - Changed flags of Scourge Scrap Metal to allow every member of a group to loot it.
 - Changed flags of Basilisk Crystals to allow every member of a group to loot it.
+- Changed flags of Dead Thornwood to allow every member of a group to loot it.
 
 - Changed the respawn of Harvested Blight Crystal.

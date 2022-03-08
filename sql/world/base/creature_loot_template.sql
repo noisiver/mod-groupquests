@@ -190,6 +190,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 28145 AND `Item` = 38382;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28145, 38382, 30, 1, 'Lurking Basilisk - Basilisk Crystals');
 
+-- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
+-- Lurking Basilisk
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28145 AND `Item` = 38563;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (28145, 38563, 33, 1, 3, 'Lurking Basilisk - Dead Thornwood');
+
 -- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
 -- Mangal Crocolisk
 DELETE FROM `creature_loot_template` WHERE `Entry` = 28002 AND `Item` = 38653;

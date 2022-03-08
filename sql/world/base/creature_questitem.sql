@@ -190,6 +190,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2635
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28145 AND `ItemId` = 38382;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28145, 0, 38382);
 
+-- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
+-- Lurking Basilisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28145 AND `ItemId` = 38563;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28145, 1, 38563);
+
 -- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
 -- Mangal Crocolisk
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28002 AND `ItemId` = 38653;

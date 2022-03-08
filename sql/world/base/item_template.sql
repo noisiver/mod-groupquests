@@ -2205,6 +2205,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38514;
 -- Drakkari Offerings (Quest: The Blessing of Zim'Abwa (Id: 12565), Quest: Blessing of Zim'Abwa (Id: 12567), Quest: The Blessing of Zim'Torga (Id: 12615), Quest: Blessing of Zim'Torga (Id: 12618), Quest: The Blessing of Zim'Rhuk (Id: 12655), Quest: Blessing of Zim'Rhuk (Id: 12656))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38551;
 
+-- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
+UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 38563;
+
 -- Fresh Spider Ichor (Quest: Stocking the Shelves (Id: 12609))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38610;
 
