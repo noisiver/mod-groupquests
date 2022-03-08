@@ -2193,6 +2193,9 @@ UPDATE `item_template` SET `Flags` = 67584 WHERE `entry` = 37879;
 -- Lasher Seed (Quest: Seeds of the Lashers (Id: 12458))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 37882;
 
+-- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38382;
+
 -- Intact Cobra Fang (Quest: An Offering for Soo-rahm (Id: 12543))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 38505;
 
@@ -2267,6 +2270,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 41363;
 
 -- Frostgrip's Signet Ring (Quest: The Lonesome Watcher (Id: 12877))
 UPDATE `item_template` SET `Flags` = 67840 WHERE `entry` = 41393;
+
+-- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=41399;
 
 -- Icemane Yeti Hide (Quest: Making a Harness (Id: 12900))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 41424;

@@ -185,6 +185,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2635
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 26357 AND `ItemId` = 37302;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);
 
+-- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
+-- Lurking Basilisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28145 AND `ItemId` = 38382;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28145, 0, 38382);
+
 -- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
 -- Mangal Crocolisk
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28002 AND `ItemId` = 38653;
@@ -213,6 +218,20 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2801
 -- Decaying Ghoul
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28565 AND `ItemId` = 38687;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28565, 1, 38687);
+
+-- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
+-- Vargul Deathwaker
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 29449 AND `ItemId` = 41399;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29449, 2, 41399);
+-- Vargul Runelord
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 29450 AND `ItemId` = 41399;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29450, 2, 41399);
+-- Vargul Slayer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 29451 AND `ItemId` = 41399;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29451, 2, 41399);
+-- Vargul Blighthound
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 29452 AND `ItemId` = 41399;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29452, 0, 41399);
 
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur

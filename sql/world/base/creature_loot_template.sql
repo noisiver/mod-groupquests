@@ -185,6 +185,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 26357 AND `Item` = 37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 29, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
 
+-- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
+-- Lurking Basilisk
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28145 AND `Item` = 38382;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28145, 38382, 30, 1, 'Lurking Basilisk - Basilisk Crystals');
+
 -- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
 -- Mangal Crocolisk
 DELETE FROM `creature_loot_template` WHERE `Entry` = 28002 AND `Item` = 38653;
@@ -213,6 +218,20 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Decaying Ghoul
 DELETE FROM `creature_loot_template` WHERE `Entry` = 28565 AND `Item` = 38687;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28565, 38687, 31, 1, 'Decaying Ghoul - Gooey Ghoul Drool');
+
+-- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
+-- Vargul Deathwaker
+DELETE FROM `creature_loot_template` WHERE `Entry` = 29449 AND `Item` = 41399;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29449, 41399, 31, 1, 'Vargul Deathwaker - Scourge Scrap Metal');
+-- Vargul Runelord
+DELETE FROM `creature_loot_template` WHERE `Entry` = 29450 AND `Item` = 41399;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29450, 41399, 30, 1, 'Vargul Runelord - Scourge Scrap Metal');
+-- Vargul Slayer
+DELETE FROM `creature_loot_template` WHERE `Entry` = 29451 AND `Item` = 41399;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29451, 41399, 28, 1, 'Vargul Slayer - Scourge Scrap Metal');
+-- Vargul Blighthound
+DELETE FROM `creature_loot_template` WHERE `Entry` = 29452 AND `Item` = 41399;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29452, 41399, 29, 1, 'Vargul Blighthound - Scourge Scrap Metal');
 
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
