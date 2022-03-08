@@ -121,7 +121,111 @@ class npc_drakuru_shackles_groupquests : public CreatureScript
         }
 };
 
+enum eFeedinDaGoolz
+{
+    NPC_DECAYING_GHOUL                          = 28565,
+    GO_BOWL                                     = 190656,
+};
+
+class npc_feedin_da_goolz_groupquests : public CreatureScript
+{
+    public:
+        npc_feedin_da_goolz_groupquests() : CreatureScript("npc_feedin_da_goolz") { }
+
+        CreatureAI* GetAI(Creature* creature) const override
+        {
+            return new npc_feedin_da_goolz_groupquestsAI(creature);
+        }
+
+        struct npc_feedin_da_goolz_groupquestsAI : public NullCreatureAI
+        {
+            npc_feedin_da_goolz_groupquestsAI(Creature* creature) : NullCreatureAI(creature) { findTimer = 1; checkTimer = 0; }
+
+            uint32 findTimer;
+            uint32 checkTimer;
+            ObjectGuid ghoulFed;
+
+            void UpdateAI(uint32 diff) override
+            {
+                if (findTimer)
+                {
+                    findTimer += diff;
+                    if (findTimer >= 1000)
+                    {
+                        if (Creature* ghoul = me->FindNearestCreature(NPC_DECAYING_GHOUL, 30.0f, true))
+                        {
+                            ghoul->SetReactState(REACT_DEFENSIVE);
+                            float o = me->GetAngle(ghoul);
+                            ghoul->GetMotionMaster()->MovePoint(1, me->GetPositionX() + 2 * cos(o), me->GetPositionY() + 2 * std::sin(o), me->GetPositionZ());
+                            checkTimer = 1;
+                            findTimer = 0;
+                        }
+                        else
+                            findTimer = 1;
+                    }
+                    return;
+                }
+
+                if (checkTimer)
+                {
+                    checkTimer += diff;
+                    if (checkTimer >= 1500)
+                    {
+                        checkTimer = 1;
+                        if (!ghoulFed)
+                        {
+                            if (Creature* ghoul = me->FindNearestCreature(NPC_DECAYING_GHOUL, 3.0f, true))
+                            {
+                                ghoulFed = ghoul->GetGUID();
+                                ghoul->HandleEmoteCommand(EMOTE_ONESHOT_EAT);
+                            }
+                        }
+                        else
+                        {
+                            if (GameObject* bowl = me->FindNearestGameObject(GO_BOWL, 10.0f))
+                                bowl->Delete();
+
+                            if (Creature* ghoul = ObjectAccessor::GetCreature(*me, ghoulFed))
+                            {
+                                ghoul->SetReactState(REACT_AGGRESSIVE);
+                                ghoul->GetMotionMaster()->MoveTargetedHome();
+                            }
+
+
+                            if (Unit* owner = me->ToTempSummon()->GetSummonerUnit())
+                            {
+                                if (Player* player = owner->ToPlayer())
+                                {
+                                    if (Group* group = player->GetGroup())
+                                    {
+                                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                                        {
+                                            if (Player* member = groupRef->GetSource())
+                                            {
+                                                if (member->IsInMap(player))
+                                                {
+                                                    member->KilledMonsterCredit(me->GetEntry());
+                                                }
+                                            }
+                                        }
+                                    }
+                                    else
+                                    {
+                                        player->KilledMonsterCredit(me->GetEntry());
+                                    }
+                                }
+                            }
+
+                            me->DespawnOrUnsummon(1);
+                        }
+                    }
+                }
+            }
+        };
+};
+
 void AddSC_zone_zuldrak_groupquests()
 {
     new npc_drakuru_shackles_groupquests();
+    new npc_feedin_da_goolz_groupquests();
 }
