@@ -182,3 +182,7 @@
 - Changed flags of Dead Thornwood to allow every member of a group to loot it.
 
 - Changed the respawn of Harvested Blight Crystal.
+
+[2022-03-09]
+- Added Muddlecap Fungus to the loot table of Lurking Basilisk for the quest Mushroom Mixer.
+- Changed flags of Muddlecap Fungus to allow every member of a group to loot it.

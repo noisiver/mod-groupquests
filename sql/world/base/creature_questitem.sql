@@ -185,6 +185,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2635
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 26357 AND `ItemId` = 37302;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);
 
+-- Muddlecap Fungus (Quest: Mushroom Mixer (Id: 12514))
+-- Lurking Basilisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28145 AND `ItemId` = 38326;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28145, 2, 38326);
+
 -- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
 -- Lurking Basilisk
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 28145 AND `ItemId` = 38382;

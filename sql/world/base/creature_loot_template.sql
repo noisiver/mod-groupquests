@@ -185,6 +185,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 26357 AND `Item` = 37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 29, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
 
+-- Muddlecap Fungus (Quest: Mushroom Mixer (Id: 12514))
+-- Lurking Basilisk
+DELETE FROM `creature_loot_template` WHERE `Entry` = 28145 AND `Item` = 38326;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28145, 38326, 29, 1, 'Lurking Basilisk - Muddlecap Fungus');
+
 -- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
 -- Lurking Basilisk
 DELETE FROM `creature_loot_template` WHERE `Entry` = 28145 AND `Item` = 38382;
