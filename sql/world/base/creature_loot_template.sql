@@ -143,6 +143,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 23934 AND `Item` = 33099;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23934, 33099, 49, 1, 'North Fleet Salvager - Intact Plague Container');
 
+-- Witchbane (Quest: The Witch's Bane (Id: 11181))
+-- Risen Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry` = 23554 AND `Item` = 33112;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23554, 33112, 27, 1, 'Risen Spirit - Witchbane');
+-- Risen Husk
+DELETE FROM `creature_loot_template` WHERE `Entry` = 23555 AND `Item` = 33112;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23555, 33112, 29, 1, 'Risen Husk - Witchbane');
+
 -- Wyrmtail (Quest: Catch a Dragon by the Tail (Id: 11217))
 -- Searing Whelp
 DELETE FROM `creature_loot_template` WHERE `Entry` = 4324 AND `Item` = 33175;

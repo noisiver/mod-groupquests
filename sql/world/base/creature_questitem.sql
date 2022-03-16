@@ -143,6 +143,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2386
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23934 AND `ItemId` = 33099;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23934, 0, 33099);
 
+-- Witchbane (Quest: The Witch's Bane (Id: 11181))
+-- Risen Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23554 AND `ItemId` = 33112;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23554, 0, 33112);
+-- Risen Husk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 23555 AND `ItemId` = 33112;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23555, 0, 33112);
+
 -- Wyrmtail (Quest: Catch a Dragon by the Tail (Id: 11217))
 -- Searing Whelp
 DELETE FROM `creature_questitem` WHERE `CreatureEntry` = 4324 AND `ItemId` = 33175;

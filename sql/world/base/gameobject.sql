@@ -22,6 +22,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184466;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184478;
 
+-- Stonemaul Clan Banner (Quest: Banner of the Stonemaul (Id: 11160))
+-- Changed from 900 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186329;
+
 -- Iron Rune Carving Tools (Quest: Mastering the Runes (Id: 11349), Quest: Mastering the Runes (Id: 11351))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186684;

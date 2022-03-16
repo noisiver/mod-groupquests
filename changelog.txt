@@ -181,8 +181,15 @@
 - Changed flags of Basilisk Crystals to allow every member of a group to loot it.
 - Changed flags of Dead Thornwood to allow every member of a group to loot it.
 
-- Changed the respawn of Harvested Blight Crystal.
+- Changed the respawn time of Harvested Blight Crystal.
 
 [2022-03-09]
 - Added Muddlecap Fungus to the loot table of Lurking Basilisk for the quest Mushroom Mixer.
 - Changed flags of Muddlecap Fungus to allow every member of a group to loot it.
+
+[2022-03-16]
+- Added Witchbane to the loot table of Risen Spirit for the quest The Witch's Bane.
+- Added Witchbane to the loot table of Risen Husk for the quest The Witch's Bane.
+- Changed flags of Witchbane to allow every member of a group to loot it.
+
+- Changed the respawn time of Stonemaul Clan Banner.

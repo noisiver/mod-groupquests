@@ -1992,6 +1992,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33103;
 -- Forest Troll Tusk (Quest: Tuskin' Raiders (Id: 11164))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33106;
 
+-- Witchbane (Quest: The Witch's Bane (Id: 11181))
+UPDATE `item_template` SET `Flags` = 2048 WHERE `entry`=33112;
+
 -- Shoveltusk Meat (Quest: Shoveltusk Soup Again? (Id: 11155))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 33120;
 
