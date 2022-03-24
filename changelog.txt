@@ -193,3 +193,9 @@
 - Changed flags of Witchbane to allow every member of a group to loot it.
 
 - Changed the respawn time of Stonemaul Clan Banner.
+
+[2022-03-24]
+- Changed the respawn time of Tablet of Jin'yael.
+- Changed the respawn time of Tablet of Markri.
+- Changed the respawn time of Tablet of Sael'hai.
+- Changed the respawn time of Tablet of Beth'Amara.

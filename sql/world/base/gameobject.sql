@@ -2,6 +2,22 @@
 -- Changed from 60 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=58;
 
+-- Tablet of Jin'yael (Quest: Stealing Knowledge (Id: 3517))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148513;
+
+-- Tablet of Markri (Quest: Stealing Knowledge (Id: 3517))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148514;
+
+-- Tablet of Sael'hai (Quest: Stealing Knowledge (Id: 3517))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148515;
+
+-- Tablet of Beth'Amara (Quest: Stealing Knowledge (Id: 3517))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148516;
+
 -- Alien Egg (Quest: Alien Egg (Id: 4821))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
