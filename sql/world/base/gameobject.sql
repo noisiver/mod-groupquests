@@ -38,6 +38,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184466;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184478;
 
+-- T'chali's Hookah (Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184744;
+
 -- Stonemaul Clan Banner (Quest: Banner of the Stonemaul (Id: 11160))
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186329;
