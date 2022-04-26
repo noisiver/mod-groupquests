@@ -199,3 +199,6 @@
 - Changed the respawn time of Tablet of Markri.
 - Changed the respawn time of Tablet of Sael'hai.
 - Changed the respawn time of Tablet of Beth'Amara.
+
+[2022-04-26]
+- Changed the script for Warmaul Prison for the quest Finding the Survivors to give credit to every member of a group.
