@@ -1926,6 +1926,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 30849;
 -- Wyrmcult Net (Quest: Poaching from Poachers (Id: 10717))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 31119;
 
+-- Costume Scraps (Quest: Meeting at the Blackwing Coven (Id: 10722))
+UPDATE `item_template` SET `Flags` = 3072 WHERE `entry` = 31121;
+
 -- Crust Burster Venom Gland (Quest: Into the Churning Gulch (Id: 10715), Quest: Into the Churning Gulch (Id: 10799))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 31132;
 
