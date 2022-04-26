@@ -237,6 +237,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry` = 28565 AND `Item` = 38687;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28565, 38687, 31, 1, 'Decaying Ghoul - Gooey Ghoul Drool');
 
+-- Bloodmaul Brutebane Brew (Quest: Strange Brew (Id: 10511), Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
+-- Bloodmaul Brewmaster
+DELETE FROM `creature_loot_template` WHERE `Entry` = 19957 AND `Item` = 29443;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MinCount`, `MaxCount`, `Comment`) VALUES (19957, 29443, 100, 1, 1, 2, 'Bloodmaul Brewmaster - Bloodmaul Brutebane Brew');
+
 -- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
 -- Vargul Deathwaker
 DELETE FROM `creature_loot_template` WHERE `Entry` = 29449 AND `Item` = 41399;

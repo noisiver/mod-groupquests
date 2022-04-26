@@ -1821,6 +1821,9 @@ UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 29425;
 -- Firewing Signet (Quest: Firewing Signets (Id: 10412), Quest: Single Firewing Signet (Id: 10414), Quest: More Firewing Signets (Id: 10415))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 29426;
 
+-- Bloodmaul Brutebane Brew (Quest: Strange Brew (Id: 10511), Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
+UPDATE `item_template` SET `Flags` = 2112 WHERE `entry` = 29443;
+
 -- Ethereum Relay Data (Quest: Potential for Brain Damage  =  High (Id: 10385))
 UPDATE `item_template` SET `Flags` = 2048 WHERE `entry` = 29459;
 

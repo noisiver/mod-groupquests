@@ -201,4 +201,7 @@
 - Changed the respawn time of Tablet of Beth'Amara.
 
 [2022-04-26]
-- Changed the script for Warmaul Prison for the quest Finding the Survivors to give credit to every member of a group.
+- Changed the script of Warmaul Prison for the quest Finding the Survivors to give credit to every member of a group.
+
+- Changed the loot table of Bloodmaul Brewmaster for the quests Strange Brew and They Stole Me Hookah and Me Brews!
+- Changed flags of Bloodmaul Brutebane Brew to allow every member of a group to loot it.
