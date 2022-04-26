@@ -186,3 +186,4 @@
 - Changed flags of Bloodmaul Brutebane Brew to allow every member of a group to loot it.
 - Changed the respawn time of T'chali's Hookah.
 - Changed the flags of Costume Scraps to allow every member of a group to loot it.
+- Changed the smart script for Wyrmcult Blackwhelp to give every member of a group the quest item.
