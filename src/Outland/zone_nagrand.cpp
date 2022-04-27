@@ -51,7 +51,7 @@ class go_warmaul_prison_groupquests : public GameObjectScript
         }
 };
 
-void AddSC_nagrand_groupquests()
+void AddSC_zone_nagrand_groupquests()
 {
     new go_warmaul_prison_groupquests();
 }
