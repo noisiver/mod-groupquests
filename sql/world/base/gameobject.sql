@@ -42,6 +42,14 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184478;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184744;
 
+-- Fel Reaver Power Core (Quest: Setting Up the Bomb (Id: 10572), Quest: Setting Up the Bomb (Id: 10597))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184859;
+
+-- Fel Reaver Armor Plating (Quest: Setting Up the Bomb (Id: 10572), Quest: Setting Up the Bomb (Id: 10597))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184860;
+
 -- Stonemaul Clan Banner (Quest: Banner of the Stonemaul (Id: 11160))
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186329;
