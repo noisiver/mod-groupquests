@@ -182,7 +182,7 @@
 
 [2022-04-26]
 - Added the script for Nagrand to make the quest Finding the Survivors trigger for every member of a group.
-- Changed the loot table of Bloodmaul Brewmaster for the quests Strange Brew and They Stole Me Hookah and Me Brews!
+- Added Bloodmaul Brutebane Brew to the loot table of Bloodmaul Brewmaster for the quests Strange Brew and They Stole Me Hookah and Me Brews!
 - Changed flags of Bloodmaul Brutebane Brew to allow every member of a group to loot it.
 - Changed the respawn time of T'chali's Hookah.
 - Changed the flags of Costume Scraps to allow every member of a group to loot it.
@@ -195,3 +195,5 @@
 
 [2022-04-28]
 - Changed the respawn time of Pneumatic Tank Transjigamarig.
+- Added Super Strong Metal Plate to the loot table of Kvaldir Mist Lord for the quest Super Strong Metal Plates!
+- Changed the flags of Strong Metal Plate to allow every member of a group to loot it.

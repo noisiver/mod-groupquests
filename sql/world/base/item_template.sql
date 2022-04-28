@@ -2079,6 +2079,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34709;
 -- Scourged Mammoth Pelt (Quest: Shrouds of the Scourge (Id: 11628))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34775;
 
+-- Super Strong Metal Plate (Quest: Super Strong Metal Plates! (Id: 11644))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34786;
+
 -- Tempest Mote (Quest: Motes of the Enraged (Id: 11649))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34800;
 

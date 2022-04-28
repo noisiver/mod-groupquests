@@ -169,6 +169,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=24566 AND `Item`=34709;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (24566, 34709, 32, 1, 'Nerub\'ar Skitterer - Warsong Munitions');
 
+-- Super Strong Metal Plate (Quest: Super Strong Metal Plates! (Id: 11644))
+-- Kvaldir Mist Lord
+DELETE FROM `creature_loot_template` WHERE `Entry`=25496 AND `Item`=34786;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25496, 34786, 31, 1, 'Kvaldir Mist Lord - Super Strong Metal Plate');
+
 -- Frostberry (Quest: Nuts for Berries (Id: 11912))
 -- Coldarra Scalesworn
 DELETE FROM `creature_loot_template` WHERE `Entry`=25717 AND `Item`=35492;
