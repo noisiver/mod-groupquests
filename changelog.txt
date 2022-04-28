@@ -192,3 +192,6 @@
 - Added the script for Netherstorm to make the quest Mark V is Alive! trigger for every member of a group.
 - Changed the respawn time of Fel Reaver Power Core.
 - Changed the respawn time of Fel Reaver Armor Plating.
+
+[2022-04-28]
+- Changed the respawn time of Pneumatic Tank Transjigamarig.
