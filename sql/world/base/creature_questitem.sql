@@ -169,6 +169,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4345
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29479 AND `ItemId`=33348;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29479, 1, 33348);
 
+-- Winterfin Clam (Quest: Winterfin Commerce (Id: 11559))
+-- Winterfin Shorestriker
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25215 AND `ItemId`=34597;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25215, 0, 34597);
+-- Winterfin Oracle
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25216 AND `ItemId`=34597;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25216, 0, 34597);
+-- Winterfin Warrior
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25217 AND `ItemId`=34597;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25217, 0, 34597);
+
 -- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
 -- Nerub'ar Skitterer
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=24566 AND `ItemId`=34709;

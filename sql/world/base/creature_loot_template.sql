@@ -164,6 +164,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=29479 AND `Item`=33348;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29479, 33348, 28, 1, 'Shoveltusk Forager - Spotted Hippogryph Down');
 
+-- Winterfin Clam (Quest: Winterfin Commerce (Id: 11559))
+-- Winterfin Shorestriker
+DELETE FROM `creature_loot_template` WHERE `Entry`=25215 AND `Item`=34597;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25215, 34597, 30, 1, 'Winterfin Shorestriker - Winterfin Clam');
+-- Winterfin Oracle
+DELETE FROM `creature_loot_template` WHERE `Entry`=25216 AND `Item`=34597;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25216, 34597, 28, 1, 'Winterfin Oracle - Winterfin Clam');
+-- Winterfin Warrior
+DELETE FROM `creature_loot_template` WHERE `Entry`=25217 AND `Item`=34597;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25217, 34597, 27, 1, 'Winterfin Warrior - Winterfin Clam');
+
 -- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
 -- Nerub'ar Skitterer
 DELETE FROM `creature_loot_template` WHERE `Entry`=24566 AND `Item`=34709;

@@ -205,3 +205,6 @@
 - Added Fizzcrank Spare Parts to the loot table of Fizzcrank Mechagnome for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
 - Changed the respawn time of Burblegobble's Bauble.
 - Changed the respawn time of Gurgleboggle's Bauble.
+- Added Winterfin Clam to the loot table of Winterfin Shorestriker for the quest Winterfin Commerce.
+- Added Winterfin Clam to the loot table of Winterfin Oracle for the quest Winterfin Commerce.
+- Added Winterfin Clam to the loot table of Winterfin Warrior for the quest Winterfin Commerce.
