@@ -208,3 +208,6 @@
 - Added Winterfin Clam to the loot table of Winterfin Shorestriker for the quest Winterfin Commerce.
 - Added Winterfin Clam to the loot table of Winterfin Oracle for the quest Winterfin Commerce.
 - Added Winterfin Clam to the loot table of Winterfin Warrior for the quest Winterfin Commerce.
+
+[2022-04-30]
+- Added the script for world gameobjects to make the quest Oh Noes, the Tadpoles! trigger for every member of a group.
