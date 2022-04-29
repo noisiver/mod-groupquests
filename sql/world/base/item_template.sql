@@ -2091,6 +2091,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34814;
 -- Elemental Heart (Quest: The Heart of the Elements (Id: 11685))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34956;
 
+-- Fizzcrank Spare Parts (Quest: What's the Matter with the Transmatter? (Id: 11710), Quest: Cleaning Up the Pools (Id: 11906))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34972;
+
 -- Bloodspore Moth Pollen (Quest: Pollen from the Source (Id: 11717))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34976;
 

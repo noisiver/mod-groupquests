@@ -197,3 +197,11 @@
 - Changed the respawn time of Pneumatic Tank Transjigamarig.
 - Added Super Strong Metal Plate to the loot table of Kvaldir Mist Lord for the quest Super Strong Metal Plates!
 - Changed the flags of Strong Metal Plate to allow every member of a group to loot it.
+
+[2022-04-29]
+- Added Fizzcrank Spare Parts to the loot table of Scavenge-bot 004-A8 for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
+- Added Fizzcrank Spare Parts to the loot table of Sentry-bot 57-K for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
+- Added Fizzcrank Spare Parts to the loot table of Defendo-tank 66D for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
+- Added Fizzcrank Spare Parts to the loot table of Fizzcrank Mechagnome for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
+- Changed the respawn time of Burblegobble's Bauble.
+- Changed the respawn time of Gurgleboggle's Bauble.

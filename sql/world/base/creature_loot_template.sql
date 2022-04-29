@@ -174,6 +174,20 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25496 AND `Item`=34786;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25496, 34786, 31, 1, 'Kvaldir Mist Lord - Super Strong Metal Plate');
 
+-- Fizzcrank Spare Parts (Quest: What's the Matter with the Transmatter? (Id: 11710), Quest: Cleaning Up the Pools (Id: 11906))
+-- Scavenge-bot 004-A8
+DELETE FROM `creature_loot_template` WHERE `Entry`=25752 AND `Item`=34972;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25752, 34972, 31, 1, 'Scavenge-bot 004-A8 - Fizzcrank Spare Parts');
+-- Sentry-bot 57-K
+DELETE FROM `creature_loot_template` WHERE `Entry`=25753 AND `Item`=34972;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25753, 34972, 28, 1, 'Sentry-bot 57-K - Fizzcrank Spare Parts');
+-- Defendo-tank 66D
+DELETE FROM `creature_loot_template` WHERE `Entry`=25758 AND `Item`=34972;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25758, 34972, 27, 1, 'Defendo-tank 66D - Fizzcrank Spare Parts');
+-- Fizzcrank Mechagnome
+DELETE FROM `creature_loot_template` WHERE `Entry`=25814 AND `Item`=34972;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25814, 34972, 29, 1, 'Fizzcrank Mechagnome - Fizzcrank Spare Parts');
+
 -- Frostberry (Quest: Nuts for Berries (Id: 11912))
 -- Coldarra Scalesworn
 DELETE FROM `creature_loot_template` WHERE `Entry`=25717 AND `Item`=35492;

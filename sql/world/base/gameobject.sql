@@ -62,6 +62,14 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186684;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187683;
 
+-- Gurgleboggle's Bauble (Quest: The Horn of Elemental Fury (Id: 11695))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187885;
+
+-- Burblegobble's Bauble (Quest: The Horn of Elemental Fury (Id: 11695))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187886;
+
 -- Ruby Lilac (Quest: In Search of the Ruby Lilac (Id: 12102))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;
