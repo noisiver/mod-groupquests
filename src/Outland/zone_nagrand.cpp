@@ -37,9 +37,6 @@ class go_warmaul_prison_groupquests : public GameObjectScript
         {
             go->UseDoorOrButton();
 
-            if (player->GetQuestStatus(QUEST_FINDING_THE_SURVIVORS) != QUEST_STATUS_INCOMPLETE)
-                return false;
-
             if (Creature* prisoner = go->FindNearestCreature(NPC_MAGHAR_PRISONER, 5.0f))
             {
                 if (Group* group = player->GetGroup())
