@@ -212,3 +212,6 @@
 [2022-04-30]
 - Added the script for world gameobjects to make the quest Oh Noes, the Tadpoles! trigger for every member of a group.
 - Added the script for Borean Tundra to make the quest Escape from the Winterfin Caverns trigger for every member of a group.
+
+[2022-05-01]
+- Added the script for Borean Tundra to make the quest Abduction trigger for every member of a group.

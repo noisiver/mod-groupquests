@@ -21,6 +21,130 @@
 #include "Player.h"
 #include "ScriptMgr.h"
 
+enum BerylSorcerer
+{
+    EVENT_FROSTBOLT                                = 1,
+    EVENT_ARCANE_CHAINS                            = 2,
+    NPC_LIBRARIAN_DONATHAN                         = 25262,
+    NPC_CAPTURED_BERLY_SORCERER                    = 25474,
+    SPELL_FROSTBOLT                                = 9672,
+    SPELL_ARCANE_CHAINS                            = 45611,
+    SPELL_ARCANE_CHAINS_CHARACTER_FORCE_CAST       = 45625,
+    SPELL_ARCANE_CHAINS_SUMMON_CHAINED_MAGE_HUNTER = 45626,
+    SPELL_COSMETIC_ENSLAVE_CHAINS_SELF             = 45631,
+    SPELL_ARCANE_CHAINS_CHANNEL_II                 = 45735
+};
+
+class npc_beryl_sorcerer_groupquests : public CreatureScript
+{
+    public:
+        npc_beryl_sorcerer_groupquests() : CreatureScript("npc_beryl_sorcerer") { }
+
+        struct npc_beryl_sorcerer_groupquestsAI : public CreatureAI
+        {
+            npc_beryl_sorcerer_groupquestsAI(Creature* creature) : CreatureAI(creature)
+            {
+                Initialize();
+            }
+
+            void Initialize()
+            {
+                _playerGUID.Clear();
+                _chainsCast = false;
+            }
+
+            void Reset() override
+            {
+                me->SetReactState(REACT_AGGRESSIVE);
+                Initialize();
+            }
+
+            void EnterCombat(Unit* who) override
+            {
+                if (me->IsValidAttackTarget(who))
+                {
+                    AttackStart(who);
+                }
+
+                _events.ScheduleEvent(EVENT_FROSTBOLT, 3000, 4000);
+            }
+
+            void SpellHit(Unit* unit, SpellInfo const* spell) override
+            {
+                if (spell->Id == SPELL_ARCANE_CHAINS && !_chainsCast)
+                {
+                    if (Player* player = unit->ToPlayer())
+                    {
+                        _playerGUID = player->GetGUID();
+                        _chainsCast = true;
+                        _events.ScheduleEvent(EVENT_ARCANE_CHAINS, 4000);
+                    }
+                }
+            }
+
+            void UpdateAI(uint32 diff) override
+            {
+                if (!UpdateVictim())
+                {
+                    return;
+                }
+
+                _events.Update(diff);
+
+                if (uint32 eventId = _events.ExecuteEvent())
+                {
+                    switch (eventId)
+                    {
+                        case EVENT_FROSTBOLT:
+                            DoCastVictim(SPELL_FROSTBOLT);
+                            _events.ScheduleEvent(EVENT_FROSTBOLT, 3000, 4000);
+                            break;
+                        case EVENT_ARCANE_CHAINS:
+                            if (me->HasAura(SPELL_ARCANE_CHAINS))
+                            {
+                                if (Player* player = ObjectAccessor::GetPlayer(*me, _playerGUID))
+                                {
+                                    me->CastSpell(player, SPELL_ARCANE_CHAINS_CHARACTER_FORCE_CAST, TriggerCastFlags(TRIGGERED_FULL_MASK & ~TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS & ~TRIGGERED_IGNORE_CAST_ITEM));
+
+                                    if (Group* group = player->GetGroup())
+                                    {
+                                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                                        {
+                                            if (Player* member = groupRef->GetSource())
+                                            {
+                                                if (member->IsInMap(player))
+                                                {
+                                                    member->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
+                                                }
+                                            }
+                                        }
+                                    }
+                                    else
+                                    {
+                                        player->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
+                                    }
+
+                                    me->DisappearAndDie();
+                                }
+                            }
+                            break;
+                    }
+                }
+                DoMeleeAttackIfReady();
+            }
+
+        private:
+            EventMap   _events;
+            ObjectGuid _playerGUID;
+            bool       _chainsCast;
+        };
+
+        CreatureAI* GetAI(Creature* creature) const override
+        {
+            return new npc_beryl_sorcerer_groupquestsAI(creature);
+        }
+};
+
 enum Nerubar
 {
     NPC_WARSONG_PEON            = 25270,
@@ -238,6 +362,7 @@ class npc_lurgglbr_groupquests : public CreatureScript
 
 void AddSC_zone_borean_tundra_groupquests()
 {
+    new npc_beryl_sorcerer_groupquests();
     new npc_nerubar_victim_groupquests();
     new npc_lurgglbr_groupquests();
 }
