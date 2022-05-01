@@ -210,6 +210,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25728 AND `Item`=35492;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25728, 35492, 27, 1, 'Coldarra Wyrmkin - Frostberry');
 
+-- Crystallized Mana Shard (Quest: Bait and Switch (Id: 11951))
+-- Coldarra Mage Slayer
+DELETE FROM `creature_loot_template` WHERE `Entry`=25718 AND `Item`=35685;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25718, 35685, 80, 1, 'Coldarra Mage Slayer - Crystallized Mana Shard');
+
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 -- Anub'ar Underlord
 DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;

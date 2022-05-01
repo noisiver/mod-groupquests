@@ -215,3 +215,5 @@
 
 [2022-05-01]
 - Added the script for Borean Tundra to make the quest Abduction trigger for every member of a group.
+- Added Crystallized Mana Shard to the loot table of Coldarra Mage Slayer for the quest Bait and Switch.
+- Changed the flags of Crystallized Mana Shard to allow every member of a group to loot it.

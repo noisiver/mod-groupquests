@@ -2130,6 +2130,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35493;
 -- Shimmering Rune (Quest: Cracking the Code (Id: 11931))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35629;
 
+-- Crystallized Mana Shard (Quest: Bait and Switch (Id: 11951))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35685;
+
 -- Stolen Moa'ki Goods (Quest: Let Nothing Go To Waste (Id: 11958))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35686;
 
