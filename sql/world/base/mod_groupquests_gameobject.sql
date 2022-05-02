@@ -86,6 +86,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188676;
 -- Changed from 1200 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188677;
 
+-- The Diary of High General Abbendis (Quest: The Truth Will Out (Id: 12283))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=189293;
+
 -- Flying Machine Engine (Quest: Need an Engine, Take an Engine (Id: 12522))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190447;

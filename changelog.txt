@@ -230,3 +230,4 @@
 - Updated the respawn time of Scarlet Onslaught Daily Orders: Beach.
 - Added Emerald Dragon Tear to the loot table of Emerald Lasher for the quest Emerald Dragon Tears.
 - Updated the flags of Emerald Dragon Tear to allow every member of a group to loot it.
+- Updated the respawn time of The Diary of High General Abbendis.
