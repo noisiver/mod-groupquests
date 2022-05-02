@@ -74,6 +74,18 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187886;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;
 
+-- Scarlet Onslaught Daily Orders: Barracks (Quest: Need to Know (Id: 12234))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188675;
+
+-- Scarlet Onslaught Daily Orders: Abbey (Quest: Need to Know (Id: 12234))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188676;
+
+-- Scarlet Onslaught Daily Orders: Beach (Quest: Need to Know (Id: 12234))
+-- Changed from 1200 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188677;
+
 -- Flying Machine Engine (Quest: Need an Engine, Take an Engine (Id: 12522))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190447;

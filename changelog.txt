@@ -225,3 +225,6 @@
 - Changed the flags of Onslaught Weapon to allow every member of a group to loot it.
 - Added Forgotten Treasure to the loot table of Forgotten Peasant for the quest Funding the War Effort.
 - Changed the flags of Forgotten Treasure to allow every member of a group to loot it.
+- Changed the respawn time of Scarlet Onslaught Daily Orders: Barracks.
+- Changed the respawn time of Scarlet Onslaught Daily Orders: Abbey.
+- Changed the respawn time of Scarlet Onslaught Daily Orders: Beach.
