@@ -3,21 +3,21 @@
 
 [2021-12-16]
 - Added Cactus Apple to the loot table of Mottled Boar for the quest Galgar's Cactus Apple Surprise.
-- Changed the flags of Cactus Apple to allow every member of a group to loot it.
+- Updated the flags of Cactus Apple to allow every member of a group to loot it.
 
 - Added Sack of Supplies to the loot table of Dustwind Harpy and Dustwind Pillager for the quest Winds in the Desert.
-- Changed the flags of Sack of Supplies to allow every member of a group to loot it.
+- Updated the flags of Sack of Supplies to allow every member of a group to loot it.
 
 [2021-12-17]
 - Added Fungal Spores to the loot table of Oasis Snapjaw for the quest Fungal Spores.
-- Changed the flags of Fungal Spores to allow every member of a group to loot it.
+- Updated the flags of Fungal Spores to allow every member of a group to loot it.
 
 [2021-12-18]
-- Changed the flags of Charred Razormane Wand to allow every member of a group to loot it.
-- Changed the flags of Razormane Backstabber to allow every member of a group to loot it.
+- Updated the flags of Charred Razormane Wand to allow every member of a group to loot it.
+- Updated the flags of Razormane Backstabber to allow every member of a group to loot it.
 - Changed flags of Razormane War Shield to allow every member of a group to loot it.
 
-- Changed the respawn time of Alien Egg.
+- Updated the respawn time of Alien Egg.
 
 - Added Highperch Wyvern Egg to the loot table of Highperch Wyvern for the quest Wind Rider.
 - Changed flags of Highperch Wyvern Egg to allow every member of a group to loot it.
@@ -44,14 +44,14 @@
 - Added the script for Desolace to make the quest Kodo Roundup trigger for every member of a group.
 
 [2021-12-24]
-- Changed the respawn time of Gri'lek the Wanderer.
+- Updated the respawn time of Gri'lek the Wanderer.
 
 [2021-12-25]
 - Added Salvaged Wood to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
 - Added Salvaged Metal to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
 - Changed flags of Salvaged Wood to allow every member of a group to loot it.
 - Changed flags of Salvaged Metal to allow every member of a group to loot it.
-- Changed the respawn time of Metal Coffer.
+- Updated the respawn time of Metal Coffer.
 
 [2021-12-26]
 - Added Ever-burning Ash to the loot table of Felfire Diemetradon for the quests A Haunted History and A Ghost in the Machine.
@@ -82,7 +82,7 @@
 - Changed flags of Book of Runes - Chapter 1 to allow every member of a group to loot it.
 - Changed flags of Book of Runes - Chapter 2 to allow every member of a group to loot it.
 - Changed flags of Book of Runes - Chapter 3 to allow every member of a group to loot it.
-- Changed the respawn time of Iron Rune Carving Tools.
+- Updated the respawn time of Iron Rune Carving Tools.
 
 [2022-01-09]
 - Added Wyrmtail to the loot table of Searing Whelp for the quest Catch a Dragon by the Tail.
@@ -108,12 +108,12 @@
 - Added Zeppelin Debris to the loot table of Deranged Helboar for the quest In Case of Emergency...
 - Added Zeppelin Debris to the loot table of Starving Helboar for the quest In Case of Emergency...
 - Changed flags of Zeppelin Debris to allow every member of a group to loot it.
-- Changed the respawn time of Torn Pilgrim's Pack.
+- Updated the respawn time of Torn Pilgrim's Pack.
 
 [2022-01-13]
 - Added Burstcap Mushroom to the loot table of Marshfang Slicer for the quest Burstcap Mushrooms, Mon!
 - Changed flags of Burstcap Mushroom to allow every member of a group to loot it.
-- Changed the respawn time of Ango'rosh Attack Plans.
+- Updated the respawn time of Ango'rosh Attack Plans.
 
 [2022-01-14]
 - Added Frostberry to the loot table of Coldarra Scalesworn for the quest Nuts for Berries.
@@ -122,11 +122,11 @@
 - Changed flags of Frostberry to allow every member of a group to loot it.
 - Added Black Blood of Yogg-Saron Sample to the loot table of Anub'ar Underlord for the quest Black Blood of Yogg-Saron.
 - Changed flags of Black Blood of Yogg-Saron Sample to allow every member of a group to loot it.
-- Changed the respawn time of Ruby Lilac.
+- Updated the respawn time of Ruby Lilac.
 - Added Vordrassil's Seed to the loot table of Redfang Hunter for the quest Vordrassil's Seeds.
 - Added Vordrassil's Seed to the loot table of Frostpaw Warrior for the quest Vordrassil's Seeds.
 - Changed flags of Vordrassil's Seed to allow every member of a group to loot it.
-- Changed the respawn time of Flying Machine Engine.
+- Updated the respawn time of Flying Machine Engine.
 
 [2022-01-15]
 - Added Banana Bunch to the loot table of Mangal Crocolisk for the quest Some Make Lemonade, Some Make Liquor.
@@ -138,10 +138,10 @@
 - Changed flags of Banana Bunch to allow every member of a group to loot it.
 - Changed flags of Papaya to allow every member of a group to loot it.
 - Changed flags of Orange to allow every member of a group to loot it.
-- Changed the respawn time of Dusty Journal.
+- Updated the respawn time of Dusty Journal.
 
 [2022-02-20]
-- Changed the respawn time of Warped Crates.
+- Updated the respawn time of Warped Crates.
 
 [2022-02-21]
 - Added Blackhoof Armaments to the loot table of Grimtotem Breaker for the quests Arms of the Grimtotems and More than Coincidence.
@@ -162,7 +162,7 @@
 - Changed flags of Scourge Scrap Metal to allow every member of a group to loot it.
 - Changed flags of Basilisk Crystals to allow every member of a group to loot it.
 - Changed flags of Dead Thornwood to allow every member of a group to loot it.
-- Changed the respawn time of Harvested Blight Crystal.
+- Updated the respawn time of Harvested Blight Crystal.
 
 [2022-03-09]
 - Added Muddlecap Fungus to the loot table of Lurking Basilisk for the quest Mushroom Mixer.
@@ -172,39 +172,39 @@
 - Added Witchbane to the loot table of Risen Spirit for the quest The Witch's Bane.
 - Added Witchbane to the loot table of Risen Husk for the quest The Witch's Bane.
 - Changed flags of Witchbane to allow every member of a group to loot it.
-- Changed the respawn time of Stonemaul Clan Banner.
+- Updated the respawn time of Stonemaul Clan Banner.
 
 [2022-03-24]
-- Changed the respawn time of Tablet of Jin'yael.
-- Changed the respawn time of Tablet of Markri.
-- Changed the respawn time of Tablet of Sael'hai.
-- Changed the respawn time of Tablet of Beth'Amara.
+- Updated the respawn time of Tablet of Jin'yael.
+- Updated the respawn time of Tablet of Markri.
+- Updated the respawn time of Tablet of Sael'hai.
+- Updated the respawn time of Tablet of Beth'Amara.
 
 [2022-04-26]
 - Added the script for Nagrand to make the quest Finding the Survivors trigger for every member of a group.
 - Added Bloodmaul Brutebane Brew to the loot table of Bloodmaul Brewmaster for the quests Strange Brew and They Stole Me Hookah and Me Brews!
 - Changed flags of Bloodmaul Brutebane Brew to allow every member of a group to loot it.
-- Changed the respawn time of T'chali's Hookah.
-- Changed the flags of Costume Scraps to allow every member of a group to loot it.
+- Updated the respawn time of T'chali's Hookah.
+- Updated the flags of Costume Scraps to allow every member of a group to loot it.
 - Changed the smart script for Wyrmcult Blackwhelp to give every member of a group the quest item.
 
 [2022-04-27]
 - Added the script for Netherstorm to make the quest Mark V is Alive! trigger for every member of a group.
-- Changed the respawn time of Fel Reaver Power Core.
-- Changed the respawn time of Fel Reaver Armor Plating.
+- Updated the respawn time of Fel Reaver Power Core.
+- Updated the respawn time of Fel Reaver Armor Plating.
 
 [2022-04-28]
-- Changed the respawn time of Pneumatic Tank Transjigamarig.
+- Updated the respawn time of Pneumatic Tank Transjigamarig.
 - Added Super Strong Metal Plate to the loot table of Kvaldir Mist Lord for the quest Super Strong Metal Plates!
-- Changed the flags of Strong Metal Plate to allow every member of a group to loot it.
+- Updated the flags of Strong Metal Plate to allow every member of a group to loot it.
 
 [2022-04-29]
 - Added Fizzcrank Spare Parts to the loot table of Scavenge-bot 004-A8 for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
 - Added Fizzcrank Spare Parts to the loot table of Sentry-bot 57-K for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
 - Added Fizzcrank Spare Parts to the loot table of Defendo-tank 66D for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
 - Added Fizzcrank Spare Parts to the loot table of Fizzcrank Mechagnome for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
-- Changed the respawn time of Burblegobble's Bauble.
-- Changed the respawn time of Gurgleboggle's Bauble.
+- Updated the respawn time of Burblegobble's Bauble.
+- Updated the respawn time of Gurgleboggle's Bauble.
 - Added Winterfin Clam to the loot table of Winterfin Shorestriker for the quest Winterfin Commerce.
 - Added Winterfin Clam to the loot table of Winterfin Oracle for the quest Winterfin Commerce.
 - Added Winterfin Clam to the loot table of Winterfin Warrior for the quest Winterfin Commerce.
@@ -216,17 +216,17 @@
 [2022-05-01]
 - Added the script for Borean Tundra to make the quest Abduction trigger for every member of a group.
 - Added Crystallized Mana Shard to the loot table of Coldarra Mage Slayer for the quest Bait and Switch.
-- Changed the flags of Crystallized Mana Shard to allow every member of a group to loot it.
+- Updated the flags of Crystallized Mana Shard to allow every member of a group to loot it.
 
 [2022-05-02]
 - Added Scarlet Onslaught Armor to the loot table of Onslaught Footman for the quest Materiel Plunder.
 - Added Scarlet Onslaught Weapon to the loot table of Onslaught Workman for the quest Materiel Plunder.
-- Changed the flags of Onslaught Armor to allow every member of a group to loot it.
-- Changed the flags of Onslaught Weapon to allow every member of a group to loot it.
+- Updated the flags of Onslaught Armor to allow every member of a group to loot it.
+- Updated the flags of Onslaught Weapon to allow every member of a group to loot it.
 - Added Forgotten Treasure to the loot table of Forgotten Peasant for the quest Funding the War Effort.
-- Changed the flags of Forgotten Treasure to allow every member of a group to loot it.
-- Changed the respawn time of Scarlet Onslaught Daily Orders: Barracks.
-- Changed the respawn time of Scarlet Onslaught Daily Orders: Abbey.
-- Changed the respawn time of Scarlet Onslaught Daily Orders: Beach.
+- Updated the flags of Forgotten Treasure to allow every member of a group to loot it.
+- Updated the respawn time of Scarlet Onslaught Daily Orders: Barracks.
+- Updated the respawn time of Scarlet Onslaught Daily Orders: Abbey.
+- Updated the respawn time of Scarlet Onslaught Daily Orders: Beach.
 - Added Emerald Dragon Tear to the loot table of Emerald Lasher for the quest Emerald Dragon Tears.
-- Changed the flags of Emerald Dragon Tear to allow every member of a group to loot it.
+- Updated the flags of Emerald Dragon Tear to allow every member of a group to loot it.
