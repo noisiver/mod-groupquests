@@ -225,6 +225,16 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2571
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
 
+-- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
+-- Onslaught Footman
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27203 AND `ItemId`=37136;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27203, 0, 37136);
+
+-- Scarlet Onslaught Weapon (Quest: Materiel Plunder (Id: 12209))
+-- Onslaught Workman
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27207 AND `ItemId`=37137;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27207, 0, 37137);
+
 -- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
 -- Redfang Hunter
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26356 AND `ItemId`=37302;
@@ -232,6 +242,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2635
 -- Frostpaw Warrior
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26357 AND `ItemId`=37302;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);
+
+-- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
+-- Forgotten Peasant
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27226 AND `ItemId`=37580;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27226, 2, 37580);
 
 -- Muddlecap Fungus (Quest: Mushroom Mixer (Id: 12514))
 -- Lurking Basilisk

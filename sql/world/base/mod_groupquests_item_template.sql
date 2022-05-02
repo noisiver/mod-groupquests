@@ -2178,6 +2178,12 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37104;
 -- Ectoplasmic Residue (Quest: The Forsaken Blight and You: How Not to Die (Id: 12188))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37121;
 
+-- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37136;
+
+-- Scarlet Onslaught Weapon (Quest: Materiel Plunder (Id: 12209))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37137;
+
 -- Succulent Venison (Quest: Replenishing the Storehouse (Id: 12212), Quest: Supplemental Income (Id: 12436))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37185;
 
@@ -2204,6 +2210,9 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37411;
 
 -- Grooved Cog (Quest: Pieces Parts (Id: 12268), Quest: Making Repairs (Id: 12280))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37412;
+
+-- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37580;
 
 -- Gossamer Dust (Quest: Ruuna's Request (Id: 12328))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37662;

@@ -217,3 +217,11 @@
 - Added the script for Borean Tundra to make the quest Abduction trigger for every member of a group.
 - Added Crystallized Mana Shard to the loot table of Coldarra Mage Slayer for the quest Bait and Switch.
 - Changed the flags of Crystallized Mana Shard to allow every member of a group to loot it.
+
+[2022-05-02]
+- Added Scarlet Onslaught Armor to the loot table of Onslaught Footman for the quest Materiel Plunder.
+- Added Scarlet Onslaught Weapon to the loot table of Onslaught Workman for the quest Materiel Plunder.
+- Changed the flags of Onslaught Armor to allow every member of a group to loot it.
+- Changed the flags of Onslaught Weapon to allow every member of a group to loot it.
+- Added Forgotten Treasure to the loot table of Forgotten Peasant for the quest Funding the War Effort.
+- Changed the flags of Forgotten Treasure to allow every member of a group to loot it.

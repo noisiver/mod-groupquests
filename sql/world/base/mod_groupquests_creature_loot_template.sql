@@ -215,6 +215,16 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25718 AND `Item`=35685;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25718, 35685, 80, 1, 'Coldarra Mage Slayer - Crystallized Mana Shard');
 
+-- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
+-- Onslaught Footman
+DELETE FROM `creature_loot_template` WHERE `Entry`=27203 AND `Item`=37136;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27203, 37136, 28, 1, 'Onslaught Footman - Scarlet Onslaught Armor');
+
+-- Scarlet Onslaught Weapon (Quest: Materiel Plunder (Id: 12209))
+-- Onslaught Workman
+DELETE FROM `creature_loot_template` WHERE `Entry`=27207 AND `Item`=37137;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27207, 37137, 79, 1, 'Onslaught Workman - Scarlet Onslaught Weapon');
+
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 -- Anub'ar Underlord
 DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
@@ -242,6 +252,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Lurking Basilisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=28145 AND `Item`=38563;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (28145, 38563, 33, 1, 3, 'Lurking Basilisk - Dead Thornwood');
+
+-- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
+-- Forgotten Peasant
+DELETE FROM `creature_loot_template` WHERE `Entry`=27226 AND `Item`=37580;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (27226, 37580, 28, 1, 3, 'Forgotten Peasant - Forgotten Treasure');
 
 -- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
 -- Mangal Crocolisk
