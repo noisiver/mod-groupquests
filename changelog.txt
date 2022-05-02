@@ -228,3 +228,5 @@
 - Changed the respawn time of Scarlet Onslaught Daily Orders: Barracks.
 - Changed the respawn time of Scarlet Onslaught Daily Orders: Abbey.
 - Changed the respawn time of Scarlet Onslaught Daily Orders: Beach.
+- Added Emerald Dragon Tear to the loot table of Emerald Lasher for the quest Emerald Dragon Tears.
+- Changed the flags of Emerald Dragon Tear to allow every member of a group to loot it.

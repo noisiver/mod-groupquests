@@ -220,6 +220,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2572
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25718 AND `ItemId`=35685;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25718, 0, 35685);
 
+-- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
+-- Emerald Lasher
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27254 AND `ItemId`=37124;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27254, 2, 37124);
+
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 -- Anub'ar Underlord
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;

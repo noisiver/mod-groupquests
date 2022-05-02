@@ -1,41 +1,3 @@
-/*
-These are the queries I used to gather the list of items required by quests that drop off of creatures
-It only lists items that do not have the bitmask 2048 flag, are quest items,
-are required by at least one quest, and is not required by a quest that is disabled,
-and quests that have entries in *_questender or *_queststarter or are set as startquest in the item template
-
-SELECT entry FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `item_template` WHERE Flags & 2048) AND `entry` IN (SELECT `RequiredItemId1` FROM `quest_template` WHERE `RequiredItemId1` IN (SELECT `Item` FROM `creature_loot_template`) AND `RequiredItemId1` > 0 AND `QuestType` NOT IN (0, 1) AND (`ID` IN (SELECT `quest` FROM `creature_questender`) OR `ID` IN (SELECT `quest` FROM `creature_queststarter`) OR `ID` IN (SELECT `quest` FROM `gameobject_questender`) OR `ID` IN (SELECT `quest` FROM `gameobject_queststarter`) OR `ID` IN (SELECT `startquest` FROM `item_template`))) AND `class`=12
-SELECT entry FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `item_template` WHERE Flags & 2048) AND `entry` IN (SELECT `RequiredItemId2` FROM `quest_template` WHERE `RequiredItemId2` IN (SELECT `Item` FROM `creature_loot_template`) AND `RequiredItemId2` > 0 AND `QuestType` NOT IN (0, 1) AND (`ID` IN (SELECT `quest` FROM `creature_questender`) OR `ID` IN (SELECT `quest` FROM `creature_queststarter`) OR `ID` IN (SELECT `quest` FROM `gameobject_questender`) OR `ID` IN (SELECT `quest` FROM `gameobject_queststarter`) OR `ID` IN (SELECT `startquest` FROM `item_template`))) AND `class`=12
-SELECT entry FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `item_template` WHERE Flags & 2048) AND `entry` IN (SELECT `RequiredItemId3` FROM `quest_template` WHERE `RequiredItemId3` IN (SELECT `Item` FROM `creature_loot_template`) AND `RequiredItemId3` > 0 AND `QuestType` NOT IN (0, 1) AND (`ID` IN (SELECT `quest` FROM `creature_questender`) OR `ID` IN (SELECT `quest` FROM `creature_queststarter`) OR `ID` IN (SELECT `quest` FROM `gameobject_questender`) OR `ID` IN (SELECT `quest` FROM `gameobject_queststarter`) OR `ID` IN (SELECT `startquest` FROM `item_template`))) AND `class`=12
-SELECT entry FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `item_template` WHERE Flags & 2048) AND `entry` IN (SELECT `RequiredItemId4` FROM `quest_template` WHERE `RequiredItemId4` IN (SELECT `Item` FROM `creature_loot_template`) AND `RequiredItemId4` > 0 AND `QuestType` NOT IN (0, 1) AND (`ID` IN (SELECT `quest` FROM `creature_questender`) OR `ID` IN (SELECT `quest` FROM `creature_queststarter`) OR `ID` IN (SELECT `quest` FROM `gameobject_questender`) OR `ID` IN (SELECT `quest` FROM `gameobject_queststarter`) OR `ID` IN (SELECT `startquest` FROM `item_template`))) AND `class`=12
-SELECT entry FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `item_template` WHERE Flags & 2048) AND `entry` IN (SELECT `RequiredItemId5` FROM `quest_template` WHERE `RequiredItemId5` IN (SELECT `Item` FROM `creature_loot_template`) AND `RequiredItemId5` > 0 AND `QuestType` NOT IN (0, 1) AND (`ID` IN (SELECT `quest` FROM `creature_questender`) OR `ID` IN (SELECT `quest` FROM `creature_queststarter`) OR `ID` IN (SELECT `quest` FROM `gameobject_questender`) OR `ID` IN (SELECT `quest` FROM `gameobject_queststarter`) OR `ID` IN (SELECT `startquest` FROM `item_template`))) AND `class`=12
-SELECT entry FROM `item_template` WHERE `entry` NOT IN (SELECT `entry` FROM `item_template` WHERE Flags & 2048) AND `entry` IN (SELECT `RequiredItemId6` FROM `quest_template` WHERE `RequiredItemId6` IN (SELECT `Item` FROM `creature_loot_template`) AND `RequiredItemId6` > 0 AND `QuestType` NOT IN (0, 1) AND (`ID` IN (SELECT `quest` FROM `creature_questender`) OR `ID` IN (SELECT `quest` FROM `creature_queststarter`) OR `ID` IN (SELECT `quest` FROM `gameobject_questender`) OR `ID` IN (SELECT `quest` FROM `gameobject_queststarter`) OR `ID` IN (SELECT `startquest` FROM `item_template`))) AND `class`=12
-
-This is the query I used to get the list of queries to update the flag for each item
-
-SELECT CONCAT ('-- ', `it`.`name`, ' (Quest: ', `qt`.`LogTitle`, ' (Id: ', `qt`.`ID`, '))\n'
-'UPDATE `item_template` SET `Flags`=', `it`.`Flags` | 2048, ' WHERE `entry`=', `it`.`entry`, ';\n') FROM `item_template` it 
-LEFT OUTER JOIN `quest_template` qt ON `it`.`entry`=`qt`.`RequiredItemId1` 
-OR `it`.`entry`=`qt`.`RequiredItemId2` 
-OR `it`.`entry`=`qt`.`RequiredItemId3` 
-OR `it`.`entry`=`qt`.`RequiredItemId4` 
-OR `it`.`entry`=`qt`.`RequiredItemId5` 
-OR `it`.`entry`=`qt`.`RequiredItemId6` 
-WHERE `it`.`entry` IN (insert entries here) 
-ORDER BY `it`.`entry`, `qt`.`ID` ASC
-
-I scrolled through each line and kept an eye on whenever the entry didn't change. That means another quest require the same item
-For these items I merged the lines togheter, moving the name and id of the other quests to the first entry
-
-I used a query to find all items that have a drop chance of 1 from creatures
-
-SELECT DISTINCT(Item) FROM `creature_loot_template` 
-WHERE `Item` IN (insert entries here) AND `Chance`=1 ORDER BY `Item` ASC
-
-All items that has only creatures with a 1 percent drop chance were removed from the list
-These items are obtained through objects. They will be added to this list when I discover them myself and add them to a creatures loot table
-*/
-
 -- Goretusk Liver (Quest: Goretusk Liver Pie (Id: 22))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=723;
 
@@ -2177,6 +2139,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37104;
 
 -- Ectoplasmic Residue (Quest: The Forsaken Blight and You: How Not to Die (Id: 12188))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37121;
+
+-- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37124;
 
 -- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37136;

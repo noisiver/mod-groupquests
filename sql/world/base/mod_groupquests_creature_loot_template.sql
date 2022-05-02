@@ -215,6 +215,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25718 AND `Item`=35685;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25718, 35685, 80, 1, 'Coldarra Mage Slayer - Crystallized Mana Shard');
 
+-- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
+-- Emerald Lasher
+DELETE FROM `creature_loot_template` WHERE `Entry`=27254 AND `Item`=37124;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27254, 37124, 45, 1, 'Emerald Lasher - Emerald Dragon Tear');
+
 -- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
 -- Onslaught Footman
 DELETE FROM `creature_loot_template` WHERE `Entry`=27203 AND `Item`=37136;
