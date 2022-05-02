@@ -256,7 +256,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
 -- Forgotten Peasant
 DELETE FROM `creature_loot_template` WHERE `Entry`=27226 AND `Item`=37580;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (27226, 37580, 28, 1, 3, 'Forgotten Peasant - Forgotten Treasure');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27226, 37580, 28, 1, 'Forgotten Peasant - Forgotten Treasure');
 
 -- Banana Bunch (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
 -- Mangal Crocolisk
