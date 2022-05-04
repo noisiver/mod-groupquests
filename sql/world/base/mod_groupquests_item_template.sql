@@ -2101,6 +2101,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35686;
 -- Runic Keystone Fragment (Quest: The Runic Keystone (Id: 11988))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=35747;
 
+-- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35782;
+
 -- Ice Serpent Eye (Quest: Shimmercap Stew (Id: 12483))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=35798;
 
@@ -2133,6 +2136,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37010;
 
 -- Grizzly Hide (Quest: A Minor Substitution (Id: 12176))
 UPDATE `item_template` SET `Flags`=2147485696 WHERE `entry`=37020;
+
+-- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37087;
 
 -- Mature Stag Horn (Quest: The Unexpected 'Guest' (Id: 12195))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37104;

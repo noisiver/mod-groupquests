@@ -231,3 +231,9 @@
 - Added Emerald Dragon Tear to the loot table of Emerald Lasher for the quest Emerald Dragon Tears.
 - Updated the flags of Emerald Dragon Tear to allow every member of a group to loot it.
 - Updated the respawn time of The Diary of High General Abbendis.
+
+[2022-05-04]
+- Added Shimmering Snowcap to the loot table of Ice Serpent for the quest Shimmercap Stew.
+- Added Sweetroot to the loot table of Diseased Drakkari for the quest Shimmercap Stew.
+- Updated the flags of Shimmering Snowcap to allow every member of a group to loot it.
+- Updated the flags of Sweetroot to allow every member of a group to loot it.

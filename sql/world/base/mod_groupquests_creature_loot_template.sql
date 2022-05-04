@@ -215,6 +215,21 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25718 AND `Item`=35685;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25718, 35685, 80, 1, 'Coldarra Mage Slayer - Crystallized Mana Shard');
 
+-- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
+-- Ice Serpent
+DELETE FROM `creature_loot_template` WHERE `Entry`=26446 AND `Item`=35782;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26446, 35782, 37, 1, 'Ice Serpent - Shimmering Snowcap');
+
+-- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
+-- Anub'ar Underlord
+DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26605, 36725, 29, 1, 'Anub\'ar Underlord - Black Blood of Yogg-Saron Sample');
+
+-- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
+-- Diseased Drakkari
+DELETE FROM `creature_loot_template` WHERE `Entry`=26457 AND `Item`=37087;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26457, 37087, 31, 1, 'Diseased Drakkari - Sweetroot');
+
 -- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
 -- Emerald Lasher
 DELETE FROM `creature_loot_template` WHERE `Entry`=27254 AND `Item`=37124;
@@ -229,11 +244,6 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Onslaught Workman
 DELETE FROM `creature_loot_template` WHERE `Entry`=27207 AND `Item`=37137;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27207, 37137, 79, 1, 'Onslaught Workman - Scarlet Onslaught Weapon');
-
--- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
--- Anub'ar Underlord
-DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26605, 36725, 29, 1, 'Anub\'ar Underlord - Black Blood of Yogg-Saron Sample');
 
 -- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
 -- Redfang Hunter

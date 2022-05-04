@@ -220,15 +220,25 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2572
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25718 AND `ItemId`=35685;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25718, 0, 35685);
 
--- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
--- Emerald Lasher
-DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27254 AND `ItemId`=37124;
-INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27254, 2, 37124);
+-- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
+-- Ice Serpent
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26446 AND `ItemId`=35782;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26446, 1, 35782);
 
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 -- Anub'ar Underlord
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
+
+-- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
+-- Diseased Drakkari
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26457 AND `ItemId`=37087;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26457, 1, 37087);
+
+-- Emerald Dragon Tear (Quest: Emerald Dragon Tears (Id: 12200))
+-- Emerald Lasher
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27254 AND `ItemId`=37124;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27254, 2, 37124);
 
 -- Scarlet Onslaught Armor (Quest: Materiel Plunder (Id: 12209))
 -- Onslaught Footman
