@@ -225,6 +225,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26605, 36725, 29, 1, 'Anub\'ar Underlord - Black Blood of Yogg-Saron Sample');
 
+-- Drakkari Canopic Jar (Quest: It Takes Guts.... (Id: 12116))
+-- Ancient Drakkari Warmonger
+DELETE FROM `creature_loot_template` WHERE `Entry`=26811 AND `Item`=36825;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26811, 36825, 54, 1, 'Ancient Drakkari Warmonger - Drakkari Canopic Jar');
+-- Ancient Drakkari Soothsayer
+DELETE FROM `creature_loot_template` WHERE `Entry`=26812 AND `Item`=36825;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26812, 36825, 55, 1, 'Ancient Drakkari Soothsayer - Drakkari Canopic Jar');
+
 -- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
 -- Diseased Drakkari
 DELETE FROM `creature_loot_template` WHERE `Entry`=26457 AND `Item`=37087;

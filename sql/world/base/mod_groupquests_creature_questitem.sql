@@ -235,6 +235,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2761
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
 
+-- Drakkari Canopic Jar (Quest: It Takes Guts.... (Id: 12116))
+-- Ancient Drakkari Warmonger
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26811 AND `ItemId`=36825;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26811, 0, 36825);
+-- Ancient Drakkari Soothsayer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26812 AND `ItemId`=36825;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26812, 0, 36825);
+
 -- War Golem Part (Quest: From the Ground Up (Id: 12196))
 -- Runic War Golem
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26347 AND `ItemId`=36852;

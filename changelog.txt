@@ -245,3 +245,8 @@
 - Added War Golem Part to the loot table of Runic War Golem for the quest From the Ground Up.
 - Added War Golem Part to the loot table of Iron Rune-Smith for the quest From the Ground Up.
 - Updated the flags of War Golem Part to allow every member of a group to loot it.
+
+[2022-05-05]
+- Added Drakkari Canopic Jar to the loot table of Ancient Drakkari Warmonger for the quest It Takes Guts....
+- Added Drakkari Canopic Jar to the loot table of Ancient Drakkari Soothsayer for the quest It Takes Guts....
+- Updated the flags of Drakkari Canopic Jar to allow every member of a group to loot it.

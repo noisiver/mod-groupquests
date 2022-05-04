@@ -2128,6 +2128,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=36776;
 -- Fibrous Worg Meat (Quest: Nice to Meat You (Id: 12113))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36819;
 
+-- Drakkari Canopic Jar (Quest: It Takes Guts.... (Id: 12116))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36825;
+
 -- War Golem Part (Quest: From the Ground Up (Id: 12196))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=36852;
 
