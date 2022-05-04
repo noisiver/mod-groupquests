@@ -258,6 +258,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=27617 AND `Item`=35795;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27617, 35795, 29, 1, 'River Thresher - Waterweed Frond');
 
+-- War Golem Part (Quest: From the Ground Up (Id: 12196))
+-- Runic War Golem
+DELETE FROM `creature_loot_template` WHERE `Entry`=26347 AND `Item`=36852;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26347, 36852, 28, 1, 'Runic War Golem - War Golem Part');
+-- Iron Rune-Smith
+DELETE FROM `creature_loot_template` WHERE `Entry`=26408 AND `Item`=36852;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26408, 36852, 29, 1, 'Iron Rune-Smith - War Golem Part');
+
 -- Haze Leaf (Quest: Vial of Visions (Id: 12483))
 -- Tallhorn Stag
 DELETE FROM `creature_loot_template` WHERE `Entry`=26363 AND `Item`=37085;

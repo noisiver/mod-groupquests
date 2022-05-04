@@ -242,3 +242,6 @@
 - Added Haze Leaf to the loot table of Tallhorn Stag for the quest Vial of Visions.
 - Updated the flags of Haze Leaf to allow every member of a group to loot it.
 - Updated the respawn time of Scourged Troll Mummy.
+- Added War Golem Part to the loot table of Runic War Golem for the quest From the Ground Up.
+- Added War Golem Part to the loot table of Iron Rune-Smith for the quest From the Ground Up.
+- Updated the flags of War Golem Part to allow every member of a group to loot it.

@@ -2128,6 +2128,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=36776;
 -- Fibrous Worg Meat (Quest: Nice to Meat You (Id: 12113))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36819;
 
+-- War Golem Part (Quest: From the Ground Up (Id: 12196))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=36852;
+
 -- Shovelhorn Steak (Quest: Nice to Meat You (Id: 12113))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36875;
 
