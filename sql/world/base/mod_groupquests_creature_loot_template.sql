@@ -253,6 +253,16 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26357 AND `Item`=37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 29, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
 
+-- Waterweed Frond (Quest: Vial of Visions (Id: 11990))
+-- River Thresher
+DELETE FROM `creature_loot_template` WHERE `Entry`=27617 AND `Item`=35795;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27617, 35795, 29, 1, 'River Thresher - Waterweed Frond');
+
+-- Haze Leaf (Quest: Vial of Visions (Id: 12483))
+-- Tallhorn Stag
+DELETE FROM `creature_loot_template` WHERE `Entry`=26363 AND `Item`=37085;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26363, 37085, 27, 1, 'Tallhorn Stag - Haze Leaf');
+
 -- Muddlecap Fungus (Quest: Mushroom Mixer (Id: 12514))
 -- Lurking Basilisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=28145 AND `Item`=38326;

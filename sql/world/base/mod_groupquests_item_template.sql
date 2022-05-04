@@ -2104,6 +2104,9 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=35747;
 -- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35782;
 
+-- Waterweed Frond (Quest: Vial of Visions (Id: 11990))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35795;
+
 -- Ice Serpent Eye (Quest: Shimmercap Stew (Id: 12483))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=35798;
 
@@ -2136,6 +2139,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37010;
 
 -- Grizzly Hide (Quest: A Minor Substitution (Id: 12176))
 UPDATE `item_template` SET `Flags`=2147485696 WHERE `entry`=37020;
+
+-- Haze Leaf (Quest: Vial of Visions (Id: 12483))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37085;
 
 -- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37087;

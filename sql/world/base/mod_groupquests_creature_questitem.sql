@@ -225,10 +225,20 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2571
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26446 AND `ItemId`=35782;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26446, 1, 35782);
 
+-- Waterweed Frond (Quest: Vial of Visions (Id: 11990))
+-- River Thresher
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27617 AND `ItemId`=35795;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27617, 0, 35795);
+
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 -- Anub'ar Underlord
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
+
+-- Haze Leaf (Quest: Vial of Visions (Id: 12483))
+-- Tallhorn Stag
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26363 AND `ItemId`=37085;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26363, 1, 37085);
 
 -- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
 -- Diseased Drakkari

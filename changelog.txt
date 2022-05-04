@@ -234,6 +234,10 @@
 
 [2022-05-04]
 - Added Shimmering Snowcap to the loot table of Ice Serpent for the quest Shimmercap Stew.
-- Added Sweetroot to the loot table of Diseased Drakkari for the quest Shimmercap Stew.
 - Updated the flags of Shimmering Snowcap to allow every member of a group to loot it.
+- Added Sweetroot to the loot table of Diseased Drakkari for the quest Shimmercap Stew.
 - Updated the flags of Sweetroot to allow every member of a group to loot it.
+- Added Waterweed Frond to the loot table of River Thresher for the quest Vial of Visions.
+- Updated the flags of Waterweed Frond to allow every member of a group to loot it.
+- Added Haze Leaf to the loot table of Tallhorn Stag for the quest Vial of Visions.
+- Updated the flags of Haze Leaf to allow every member of a group to loot it.
