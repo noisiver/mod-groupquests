@@ -241,3 +241,4 @@
 - Updated the flags of Waterweed Frond to allow every member of a group to loot it.
 - Added Haze Leaf to the loot table of Tallhorn Stag for the quest Vial of Visions.
 - Updated the flags of Haze Leaf to allow every member of a group to loot it.
+- Updated the respawn time of Scourged Troll Mummy.
