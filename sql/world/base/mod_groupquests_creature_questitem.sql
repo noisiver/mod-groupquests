@@ -220,6 +220,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2572
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25718 AND `ItemId`=35685;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25718, 0, 35685);
 
+-- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
+-- Runic Battle Golem
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26284 AND `ItemId`=35737;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26284, 1, 35737);
+-- Iron Rune-Shaper
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26270 AND `ItemId`=35737;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26270, 2, 35737);
+-- Rune Reaver
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26268 AND `ItemId`=35737;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26268, 2, 35737);
+
 -- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
 -- Ice Serpent
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26446 AND `ItemId`=35782;

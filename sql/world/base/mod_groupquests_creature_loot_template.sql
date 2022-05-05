@@ -215,6 +215,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25718 AND `Item`=35685;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25718, 35685, 80, 1, 'Coldarra Mage Slayer - Crystallized Mana Shard');
 
+-- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
+-- Runic Battle Golem
+DELETE FROM `creature_loot_template` WHERE `Entry`=26284 AND `Item`=35737;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26284, 35737, 27, 1, 'Runic Battle Golem - Missing Journal Page');
+-- Iron Rune-Shaper
+DELETE FROM `creature_loot_template` WHERE `Entry`=26270 AND `Item`=35737;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26270, 35737, 27, 1, 'Iron Rune-Shaper - Missing Journal Page');
+-- Rune Reaver
+DELETE FROM `creature_loot_template` WHERE `Entry`=26268 AND `Item`=35737;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26268, 35737, 28, 1, 'Rune Reaver - Missing Journal Page');
+
 -- Shimmering Snowcap (Quest: Shimmercap Stew (Id: 12483))
 -- Ice Serpent
 DELETE FROM `creature_loot_template` WHERE `Entry`=26446 AND `Item`=35782;

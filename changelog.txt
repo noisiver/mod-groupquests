@@ -250,3 +250,7 @@
 - Added Drakkari Canopic Jar to the loot table of Ancient Drakkari Warmonger for the quest It Takes Guts....
 - Added Drakkari Canopic Jar to the loot table of Ancient Drakkari Soothsayer for the quest It Takes Guts....
 - Updated the flags of Drakkari Canopic Jar to allow every member of a group to loot it.
+- Added Missing Journal Page to the loot table of Runic Battle Golem for the quests The Damaged Journal and The Damaged Journal.
+- Added Missing Journal Page to the loot table of Iron Rune-Shaper for the quests The Damaged Journal and The Damaged Journal.
+- Added Missing Journal Page to the loot table of Rune Reaver for the quests The Damaged Journal and The Damaged Journal.
+- Updated the flags of Missing Journal Page to allow every member of a group to loot it.

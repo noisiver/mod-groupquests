@@ -2098,6 +2098,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35685;
 -- Stolen Moa'ki Goods (Quest: Let Nothing Go To Waste (Id: 11958))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35686;
 
+-- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
+UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=35737;
+
 -- Runic Keystone Fragment (Quest: The Runic Keystone (Id: 11988))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=35747;
 
