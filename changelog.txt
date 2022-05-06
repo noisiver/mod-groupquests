@@ -258,3 +258,4 @@
 [2022-05-06]
 - Added Mature Water-Poppy to the loot table of Crazed Water Spirit for the quests Something for the Pain and Troll Patrol: Something for the Pain.
 - Updated the flags of Mature Water-Poppy to allow every member of a group to loot it.
+- Updated the respawn time of Crashed Plague Sprayer.

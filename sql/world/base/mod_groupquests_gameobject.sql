@@ -98,6 +98,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=189293;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190447;
 
+-- Crashed Plague Sprayer (Quest: Crashed Sprayer (Id: 12583))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190537;
+
 -- Harvested Blight Crystal (Quest: Hazardous Materials (Id: 12677))
 -- Changed respawn from 120 seconds to 10 seconds
 UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=190720;
