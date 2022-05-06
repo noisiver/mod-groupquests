@@ -116,6 +116,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=18875 AND `Item`=28457;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18875, 28457, 34, 1, 'Zaxxis Raider - Salvaged Metal');
 
+-- Bloodmaul Brutebane Brew (Quest: Strange Brew (Id: 10511), Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
+-- Bloodmaul Brewmaster
+DELETE FROM `creature_loot_template` WHERE `Entry`=19957 AND `Item`=29443;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MinCount`, `MaxCount`, `Comment`) VALUES (19957, 29443, 100, 1, 1, 2, 'Bloodmaul Brewmaster - Bloodmaul Brutebane Brew');
+
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon
 DELETE FROM `creature_loot_template` WHERE `Entry`=21408 AND `Item`=30716;
@@ -231,6 +236,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26446 AND `Item`=35782;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26446, 35782, 37, 1, 'Ice Serpent - Shimmering Snowcap');
 
+-- Waterweed Frond (Quest: Vial of Visions (Id: 11990))
+-- River Thresher
+DELETE FROM `creature_loot_template` WHERE `Entry`=27617 AND `Item`=35795;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27617, 35795, 29, 1, 'River Thresher - Waterweed Frond');
+
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 -- Anub'ar Underlord
 DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
@@ -243,6 +253,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Ancient Drakkari Soothsayer
 DELETE FROM `creature_loot_template` WHERE `Entry`=26812 AND `Item`=36825;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26812, 36825, 55, 1, 'Ancient Drakkari Soothsayer - Drakkari Canopic Jar');
+
+-- War Golem Part (Quest: From the Ground Up (Id: 12196))
+-- Runic War Golem
+DELETE FROM `creature_loot_template` WHERE `Entry`=26347 AND `Item`=36852;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26347, 36852, 28, 1, 'Runic War Golem - War Golem Part');
+-- Iron Rune-Smith
+DELETE FROM `creature_loot_template` WHERE `Entry`=26408 AND `Item`=36852;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26408, 36852, 29, 1, 'Iron Rune-Smith - War Golem Part');
 
 -- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
 -- Diseased Drakkari
@@ -272,19 +290,6 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26357 AND `Item`=37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 29, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
 
--- Waterweed Frond (Quest: Vial of Visions (Id: 11990))
--- River Thresher
-DELETE FROM `creature_loot_template` WHERE `Entry`=27617 AND `Item`=35795;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27617, 35795, 29, 1, 'River Thresher - Waterweed Frond');
-
--- War Golem Part (Quest: From the Ground Up (Id: 12196))
--- Runic War Golem
-DELETE FROM `creature_loot_template` WHERE `Entry`=26347 AND `Item`=36852;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26347, 36852, 28, 1, 'Runic War Golem - War Golem Part');
--- Iron Rune-Smith
-DELETE FROM `creature_loot_template` WHERE `Entry`=26408 AND `Item`=36852;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26408, 36852, 29, 1, 'Iron Rune-Smith - War Golem Part');
-
 -- Haze Leaf (Quest: Vial of Visions (Id: 12483))
 -- Tallhorn Stag
 DELETE FROM `creature_loot_template` WHERE `Entry`=26363 AND `Item`=37085;
@@ -299,6 +304,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Lurking Basilisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=28145 AND `Item`=38382;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28145, 38382, 30, 1, 'Lurking Basilisk - Basilisk Crystals');
+
+-- Mature Water-Poppy (Quest: Something for the Pain (Id: 12597), Quest: Troll Patrol: Something for the Pain (Id: 12564))
+-- Crazed Water Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry`=16570 AND `Item`=38552;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16570, 38552, 27, 1, 'Crazed Water Spirit - Mature Water-Poppy');
 
 -- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
 -- Lurking Basilisk
@@ -338,11 +348,6 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Decaying Ghoul
 DELETE FROM `creature_loot_template` WHERE `Entry`=28565 AND `Item`=38687;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28565, 38687, 31, 1, 'Decaying Ghoul - Gooey Ghoul Drool');
-
--- Bloodmaul Brutebane Brew (Quest: Strange Brew (Id: 10511), Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
--- Bloodmaul Brewmaster
-DELETE FROM `creature_loot_template` WHERE `Entry`=19957 AND `Item`=29443;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MinCount`, `MaxCount`, `Comment`) VALUES (19957, 29443, 100, 1, 1, 2, 'Bloodmaul Brewmaster - Bloodmaul Brutebane Brew');
 
 -- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
 -- Vargul Deathwaker

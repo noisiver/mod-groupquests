@@ -310,6 +310,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2814
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28145 AND `ItemId`=38382;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28145, 0, 38382);
 
+-- Mature Water-Poppy (Quest: Something for the Pain (Id: 12597), Quest: Troll Patrol: Something for the Pain (Id: 12564))
+-- Crazed Water Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16570 AND `ItemId`=38552;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16570, 2, 38552);
+
 -- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
 -- Lurking Basilisk
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28145 AND `ItemId`=38563;

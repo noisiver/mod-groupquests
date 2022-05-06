@@ -2224,6 +2224,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38514;
 -- Drakkari Offerings (Quest: The Blessing of Zim'Abwa (Id: 12565), Quest: Blessing of Zim'Abwa (Id: 12567), Quest: The Blessing of Zim'Torga (Id: 12615), Quest: Blessing of Zim'Torga (Id: 12618), Quest: The Blessing of Zim'Rhuk (Id: 12655), Quest: Blessing of Zim'Rhuk (Id: 12656))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38551;
 
+-- Mature Water-Poppy (Quest: Something for the Pain (Id: 12597), Quest: Troll Patrol: Something for the Pain (Id: 12564))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38552;
+
 -- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=38563;
 
