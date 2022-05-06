@@ -102,6 +102,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190447;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190537;
 
+-- Chunk of Saronite (Quest: Pure Evil (Id: 12584))
+-- Changed from 300 seconds to 10 second
+UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=190540;
+
 -- Harvested Blight Crystal (Quest: Hazardous Materials (Id: 12677))
 -- Changed respawn from 120 seconds to 10 seconds
 UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=190720;
