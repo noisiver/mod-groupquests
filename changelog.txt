@@ -260,3 +260,5 @@
 - Updated the flags of Mature Water-Poppy to allow every member of a group to loot it.
 - Updated the respawn time of Crashed Plague Sprayer.
 - Updated the respawn time of Chunk of Saronite.
+- Added Venture Co. Spare Parts to the loot table of Venture Co. Excavator for the quest Have a Part, Give a Part.
+- Updated the flags of Venture Co. Spare Parts to allow every member of a group to loot it.

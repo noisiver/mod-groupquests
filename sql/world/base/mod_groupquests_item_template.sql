@@ -2212,6 +2212,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37882;
 -- Muddlecap Fungus (Quest: Mushroom Mixer (Id: 12514))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38326;
 
+-- Venture Co. Spare Parts (Quest: Have a Part, Give a Part (Id: 12523))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38349;
+
 -- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38382;
 

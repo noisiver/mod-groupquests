@@ -300,6 +300,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=28145 AND `Item`=38326;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28145, 38326, 29, 1, 'Lurking Basilisk - Muddlecap Fungus');
 
+-- Venture Co. Spare Parts (Quest: Have a Part, Give a Part (Id: 12523))
+-- Venture Co. Excavator
+DELETE FROM `creature_loot_template` WHERE `Entry`=28123 AND `Item`=38349;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28123, 38349, 28, 1, 'Venture Co. Excavator - Venture Co. Spare Parts');
+
 -- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
 -- Lurking Basilisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=28145 AND `Item`=38382;
