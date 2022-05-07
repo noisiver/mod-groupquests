@@ -2230,6 +2230,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38551;
 -- Mature Water-Poppy (Quest: Something for the Pain (Id: 12597), Quest: Troll Patrol: Something for the Pain (Id: 12564))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38552;
 
+-- Sandfern (Quest: Crocolisk Mastery: The Plan (Id: 12560))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38553;
+
 -- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=38563;
 

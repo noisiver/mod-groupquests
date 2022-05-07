@@ -262,3 +262,7 @@
 - Updated the respawn time of Chunk of Saronite.
 - Added Venture Co. Spare Parts to the loot table of Venture Co. Excavator for the quest Have a Part, Give a Part.
 - Updated the flags of Venture Co. Spare Parts to allow every member of a group to loot it.
+
+[2022-05-08]
+- Added Sandfern to the loot table of Mangal Crocolisk for the quest Crocolisk Mastery: The Plan.
+- Updated the flags of Sandfern to allow every member of a group to loot it.

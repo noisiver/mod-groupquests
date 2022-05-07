@@ -315,6 +315,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=16570 AND `Item`=38552;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16570, 38552, 27, 1, 'Crazed Water Spirit - Mature Water-Poppy');
 
+-- Sandfern (Quest: Crocolisk Mastery: The Plan (Id: 12560))
+-- Mangal Crocolisk
+DELETE FROM `creature_loot_template` WHERE `Entry`=28002 AND `Item`=38553;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28002, 38553, 28, 1, 'Mangal Crocolisk - Sandfern');
+
 -- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
 -- Lurking Basilisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=28145 AND `Item`=38563;

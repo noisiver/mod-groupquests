@@ -320,6 +320,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2814
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16570 AND `ItemId`=38552;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16570, 2, 38552);
 
+-- Sandfern (Quest: Crocolisk Mastery: The Plan (Id: 12560))
+-- Mangal Crocolisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28002 AND `ItemId`=38553;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28002, 4, 38553);
+
 -- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
 -- Lurking Basilisk
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28145 AND `ItemId`=38563;
