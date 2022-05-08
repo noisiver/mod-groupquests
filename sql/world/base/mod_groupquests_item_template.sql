@@ -2347,6 +2347,12 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=43089;
 -- Scourgestone (Quest: The Scourgestone (Id: 13122))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=43169;
 
+-- Crystalline Heartwood (Quest: The Stone That Started A Revolution (Id: 13130))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=43217;
+
+-- Ancient Elven Masonry (Quest: The Stone That Started A Revolution (Id: 13130))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=43218;
+
 -- Crystallized Energy (Quest: It Could Kill Us All (Id: 13135))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=43225;
 

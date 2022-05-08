@@ -373,6 +373,64 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=29452 AND `Item`=41399;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29452, 41399, 29, 1, 'Vargul Blighthound - Scourge Scrap Metal');
 
+-- Crystalline Heartwood (Quest: The Stone That Started A Revolution (Id: 13130))
+-- Unbound Trickster
+DELETE FROM `creature_loot_template` WHERE `Entry`=30856 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30856, 43217, 31, 1, 'Unbound Trickster - Crystalline Heartwood');
+-- Unbound Dryad
+DELETE FROM `creature_loot_template` WHERE `Entry`=30860 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30860, 43217, 31, 1, 'Unbound Dryad - Crystalline Heartwood');
+-- Unbound Ancient
+DELETE FROM `creature_loot_template` WHERE `Entry`=30861 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30861, 43217, 68, 1, 'Unbound Ancient - Crystalline Heartwood');
+-- Unbound Ent
+DELETE FROM `creature_loot_template` WHERE `Entry`=30862 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30862, 43217, 27, 1, 'Unbound Ent - Crystalline Heartwood');
+-- Shandaral Druid Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry`=30863 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30863, 43217, 32, 1, 'Shandaral Druid Spirit - Crystalline Heartwood');
+-- Shandaral Hunter Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry`=30864 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30864, 43217, 28, 1, 'Shandaral Hunter Spirit - Crystalline Heartwood');
+-- Shandaral Warrior Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry`=30865 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30865, 43217, 29, 1, 'Shandaral Warrior Spirit - Crystalline Heartwood');
+-- Unbound Corrupter
+DELETE FROM `creature_loot_template` WHERE `Entry`=30868 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30868, 43217, 29, 1, 'Unbound Corrupter - Crystalline Heartwood');
+-- Shandaral Spirit Wolf
+DELETE FROM `creature_loot_template` WHERE `Entry`=31123 AND `Item`=43217;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (31123, 43217, 39, 1, 'Shandaral Spirit Wolf - Crystalline Heartwood');
+
+-- Ancient Elven Masonry (Quest: The Stone That Started A Revolution (Id: 13130))
+-- Unbound Trickster
+DELETE FROM `creature_loot_template` WHERE `Entry`=30856 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30856, 43218, 31, 1, 'Unbound Trickster - Ancient Elven Masonry');
+-- Unbound Dryad
+DELETE FROM `creature_loot_template` WHERE `Entry`=30860 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30860, 43218, 31, 1, 'Unbound Dryad - Ancient Elven Masonry');
+-- Unbound Ancient
+DELETE FROM `creature_loot_template` WHERE `Entry`=30861 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30861, 43218, 68, 1, 'Unbound Ancient - Ancient Elven Masonry');
+-- Unbound Ent
+DELETE FROM `creature_loot_template` WHERE `Entry`=30862 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30862, 43218, 27, 1, 'Unbound Ent - Ancient Elven Masonry');
+-- Shandaral Druid Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry`=30863 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30863, 43218, 32, 1, 'Shandaral Druid Spirit - Ancient Elven Masonry');
+-- Shandaral Hunter Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry`=30864 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30864, 43218, 28, 1, 'Shandaral Hunter Spirit - Ancient Elven Masonry');
+-- Shandaral Warrior Spirit
+DELETE FROM `creature_loot_template` WHERE `Entry`=30865 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30865, 43218, 29, 1, 'Shandaral Warrior Spirit - Ancient Elven Masonry');
+-- Unbound Corrupter
+DELETE FROM `creature_loot_template` WHERE `Entry`=30868 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30868, 43218, 29, 1, 'Unbound Corrupter - Ancient Elven Masonry');
+-- Shandaral Spirit Wolf
+DELETE FROM `creature_loot_template` WHERE `Entry`=31123 AND `Item`=43218;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (31123, 43218, 39, 1, 'Shandaral Spirit Wolf - Ancient Elven Masonry');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry`=6508 AND `Item`=46364;

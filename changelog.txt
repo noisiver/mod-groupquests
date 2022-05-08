@@ -270,3 +270,23 @@
 - Updated the respawn time of Raised Mud.
 - Updated the alternate raised mud to instead spawn as the regular one.
 - Removed the pool for Raised Mud.
+- Added Crystalline Heartwood to the loot table of Unbound Trickster for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Unbound Dryad for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Unbound Ancient for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Unbound Ent for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Shandaral Druid Spirit for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Shandaral Hunter Spirit for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Shandaral Warrior Spirit for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Unbound Corrupter for the quest The Stone That Started A Revolution.
+- Added Crystalline Heartwood to the loot table of Shandaral Spirit Wolf for the quest The Stone That Started A Revolution.
+- Updated the flags of Crystalline Heartwood to allow every member of a group to loot it.
+- Added Ancient Elven Masonry to the loot table of Unbound Trickster for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Unbound Dryad for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Unbound Ancient for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Unbound Ent for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Shandaral Druid Spirit for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Shandaral Hunter Spirit for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Shandaral Warrior Spirit for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Unbound Corrupter for the quest The Stone That Started A Revolution.
+- Added Ancient Elven Masonry to the loot table of Shandaral Spirit Wolf for the quest The Stone That Started A Revolution.
+- Updated the flags of Ancient Elven Masonry to allow every member of a group to loot it.

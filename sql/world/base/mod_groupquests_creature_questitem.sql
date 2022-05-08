@@ -373,6 +373,64 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2945
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29452 AND `ItemId`=41399;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29452, 0, 41399);
 
+-- Crystalline Heartwood (Quest: The Stone That Started A Revolution (Id: 13130))
+-- Unbound Trickster
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30856 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30856, 1, 43217);
+-- Unbound Dryad
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30860 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30860, 1, 43217);
+-- Unbound Ancient
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30861 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30861, 1, 43217);
+-- Unbound Ent
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30862 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30862, 1, 43217);
+-- Shandaral Druid Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30863 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30863, 2, 43217);
+-- Shandaral Hunter Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30864 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30864, 2, 43217);
+-- Shandaral Warrior Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30865 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30865, 2, 43217);
+-- Unbound Corrupter
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30868 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30868, 1, 43217);
+-- Shandaral Spirit Wolf
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=31123 AND `ItemId`=43217;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (31123, 1, 43217);
+
+-- Ancient Elven Masonry (Quest: The Stone That Started A Revolution (Id: 13130))
+-- Unbound Trickster
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30856 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30856, 2, 43218);
+-- Unbound Dryad
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30860 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30860, 2, 43218);
+-- Unbound Ancient
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30861 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30861, 2, 43218);
+-- Unbound Ent
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30862 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30862, 2, 43218);
+-- Shandaral Druid Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30863 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30863, 3, 43218);
+-- Shandaral Hunter Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30864 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30864, 3, 43218);
+-- Shandaral Warrior Spirit
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30865 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30865, 3, 43218);
+-- Unbound Corrupter
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30868 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30868, 2, 43218);
+-- Shandaral Spirit Wolf
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=31123 AND `ItemId`=43218;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (31123, 2, 43218);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=6508 AND `ItemId`=46364;
