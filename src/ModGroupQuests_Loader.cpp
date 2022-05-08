@@ -4,6 +4,7 @@ void AddSC_zone_dragonblight_groupquests();
 void AddSC_zone_nagrand_groupquests();
 void AddSC_zone_netherstorm_groupquests();
 void AddSC_zone_shadowmoon_valley_groupquests();
+void AddSC_zone_sholazar_basin_groupquests();
 void AddSC_zone_zuldrak_groupquests();
 
 void AddSC_go_scripts_groupquests();
@@ -16,6 +17,7 @@ void Addmod_groupquestsScripts()
     AddSC_zone_nagrand_groupquests();
     AddSC_zone_netherstorm_groupquests();
     AddSC_zone_shadowmoon_valley_groupquests();
+    AddSC_zone_sholazar_basin_groupquests();
     AddSC_zone_zuldrak_groupquests();
 
     AddSC_go_scripts_groupquests();
