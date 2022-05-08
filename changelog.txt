@@ -267,3 +267,6 @@
 - Added Sandfern to the loot table of Mangal Crocolisk for the quest Crocolisk Mastery: The Plan.
 - Updated the flags of Sandfern to allow every member of a group to loot it.
 - Added the script for Sholazar Basin to make the quest Reconnaissance Flight trigger for every member of a group.
+- Updated the respawn time of Raised Mud.
+- Updated the alternate raised mud to instead spawn as the regular one.
+- Removed the pool for Raised Mud.
