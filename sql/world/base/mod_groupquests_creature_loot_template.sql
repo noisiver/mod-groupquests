@@ -431,6 +431,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=31123 AND `Item`=43218;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (31123, 43218, 39, 1, 'Shandaral Spirit Wolf - Ancient Elven Masonry');
 
+-- Flesh Giant Spine (Quest: Neutralizing the Plague (Id: 13281), Quest: Neutralizing the Plague (Id: 13297))
+-- Pustulent Horror
+DELETE FROM `creature_loot_template` WHERE `Entry`=31139 AND `Item`=44009;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (31139, 44009, 50, 1, 'Pustulent Horror - Flesh Giant Spine');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry`=6508 AND `Item`=46364;

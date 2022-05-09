@@ -290,3 +290,6 @@
 - Added Ancient Elven Masonry to the loot table of Unbound Corrupter for the quest The Stone That Started A Revolution.
 - Added Ancient Elven Masonry to the loot table of Shandaral Spirit Wolf for the quest The Stone That Started A Revolution.
 - Updated the flags of Ancient Elven Masonry to allow every member of a group to loot it.
+
+[2022-05-09]
+- Updated the drop chance of Flesh Giant Spine from Pustulent Horror for the quests Neutralizing the Plague and Neutralizing the Plague.
