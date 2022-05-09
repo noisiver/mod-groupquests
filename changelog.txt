@@ -293,3 +293,8 @@
 
 [2022-05-09]
 - Updated the drop chance of Flesh Giant Spine from Pustulent Horror for the quests Neutralizing the Plague and Neutralizing the Plague.
+
+[2022-05-10]
+- Updated the flags of Cult of the Damned Research - Page 1 to allow every member of a group to loot it.
+- Updated the flags of Cult of the Damned Research - Page 2 to allow every member of a group to loot it.
+- Updated the flags of Cult of the Damned Research - Page 3 to allow every member of a group to loot it.

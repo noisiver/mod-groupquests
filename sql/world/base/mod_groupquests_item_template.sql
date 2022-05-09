@@ -2371,6 +2371,15 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=44047;
 -- Orgrim's Hammer Dispatch (Quest: Get the Message (Id: 13314), Quest: Capture More Dispatches (Id: 13333))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44220;
 
+-- Cult of the Damned Research - Page 1 (Quest: Need More Info (Id: 13345), Quest: Need More Info (Id: 13366))
+UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=44459;
+
+-- Cult of the Damned Research - Page 2 (Quest: Need More Info (Id: 13345), Quest: Need More Info (Id: 13366))
+UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=44460;
+
+-- Cult of the Damned Research - Page 3 (Quest: Need More Info (Id: 13345), Quest: Need More Info (Id: 13366))
+UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=44461;
+
 -- Demolisher Parts (Quest: Field Repairs (Id: 13304), Quest: Field Repairs (Id: 13393))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44529;
 
