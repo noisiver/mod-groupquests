@@ -2392,6 +2392,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44577;
 -- Whelp Bone Dust (Quest: Where Dragons Fell (Id: 13359), Quest: Where Dragons Fell (Id: 13398))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44631;
 
+-- Emerald Acorn (Quest: Hope Within the Emerald Nightmare (Id: 13074))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=44790;
+
 -- Gundrak Raptor Egg (Quest: Eggs for Dubra'Jin (Id: 13556))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44921;
 

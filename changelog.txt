@@ -298,3 +298,5 @@
 - Updated the flags of Cult of the Damned Research - Page 1 to allow every member of a group to loot it.
 - Updated the flags of Cult of the Damned Research - Page 2 to allow every member of a group to loot it.
 - Updated the flags of Cult of the Damned Research - Page 3 to allow every member of a group to loot it.
+- Added Emerald Acorn to the loot table of Nightmare Figment for the quest Hope Within the Emerald Nightmare.
+- Updated the flags of Emerald Acorn to allow every member of a group to loot it.
