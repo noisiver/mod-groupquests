@@ -2371,6 +2371,15 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=44047;
 -- Orgrim's Hammer Dispatch (Quest: Get the Message (Id: 13314), Quest: Capture More Dispatches (Id: 13333))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=44220;
 
+-- Broken Shard of Horror (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=44319;
+
+-- Broken Shard of Despair (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=44320;
+
+-- Broken Shard of Suffering (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=44321;
+
 -- Cult of the Damned Research - Page 1 (Quest: Need More Info (Id: 13345), Quest: Need More Info (Id: 13366))
 UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=44459;
 

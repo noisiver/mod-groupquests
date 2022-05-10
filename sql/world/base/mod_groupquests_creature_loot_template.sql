@@ -436,6 +436,21 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=31139 AND `Item`=44009;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (31139, 44009, 50, 1, 'Pustulent Horror - Flesh Giant Spine');
 
+-- Broken Shard of Horror (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+-- Cultist Shard Watcher <Cult of the Damned>
+DELETE FROM `creature_loot_template` WHERE `Entry`=32349 AND `Item`=44319;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (32349, 44319, 35, 1, 'Cultist Shard Watcher - Broken Shard of Horror');
+
+-- Broken Shard of Despair (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+-- Cultist Shard Watcher <Cult of the Damned>
+DELETE FROM `creature_loot_template` WHERE `Entry`=32349 AND `Item`=44320;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (32349, 44320, 35, 1, 'Cultist Shard Watcher - Broken Shard of Despair');
+
+-- Broken Shard of Suffering (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+-- Cultist Shard Watcher <Cult of the Damned>
+DELETE FROM `creature_loot_template` WHERE `Entry`=32349 AND `Item`=44321;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (32349, 44321, 35, 1, 'Cultist Shard Watcher - Broken Shard of Suffering');
+
 -- Emerald Acorn (Quest: Hope Within the Emerald Nightmare (Id: 13074))
 -- Nightmare Figment
 DELETE FROM `creature_loot_template` WHERE `Entry`=30627 AND `Item`=44790;

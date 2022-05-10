@@ -300,3 +300,11 @@
 - Updated the flags of Cult of the Damned Research - Page 3 to allow every member of a group to loot it.
 - Added Emerald Acorn to the loot table of Nightmare Figment for the quest Hope Within the Emerald Nightmare.
 - Updated the flags of Emerald Acorn to allow every member of a group to loot it.
+
+[2022-05-11]
+- Added Broken Shard of Horror to the loot table of Cultist Shard Watcher for the quests Shatter the Shards and Shatter the Shards.
+- Added Broken Shard of Despair to the loot table of Cultist Shard Watcher for the quests Shatter the Shards and Shatter the Shards.
+- Added Broken Shard of Suffering to the loot table of Cultist Shard Watcher for the quests Shatter the Shards and Shatter the Shards.
+- Updated the flags of Broken Shard of Horror to allow every member of a group to loot it.
+- Updated the flags of Broken Shard of Despair to allow every member of a group to loot it.
+- Updated the flags of Broken Shard of Suffering to allow every member of a group to loot it.

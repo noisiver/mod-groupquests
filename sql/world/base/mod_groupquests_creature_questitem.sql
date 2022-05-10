@@ -431,6 +431,21 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3086
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=31123 AND `ItemId`=43218;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (31123, 2, 43218);
 
+-- Broken Shard of Horror (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+-- Cultist Shard Watcher <Cult of the Damned>
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=32349 AND `ItemId`=44319;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (32349, 1, 44319);
+
+-- Broken Shard of Despair (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+-- Cultist Shard Watcher <Cult of the Damned>
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=32349 AND `ItemId`=44320;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (32349, 2, 44320);
+
+-- Broken Shard of Suffering (Quest: Shatter the Shards (Id: 13328), Quest: Shatter the Shards (Id: 13339))
+-- Cultist Shard Watcher <Cult of the Damned>
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=32349 AND `ItemId`=44321;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (32349, 3, 44321);
+
 -- Emerald Acorn (Quest: Hope Within the Emerald Nightmare (Id: 13074))
 -- Nightmare Figment
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30627 AND `ItemId`=44790;
