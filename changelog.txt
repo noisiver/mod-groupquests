@@ -15,32 +15,32 @@
 [2021-12-18]
 - Updated the flags of Charred Razormane Wand to allow every member of a group to loot it.
 - Updated the flags of Razormane Backstabber to allow every member of a group to loot it.
-- Changed flags of Razormane War Shield to allow every member of a group to loot it.
+- Updated the flags of Razormane War Shield to allow every member of a group to loot it.
 
 - Updated the respawn time of Alien Egg.
 
 - Added Highperch Wyvern Egg to the loot table of Highperch Wyvern for the quest Wind Rider.
-- Changed flags of Highperch Wyvern Egg to allow every member of a group to loot it.
+- Updated the flags of Highperch Wyvern Egg to allow every member of a group to loot it.
 
 [2021-12-20]
 - Added Venomhide Ravasaur Egg to the loot table of Venomhide Ravasaur for the quest Venomhide Eggs.
-- Changed flags of Venomhide Ravasaur Egg to allow every member of a group to loot it.
+- Updated the flags of Venomhide Ravasaur Egg to allow every member of a group to loot it.
 
 [2021-12-21]
 - Added Deepmoss Egg to the loot table of Deepmoss Creeper for the quest Deepmoss Spider Eggs.
 - Added Deepmoss Egg to the loot table of Deepmoss Webspinner for the quest Deepmoss Spider Eggs.
 - Added Deepmoss Egg to the loot table of Deepmoss Venomspitter for the quest Deepmoss Spider Eggs.
-- Changed flags of Deepmoss Egg to allow every member of a group to loot it.
+- Updated the flags of Deepmoss Egg to allow every member of a group to loot it.
 
 [2021-12-22]
 - Added Gaea Seed to the loot table of Pridewing Wyvern for the quest Cycle of Rebirth.
 - Added Gaea Seed to the loot table of Pridewing Skyhunter for the quest Cycle of Rebirth.
 - Added Gaea Seed to the loot table of Pridewing Consort for the quest Cycle of Rebirth.
-- Changed flags of Gaea Seed to allow every member of a group to loot it.
+- Updated the flags of Gaea Seed to allow every member of a group to loot it.
 - Added Kodo Bone to the loot table of Aged Kodo for the quest Bone Collector.
 - Added Kodo Bone to the loot table of Dying Kodo for the quest Bone Collector.
 - Added Kodo Bone to the loot table of Ancient Kodo for the quest Bone Collector.
-- Changed flags of Kodo Bone to allow every member of a group to loot it.
+- Updated the flags of Kodo Bone to allow every member of a group to loot it.
 - Added the script for Desolace to make the quest Kodo Roundup trigger for every member of a group.
 
 [2021-12-24]
@@ -49,83 +49,83 @@
 [2021-12-25]
 - Added Salvaged Wood to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
 - Added Salvaged Metal to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
-- Changed flags of Salvaged Wood to allow every member of a group to loot it.
-- Changed flags of Salvaged Metal to allow every member of a group to loot it.
+- Updated the flags of Salvaged Wood to allow every member of a group to loot it.
+- Updated the flags of Salvaged Metal to allow every member of a group to loot it.
 - Updated the respawn time of Metal Coffer.
 
 [2021-12-26]
 - Added Ever-burning Ash to the loot table of Felfire Diemetradon for the quests A Haunted History and A Ghost in the Machine.
 - Added Ever-burning Ash to the loot table of Felboar for the quests A Haunted History and A Ghost in the Machine.
-- Changed flags of Ever-burning Ash to allow every member of a group to loot it.
+- Updated the flags of Ever-burning Ash to allow every member of a group to loot it.
 
 [2021-12-27]
-- Added Etherlithium Matrix Crystal to the loot table of Disembodied Vindicator for the quest You're Hired!.
-- Added Etherlithium Matrix Crystal to the loot table of Disembodied Protector for the quest You're Hired!.
-- Changed flags of Etherlithium Matrix Crystal to allow every member of a group to loot it.
+- Added Etherlithium Matrix Crystal to the loot table of Disembodied Vindicator for the quest You're Hired!
+- Added Etherlithium Matrix Crystal to the loot table of Disembodied Protector for the quest You're Hired!
+- Updated the flags of Etherlithium Matrix Crystal to allow every member of a group to loot it.
 - Added Ethereal Technology to the loot table of Zaxxis Raider for the quest Pick Your Part.
-- Changed flags of Ethereal Technology to allow every member of a group to loot it.
+- Updated the flags of Ethereal Technology to allow every member of a group to loot it.
 
 [2021-12-29]
 - Added Warsong Munitions to the loot table of Nerub'ar Skitterer for the quest Patience is a Virtue that We Don't Need.
-- Changed flags of Warsong Munitions to allow every member of a group to loot it.
+- Updated the flags of Warsong Munitions to allow every member of a group to loot it.
 
 [2022-01-06]
 - Added Digested Caracoli to the loot table of Talbuk Thorngrazer for the quest A Rare Bean.
-- Changed flags of Digested Caracoli to allow every member of a group to loot it.
+- Updated the flags of Digested Caracoli to allow every member of a group to loot it.
 - Added Intact Plague Container to the loot table of North Fleet Salvager for the quest The New Plague.
 - Added Intact Plague Container to the loot table of North Fleet Sailor for the quest The New Plague.
-- Changed flags of Intact Plague Container to allow every member of a group to loot it.
+- Updated the flags of Intact Plague Container to allow every member of a group to loot it.
 
 [2022-01-07]
 - Added Spotted Hippogryph Down to the loot table of Shoveltusk Forager for the quest Hasty Preparations.
-- Changed flags of Spotted Hippogryph Down to allow every member of a group to loot it.
-- Changed flags of Book of Runes - Chapter 1 to allow every member of a group to loot it.
-- Changed flags of Book of Runes - Chapter 2 to allow every member of a group to loot it.
-- Changed flags of Book of Runes - Chapter 3 to allow every member of a group to loot it.
+- Updated the flags of Spotted Hippogryph Down to allow every member of a group to loot it.
+- Updated the flags of Book of Runes - Chapter 1 to allow every member of a group to loot it.
+- Updated the flags of Book of Runes - Chapter 2 to allow every member of a group to loot it.
+- Updated the flags of Book of Runes - Chapter 3 to allow every member of a group to loot it.
 - Updated the respawn time of Iron Rune Carving Tools.
 
 [2022-01-09]
 - Added Wyrmtail to the loot table of Searing Whelp for the quest Catch a Dragon by the Tail.
 - Added Wyrmtail to the loot table of Drywallow Daggermaw for the quest Catch a Dragon by the Tail.
-- Changed flags of Wyrmtail to allow every member of a group to loot it.
+- Updated the flags of Wyrmtail to allow every member of a group to loot it.
 - Added Milly's Harvest to the loot table of Defias Thug for the quest Milly's Harvest.
-- Changed flags of Milly's Harvest to allow every member of a group to loot it.
+- Updated the flags of Milly's Harvest to allow every member of a group to loot it.
 
 [2022-01-10]
 - Added Handful of Oats to the loot table of Harvest Golem for the quest Poor Old Blanchy.
 - Added Handful of Oats to the loot table of Rusty Harvest Golem for the quest Poor Old Blanchy.
-- Changed flags of Handful of Oats to allow every member of a group to loot it.
-- Changed flags of Goretusk Liver to allow every member of a group to loot it.
-- Changed flags of Stringy Vulture Meat to allow every member of a group to loot it.
-- Changed flags of Murloc Eye to allow every member of a group to loot it.
-- Changed flags of Goretusk Snout to allow every member of a group to loot it.
+- Updated the flags of Handful of Oats to allow every member of a group to loot it.
+- Updated the flags of Goretusk Liver to allow every member of a group to loot it.
+- Updated the flags of Stringy Vulture Meat to allow every member of a group to loot it.
+- Updated the flags of Murloc Eye to allow every member of a group to loot it.
+- Updated the flags of Goretusk Snout to allow every member of a group to loot it.
 
 [2022-01-12]
 - Added Hellfire Spineleaf to the loot table of Starving Helboar for the quest Preparing the Salve.
 - Added Hellfire Spineleaf to the loot table of Bonestripper Buzzard for the quest Preparing the Salve.
-- Changed flags of Hellfire Spineleaf to allow every member of a group to loot it.
-- Changed flags of Bleeding Hollow Blood to allow every member of a group to loot it.
+- Updated the flags of Hellfire Spineleaf to allow every member of a group to loot it.
+- Updated the flags of Bleeding Hollow Blood to allow every member of a group to loot it.
 - Added Zeppelin Debris to the loot table of Deranged Helboar for the quest In Case of Emergency...
 - Added Zeppelin Debris to the loot table of Starving Helboar for the quest In Case of Emergency...
-- Changed flags of Zeppelin Debris to allow every member of a group to loot it.
+- Updated the flags of Zeppelin Debris to allow every member of a group to loot it.
 - Updated the respawn time of Torn Pilgrim's Pack.
 
 [2022-01-13]
 - Added Burstcap Mushroom to the loot table of Marshfang Slicer for the quest Burstcap Mushrooms, Mon!
-- Changed flags of Burstcap Mushroom to allow every member of a group to loot it.
+- Updated the flags of Burstcap Mushroom to allow every member of a group to loot it.
 - Updated the respawn time of Ango'rosh Attack Plans.
 
 [2022-01-14]
 - Added Frostberry to the loot table of Coldarra Scalesworn for the quest Nuts for Berries.
 - Added Frostberry to the loot table of Coldarra Spellweaver for the quest Nuts for Berries.
 - Added Frostberry to the loot table of Coldarra Wyrmkin for the quest Nuts for Berries.
-- Changed flags of Frostberry to allow every member of a group to loot it.
+- Updated the flags of Frostberry to allow every member of a group to loot it.
 - Added Black Blood of Yogg-Saron Sample to the loot table of Anub'ar Underlord for the quest Black Blood of Yogg-Saron.
-- Changed flags of Black Blood of Yogg-Saron Sample to allow every member of a group to loot it.
+- Updated the flags of Black Blood of Yogg-Saron Sample to allow every member of a group to loot it.
 - Updated the respawn time of Ruby Lilac.
 - Added Vordrassil's Seed to the loot table of Redfang Hunter for the quest Vordrassil's Seeds.
 - Added Vordrassil's Seed to the loot table of Frostpaw Warrior for the quest Vordrassil's Seeds.
-- Changed flags of Vordrassil's Seed to allow every member of a group to loot it.
+- Updated the flags of Vordrassil's Seed to allow every member of a group to loot it.
 - Updated the respawn time of Flying Machine Engine.
 
 [2022-01-15]
@@ -135,9 +135,9 @@
 - Added Papaya to the loot table of Emperor Cobra for the quest Some Make Lemonade, Some Make Liquor.
 - Added Orange to the loot table of Mangal Crocolisk for the quest Some Make Lemonade, Some Make Liquor.
 - Added Orange to the loot table of Emperor Cobra for the quest Some Make Lemonade, Some Make Liquor.
-- Changed flags of Banana Bunch to allow every member of a group to loot it.
-- Changed flags of Papaya to allow every member of a group to loot it.
-- Changed flags of Orange to allow every member of a group to loot it.
+- Updated the flags of Banana Bunch to allow every member of a group to loot it.
+- Updated the flags of Papaya to allow every member of a group to loot it.
+- Updated the flags of Orange to allow every member of a group to loot it.
 - Updated the respawn time of Dusty Journal.
 
 [2022-02-20]
@@ -147,8 +147,8 @@
 - Added Blackhoof Armaments to the loot table of Grimtotem Breaker for the quests Arms of the Grimtotems and More than Coincidence.
 - Added Blackhoof Armaments to the loot table of Grimtotem Spirit-Shifter for the quests Arms of the Grimtotems and More than Coincidence.
 - Added Blackhoof Armaments to the loot table of Grimtotem Elder for the quests Arms of the Grimtotems and More than Coincidence.
-- Changed flags of Blackhoof Armaments to allow every member of a group to loot it.
-- Changed flags of Grimtotem Note to allow every member of a group to loot it.
+- Updated the flags of Blackhoof Armaments to allow every member of a group to loot it.
+- Updated the flags of Grimtotem Note to allow every member of a group to loot it.
 
 [2022-03-08]
 - Added Gooey Ghoul Drool to the loot table of Decaying Ghoul for the quest You Can Run, But You Can't Hide and Silver Lining.
@@ -158,20 +158,20 @@
 - Added Scourge Scrap Metal to the loot table of Vargul Blighthound for the quest Making Something Out Of Nothing.
 - Added Basilisk Crystals to the loot table of Lurking Basilisk for the quest Gluttonous Lurkers.
 - Added Dead Thornwood to the loot table of Lurking Basilisk for the quests Troll Patrol: Creature Comforts and Creature Comforts.
-- Changed flags of Gooey Ghoul Drool to allow every member of a group to loot it.
-- Changed flags of Scourge Scrap Metal to allow every member of a group to loot it.
-- Changed flags of Basilisk Crystals to allow every member of a group to loot it.
-- Changed flags of Dead Thornwood to allow every member of a group to loot it.
+- Updated the flags of Gooey Ghoul Drool to allow every member of a group to loot it.
+- Updated the flags of Scourge Scrap Metal to allow every member of a group to loot it.
+- Updated the flags of Basilisk Crystals to allow every member of a group to loot it.
+- Updated the flags of Dead Thornwood to allow every member of a group to loot it.
 - Updated the respawn time of Harvested Blight Crystal.
 
 [2022-03-09]
 - Added Muddlecap Fungus to the loot table of Lurking Basilisk for the quest Mushroom Mixer.
-- Changed flags of Muddlecap Fungus to allow every member of a group to loot it.
+- Updated the flags of Muddlecap Fungus to allow every member of a group to loot it.
 
 [2022-03-16]
 - Added Witchbane to the loot table of Risen Spirit for the quest The Witch's Bane.
 - Added Witchbane to the loot table of Risen Husk for the quest The Witch's Bane.
-- Changed flags of Witchbane to allow every member of a group to loot it.
+- Updated the flags of Witchbane to allow every member of a group to loot it.
 - Updated the respawn time of Stonemaul Clan Banner.
 
 [2022-03-24]
@@ -183,10 +183,10 @@
 [2022-04-26]
 - Added the script for Nagrand to make the quest Finding the Survivors trigger for every member of a group.
 - Added Bloodmaul Brutebane Brew to the loot table of Bloodmaul Brewmaster for the quests Strange Brew and They Stole Me Hookah and Me Brews!
-- Changed flags of Bloodmaul Brutebane Brew to allow every member of a group to loot it.
+- Updated the flags of Bloodmaul Brutebane Brew to allow every member of a group to loot it.
 - Updated the respawn time of T'chali's Hookah.
 - Updated the flags of Costume Scraps to allow every member of a group to loot it.
-- Changed the smart script for Wyrmcult Blackwhelp to give every member of a group the quest item.
+- Updated the smart script for Wyrmcult Blackwhelp to give every member of a group the quest item.
 
 [2022-04-27]
 - Added the script for Netherstorm to make the quest Mark V is Alive! trigger for every member of a group.
