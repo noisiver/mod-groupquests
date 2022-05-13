@@ -364,6 +364,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2856
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29404 AND `ItemId`=40603;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29404, 1, 40603);
 
+-- K3 Equipment (Quest: Equipment Recovery (Id: 12844))
+-- Sifreldar Storm Maiden
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29323 AND `ItemId`=40726;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29323, 2, 40726);
+-- Sifreldar Runekeeper
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29331 AND `ItemId`=40726;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29331, 2, 40726);
+
 -- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
 -- Vargul Deathwaker
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29449 AND `ItemId`=41399;

@@ -312,3 +312,8 @@
 [2022-05-13]
 - Added Charred Wreckage to the loot table of Savage Hill Scavenger for the quest Clean Up.
 - Updated the flags of Charred Wreckage to allow every member of a group to loot it.
+
+[2022-05-14]
+- Added K3 Equipment to the loot table of Sifreldar Storm Maiden for the quest Equipment Recovery.
+- Added K3 Equipment to the loot table of Sifreldar Runekeeper for the quest Equipment Recovery.
+- Updated the flags of K3 Equipment to allow every member of a group to loot it.

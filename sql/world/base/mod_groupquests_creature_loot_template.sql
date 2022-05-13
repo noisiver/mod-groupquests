@@ -364,6 +364,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=29404 AND `Item`=40603;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29404, 40603, 42, 1, 'Savage Hill Scavenger - Charred Wreckage');
 
+-- K3 Equipment (Quest: Equipment Recovery (Id: 12844))
+-- Sifreldar Storm Maiden
+DELETE FROM `creature_loot_template` WHERE `Entry`=29323 AND `Item`=40726;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29323, 40726, 38, 1, 'Sifreldar Storm Maiden - K3 Equipment');
+-- Sifreldar Runekeeper
+DELETE FROM `creature_loot_template` WHERE `Entry`=29331 AND `Item`=40726;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29331, 40726, 44, 1, 'Sifreldar Runekeeper - K3 Equipment');
+
 -- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
 -- Vargul Deathwaker
 DELETE FROM `creature_loot_template` WHERE `Entry`=29449 AND `Item`=41399;

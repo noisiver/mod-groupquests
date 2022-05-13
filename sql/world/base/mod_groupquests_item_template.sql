@@ -2293,6 +2293,9 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40603;
 -- Dried Gnoll Rations (Quest: Reclaimed Rations (Id: 12827))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40645;
 
+-- K3 Equipment (Quest: Equipment Recovery (Id: 12844))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=40726;
+
 -- Impure Saronite Ore (Quest: Ore Repossession (Id: 12830))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40744;
 
