@@ -359,6 +359,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=28565 AND `Item`=38687;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28565, 38687, 31, 1, 'Decaying Ghoul - Gooey Ghoul Drool');
 
+-- Charred Wreckage (Quest: Clean Up (Id: 12818))
+-- Savage Hill Scavenger
+DELETE FROM `creature_loot_template` WHERE `Entry`=29404 AND `Item`=40603;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29404, 40603, 42, 1, 'Savage Hill Scavenger - Charred Wreckage');
+
 -- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
 -- Vargul Deathwaker
 DELETE FROM `creature_loot_template` WHERE `Entry`=29449 AND `Item`=41399;

@@ -2287,6 +2287,9 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40066;
 -- Longneck Grazer Steak (Quest: A Steak Fit for a Hunter (Id: 12804))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=40394;
 
+-- Charred Wreckage (Quest: Clean Up (Id: 12818))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40603;
+
 -- Dried Gnoll Rations (Quest: Reclaimed Rations (Id: 12827))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40645;
 

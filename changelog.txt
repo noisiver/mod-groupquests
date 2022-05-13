@@ -308,3 +308,7 @@
 - Updated the flags of Broken Shard of Horror to allow every member of a group to loot it.
 - Updated the flags of Broken Shard of Despair to allow every member of a group to loot it.
 - Updated the flags of Broken Shard of Suffering to allow every member of a group to loot it.
+
+[2022-05-13]
+- Added Charred Wreckage to the loot table of Savage Hill Scavenger for the quest Clean Up.
+- Updated the flags of Charred Wreckage to allow every member of a group to loot it.
