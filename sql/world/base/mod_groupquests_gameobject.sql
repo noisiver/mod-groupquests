@@ -122,6 +122,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190778;
 -- Changed respawn from 300 seconds to 1 seconds
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=191519;
 
+-- Transporter Power Cell (Quest: Opening the Backdoor (Id: 12821))
+-- Changed respawn from 300 seconds to 1 seconds
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=191576;
+
 -- Dusty Journal (Quest: The Black Knight of Westfall? (Id: 13633), Quest: The Black Knight of Silverpine? (Id: 13634))
 -- Changed from 120 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=194340;

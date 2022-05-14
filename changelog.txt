@@ -320,3 +320,4 @@
 - Updated the respawn time of Sparksocket's Tools.
 - Added Hearty Mammoth Meat to the loot table of Ironwool Mammoth for the quest Ample Inspiration.
 - Updated the flags of Hearty Mammoth Meat to allow every member of a group to loot it.
+- Updated the respawn time of Transporter Power Cell.
