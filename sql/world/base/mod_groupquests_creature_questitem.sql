@@ -372,6 +372,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2932
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29331 AND `ItemId`=40726;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29331, 2, 40726);
 
+-- Hearty Mammoth Meat (Quest: Ample Inspiration (Id: 12828))
+-- Ironwool Mammoth
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29402 AND `ItemId`=40728;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29402, 1, 40728);
+
 -- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
 -- Vargul Deathwaker
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29449 AND `ItemId`=41399;

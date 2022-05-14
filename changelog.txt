@@ -318,3 +318,5 @@
 - Added K3 Equipment to the loot table of Sifreldar Runekeeper for the quest Equipment Recovery.
 - Updated the flags of K3 Equipment to allow every member of a group to loot it.
 - Updated the respawn time of Sparksocket's Tools.
+- Added Hearty Mammoth Meat to the loot table of Ironwool Mammoth for the quest Ample Inspiration.
+- Updated the flags of Hearty Mammoth Meat to allow every member of a group to loot it.

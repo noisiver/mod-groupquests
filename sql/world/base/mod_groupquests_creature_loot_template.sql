@@ -372,6 +372,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=29331 AND `Item`=40726;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29331, 40726, 44, 1, 'Sifreldar Runekeeper - K3 Equipment');
 
+-- Hearty Mammoth Meat (Quest: Ample Inspiration (Id: 12828))
+-- Ironwool Mammoth
+DELETE FROM `creature_loot_template` WHERE `Entry`=29402 AND `Item`=40728;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MinCount`, `MaxCount`, `Comment`) VALUES (29402, 40728, 48, 1, 1, 3, 'Ironwool Mammoth - Hearty Mammoth Meat');
+
 -- Scourge Scrap Metal (Quest: Making Something Out Of Nothing (Id: 12901))
 -- Vargul Deathwaker
 DELETE FROM `creature_loot_template` WHERE `Entry`=29449 AND `Item`=41399;

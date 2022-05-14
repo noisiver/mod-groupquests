@@ -1777,6 +1777,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=29209;
 -- Loathsome Remnant (Quest: A Lingering Suspicion (Id: 10314))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=29338;
 
+-- Hearty Mammoth Meat (Quest: Ample Inspiration (Id: 12828))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40728;
+
 -- Mark of Kil'jaeden (Quest: Marks of Kil'jaeden (Id: 10325), Quest: More Marks of Kil'jaeden (Id: 10326), Quest: Single Mark of Kil'jaeden (Id: 10327))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=29425;
 
