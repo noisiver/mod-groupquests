@@ -317,3 +317,4 @@
 - Added K3 Equipment to the loot table of Sifreldar Storm Maiden for the quest Equipment Recovery.
 - Added K3 Equipment to the loot table of Sifreldar Runekeeper for the quest Equipment Recovery.
 - Updated the flags of K3 Equipment to allow every member of a group to loot it.
+- Updated the respawn time of Sparksocket's Tools.

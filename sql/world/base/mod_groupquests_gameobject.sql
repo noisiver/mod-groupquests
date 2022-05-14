@@ -118,6 +118,10 @@ UPDATE `gameobject` SET `id`=190778 WHERE `id`=190779;
 -- Changed respawn from 300 seconds to 10 seconds
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190778;
 
+-- Sparksocket's Tools (Quest: Just Around the Corner (Id: 12819))
+-- Changed respawn from 300 seconds to 1 seconds
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=191519;
+
 -- Dusty Journal (Quest: The Black Knight of Westfall? (Id: 13633), Quest: The Black Knight of Silverpine? (Id: 13634))
 -- Changed from 120 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=194340;
