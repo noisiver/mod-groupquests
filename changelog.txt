@@ -321,3 +321,6 @@
 - Added Hearty Mammoth Meat to the loot table of Ironwool Mammoth for the quest Ample Inspiration.
 - Updated the flags of Hearty Mammoth Meat to allow every member of a group to loot it.
 - Updated the respawn time of Transporter Power Cell.
+
+[2022-05-21]
+- Updated the flags of Lean Wolf Flank to allow every member of a group to loot it.

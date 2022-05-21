@@ -49,6 +49,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=915;
 -- Iron Rivet (Quest: The Everstill Bridge (Id: 89))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=1013;
 
+-- Lean Wolf Flank (Quest: Seasoned Wolf Kabobs (Id: 90))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=1015;
+
 -- Red Linen Bandana (Quest: Red Linen Goods (Id: 83))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=1019;
 
