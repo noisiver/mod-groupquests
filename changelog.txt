@@ -324,3 +324,10 @@
 
 [2022-05-21]
 - Updated the flags of Lean Wolf Flank to allow every member of a group to loot it.
+
+[2022-05-22]
+- Updated the flags of Jungle Remedy to allow every member of a group to loot it.
+- Update the respawn time of Kurzen Supplies.
+- Updated the respawn time of Fall of Gurubashi.
+- Updated the respawn time of The Emperor's Tomb.
+- Updated the respawn time of Moon Over the Vale.

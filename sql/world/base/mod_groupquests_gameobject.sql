@@ -1,6 +1,26 @@
+-- Fall of Gurubashi (Quest: Kurzen's Mystery (Id: 207))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=52;
+
+-- The Emperor's Tomb (Quest: Kurzen's Mystery (Id: 207))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=54;
+
+-- Moon Over the Vale (Quest: Kurzen's Mystery (Id: 207))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=57;
+
 -- Gri'lek the Wanderer (Quest: Kurzen's Mystery (Id: 207), Quest: The Vile Reef (Id: 629))
 -- Changed from 60 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=58;
+
+-- Kurzen Supplies (Quest: Bad Medicine (Id: 204))
+-- Changed from 900 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=263;
+
+-- Kurzen Supplies (Quest: Bad Medicine (Id: 204))
+-- Changed from 900 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=264;
 
 -- Tablet of Jin'yael (Quest: Stealing Knowledge (Id: 3517))
 -- Changed from 180 seconds to 1 second

@@ -112,6 +112,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2606;
 -- Crude Flint (Quest: Fire Taboo (Id: 277))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2611;
 
+-- Jungle Remedy (Quest: Bad Medicine (Id: 204))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2633;
+
 -- Carved Stone Idol (Quest: Gathering Idols (Id: 297))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2636;
 
