@@ -22,6 +22,14 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=263;
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=264;
 
+-- Bloodsail Charts (Quest: The Bloodsail Buccaneers (Id: 604))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=2086;
+
+-- Bloodsail Orders (Quest: The Bloodsail Buccaneers (Id: 604))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=2087;
+
 -- Tablet of Jin'yael (Quest: Stealing Knowledge (Id: 3517))
 -- Changed from 180 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148513;

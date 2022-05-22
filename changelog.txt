@@ -331,3 +331,5 @@
 - Updated the respawn time of Fall of Gurubashi.
 - Updated the respawn time of The Emperor's Tomb.
 - Updated the respawn time of Moon Over the Vale.
+- Updated the respawn time of Bloodsail Charts.
+- Updated the respawn time of Bloodsail Orders.
