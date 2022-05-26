@@ -333,3 +333,6 @@
 - Updated the respawn time of Moon Over the Vale.
 - Updated the respawn time of Bloodsail Charts.
 - Updated the respawn time of Bloodsail Orders.
+
+[2022-05-26]
+- Updated the flags of Troll Tribal Necklace to allow every member of a group to loot it.

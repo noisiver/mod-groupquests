@@ -907,6 +907,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=9238;
 -- Hatecrest Naga Scale (Quest: Against the Hatecrest (Id: 2869))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=9247;
 
+-- Troll Tribal Necklace (Quest: Troll Necklace Bounty (Id: 2880))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=9259;
+
 -- Grime-Encrusted Object (Quest: The Sparklematic 5200! (Id: 2951), Quest: More Sparklematic Action (Id: 2953), Quest: The Sparklematic 5200! (Id: 4601), Quest: The Sparklematic 5200! (Id: 4602), Quest: More Sparklematic Action (Id: 4603), Quest: More Sparklematic Action (Id: 4604))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=9308;
 
