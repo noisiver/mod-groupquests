@@ -30,6 +30,22 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=2086;
 -- Changed from 180 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=2087;
 
+-- First Relic Fragment (Quest: Troubled Spirits of Kel'Theril (Id: 5245))
+-- Changed from 900 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12896;
+
+-- Second Relic Fragment (Quest: Troubled Spirits of Kel'Theril (Id: 5245))
+-- Changed from 900 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12897;
+
+-- Third Relic Fragment (Quest: Troubled Spirits of Kel'Theril (Id: 5245))
+-- Changed from 900 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12898;
+
+-- Fourth Relic Fragment (Quest: Troubled Spirits of Kel'Theril (Id: 5245))
+-- Changed from 900 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12899;
+
 -- Tablet of Jin'yael (Quest: Stealing Knowledge (Id: 3517))
 -- Changed from 180 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148513;

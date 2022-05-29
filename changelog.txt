@@ -336,3 +336,9 @@
 
 [2022-05-26]
 - Updated the flags of Troll Tribal Necklace to allow every member of a group to loot it.
+
+[2022-05-29]
+- Updated the respawn time of First Relic Fragment.
+- Updated the respawn time of Second Relic Fragment.
+- Updated the respawn time of Third Relic Fragment.
+- Updated the respawn time of Fourth Relic Fragment.
