@@ -75,6 +75,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1687
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16972 AND `ItemId`=23205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16972, 1, 23205);
 
+-- Fulgor Spore (Quest: Fulgor Spores (Id: 9777))
+-- Umbraglow Stinger
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18132 AND `ItemId`=24383;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18132, 1, 24383);
+-- Young Sporebat
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=20387 AND `ItemId`=24383;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (20387, 1, 24383);
+
 -- Digested Caracoli (Quest: A Rare Bean (Id: 9800))
 -- Talbuk Thorngrazer
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17131 AND `ItemId`=24419;

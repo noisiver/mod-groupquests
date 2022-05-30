@@ -75,6 +75,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=16972 AND `Item`=23205;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16972, 23205, 30, 1, 'Bonestripper Buzzard - Hellfire Spineleaf');
 
+-- Fulgor Spore (Quest: Fulgor Spores (Id: 9777))
+-- Umbraglow Stinger
+DELETE FROM `creature_loot_template` WHERE `Entry`=18132 AND `Item`=24383;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18132, 24383, 29, 1, 'Umbraglow Stinger - Fulgor Spore');
+-- Young Sporebat
+DELETE FROM `creature_loot_template` WHERE `Entry`=20387 AND `Item`=24383;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20387, 24383, 28, 1, 'Young Sporebat - Fulgor Spore');
+
 -- Digested Caracoli (Quest: A Rare Bean (Id: 9800))
 -- Talbuk Thorngrazer
 DELETE FROM `creature_loot_template` WHERE `Entry`=17131 AND `Item`=24419;

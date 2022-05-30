@@ -345,3 +345,7 @@
 
 [2022-05-30]
 - Updated the respawn time of Ikeyen's Belongings.
+- Added Fulgor Spore to the loot table of Umbraglow Stinger for the quest Fulgor Spores.
+- Added Fulgor Spore to the loot table of Young Sporebat for the quest Fulgor Spores.
+- Updated the flags of Fulgor Spore to allow every member of a group to loot it.
+- Updated the respawn time of Dead Mire Soil.

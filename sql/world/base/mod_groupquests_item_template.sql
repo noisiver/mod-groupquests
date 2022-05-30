@@ -1654,6 +1654,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24374;
 -- Thick Hydra Scale (Quest: Thick Hydra Scales (Id: 9774))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24375;
 
+-- Fulgor Spore (Quest: Fulgor Spores (Id: 9777))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24383;
+
 -- Unidentified Plant Parts (Quest: Identify Plant Parts (Id: 9784), Quest: Plants of Zangarmarsh (Id: 9802))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=24401;
 

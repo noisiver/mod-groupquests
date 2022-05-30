@@ -70,6 +70,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
 -- Changed from 60 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=181626;
 
+-- Dead Mire Soil (Quest: The Dead Mire (Id: 9782))
+-- Changed from 120 and 600 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182119;
+
 -- Ikeyen's Belongings (Quest: A Damp, Dark Place (Id: 9788))
 -- Changed from 25 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182122;
