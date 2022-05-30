@@ -342,3 +342,6 @@
 - Updated the respawn time of Second Relic Fragment.
 - Updated the respawn time of Third Relic Fragment.
 - Updated the respawn time of Fourth Relic Fragment.
+
+[2022-05-30]
+- Updated the respawn time of Ikeyen's Belongings.

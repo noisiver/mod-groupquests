@@ -70,6 +70,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
 -- Changed from 60 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=181626;
 
+-- Ikeyen's Belongings (Quest: A Damp, Dark Place (Id: 9788))
+-- Changed from 25 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182122;
+
 -- Ango'rosh Attack Plans (Quest: Impending Attack (Id: 9822))
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182166;
