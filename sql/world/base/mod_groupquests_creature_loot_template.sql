@@ -88,6 +88,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=17131 AND `Item`=24419;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17131, 24419, 31, 1, 'Talbuk Thorngrazer - Digested Caracoli');
 
+-- Feralfen Idol (Quest: Idols of the Feralfen (Id: 9787))
+-- Feralfen Hunter
+DELETE FROM `creature_loot_template` WHERE `Entry`=18113 AND `Item`=24422;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18113, 24422, 26, 1, 'Feralfen Hunter - Feralfen Idol');
+-- Feralfen Mystic
+DELETE FROM `creature_loot_template` WHERE `Entry`=18114 AND `Item`=24422;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18114, 24422, 27, 1, 'Feralfen Mystic - Feralfen Idol');
+-- Feralfen Druid
+DELETE FROM `creature_loot_template` WHERE `Entry`=20270 AND `Item`=24422;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20270, 24422, 27, 1, 'Feralfen Druid - Feralfen Idol');
+
 -- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
 -- Marshfang Slicer
 DELETE FROM `creature_loot_template` WHERE `Entry`=18131 AND `Item`=24468;

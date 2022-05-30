@@ -88,6 +88,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2038
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17131 AND `ItemId`=24419;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17131, 0, 24419);
 
+-- Feralfen Idol (Quest: Idols of the Feralfen (Id: 9787))
+-- Feralfen Hunter
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18113 AND `ItemId`=24422;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18113, 1, 24422);
+-- Feralfen Mystic
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18114 AND `ItemId`=24422;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18114, 1, 24422);
+-- Feralfen Druid
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=20270 AND `ItemId`=24422;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (20270, 1, 24422);
+
 -- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
 -- Marshfang Slicer
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18131 AND `ItemId`=24468;

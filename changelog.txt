@@ -349,3 +349,7 @@
 - Added Fulgor Spore to the loot table of Young Sporebat for the quest Fulgor Spores.
 - Updated the flags of Fulgor Spore to allow every member of a group to loot it.
 - Updated the respawn time of Dead Mire Soil.
+- Added Feralfen Idol to the loot table of Feralfen Hunter for the quest Idols of the Feralfen.
+- Added Feralfen Idol to the loot table of Feralfen Mystic for the quest Idols of the Feralfen.
+- Added Feralfen Idol to the loot table of Feralfen Druid for the quest Idols of the Feralfen.
+- Updated the flags of Feralfen Idol to allow every member of a group to loot it.
