@@ -20,6 +20,91 @@
 #include "ScriptedCreature.h"
 #include "ScriptMgr.h"
 
+enum CorkiData
+{
+    // first quest
+    QUEST_HELP                                    = 9923,
+    NPC_CORKI                                     = 18445,
+    NPC_CORKI_CREDIT_1                            = 18369,
+    GO_CORKIS_PRISON                              = 182349,
+    CORKI_SAY_THANKS                              = 0,
+    // 2nd quest
+    QUEST_CORKIS_GONE_MISSING_AGAIN               = 9924,
+    NPC_CORKI_2                                   = 20812,
+    GO_CORKIS_PRISON_2                            = 182350,
+    CORKI_SAY_PROMISE                             = 0,
+    // 3rd quest
+    QUEST_CHOWAR_THE_PILLAGER                     = 9955,
+    NPC_CORKI_3                                   = 18369,
+    NPC_CORKI_CREDIT_3                            = 18444,
+    GO_CORKIS_PRISON_3                            = 182521,
+    CORKI_SAY_LAST                                = 0
+};
+
+class go_corkis_prison_groupquests : public GameObjectScript
+{
+public:
+    go_corkis_prison_groupquests() : GameObjectScript("go_corkis_prison") { }
+
+    bool OnGossipHello(Player* player, GameObject* go) override
+    {
+        go->SetGoState(GO_STATE_READY);
+        if (go->GetEntry() == GO_CORKIS_PRISON)
+        {
+            if (Creature* corki = go->FindNearestCreature(NPC_CORKI, 25, true))
+            {
+                corki->GetMotionMaster()->MovePoint(1, go->GetPositionX() + 5, go->GetPositionY(), go->GetPositionZ());
+                if (player)
+                    QuestCredit(player, NPC_CORKI_CREDIT_1);
+            }
+        }
+
+        if (go->GetEntry() == GO_CORKIS_PRISON_2)
+        {
+            if (Creature* corki = go->FindNearestCreature(NPC_CORKI_2, 25, true))
+            {
+                corki->GetMotionMaster()->MovePoint(1, go->GetPositionX() - 5, go->GetPositionY(), go->GetPositionZ());
+                if (player)
+                    QuestCredit(player, NPC_CORKI_2);
+            }
+        }
+
+        if (go->GetEntry() == GO_CORKIS_PRISON_3)
+        {
+            if (Creature* corki = go->FindNearestCreature(NPC_CORKI_3, 25, true))
+            {
+                corki->GetMotionMaster()->MovePoint(1, go->GetPositionX() + 4, go->GetPositionY(), go->GetPositionZ());
+                if (player)
+                    QuestCredit(player, NPC_CORKI_CREDIT_3);
+            }
+        }
+
+        return true;
+    }
+    
+private:
+    void QuestCredit(Player* player, uint32 npcEntry)
+    {
+        if (Group* group = player->GetGroup())
+        {
+            for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+            {
+                if (Player* member = groupRef->GetSource())
+                {
+                    if (member->IsInMap(player))
+                    {
+                        member->KilledMonsterCredit(npcEntry);
+                    }
+                }
+            }
+        }
+        else
+        {
+            player->KilledMonsterCredit(npcEntry);
+        }
+    }
+};
+
 enum FindingTheSurvivorsData
 {
     QUEST_FINDING_THE_SURVIVORS                     = 9948,
@@ -67,5 +152,6 @@ class go_warmaul_prison_groupquests : public GameObjectScript
 
 void AddSC_zone_nagrand_groupquests()
 {
+    new go_corkis_prison_groupquests();
     new go_warmaul_prison_groupquests();
 }

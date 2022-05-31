@@ -353,3 +353,6 @@
 - Added Feralfen Idol to the loot table of Feralfen Mystic for the quest Idols of the Feralfen.
 - Added Feralfen Idol to the loot table of Feralfen Druid for the quest Idols of the Feralfen.
 - Updated the flags of Feralfen Idol to allow every member of a group to loot it.
+
+[2022-05-31]
+- Added the script for Nagrand to make the quest HELP! trigger for every member of a group.
