@@ -359,3 +359,6 @@
 - Added Telaar Supply Crate to the loot table of Warmaul Warlock for the quest The Ravaged Caravan.
 - Added Telaar Supply Crate to the loot table of Warmaul Brute for the quest The Ravaged Caravan.
 - Updated the flags of Telaar Supply Crate to allow every member of a group to loot it.
+- Added Kil'sorrow Armaments to the loot table of Kil'sorrow Spellbinder for the quest Armaments for Deception.
+- Added Kil'sorrow Armaments to the loot table of Kil'sorrow Cultist for the quest Armaments for Deception.
+- Added Kil'sorrow Armaments to the loot table of Kil'sorrow Deathsworn for the quest Armaments for Deception.

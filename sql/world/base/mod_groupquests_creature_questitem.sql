@@ -104,6 +104,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2027
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18131 AND `ItemId`=24468;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18131, 1, 24468);
 
+-- Kil'sorrow Armaments (Quest: Armaments for Deception (Id: 9928))
+-- Kil'sorrow Spellbinder
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17146 AND `ItemId`=25554;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17146, 0, 25554);
+-- Kil'sorrow Cultist
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17147 AND `ItemId`=25554;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17147, 0, 25554);
+-- Kil'sorrow Deathsworn
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17148 AND `ItemId`=25554;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17148, 0, 25554);
+
 -- Telaar Supply Crate (Quest: The Ravaged Caravan (Id: 9956))
 -- Warmaul Warlock
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18037 AND `ItemId`=25647;

@@ -104,6 +104,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=18131 AND `Item`=24468;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18131, 24468, 30, 1, 'Marshfang Slicer - Burstcap Mushroom');
 
+-- Kil'sorrow Armaments (Quest: Armaments for Deception (Id: 9928))
+-- Kil'sorrow Spellbinder
+DELETE FROM `creature_loot_template` WHERE `Entry`=17146 AND `Item`=25554;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17146, 25554, 31, 1, 'Kil\'sorrow Spellbinder - Kil\'sorrow Armaments');
+-- Kil'sorrow Cultist
+DELETE FROM `creature_loot_template` WHERE `Entry`=17147 AND `Item`=25554;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17147, 25554, 30, 1, 'Kil\'sorrow Cultist - Kil\'sorrow Armaments');
+-- Kil'sorrow Deathsworn
+DELETE FROM `creature_loot_template` WHERE `Entry`=17148 AND `Item`=25554;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17148, 25554, 27, 1, 'Kil\'sorrow Deathsworn - Kil\'sorrow Armaments');
+
 -- Telaar Supply Crate (Quest: The Ravaged Caravan (Id: 9956))
 -- Warmaul Warlock
 DELETE FROM `creature_loot_template` WHERE `Entry`=18037 AND `Item`=25647;
