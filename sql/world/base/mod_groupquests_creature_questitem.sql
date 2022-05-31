@@ -104,6 +104,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2027
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18131 AND `ItemId`=24468;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18131, 1, 24468);
 
+-- Telaar Supply Crate (Quest: The Ravaged Caravan (Id: 9956))
+-- Warmaul Warlock
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18037 AND `ItemId`=25647;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18037, 2, 25647);
+-- Warmaul Brute
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18065 AND `ItemId`=25647;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18065, 2, 25647);
+
 -- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
 -- Bonechewer Scavenger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18952 AND `ItemId`=25911;

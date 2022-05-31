@@ -1717,6 +1717,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25463;
 -- Kil'sorrow Armaments (Quest: Armaments for Deception (Id: 9928))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25554;
 
+-- Telaar Supply Crate (Quest: The Ravaged Caravan (Id: 9956))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25647;
+
 -- Teromoth Sample (Quest: Strange Energy (Id: 9968))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=25672;
 

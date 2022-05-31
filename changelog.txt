@@ -356,3 +356,6 @@
 
 [2022-05-31]
 - Added the script for Nagrand to make the quest HELP! trigger for every member of a group.
+- Added Telaar Supply Crate to the loot table of Warmaul Warlock for the quest The Ravaged Caravan.
+- Added Telaar Supply Crate to the loot table of Warmaul Brute for the quest The Ravaged Caravan.
+- Updated the flags of Telaar Supply Crate to allow every member of a group to loot it.
