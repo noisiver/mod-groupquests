@@ -102,6 +102,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184859;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184860;
 
+-- Grulloc's Sack (Quest: A Boaring Time for Grulloc (Id: 10721), Quest: Goodnight, Gronn (Id: 10800))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=185152;
+
 -- Stonemaul Clan Banner (Quest: Banner of the Stonemaul (Id: 11160))
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186329;
