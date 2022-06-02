@@ -376,3 +376,6 @@
 - Updated the respawn time of Krasus's Compendium - Chapter 2.
 - Updated the respawn time of Krasus's Compendium - Chapter 3.
 - Updated the respawn time of Diagnostic Equipment.
+
+[2022-06-03]
+- Added the script for Borean Tundra to make the quest Plug the Sinkholes trigger for every member of a group.

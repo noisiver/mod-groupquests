@@ -21,6 +21,141 @@
 #include "Player.h"
 #include "ScriptMgr.h"
 
+enum Sinkhole
+{
+    GO_EXPLOSIVES_CART            = 188160,
+    NPC_SCOURGED_BURROWER         = 26250,
+    QUEST_PLUG_THE_SINKHOLES      = 11897,
+    SPELL_SET_CART                = 46797,
+    SPELL_EXPLODE_CART            = 46799,
+    SPELL_SUMMON_CART             = 46798,
+    SPELL_SUMMON_WORM             = 46800,
+};
+
+class npc_sinkhole_kill_credit_groupquests : public CreatureScript
+{
+public:
+    npc_sinkhole_kill_credit_groupquests() : CreatureScript("npc_sinkhole_kill_credit") { }
+
+    struct npc_sinkhole_kill_credit_groupquestsAI : public NullCreatureAI
+    {
+        npc_sinkhole_kill_credit_groupquestsAI(Creature* creature) : NullCreatureAI(creature) { }
+
+        uint32 phaseTimer;
+        uint8  phase;
+        ObjectGuid casterGuid;
+
+        void Reset() override
+        {
+            phaseTimer = 30000;
+            phase = 0;
+            casterGuid.Clear();
+        }
+
+        void SpellHit(Unit* caster, SpellInfo const* spell) override
+        {
+            if (phase || spell->Id != SPELL_SET_CART)
+                return;
+
+            Player* player = caster->ToPlayer();
+            if (player && player->GetQuestStatus(QUEST_PLUG_THE_SINKHOLES) == QUEST_STATUS_INCOMPLETE)
+            {
+                phase = 1;
+                phaseTimer = 0;
+                casterGuid = caster->GetGUID();
+            }
+        }
+
+        void UpdateAI(uint32 diff) override
+        {
+            if (!phase)
+                return;
+
+            if (phaseTimer <= diff)
+            {
+                switch (phase)
+                {
+                    case 1:
+                        DoCast(me, SPELL_EXPLODE_CART, true);
+                        DoCast(me, SPELL_SUMMON_CART, true);
+                        if (GameObject* cart = me->FindNearestGameObject(GO_EXPLOSIVES_CART, 3.0f))
+                            cart->SetUInt32Value(GAMEOBJECT_FACTION, 14);
+                        phaseTimer = 3000;
+                        phase = 2;
+                        break;
+                    case 2:
+                        if (GameObject* cart = me->FindNearestGameObject(GO_EXPLOSIVES_CART, 3.0f))
+                            cart->UseDoorOrButton();
+                        DoCast(me, SPELL_EXPLODE_CART, true);
+                        phaseTimer = 3000;
+                        phase = 3;
+                        break;
+                    case 3:
+                        DoCast(me, SPELL_EXPLODE_CART, true);
+                        phaseTimer = 2000;
+                        phase = 5; // @fixme: phase 4 is missing...
+                        break;
+                    case 5:
+                        DoCast(me, SPELL_SUMMON_WORM, true);
+                        if (Unit* worm = me->FindNearestCreature(NPC_SCOURGED_BURROWER, 3.0f))
+                        {
+                            worm->SetUnitFlag(UNIT_FLAG_NOT_SELECTABLE);
+                            worm->HandleEmoteCommand(EMOTE_ONESHOT_EMERGE);
+                        }
+                        phaseTimer = 1000;
+                        phase = 6;
+                        break;
+                    case 6:
+                        DoCast(me, SPELL_EXPLODE_CART, true);
+                        if (Unit* worm = me->FindNearestCreature(NPC_SCOURGED_BURROWER, 3.0f))
+                        {
+                            Unit::Kill(me, worm);
+                            worm->RemoveDynamicFlag(UNIT_DYNFLAG_LOOTABLE);
+                        }
+                        phaseTimer = 2000;
+                        phase = 7;
+                        break;
+                    case 7:
+                        DoCast(me, SPELL_EXPLODE_CART, true);
+                        if (Player* caster = ObjectAccessor::GetPlayer(*me, casterGuid))
+                        {
+                            Player* player = caster->ToPlayer();
+                            if (Group* group = player->GetGroup())
+                            {
+                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                                {
+                                    if (Player* member = groupRef->GetSource())
+                                    {
+                                        if (member->IsInMap(player))
+                                        {
+                                            member->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
+                                        }
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                caster->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
+                            }
+                        }
+                        phaseTimer = 5000;
+                        phase = 8;
+                        break;
+                    default:
+                        CreatureAI::EnterEvadeMode();
+                        break;
+                }
+            }
+            else phaseTimer -= diff;
+        }
+    };
+
+    CreatureAI* GetAI(Creature* creature) const override
+    {
+        return new npc_sinkhole_kill_credit_groupquestsAI(creature);
+    }
+};
+
 enum BerylSorcerer
 {
     EVENT_FROSTBOLT                                = 1,
@@ -362,6 +497,7 @@ class npc_lurgglbr_groupquests : public CreatureScript
 
 void AddSC_zone_borean_tundra_groupquests()
 {
+    new npc_sinkhole_kill_credit_groupquests();
     new npc_beryl_sorcerer_groupquests();
     new npc_nerubar_victim_groupquests();
     new npc_lurgglbr_groupquests();
