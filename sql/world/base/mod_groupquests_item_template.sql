@@ -1771,6 +1771,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28457;
 -- Mana Wraith Essence (Quest: Essence for the Engines (Id: 10224))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28527;
 
+-- Fel Reaver Part (Quest: One Demon's Trash... (Id: 10234))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28551;
+
 -- A Mysterious Tome (Quest: Decipher the Tome (Id: 10229))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=28552;
 

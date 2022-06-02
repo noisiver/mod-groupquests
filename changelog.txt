@@ -365,3 +365,7 @@
 
 [2022-06-01]
 - Updated the respawn time of Grulloc's Sack.
+
+[2022-06-02]
+- Added Fel Reaver Part to the loot table of Gan'arg Engineer for the quest One Demon's Trash...
+- Updated the flags of Fel Reaver Part to allow every member of a group to loot it.

@@ -154,6 +154,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1887
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18875 AND `ItemId`=28457;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18875, 0, 28457);
 
+-- Fel Reaver Part (Quest: One Demon's Trash... (Id: 10234))
+-- Gan'arg Engineer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16948 AND `ItemId`=28551;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16948, 0, 28551);
+
 -- Bloodmaul Brutebane Brew (Quest: Strange Brew (Id: 10511), Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
 -- Bloodmaul Brewmaster
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=19957 AND `ItemId`=29443;

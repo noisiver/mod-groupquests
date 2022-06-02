@@ -154,6 +154,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=18875 AND `Item`=28457;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18875, 28457, 34, 1, 'Zaxxis Raider - Salvaged Metal');
 
+-- Fel Reaver Part (Quest: One Demon's Trash... (Id: 10234))
+-- Gan'arg Engineer
+DELETE FROM `creature_loot_template` WHERE `Entry`=16948 AND `Item`=28551;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16948, 28551, 30, 1, 'Gan\'arg Engineer - Fel Reaver Part');
+
 -- Bloodmaul Brutebane Brew (Quest: Strange Brew (Id: 10511), Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
 -- Bloodmaul Brewmaster
 DELETE FROM `creature_loot_template` WHERE `Entry`=19957 AND `Item`=29443;
