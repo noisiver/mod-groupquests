@@ -164,6 +164,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1694
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=19957 AND `ItemId`=29443;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (19957, 0, 29443);
 
+-- Ivory Bell (Quest: New Opportunities (Id: 10348))
+-- Ripfang Lynx
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=20671 AND `ItemId`=29474;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (20671, 1, 29474);
+-- Barbscale Crocolisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=20773 AND `ItemId`=29474;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (20773, 0, 29474);
+
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21408 AND `ItemId`=30716;

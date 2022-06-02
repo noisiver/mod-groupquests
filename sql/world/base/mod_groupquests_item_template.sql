@@ -1798,6 +1798,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=29209;
 -- Loathsome Remnant (Quest: A Lingering Suspicion (Id: 10314))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=29338;
 
+-- Ivory Bell (Quest: New Opportunities (Id: 10348))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=29474;
+
 -- Hearty Mammoth Meat (Quest: Ample Inspiration (Id: 12828))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=40728;
 

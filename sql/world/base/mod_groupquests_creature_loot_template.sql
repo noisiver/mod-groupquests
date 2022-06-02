@@ -164,6 +164,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=19957 AND `Item`=29443;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MinCount`, `MaxCount`, `Comment`) VALUES (19957, 29443, 100, 1, 1, 2, 'Bloodmaul Brewmaster - Bloodmaul Brutebane Brew');
 
+-- Ivory Bell (Quest: New Opportunities (Id: 10348))
+-- Ripfang Lynx
+DELETE FROM `creature_loot_template` WHERE `Entry`=20671 AND `Item`=29474;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20671, 29474, 28, 1, 'Ripfang Lynx - Ivory Bell');
+-- Barbscale Crocolisk
+DELETE FROM `creature_loot_template` WHERE `Entry`=20773 AND `Item`=29474;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20773, 29474, 31, 1, 'Barbscale Crocolisk - Ivory Bell');
+
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon
 DELETE FROM `creature_loot_template` WHERE `Entry`=21408 AND `Item`=30716;
