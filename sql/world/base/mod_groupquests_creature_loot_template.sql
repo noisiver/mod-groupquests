@@ -167,10 +167,10 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Ivory Bell (Quest: New Opportunities (Id: 10348))
 -- Ripfang Lynx
 DELETE FROM `creature_loot_template` WHERE `Entry`=20671 AND `Item`=29474;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20671, 29474, 28, 1, 'Ripfang Lynx - Ivory Bell');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20671, 29474, 35, 1, 'Ripfang Lynx - Ivory Bell');
 -- Barbscale Crocolisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=20773 AND `Item`=29474;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20773, 29474, 31, 1, 'Barbscale Crocolisk - Ivory Bell');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20773, 29474, 38, 1, 'Barbscale Crocolisk - Ivory Bell');
 
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon

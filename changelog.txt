@@ -375,3 +375,4 @@
 - Updated the respawn time of Krasus's Compendium - Chapter 1.
 - Updated the respawn time of Krasus's Compendium - Chapter 2.
 - Updated the respawn time of Krasus's Compendium - Chapter 3.
+- Updated the respawn time of Diagnostic Equipment.

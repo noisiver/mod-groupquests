@@ -102,6 +102,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184466;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184478;
 
+-- Diagnostic Equipment (Quest: Run a Diagnostic! (Id: 10417))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184589;
+
 -- T'chali's Hookah (Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184744;
