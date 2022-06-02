@@ -142,6 +142,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187885;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187886;
 
+-- Fields, Factories and Workshops (Quest: Reference Material (Id: 11908))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188120;
+
 -- Ruby Lilac (Quest: In Search of the Ruby Lilac (Id: 12102))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;

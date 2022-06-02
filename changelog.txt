@@ -379,3 +379,4 @@
 
 [2022-06-03]
 - Added the script for Borean Tundra to make the quest Plug the Sinkholes trigger for every member of a group.
+- Updated the respawn time of Fields, Factories and Workshops.
