@@ -82,6 +82,18 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182122;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182166;
 
+-- Krasus's Compendium - Chapter 1 (Quest: Krasus's Compendium (Id: 10192))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184121;
+
+-- Krasus's Compendium - Chapter 2 (Quest: Krasus's Compendium (Id: 10192))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184122;
+
+-- Krasus's Compendium - Chapter 3 (Quest: Krasus's Compendium (Id: 10192))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184123;
+
 -- Metal Coffer (Quest: A Traitor Among Us (Id: 10367))
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184466;

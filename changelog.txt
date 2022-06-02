@@ -372,3 +372,6 @@
 - Added Ivory Bell to the loot table of Ripfang Lynx for the quest New Opportunities.
 - Added Ivory Bell to the loot table of Barbscale Crocolisk for the quest New Opportunities.
 - Updated the flags of Ivory Bell to allow every member of a group to loot it.
+- Updated the respawn time of Krasus's Compendium - Chapter 1.
+- Updated the respawn time of Krasus's Compendium - Chapter 2.
+- Updated the respawn time of Krasus's Compendium - Chapter 3.
