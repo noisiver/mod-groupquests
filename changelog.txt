@@ -383,3 +383,6 @@
 - Updated the respawn time of Wine Crate.
 - Added Kaskala Supplies to the loot table of Kvaldir Raider for the quest Preparing for the Worst.
 - Updated the flags of Kaskala Supplies to allow every member of a group to loot it.
+- Added Crafty's Stuff to the loot table of Magmoth Shaman for the quest Dirty, Stinkin' Snobolds!
+- Added Crafty's Stuff to the loot table of Magmoth Forager for the quest Dirty, Stinkin' Snobolds!
+- Updated the flags of Crafty's Stuff to allow every member of a group to loot it.

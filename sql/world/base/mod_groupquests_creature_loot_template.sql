@@ -104,6 +104,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=18131 AND `Item`=24468;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18131, 24468, 30, 1, 'Marshfang Slicer - Burstcap Mushroom');
 
+-- Crafty's Stuff (Quest: Dirty, Stinkin' Snobolds! (Id: 11645))
+-- Magmoth Shaman
+DELETE FROM `creature_loot_template` WHERE `Entry`=25428 AND `Item`=34787;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25428, 34787, 28, 1, 'Magmoth Shaman - Crafty\'s Stuff');
+-- Magmoth Forager
+DELETE FROM `creature_loot_template` WHERE `Entry`=25429 AND `Item`=34787;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25429, 34787, 34, 1, 'Magmoth Forager - Crafty\'s Stuff');
+
 -- Kil'sorrow Armaments (Quest: Armaments for Deception (Id: 9928))
 -- Kil'sorrow Spellbinder
 DELETE FROM `creature_loot_template` WHERE `Entry`=17146 AND `Item`=25554;

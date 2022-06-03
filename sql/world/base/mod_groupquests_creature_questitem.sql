@@ -241,6 +241,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2456
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25496 AND `ItemId`=34786;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25496, 2, 34786);
 
+-- Crafty's Stuff (Quest: Dirty, Stinkin' Snobolds! (Id: 11645))
+-- Magmoth Shaman
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25428 AND `ItemId`=34787;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25428, 0, 34787);
+-- Magmoth Forager
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25429 AND `ItemId`=34787;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25429, 0, 34787);
+
 -- Fizzcrank Spare Parts (Quest: What's the Matter with the Transmatter? (Id: 11710), Quest: Cleaning Up the Pools (Id: 11906))
 -- Scavenge-bot 004-A8
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25752 AND `ItemId`=34972;
