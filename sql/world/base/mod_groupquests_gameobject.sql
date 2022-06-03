@@ -146,6 +146,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187886;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188120;
 
+-- Wine Crate (Quest: In Wine, Truth (Id: 11603))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188131;
+
 -- Ruby Lilac (Quest: In Search of the Ruby Lilac (Id: 12102))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188489;
