@@ -2125,6 +2125,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35685;
 -- Stolen Moa'ki Goods (Quest: Let Nothing Go To Waste (Id: 11958))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35686;
 
+-- Kaskala Supplies (Quest: Preparing for the Worst (Id: 11945))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35711;
+
 -- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
 UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=35737;
 

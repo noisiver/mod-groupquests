@@ -271,6 +271,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2572
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25718 AND `ItemId`=35685;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25718, 0, 35685);
 
+-- Kaskala Supplies (Quest: Preparing for the Worst (Id: 11945))
+-- Kvaldir Raider
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25760 AND `ItemId`=35711;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25760, 1, 35711);
+
 -- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
 -- Runic Battle Golem
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26284 AND `ItemId`=35737;

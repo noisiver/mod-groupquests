@@ -271,6 +271,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25718 AND `Item`=35685;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25718, 35685, 80, 1, 'Coldarra Mage Slayer - Crystallized Mana Shard');
 
+-- Kaskala Supplies (Quest: Preparing for the Worst (Id: 11945))
+-- Kvaldir Raider
+DELETE FROM `creature_loot_template` WHERE `Entry`=25760 AND `Item`=35711;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25760, 35711, 29, 1, 'Kvaldir Raider - Kaskala Supplies');
+
 -- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
 -- Runic Battle Golem
 DELETE FROM `creature_loot_template` WHERE `Entry`=26284 AND `Item`=35737;

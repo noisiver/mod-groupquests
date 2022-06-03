@@ -381,3 +381,5 @@
 - Added the script for Borean Tundra to make the quest Plug the Sinkholes trigger for every member of a group.
 - Updated the respawn time of Fields, Factories and Workshops.
 - Updated the respawn time of Wine Crate.
+- Added Kaskala Supplies to the loot table of Kvaldir Raider for the quest Preparing for the Worst.
+- Updated the flags of Kaskala Supplies to allow every member of a group to loot it.
