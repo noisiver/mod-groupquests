@@ -390,3 +390,4 @@
 [2022-06-04]
 - Added Microfilm to the loot table of Scavenge-bot 005-B6 for the quest Lupus Pupus.
 - Updated the flags of Microfilm to allow every member of a group to loot it.
+- Updated the smart script for Fizzcrank Recon Pilot to give every member of a group the quest item.
