@@ -2098,6 +2098,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34977;
 -- Gorloc Spice Pouch (Quest: A Little Bit of Spice (Id: 11726))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=34983;
 
+-- Microfilm (Quest: Lupus Pupus (Id: 11728))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35123;
+
 -- Nesingwary Lackey Ear (Quest: Ears of Our Enemies (Id: 11866), Quest: Can't Get Ear-nough... (Id: 11867))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=35188;
 

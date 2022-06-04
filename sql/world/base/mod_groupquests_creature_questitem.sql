@@ -263,6 +263,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2575
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25814 AND `ItemId`=34972;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25814, 0, 34972);
 
+-- Microfilm (Quest: Lupus Pupus (Id: 11728))
+-- Scavenge-bot 005-B6
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25792 AND `ItemId`=35123;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25792, 0, 35123);
+
 -- Frostberry (Quest: Nuts for Berries (Id: 11912))
 -- Coldarra Scalesworn
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25717 AND `ItemId`=35492;

@@ -263,6 +263,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25814 AND `Item`=34972;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25814, 34972, 29, 1, 'Fizzcrank Mechagnome - Fizzcrank Spare Parts');
 
+-- Microfilm (Quest: Lupus Pupus (Id: 11728))
+-- Scavenge-bot 005-B6
+DELETE FROM `creature_loot_template` WHERE `Entry`=25792 AND `Item`=35123;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25792, 35123, 38, 1, 'Scavenge-bot 005-B6 - Microfilm');
+
 -- Frostberry (Quest: Nuts for Berries (Id: 11912))
 -- Coldarra Scalesworn
 DELETE FROM `creature_loot_template` WHERE `Entry`=25717 AND `Item`=35492;
