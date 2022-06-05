@@ -23,22 +23,22 @@
 enum CorkiData
 {
     // first quest
-    QUEST_HELP                                    = 9923,
-    NPC_CORKI                                     = 18445,
-    NPC_CORKI_CREDIT_1                            = 18369,
-    GO_CORKIS_PRISON                              = 182349,
-    CORKI_SAY_THANKS                              = 0,
+    QUEST_HELP = 9923,
+    NPC_CORKI = 18445,
+    NPC_CORKI_CREDIT_1 = 18369,
+    GO_CORKIS_PRISON = 182349,
+    CORKI_SAY_THANKS = 0,
     // 2nd quest
-    QUEST_CORKIS_GONE_MISSING_AGAIN               = 9924,
-    NPC_CORKI_2                                   = 20812,
-    GO_CORKIS_PRISON_2                            = 182350,
-    CORKI_SAY_PROMISE                             = 0,
+    QUEST_CORKIS_GONE_MISSING_AGAIN = 9924,
+    NPC_CORKI_2 = 20812,
+    GO_CORKIS_PRISON_2 = 182350,
+    CORKI_SAY_PROMISE = 0,
     // 3rd quest
-    QUEST_CHOWAR_THE_PILLAGER                     = 9955,
-    NPC_CORKI_3                                   = 18369,
-    NPC_CORKI_CREDIT_3                            = 18444,
-    GO_CORKIS_PRISON_3                            = 182521,
-    CORKI_SAY_LAST                                = 0
+    QUEST_CHOWAR_THE_PILLAGER = 9955,
+    NPC_CORKI_3 = 18369,
+    NPC_CORKI_CREDIT_3 = 18444,
+    GO_CORKIS_PRISON_3 = 182521,
+    CORKI_SAY_LAST = 0
 };
 
 class go_corkis_prison_groupquests : public GameObjectScript
@@ -81,7 +81,7 @@ public:
 
         return true;
     }
-    
+
 private:
     void QuestCredit(Player* player, uint32 npcEntry)
     {
@@ -107,47 +107,47 @@ private:
 
 enum FindingTheSurvivorsData
 {
-    QUEST_FINDING_THE_SURVIVORS                     = 9948,
-    NPC_MAGHAR_PRISONER                             = 18428,
+    QUEST_FINDING_THE_SURVIVORS = 9948,
+    NPC_MAGHAR_PRISONER = 18428,
 
-    SAY_FREE                                        = 0,
+    SAY_FREE = 0,
 };
 
 class go_warmaul_prison_groupquests : public GameObjectScript
 {
-    public:
-        go_warmaul_prison_groupquests() : GameObjectScript("go_warmaul_prison") { }
+public:
+    go_warmaul_prison_groupquests() : GameObjectScript("go_warmaul_prison") { }
 
-        bool OnGossipHello(Player* player, GameObject* go) override
+    bool OnGossipHello(Player* player, GameObject* go) override
+    {
+        go->UseDoorOrButton();
+
+        if (Creature* prisoner = go->FindNearestCreature(NPC_MAGHAR_PRISONER, 5.0f))
         {
-            go->UseDoorOrButton();
-
-            if (Creature* prisoner = go->FindNearestCreature(NPC_MAGHAR_PRISONER, 5.0f))
+            if (Group* group = player->GetGroup())
             {
-                if (Group* group = player->GetGroup())
+                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
                 {
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                    if (Player* member = groupRef->GetSource())
                     {
-                        if (Player* member = groupRef->GetSource())
+                        if (member->IsInMap(player))
                         {
-                            if (member->IsInMap(player))
-                            {
-                                member->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
-                            }
+                            member->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
                         }
                     }
                 }
-                else
-                {
-                    player->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
-                }
-
-                prisoner->AI()->Talk(SAY_FREE, player);
-                prisoner->DespawnOrUnsummon(6000);
+            }
+            else
+            {
+                player->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
             }
 
-            return true;
+            prisoner->AI()->Talk(SAY_FREE, player);
+            prisoner->DespawnOrUnsummon(6000);
         }
+
+        return true;
+    }
 };
 
 void AddSC_zone_nagrand_groupquests()

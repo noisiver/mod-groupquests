@@ -24,221 +24,221 @@
 
 enum DrakuruShackles
 {
-    NPC_RAGECLAW               = 29686,
+    NPC_RAGECLAW = 29686,
     QUEST_TROLLS_IS_GONE_CRAZY = 12861,
-    SPELL_LEFT_CHAIN           = 59951,
-    SPELL_RIGHT_CHAIN          = 59952,
-    SPELL_UNLOCK_SHACKLE       = 55083,
-    SPELL_FREE_RAGECLAW        = 55223
+    SPELL_LEFT_CHAIN = 59951,
+    SPELL_RIGHT_CHAIN = 59952,
+    SPELL_UNLOCK_SHACKLE = 55083,
+    SPELL_FREE_RAGECLAW = 55223
 };
 
 class npc_drakuru_shackles_groupquests : public CreatureScript
 {
-    public:
-        npc_drakuru_shackles_groupquests() : CreatureScript("npc_drakuru_shackles") {}
+public:
+    npc_drakuru_shackles_groupquests() : CreatureScript("npc_drakuru_shackles") {}
 
-        struct npc_drakuru_shackles_groupquestsAI : public NullCreatureAI
+    struct npc_drakuru_shackles_groupquestsAI : public NullCreatureAI
+    {
+        npc_drakuru_shackles_groupquestsAI(Creature* creature) : NullCreatureAI(creature)
         {
-            npc_drakuru_shackles_groupquestsAI(Creature* creature) : NullCreatureAI(creature)
+            _rageclawGUID.Clear();
+            timer = 0;
+        }
+
+        void Reset() override
+        {
+            me->SetFlag(UNIT_FIELD_FLAGS, UNIT_FLAG_NOT_SELECTABLE);
+        }
+
+        void UpdateAI(uint32 diff) override
+        {
+            timer += diff;
+            if (timer >= 2000)
             {
-                _rageclawGUID.Clear();
                 timer = 0;
-            }
+                if (_rageclawGUID)
+                    return;
 
-            void Reset() override
-            {
-                me->SetFlag(UNIT_FIELD_FLAGS, UNIT_FLAG_NOT_SELECTABLE);
-            }
-
-            void UpdateAI(uint32 diff) override
-            {
-                timer += diff;
-                if (timer >= 2000)
+                if (Creature* cr = me->FindNearestCreature(NPC_RAGECLAW, 10.0f))
                 {
-                    timer = 0;
-                    if (_rageclawGUID)
-                        return;
-
-                    if (Creature* cr = me->FindNearestCreature(NPC_RAGECLAW, 10.0f))
-                    {
-                        _rageclawGUID = cr->GetGUID();
-                        LockRageclaw(cr);
-                    }
+                    _rageclawGUID = cr->GetGUID();
+                    LockRageclaw(cr);
                 }
             }
+        }
 
-            void LockRageclaw(Creature* rageclaw)
+        void LockRageclaw(Creature* rageclaw)
+        {
+            // pointer check not needed
+            me->SetFacingToObject(rageclaw);
+            rageclaw->SetFacingToObject(me);
+
+            DoCast(rageclaw, SPELL_LEFT_CHAIN, true);
+            DoCast(rageclaw, SPELL_RIGHT_CHAIN, true);
+        }
+
+        void UnlockRageclaw(Unit* /*who*/, Creature* rageclaw)
+        {
+            // pointer check not needed
+            DoCast(rageclaw, SPELL_FREE_RAGECLAW, true);
+            _rageclawGUID.Clear();
+            me->DespawnOrUnsummon(1);
+        }
+
+        void SpellHit(Unit* caster, const SpellInfo* spell) override
+        {
+            if (spell->Id == SPELL_UNLOCK_SHACKLE)
             {
-                // pointer check not needed
-                me->SetFacingToObject(rageclaw);
-                rageclaw->SetFacingToObject(me);
+                Player* player = caster->ToPlayer();
 
-                DoCast(rageclaw, SPELL_LEFT_CHAIN, true);
-                DoCast(rageclaw, SPELL_RIGHT_CHAIN, true);
-            }
-
-            void UnlockRageclaw(Unit* /*who*/, Creature* rageclaw)
-            {
-                // pointer check not needed
-                DoCast(rageclaw, SPELL_FREE_RAGECLAW, true);
-                _rageclawGUID.Clear();
-                me->DespawnOrUnsummon(1);
-            }
-
-            void SpellHit(Unit* caster, const SpellInfo* spell) override
-            {
-                if (spell->Id == SPELL_UNLOCK_SHACKLE)
+                if (Creature* rageclaw = ObjectAccessor::GetCreature(*me, _rageclawGUID))
                 {
-                    Player* player = caster->ToPlayer();
-
-                    if (Creature* rageclaw = ObjectAccessor::GetCreature(*me, _rageclawGUID))
+                    if (Group* group = player->GetGroup())
                     {
-                        if (Group* group = player->GetGroup())
-                        {
-                            UnlockRageclaw(player, rageclaw);
+                        UnlockRageclaw(player, rageclaw);
 
-                            for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                        {
+                            if (Player* member = groupRef->GetSource())
                             {
-                                if (Player* member = groupRef->GetSource())
+                                if (member->IsInMap(player) && member->GetQuestStatus(QUEST_TROLLS_IS_GONE_CRAZY) == QUEST_STATUS_INCOMPLETE)
                                 {
-                                    if (member->IsInMap(player) && member->GetQuestStatus(QUEST_TROLLS_IS_GONE_CRAZY) == QUEST_STATUS_INCOMPLETE)
-                                    {
-                                        member->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
-                                    }
+                                    member->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
                                 }
                             }
+                        }
 
-                            me->DespawnOrUnsummon();
-                        }
-                        else
-                        {
-                            if (player->GetQuestStatus(QUEST_TROLLS_IS_GONE_CRAZY) == QUEST_STATUS_INCOMPLETE)
-                            {
-                                UnlockRageclaw(caster, rageclaw);
-                                player->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
-                                me->DespawnOrUnsummon();
-                            }
-                        }
+                        me->DespawnOrUnsummon();
                     }
                     else
                     {
-                        me->setDeathState(JUST_DIED);
+                        if (player->GetQuestStatus(QUEST_TROLLS_IS_GONE_CRAZY) == QUEST_STATUS_INCOMPLETE)
+                        {
+                            UnlockRageclaw(caster, rageclaw);
+                            player->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
+                            me->DespawnOrUnsummon();
+                        }
                     }
                 }
+                else
+                {
+                    me->setDeathState(JUST_DIED);
+                }
             }
-
-            private:
-                ObjectGuid _rageclawGUID;
-                uint32     timer;
-        };
-
-        CreatureAI* GetAI(Creature* creature) const override
-        {
-            return new npc_drakuru_shackles_groupquestsAI(creature);
         }
+
+    private:
+        ObjectGuid _rageclawGUID;
+        uint32     timer;
+    };
+
+    CreatureAI* GetAI(Creature* creature) const override
+    {
+        return new npc_drakuru_shackles_groupquestsAI(creature);
+    }
 };
 
 enum eFeedinDaGoolz
 {
-    NPC_DECAYING_GHOUL                          = 28565,
-    GO_BOWL                                     = 190656,
+    NPC_DECAYING_GHOUL = 28565,
+    GO_BOWL = 190656,
 };
 
 class npc_feedin_da_goolz_groupquests : public CreatureScript
 {
-    public:
-        npc_feedin_da_goolz_groupquests() : CreatureScript("npc_feedin_da_goolz") { }
+public:
+    npc_feedin_da_goolz_groupquests() : CreatureScript("npc_feedin_da_goolz") { }
 
-        CreatureAI* GetAI(Creature* creature) const override
+    CreatureAI* GetAI(Creature* creature) const override
+    {
+        return new npc_feedin_da_goolz_groupquestsAI(creature);
+    }
+
+    struct npc_feedin_da_goolz_groupquestsAI : public NullCreatureAI
+    {
+        npc_feedin_da_goolz_groupquestsAI(Creature* creature) : NullCreatureAI(creature) { findTimer = 1; checkTimer = 0; }
+
+        uint32 findTimer;
+        uint32 checkTimer;
+        ObjectGuid ghoulFed;
+
+        void UpdateAI(uint32 diff) override
         {
-            return new npc_feedin_da_goolz_groupquestsAI(creature);
-        }
-
-        struct npc_feedin_da_goolz_groupquestsAI : public NullCreatureAI
-        {
-            npc_feedin_da_goolz_groupquestsAI(Creature* creature) : NullCreatureAI(creature) { findTimer = 1; checkTimer = 0; }
-
-            uint32 findTimer;
-            uint32 checkTimer;
-            ObjectGuid ghoulFed;
-
-            void UpdateAI(uint32 diff) override
+            if (findTimer)
             {
-                if (findTimer)
+                findTimer += diff;
+                if (findTimer >= 1000)
                 {
-                    findTimer += diff;
-                    if (findTimer >= 1000)
+                    if (Creature* ghoul = me->FindNearestCreature(NPC_DECAYING_GHOUL, 30.0f, true))
                     {
-                        if (Creature* ghoul = me->FindNearestCreature(NPC_DECAYING_GHOUL, 30.0f, true))
-                        {
-                            ghoul->SetReactState(REACT_DEFENSIVE);
-                            float o = me->GetAngle(ghoul);
-                            ghoul->GetMotionMaster()->MovePoint(1, me->GetPositionX() + 2 * cos(o), me->GetPositionY() + 2 * std::sin(o), me->GetPositionZ());
-                            checkTimer = 1;
-                            findTimer = 0;
-                        }
-                        else
-                            findTimer = 1;
-                    }
-                    return;
-                }
-
-                if (checkTimer)
-                {
-                    checkTimer += diff;
-                    if (checkTimer >= 1500)
-                    {
+                        ghoul->SetReactState(REACT_DEFENSIVE);
+                        float o = me->GetAngle(ghoul);
+                        ghoul->GetMotionMaster()->MovePoint(1, me->GetPositionX() + 2 * cos(o), me->GetPositionY() + 2 * std::sin(o), me->GetPositionZ());
                         checkTimer = 1;
-                        if (!ghoulFed)
+                        findTimer = 0;
+                    }
+                    else
+                        findTimer = 1;
+                }
+                return;
+            }
+
+            if (checkTimer)
+            {
+                checkTimer += diff;
+                if (checkTimer >= 1500)
+                {
+                    checkTimer = 1;
+                    if (!ghoulFed)
+                    {
+                        if (Creature* ghoul = me->FindNearestCreature(NPC_DECAYING_GHOUL, 3.0f, true))
                         {
-                            if (Creature* ghoul = me->FindNearestCreature(NPC_DECAYING_GHOUL, 3.0f, true))
-                            {
-                                ghoulFed = ghoul->GetGUID();
-                                ghoul->HandleEmoteCommand(EMOTE_ONESHOT_EAT);
-                            }
+                            ghoulFed = ghoul->GetGUID();
+                            ghoul->HandleEmoteCommand(EMOTE_ONESHOT_EAT);
                         }
-                        else
+                    }
+                    else
+                    {
+                        if (GameObject* bowl = me->FindNearestGameObject(GO_BOWL, 10.0f))
+                            bowl->Delete();
+
+                        if (Creature* ghoul = ObjectAccessor::GetCreature(*me, ghoulFed))
                         {
-                            if (GameObject* bowl = me->FindNearestGameObject(GO_BOWL, 10.0f))
-                                bowl->Delete();
+                            ghoul->SetReactState(REACT_AGGRESSIVE);
+                            ghoul->GetMotionMaster()->MoveTargetedHome();
+                        }
 
-                            if (Creature* ghoul = ObjectAccessor::GetCreature(*me, ghoulFed))
+
+                        if (Unit* owner = me->ToTempSummon()->GetSummonerUnit())
+                        {
+                            if (Player* player = owner->ToPlayer())
                             {
-                                ghoul->SetReactState(REACT_AGGRESSIVE);
-                                ghoul->GetMotionMaster()->MoveTargetedHome();
-                            }
-
-
-                            if (Unit* owner = me->ToTempSummon()->GetSummonerUnit())
-                            {
-                                if (Player* player = owner->ToPlayer())
+                                if (Group* group = player->GetGroup())
                                 {
-                                    if (Group* group = player->GetGroup())
+                                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
                                     {
-                                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                                        if (Player* member = groupRef->GetSource())
                                         {
-                                            if (Player* member = groupRef->GetSource())
+                                            if (member->IsInMap(player))
                                             {
-                                                if (member->IsInMap(player))
-                                                {
-                                                    member->KilledMonsterCredit(me->GetEntry());
-                                                }
+                                                member->KilledMonsterCredit(me->GetEntry());
                                             }
                                         }
                                     }
-                                    else
-                                    {
-                                        player->KilledMonsterCredit(me->GetEntry());
-                                    }
+                                }
+                                else
+                                {
+                                    player->KilledMonsterCredit(me->GetEntry());
                                 }
                             }
-
-                            me->DespawnOrUnsummon(1);
                         }
+
+                        me->DespawnOrUnsummon(1);
                     }
                 }
             }
-        };
+        }
+    };
 };
 
 void AddSC_zone_zuldrak_groupquests()
