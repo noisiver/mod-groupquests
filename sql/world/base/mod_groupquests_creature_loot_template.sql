@@ -351,6 +351,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=27207 AND `Item`=37137;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27207, 37137, 79, 1, 'Onslaught Workman - Scarlet Onslaught Weapon');
 
+-- Blackroot Stalk (Quest: Just Passing Through (Id: 12226))
+-- Grizzly Bear
+DELETE FROM `creature_loot_template` WHERE `Entry`=27131 AND `Item`=37246;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27131, 37246, 29, 1, 'Grizzly Bear - Blackroot Stalk');
+
 -- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
 -- Redfang Hunter
 DELETE FROM `creature_loot_template` WHERE `Entry`=26356 AND `Item`=37302;

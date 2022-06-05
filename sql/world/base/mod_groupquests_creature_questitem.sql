@@ -356,6 +356,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2720
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27207 AND `ItemId`=37137;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27207, 0, 37137);
 
+-- Blackroot Stalk (Quest: Just Passing Through (Id: 12226))
+-- Grizzly Bear
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27131 AND `ItemId`=37246;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27131, 1, 37246);
+
 -- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
 -- Redfang Hunter
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26356 AND `ItemId`=37302;

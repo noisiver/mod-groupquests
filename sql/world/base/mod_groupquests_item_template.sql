@@ -2218,6 +2218,9 @@ UPDATE `item_template` SET `Flags`=2147551232 WHERE `entry`=37200;
 -- Flame-Imbued Talisman (Quest: Secrets of the Flamebinders (Id: 12222), Quest: The Flamebinders' Secrets (Id: 12256))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37229;
 
+-- Blackroot Stalk (Quest: Just Passing Through (Id: 12226))
+UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=37246;
+
 -- Siegesmith Bomb (Quest: Stealing from the Siegesmiths (Id: 12230))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=37248;
 

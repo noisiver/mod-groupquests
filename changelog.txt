@@ -396,3 +396,5 @@
 [2022-06-05]
 - Updated the smart script for Dead Mage Hunter to give every member of a group the quest item.
 - Updated the respawn time of Cedar Chest.
+- Added Blackroot Stalk to the loot table of Grizzly Bear for the quest Just Passing Through.
+- Updated the flags of Blackroot Stalk to allow every member of a group to loot it.
