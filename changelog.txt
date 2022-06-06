@@ -398,3 +398,8 @@
 - Updated the respawn time of Cedar Chest.
 - Added Blackroot Stalk to the loot table of Grizzly Bear for the quest Just Passing Through.
 - Updated the flags of Blackroot Stalk to allow every member of a group to loot it.
+
+[2022-06-06]
+- Updated the flags of Golem Blueprint Section 1 to allow every member of a group to loot it.
+- Updated the flags of Golem Blueprint Section 2 to allow every member of a group to loot it.
+- Updated the flags of Golem Blueprint Section 3 to allow every member of a group to loot it.

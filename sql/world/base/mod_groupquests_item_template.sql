@@ -2170,6 +2170,15 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36819;
 -- Drakkari Canopic Jar (Quest: It Takes Guts.... (Id: 12116))
 UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=36825;
 
+-- Golem Blueprint Section 1 (Quest: The Perfect Plan (Id: 12129), Quest: An Intriguing Plan (Id: 12165))
+UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=36849;
+
+-- Golem Blueprint Section 2 (Quest: The Perfect Plan (Id: 12129), Quest: An Intriguing Plan (Id: 12165))
+UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=36850;
+
+-- Golem Blueprint Section 3 (Quest: The Perfect Plan (Id: 12129), Quest: An Intriguing Plan (Id: 12165))
+UPDATE `item_template` SET `Flags`=3136 WHERE `entry`=36851;
+
 -- War Golem Part (Quest: From the Ground Up (Id: 12196))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=36852;
 
