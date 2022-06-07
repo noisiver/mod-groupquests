@@ -403,3 +403,6 @@
 - Updated the flags of Golem Blueprint Section 1 to allow every member of a group to loot it.
 - Updated the flags of Golem Blueprint Section 2 to allow every member of a group to loot it.
 - Updated the flags of Golem Blueprint Section 3 to allow every member of a group to loot it.
+
+[2022-06-07]
+- Updated the smart script for Primordial Drake Egg to spawn one creature per group member.
