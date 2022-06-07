@@ -561,6 +561,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=30627 AND `Item`=44790;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30627, 44790, 32, 1, 'Nightmare Figment - Emerald Acorn');
 
+-- Gundrak Raptor Egg (Quest: Eggs for Dubra'Jin (Id: 13556))
+-- Gundrak Raptor
+DELETE FROM `creature_loot_template` WHERE `Entry`=29334 AND `Item`=44921;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29334, 44921, 36, 1, 'Gundrak Raptor - Gundrak Raptor Egg');
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_loot_template` WHERE `Entry`=6508 AND `Item`=46364;

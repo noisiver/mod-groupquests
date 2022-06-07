@@ -556,6 +556,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3234
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30627 AND `ItemId`=44790;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30627, 0, 44790);
 
+-- Gundrak Raptor Egg (Quest: Eggs for Dubra'Jin (Id: 13556))
+-- Gundrak Raptor
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29334 AND `ItemId`=44921;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29334, 0, 44921);
+
 -- Venomhide Ravasaur Egg (Quest: Venomhide Eggs (Id: 13887))
 -- Venomhide Ravasaur
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=6508 AND `ItemId`=46364;

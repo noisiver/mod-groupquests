@@ -411,3 +411,4 @@
 - Added Har'koan Relic to the loot table of Claw of Har'koa for the quest Relics of the Snow Leopard Goddess.
 - Added Har'koan Relic to the loot table of Har'koan Subduer for the quest Relics of the Snow Leopard Goddess.
 - Updated the flags of Har'koan Relic to allow every member of a group to loot it.
+- Added Gundrak Raptor Egg to the loot table of Gundrak Raptor for the quest Eggs for Dubra'Jin.
