@@ -428,6 +428,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=28011 AND `Item`=38656;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28011, 38656, 29, 1, 'Emperor Cobra - Orange');
 
+-- Har'koan Relic (Quest: Relics of the Snow Leopard Goddess (Id: 12635))
+-- Claw of Har'koa
+DELETE FROM `creature_loot_template` WHERE `Entry`=28402 AND `Item`=38677;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28402, 38677, 31, 1, 'Claw of Har\'koa - Har\'koan Relic');
+-- Har'koan Subduer
+DELETE FROM `creature_loot_template` WHERE `Entry`=28403 AND `Item`=38677;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28403, 38677, 33, 1, 'Har\'koan Subduer - Har\'koan Relic');
+
 -- Gooey Ghoul Drool (Quest: You Can Run, But You Can't Hide (Id: 12629), Quest: Silver Lining (Id: 12643))
 -- Decaying Ghoul
 DELETE FROM `creature_loot_template` WHERE `Entry`=28565 AND `Item`=38687;

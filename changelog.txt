@@ -408,3 +408,6 @@
 - Updated the smart script for Primordial Drake Egg to spawn one creature per group member.
 - Added Roc Egg to the loot table of Goretalon Roc for the quest My Pet Roc.
 - Updated the flags of Roc Egg to allow every member of a group to loot it.
+- Added Har'koan Relic to the loot table of Claw of Har'koa for the quest Relics of the Snow Leopard Goddess.
+- Added Har'koan Relic to the loot table of Har'koan Subduer for the quest Relics of the Snow Leopard Goddess.
+- Updated the flags of Har'koan Relic to allow every member of a group to loot it.

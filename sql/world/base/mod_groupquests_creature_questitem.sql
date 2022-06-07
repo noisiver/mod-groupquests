@@ -428,6 +428,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2800
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28011 AND `ItemId`=38656;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28011, 4, 38656);
 
+-- Har'koan Relic (Quest: Relics of the Snow Leopard Goddess (Id: 12635))
+-- Claw of Har'koa
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28402 AND `ItemId`=38677;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28402, 1, 38677);
+-- Har'koan Subduer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28403 AND `ItemId`=38677;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28403, 1, 38677);
+
 -- Gooey Ghoul Drool (Quest: You Can Run, But You Can't Hide (Id: 12629), Quest: Silver Lining (Id: 12643))
 -- Decaying Ghoul
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28565 AND `ItemId`=38687;

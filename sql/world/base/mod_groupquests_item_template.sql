@@ -2299,6 +2299,9 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=38655;
 -- Orange (Quest: Some Make Lemonade, Some Make Liquor (Id: 12634))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38656;
 
+-- Har'koan Relic (Quest: Relics of the Snow Leopard Goddess (Id: 12635))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38677;
+
 -- Essence of the Frozen Earth (Quest: The Frozen Earth (Id: 12639))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38681;
 
