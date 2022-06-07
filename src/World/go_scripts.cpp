@@ -22,6 +22,78 @@
 #include "ScriptedCreature.h"
 #include "ScriptedGossip.h"
 
+enum JotunheimCage
+{
+    NPC_EBON_BLADE_PRISONER_HUMAN   = 30186,
+    NPC_EBON_BLADE_PRISONER_NE      = 30194,
+    NPC_EBON_BLADE_PRISONER_TROLL   = 30196,
+    NPC_EBON_BLADE_PRISONER_ORC     = 30195,
+
+    SPELL_SUMMON_BLADE_KNIGHT_H     = 56207,
+    SPELL_SUMMON_BLADE_KNIGHT_NE    = 56209,
+    SPELL_SUMMON_BLADE_KNIGHT_ORC   = 56212,
+    SPELL_SUMMON_BLADE_KNIGHT_TROLL = 56214
+};
+
+class go_jotunheim_cage_groupquests : public GameObjectScript
+{
+public:
+    go_jotunheim_cage_groupquests() : GameObjectScript("go_jotunheim_cage") { }
+
+    bool OnGossipHello(Player* player, GameObject* go) override
+    {
+        go->UseDoorOrButton();
+        Creature* pPrisoner = go->FindNearestCreature(NPC_EBON_BLADE_PRISONER_HUMAN, 5.0f, true);
+        if (!pPrisoner)
+        {
+            pPrisoner = go->FindNearestCreature(NPC_EBON_BLADE_PRISONER_TROLL, 5.0f, true);
+            if (!pPrisoner)
+            {
+                pPrisoner = go->FindNearestCreature(NPC_EBON_BLADE_PRISONER_ORC, 5.0f, true);
+                if (!pPrisoner)
+                    pPrisoner = go->FindNearestCreature(NPC_EBON_BLADE_PRISONER_NE, 5.0f, true);
+            }
+        }
+        if (!pPrisoner || !pPrisoner->IsAlive())
+            return false;
+
+        pPrisoner->DespawnOrUnsummon();
+        if (Group* group = player->GetGroup())
+        {
+            for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+            {
+                if (Player* member = groupRef->GetSource())
+                {
+                    if (member->IsInMap(player))
+                    {
+                        member->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
+                    }
+                }
+            }
+        }
+        else
+        {
+            player->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
+        }
+        switch (pPrisoner->GetEntry())
+        {
+            case NPC_EBON_BLADE_PRISONER_HUMAN:
+                player->CastSpell(player, SPELL_SUMMON_BLADE_KNIGHT_H, true);
+                break;
+            case NPC_EBON_BLADE_PRISONER_NE:
+                player->CastSpell(player, SPELL_SUMMON_BLADE_KNIGHT_NE, true);
+                break;
+            case NPC_EBON_BLADE_PRISONER_TROLL:
+                player->CastSpell(player, SPELL_SUMMON_BLADE_KNIGHT_TROLL, true);
+                break;
+            case NPC_EBON_BLADE_PRISONER_ORC:
+                player->CastSpell(player, SPELL_SUMMON_BLADE_KNIGHT_ORC, true);
+                break;
+        }
+        return true;
+    }
+};
+
 enum Tadpoles
 {
     QUEST_OH_NOES_THE_TADPOLES = 11560,
@@ -109,5 +181,6 @@ public:
 
 void AddSC_go_scripts_groupquests()
 {
+    new go_jotunheim_cage_groupquests();
     new go_tadpole_cage_groupquests();
 }

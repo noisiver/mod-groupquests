@@ -416,3 +416,6 @@
 - Updated the respawn time of Weeping Quarry Ledger.
 - Updated the respawn time of Weeping Quarry Map.
 - Updated the respawn time of Weeping Quarry Schedule.
+
+[2022-06-08]
+- Added the script for world gameobjects to make the quest Ebon Blade Prisoners trigger for every member of a group.
