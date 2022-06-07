@@ -406,3 +406,5 @@
 
 [2022-06-07]
 - Updated the smart script for Primordial Drake Egg to spawn one creature per group member.
+- Added Roc Egg to the loot table of Goretalon Roc for the quest My Pet Roc.
+- Updated the flags of Roc Egg to allow every member of a group to loot it.

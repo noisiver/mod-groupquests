@@ -433,6 +433,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2801
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28565 AND `ItemId`=38687;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28565, 1, 38687);
 
+-- Roc Egg (Quest: My Pet Roc (Id: 12658))
+-- Goretalon Roc
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28004 AND `ItemId`=38705;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28004, 2, 38705);
+
 -- Charred Wreckage (Quest: Clean Up (Id: 12818))
 -- Savage Hill Scavenger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29404 AND `ItemId`=40603;

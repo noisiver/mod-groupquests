@@ -433,6 +433,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=28565 AND `Item`=38687;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28565, 38687, 31, 1, 'Decaying Ghoul - Gooey Ghoul Drool');
 
+-- Roc Egg (Quest: My Pet Roc (Id: 12658))
+-- Goretalon Roc
+DELETE FROM `creature_loot_template` WHERE `Entry`=28004 AND `Item`=38705;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28004, 38705, 30, 1, 'Goretalon Roc - Roc Egg');
+
 -- Charred Wreckage (Quest: Clean Up (Id: 12818))
 -- Savage Hill Scavenger
 DELETE FROM `creature_loot_template` WHERE `Entry`=29404 AND `Item`=40603;

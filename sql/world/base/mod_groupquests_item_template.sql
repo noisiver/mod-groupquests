@@ -2311,6 +2311,9 @@ UPDATE `item_template` SET `Flags`=67584 WHERE `entry`=38687;
 -- Rhunokian Artifact (Quest: Plundering Their Own (Id: 12650))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38700;
 
+-- Roc Egg (Quest: My Pet Roc (Id: 12658))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=38705;
+
 -- Sacred Adornment (Quest: Preparations for the Underworld (Id: 12666))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=39150;
 
