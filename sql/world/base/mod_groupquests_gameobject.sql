@@ -210,6 +210,22 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=191519;
 -- Changed respawn from 300 seconds to 1 seconds
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=191576;
 
+-- Weeping Quarry Document (Quest: Amidst the Confusion (Id: 13174))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=193403;
+
+-- Weeping Quarry Ledger (Quest: Amidst the Confusion (Id: 13174))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=193404;
+
+-- Weeping Quarry Map (Quest: Amidst the Confusion (Id: 13174))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=193405;
+
+-- Weeping Quarry Schedule (Quest: Amidst the Confusion (Id: 13174))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=193406;
+
 -- Dusty Journal (Quest: The Black Knight of Westfall? (Id: 13633), Quest: The Black Knight of Silverpine? (Id: 13634))
 -- Changed from 120 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=194340;
