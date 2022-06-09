@@ -419,3 +419,6 @@
 
 [2022-06-08]
 - Added the script for world gameobjects to make the quest Ebon Blade Prisoners trigger for every member of a group.
+
+[2022-06-09]
+- Added the script for Icecrown to make the quest Into The Wild Green Yonder trigger for every member of a group.
