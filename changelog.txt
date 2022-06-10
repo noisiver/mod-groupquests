@@ -422,3 +422,6 @@
 
 [2022-06-09]
 - Added the script for Icecrown to make the quest Into The Wild Green Yonder trigger for every member of a group.
+
+[2022-06-11]
+- Updated the smart script for Hyldsmeet Drakerider to give every member of a group the kill credit.
