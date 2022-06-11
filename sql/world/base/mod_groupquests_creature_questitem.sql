@@ -451,6 +451,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2800
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29404 AND `ItemId`=40603;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29404, 1, 40603);
 
+-- Onslaught Intel Documents (Quest: Intelligence Gathering (Id: 12838))
+-- Onslaught Raven Bishop
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29338 AND `ItemId`=40640;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29338, 1, 40640);
+
 -- K3 Equipment (Quest: Equipment Recovery (Id: 12844))
 -- Sifreldar Storm Maiden
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29323 AND `ItemId`=40726;

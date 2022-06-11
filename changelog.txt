@@ -427,3 +427,5 @@
 - Updated the smart script for Hyldsmeet Drakerider to give every member of a group the kill credit.
 - Updated the respawn time of Stolen Tournament Invitation.
 - Updated the respawn time of Black Knight's Orders.
+- Added Onslaught Intel Documents to the loot table of Onslaught Raven Bishop for the quest Intelligence Gathering.
+- Updated the flags of Onslaught Intel Documents to allow every member of a group to loot it.

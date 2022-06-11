@@ -451,6 +451,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=29404 AND `Item`=40603;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29404, 40603, 42, 1, 'Savage Hill Scavenger - Charred Wreckage');
 
+-- Onslaught Intel Documents (Quest: Intelligence Gathering (Id: 12838))
+-- Onslaught Raven Bishop
+DELETE FROM `creature_loot_template` WHERE `Entry`=29338 AND `Item`=40640;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29338, 40640, 31, 1, 'Onslaught Raven Bishop - Onslaught Intel Documents');
+
 -- K3 Equipment (Quest: Equipment Recovery (Id: 12844))
 -- Sifreldar Storm Maiden
 DELETE FROM `creature_loot_template` WHERE `Entry`=29323 AND `Item`=40726;
