@@ -425,3 +425,5 @@
 
 [2022-06-11]
 - Updated the smart script for Hyldsmeet Drakerider to give every member of a group the kill credit.
+- Updated the respawn time of Stolen Tournament Invitation.
+- Updated the respawn time of Black Knight's Orders.

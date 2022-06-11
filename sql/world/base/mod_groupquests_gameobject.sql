@@ -229,3 +229,11 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=193406;
 -- Dusty Journal (Quest: The Black Knight of Westfall? (Id: 13633), Quest: The Black Knight of Silverpine? (Id: 13634))
 -- Changed from 120 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=194340;
+
+-- Stolen Tournament Invitation (Quest: The Black Knight's Orders (Id: 13663))
+-- Changed from 120 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=194423;
+
+-- Black Knight's Orders (Quest: The Black Knight's Orders (Id: 13663))
+-- Changed from 120 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=194424;
