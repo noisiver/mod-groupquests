@@ -70,6 +70,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148516;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
 
+-- Ammo Crate (Quest: Ammo for Rumbleshot (Id: 5541))
+-- Changed from 15 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=176785;
+
 -- Felix's Chest (Quest: A Refugee's Quandary (Id: 3361))
 -- Changed from 10 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=178084;

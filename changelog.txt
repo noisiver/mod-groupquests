@@ -434,3 +434,6 @@
 - Updated the respawn time of Felix's Box.
 - Updated the respawn time of Felix's Chest.
 - Updated the respawn time of Felix's Bucket of Bolts.
+
+[2022-06-24]
+- Updated the respawn time of Ammo Crate.
