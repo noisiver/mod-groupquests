@@ -46,6 +46,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12898;
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12899;
 
+-- Felix's Box (Quest: A Refugee's Quandary (Id: 3361))
+-- Changed from 10 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148499;
+
 -- Tablet of Jin'yael (Quest: Stealing Knowledge (Id: 3517))
 -- Changed from 180 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148513;
@@ -65,6 +69,14 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148516;
 -- Alien Egg (Quest: Alien Egg (Id: 4821))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
+
+-- Felix's Chest (Quest: A Refugee's Quandary (Id: 3361))
+-- Changed from 10 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=178084;
+
+-- Felix's Bucket of Bolts (Quest: A Refugee's Quandary (Id: 3361))
+-- Changed from 10 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=178085;
 
 -- Warped Crates (Quest: Twilight of the Dawn Runner (Id: 9437))
 -- Changed from 60 seconds to 1 second

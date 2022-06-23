@@ -429,3 +429,8 @@
 - Updated the respawn time of Black Knight's Orders.
 - Added Onslaught Intel Documents to the loot table of Onslaught Raven Bishop for the quest Intelligence Gathering.
 - Updated the flags of Onslaught Intel Documents to allow every member of a group to loot it.
+
+[2022-06-23]
+- Updated the respawn time of Felix's Box.
+- Updated the respawn time of Felix's Chest.
+- Updated the respawn time of Felix's Bucket of Bolts.
