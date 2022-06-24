@@ -121,6 +121,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2633;
 -- Carved Stone Idol (Quest: Gathering Idols (Id: 297))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2636;
 
+-- Miners' Gear (Quest: Filthy Paws (Id: 307))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2640;
+
 -- Wendigo Mane (Quest: The Grizzled Den (Id: 313))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=2671;
 

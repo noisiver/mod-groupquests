@@ -1,21 +1,29 @@
 -- Handful of Oats (Quest: Poor Old Blanchy (Id: 151))
--- Harvest Golem (Id: 36)
+-- Harvest Golem
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=36 AND `ItemId`=1528;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (36, 0, 1528);
--- Rusty Harvest Golem (Id: 480)
+-- Rusty Harvest Golem
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=480 AND `ItemId`=1528;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (480, 0, 1528);
 
+-- Miners' Gear (Quest: Filthy Paws (Id: 307))
+-- Tunnel Rat Geomancer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=1174 AND `ItemId`=2640;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1174, 1, 2640);
+-- Tunnel Rat Digger
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=1175 AND `ItemId`=2640;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1175, 1, 2640);
+
 -- Sack of Supplies (Quest: Winds in the Desert (Id: 834))
--- Dustwind Harpy (Id: 3115)
+-- Dustwind Harpy
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=3115 AND `ItemId`=4918;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3115, 0, 4918);
--- Dustwind Pillager (Id: 3116)
+-- Dustwind Pillager
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=3116 AND `ItemId`=4918;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3116, 0, 4918);
 
 -- Fungal Spores (Quest: Fungal Spores (Id: 848))
--- Oasis Snapjaw (Id: 3461)
+-- Oasis Snapjaw
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=3461 AND `ItemId`=5012;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3461, 1, 5012);
 
@@ -36,42 +44,42 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=38 AND `ItemId`=11119;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (38, 1, 11119);
 
 -- Cactus Apple (Quest: Galgar's Cactus Apple Surprise (Id: 4402))
--- Mottled Boar (Id: 3098)
+-- Mottled Boar
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=3098 AND `ItemId`=11583;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3098, 0, 11583);
 
 -- Highperch Wyvern Egg (Quest: Wind Rider (Id: 4767))
--- Highperch Wyvern (Id: 4107)
+-- Highperch Wyvern
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4107 AND `ItemId`=12356;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4107, 1, 12356);
 
 -- Kodo Bone (Quest: Bone Collector (Id: 5501))
--- Aged Kodo (Id: 4700)
+-- Aged Kodo
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4700 AND `ItemId`=13703;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4700, 2, 13703);
--- Dying Kodo (Id: 4701)
+-- Dying Kodo
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4701 AND `ItemId`=13703;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4701, 1, 13703);
--- Ancient Kodo (Id: 4702)
+-- Ancient Kodo
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4702 AND `ItemId`=13703;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4702, 1, 13703);
 
 -- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
--- Pridewing Wyvern (Id: 4012)
+-- Pridewing Wyvern
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4012 AND `ItemId`=16205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4012, 1, 16205);
--- Pridewing Skyhunter (Id: 4013)
+-- Pridewing Skyhunter
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4013 AND `ItemId`=16205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4013, 1, 16205);
--- Pridewing Consort (Id: 4014)
+-- Pridewing Consort
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4014 AND `ItemId`=16205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4014, 1, 16205);
 
 -- Hellfire Spineleaf (Quest: Preparing the Salve (Id: 9345))
--- Starving Helboar (Id: 16879)
+-- Starving Helboar
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16879 AND `ItemId`=23205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16879, 1, 23205);
--- Bonestripper Buzzard (Id: 16972)
+-- Bonestripper Buzzard
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16972 AND `ItemId`=23205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16972, 1, 23205);
 
