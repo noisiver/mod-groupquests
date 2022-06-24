@@ -241,6 +241,15 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=3162;
 -- Blackened Skull (Quest: The Mills Overrun (Id: 426))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=3163;
 
+-- Boar Intestines (Quest: Thelsamar Blood Sausages (Id: 418))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=3172;
+
+-- Bear Meat (Quest: Thelsamar Blood Sausages (Id: 418))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=3173;
+
+-- Spider Ichor (Quest: Thelsamar Blood Sausages (Id: 418))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=3174;
+
 -- Pyrewood Shackle (Quest: Arugal's Folly (Id: 99))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=3218;
 
