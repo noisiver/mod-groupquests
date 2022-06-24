@@ -25,6 +25,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=750;
 -- Red Burlap Bandana (Quest: Brotherhood of Thieves (Id: 18))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=752;
 
+-- Chunk of Boar Meat (Quest: Pie for Billy (Id: 86), Quest: Stocking Jetsteam (Id: 317))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=769;
+
 -- Large Candle (Quest: Kobold Candles (Id: 60))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=772;
 

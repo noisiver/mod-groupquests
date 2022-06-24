@@ -437,3 +437,4 @@
 
 [2022-06-24]
 - Updated the respawn time of Ammo Crate.
+- Updated the flags of Chunk of Boar Meat to allow every member of a group to loot it.
