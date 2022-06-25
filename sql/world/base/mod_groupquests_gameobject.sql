@@ -46,6 +46,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12898;
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12899;
 
+-- Clara's Fresh Apples (Quest: Items of Some Consequence (Id: 2746))
+-- Changed from 120 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=142076;
+
 -- Felix's Box (Quest: A Refugee's Quandary (Id: 3361))
 -- Changed from 10 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=148499;

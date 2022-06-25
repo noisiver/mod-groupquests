@@ -444,3 +444,6 @@
 - Added Miners' Gear to the loot table of Tunnel Rat Geomancer for the quest Filthy Paws.
 - Added Miners' Gear to the loot table of Tunnel Rat Digger for the quest Filthy Paws.
 - Updated the flags of Miners' Gear to allow every member of a group to loot it.
+
+[2022-06-25]
+- Updated the respawn time of Clara's Fresh Apples.
