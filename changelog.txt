@@ -1,6 +1,3 @@
-[2022-06-29]
-- Updated the module to work with the latest version of AzerothCore
-
 [2021-12-15]
 - Complete rewrite started.
 
