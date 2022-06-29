@@ -447,3 +447,8 @@
 
 [2022-06-25]
 - Updated the respawn time of Clara's Fresh Apples.
+
+[2022-06-29]
+- Added Incendia Agave to the loot table of Scalding Elemental for the quest Sacred Fire.
+- Added Incendia Agave to the loot table of Boiling Elemental for the quest Sacred Fire.
+- Updated the flags of Incendia Agave to allow every member of a group to loot it.

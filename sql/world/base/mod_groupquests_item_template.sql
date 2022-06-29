@@ -1099,6 +1099,9 @@ UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12622;
 -- Chillwind Meat (Quest: Frostsaber Provisions (Id: 4970))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12623;
 
+-- Incendia Agave (Quest: Sacred Fire (Id: 5062))
+UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12732;
+
 -- Frayed Abomination Stitching (Quest: Cap of the Scarlet Savant (Id: 5063), Quest: Leggings of Arcana (Id: 5067), Quest: Breastplate of Bloodthirst (Id: 5068), Quest: Breastplate of the Chromatic Flight (Id: 5166), Quest: Libram of Protection (Id: 7485), Quest: The Ultimate Deception (Id: 8829))
 UPDATE `item_template` SET `Flags`=2048 WHERE `entry`=12735;
 

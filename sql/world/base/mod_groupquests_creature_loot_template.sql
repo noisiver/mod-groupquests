@@ -53,6 +53,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=4107 AND `Item`=12356;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4107, 12356, 38, 1, 'Highperch Wyvern - Highperch Wyvern Egg');
 
+-- Incendia Agave (Quest: Sacred Fire (Id: 5062))
+-- Scalding Elemental
+DELETE FROM `creature_loot_template` WHERE `Entry`=10756 AND `Item`=12732;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (10756, 12732, 100, 1, 'Scalding Elemental - Incendia Agave');
+-- Boiling Elemental
+DELETE FROM `creature_loot_template` WHERE `Entry`=10757 AND `Item`=12732;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (10757, 12732, 100, 1, 'Boiling Elemental - Incendia Agave');
+
 -- Kodo Bone (Quest: Bone Collector (Id: 5501))
 -- Aged Kodo
 DELETE FROM `creature_loot_template` WHERE `Entry`=4700 AND `Item`=13703;

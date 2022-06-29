@@ -53,6 +53,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3098
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4107 AND `ItemId`=12356;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4107, 1, 12356);
 
+-- Incendia Agave (Quest: Sacred Fire (Id: 5062))
+-- Scalding Elemental
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=10756 AND `ItemId`=12732;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (10756, 0, 12732);
+-- Boiling Elemental
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=10757 AND `ItemId`=12732;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (10757, 0, 12732);
+
 -- Kodo Bone (Quest: Bone Collector (Id: 5501))
 -- Aged Kodo
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4700 AND `ItemId`=13703;
