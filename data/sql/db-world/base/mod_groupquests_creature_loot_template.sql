@@ -45,9 +45,18 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Sparkleshell Tortoise
 DELETE FROM `creature_loot_template` WHERE `Entry`=4142 AND `Item`=5798;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4142, 5798, 30, 1, 2, 'Sparkleshell Tortoise - Rocket Car Parts');
+-- Sparkleshell Borer
+DELETE FROM `creature_loot_template` WHERE `Entry`=4144 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4144, 5798, 38, 1, 2, 'Sparkleshell Borer - Rocket Car Parts');
 -- Saltstone Basilisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=4147 AND `Item`=5798;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4147, 5798, 32, 1, 2, 'Saltstone Basilisk - Rocket Car Parts');
+-- Saltstone Gazer
+DELETE FROM `creature_loot_template` WHERE `Entry`=4150 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4150, 5798, 32, 1, 2, 'Saltstone Gazer - Rocket Car Parts');
+-- Saltstone Crystalhide
+DELETE FROM `creature_loot_template` WHERE `Entry`=4151 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4151, 5798, 28, 1, 2, 'Saltstone Crystalhide - Rocket Car Parts');
 -- Salt Flats Scavenger
 DELETE FROM `creature_loot_template` WHERE `Entry`=4154 AND `Item`=5798;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4154, 5798, 38, 1, 2, 'Salt Flats Scavenger - Rocket Car Parts');

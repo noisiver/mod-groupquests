@@ -45,9 +45,18 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4140
 -- Sparkleshell Tortoise
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4142 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4142, 1, 5798);
+-- Sparkleshell Borer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4144 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4144, 1, 5798);
 -- Saltstone Basilisk
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4147 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4147, 1, 5798);
+-- Saltstone Gazer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4150 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4150, 0, 5798);
+-- Saltstone Crystalhide
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4151 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4151, 0, 5798);
 -- Salt Flats Scavenger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4154 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4154, 1, 5798);

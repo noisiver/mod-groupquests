@@ -454,7 +454,10 @@
 - Updated the flags of Incendia Agave to allow every member of a group to loot it.
 - Added Rocket Car Parts to the loot table of Scorpid Reaver for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Sparkleshell Tortoise for the quest Rocket Car Parts.
+- Added Rocket Car Parts to the loot table of Sparkleshell Borer for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Saltstone Basilisk for the quest Rocket Car Parts.
+- Added Rocket Car Parts to the loot table of Saltstone Gazer for the quest Rocket Car Parts.
+- Added Rocket Car Parts to the loot table of Saltstone Crystalhide for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Salt Flats Scavenger for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Salt Flats Vulture for the quest Rocket Car Parts.
 - Updated the flags of Rocket Car Parts to allow every member of a group to loot it.
