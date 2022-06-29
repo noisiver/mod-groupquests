@@ -670,6 +670,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=5796;
 -- Indurium Flake (Quest: Indurium (Id: 1108))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=5797;
 
+-- Rocket Car Parts (Quest: Rocket Car Parts (Id: 1110))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=5798;
+
 -- Kraul Guano (Quest: Going, Going, Guano! (Id: 1109))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=5801;
 

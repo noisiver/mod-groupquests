@@ -38,6 +38,23 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4006
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4007 AND `ItemId`=5570;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4007, 0, 5570);
 
+-- Rocket Car Parts (Quest: Rocket Car Parts (Id: 1110))
+-- Scorpid Reaver
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4140 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4140, 1, 5798);
+-- Sparkleshell Tortoise
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4142 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4142, 1, 5798);
+-- Saltstone Basilisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4147 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4147, 1, 5798);
+-- Salt Flats Scavenger
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4154 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4154, 1, 5798);
+-- Salt Flats Vulture
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4158 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4158, 1, 5798);
+
 -- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
 -- Defias Thug
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=38 AND `ItemId`=11119;

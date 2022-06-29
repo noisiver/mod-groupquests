@@ -38,6 +38,23 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=4007 AND `Item`=5570;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4007, 5570, 30, 1, 'Deepmoss Venomspitter - Deepmoss Egg');
 
+-- Rocket Car Parts (Quest: Rocket Car Parts (Id: 1110))
+-- Scorpid Reaver
+DELETE FROM `creature_loot_template` WHERE `Entry`=4140 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4140, 5798, 28, 1, 2, 'Scorpid Reaver - Rocket Car Parts');
+-- Sparkleshell Tortoise
+DELETE FROM `creature_loot_template` WHERE `Entry`=4142 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4142, 5798, 30, 1, 2, 'Sparkleshell Tortoise - Rocket Car Parts');
+-- Saltstone Basilisk
+DELETE FROM `creature_loot_template` WHERE `Entry`=4147 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4147, 5798, 32, 1, 2, 'Saltstone Basilisk - Rocket Car Parts');
+-- Salt Flats Scavenger
+DELETE FROM `creature_loot_template` WHERE `Entry`=4154 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4154, 5798, 38, 1, 2, 'Salt Flats Scavenger - Rocket Car Parts');
+-- Salt Flats Vulture
+DELETE FROM `creature_loot_template` WHERE `Entry`=4158 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4158, 5798, 38, 1, 2, 'Salt Flats Vulture - Rocket Car Parts');
+
 -- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
 -- Defias Thug
 DELETE FROM `creature_loot_template` WHERE `Entry`=38 AND `Item`=11119;
