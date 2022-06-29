@@ -39,12 +39,18 @@ DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4007 AND `ItemId`=5570;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4007, 0, 5570);
 
 -- Rocket Car Parts (Quest: Rocket Car Parts (Id: 1110))
+-- Scorpid Terror
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4139 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4139, 1, 5798);
 -- Scorpid Reaver
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4140 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4140, 1, 5798);
 -- Sparkleshell Tortoise
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4142 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4142, 1, 5798);
+-- Sparkleshell Snapper
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4143 AND `ItemId`=5798;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4143, 1, 5798);
 -- Sparkleshell Borer
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4144 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4144, 1, 5798);

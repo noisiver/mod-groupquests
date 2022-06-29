@@ -39,12 +39,18 @@ DELETE FROM `creature_loot_template` WHERE `Entry`=4007 AND `Item`=5570;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4007, 5570, 30, 1, 'Deepmoss Venomspitter - Deepmoss Egg');
 
 -- Rocket Car Parts (Quest: Rocket Car Parts (Id: 1110))
+-- Scorpid Terror
+DELETE FROM `creature_loot_template` WHERE `Entry`=4139 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4139, 5798, 28, 1, 2, 'Scorpid Terror - Rocket Car Parts');
 -- Scorpid Reaver
 DELETE FROM `creature_loot_template` WHERE `Entry`=4140 AND `Item`=5798;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4140, 5798, 28, 1, 2, 'Scorpid Reaver - Rocket Car Parts');
 -- Sparkleshell Tortoise
 DELETE FROM `creature_loot_template` WHERE `Entry`=4142 AND `Item`=5798;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4142, 5798, 30, 1, 2, 'Sparkleshell Tortoise - Rocket Car Parts');
+-- Sparkleshell Snapper
+DELETE FROM `creature_loot_template` WHERE `Entry`=4143 AND `Item`=5798;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4143, 5798, 28, 1, 2, 'Sparkleshell Snapper - Rocket Car Parts');
 -- Sparkleshell Borer
 DELETE FROM `creature_loot_template` WHERE `Entry`=4144 AND `Item`=5798;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4144, 5798, 38, 1, 2, 'Sparkleshell Borer - Rocket Car Parts');
