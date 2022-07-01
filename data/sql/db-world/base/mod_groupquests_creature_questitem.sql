@@ -115,6 +115,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4013
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4014 AND `ItemId`=16205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4014, 1, 16205);
 
+-- Dark Iron Pillow (Quest: Kill 'Em With Sleep Deprivation (Id: 7702))
+-- Dark Iron Slaver
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5844 AND `ItemId`=18943;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5844, 1, 18943);
+-- Dark Iron Taskmaster
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5846 AND `ItemId`=18943;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5846, 1, 18943);
+-- Dark Iron Lookout
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=8566 AND `ItemId`=18943;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (8566, 2, 18943);
+
 -- Hellfire Spineleaf (Quest: Preparing the Salve (Id: 9345))
 -- Starving Helboar
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16879 AND `ItemId`=23205;

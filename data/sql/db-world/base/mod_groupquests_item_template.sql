@@ -1210,6 +1210,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=18704;
 -- Blessed Arcanite Barding (Quest: Blessed Arcanite Barding (Id: 7644), Quest: Judgment and Redemption (Id: 7647))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=18792;
 
+-- Dark Iron Pillow (Quest: Kill 'Em With Sleep Deprivation (Id: 7702))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=18943;
+
 -- Rage Scar Yeti Hide (Quest: Improved Quality (Id: 7733), Quest: Improved Quality (Id: 7734))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=18947;
 

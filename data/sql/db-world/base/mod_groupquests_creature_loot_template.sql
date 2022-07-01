@@ -115,6 +115,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=4014 AND `Item`=16205;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4014, 16205, 34, 1, 'Pridewing Consort - Gaea Seed');
 
+-- Dark Iron Pillow (Quest: Kill 'Em With Sleep Deprivation (Id: 7702))
+-- Dark Iron Slaver
+DELETE FROM `creature_loot_template` WHERE `Entry`=5844 AND `Item`=18943;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (5844, 18943, 31, 1, 'Dark Iron Slaver - Dark Iron Pillow');
+-- Dark Iron Taskmaster
+DELETE FROM `creature_loot_template` WHERE `Entry`=5846 AND `Item`=18943;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (5846, 18943, 29, 1, 'Dark Iron Taskmaster - Dark Iron Pillow');
+-- Dark Iron Lookout
+DELETE FROM `creature_loot_template` WHERE `Entry`=8566 AND `Item`=18943;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (8566, 18943, 33, 1, 'Dark Iron Lookout - Dark Iron Pillow');
+
 -- Hellfire Spineleaf (Quest: Preparing the Salve (Id: 9345))
 -- Starving Helboar
 DELETE FROM `creature_loot_template` WHERE `Entry`=16879 AND `Item`=23205;

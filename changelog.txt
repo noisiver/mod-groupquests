@@ -463,3 +463,9 @@
 - Added Rocket Car Parts to the loot table of Salt Flats Scavenger for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Salt Flats Vulture for the quest Rocket Car Parts.
 - Updated the flags of Rocket Car Parts to allow every member of a group to loot it.
+
+[2022-07-01]
+- Added Dark Iron Pillow to the loot table of Dark Iron Slaver for the quest Kill 'Em With Sleep Deprivation.
+- Added Dark Iron Pillow to the loot table of Dark Iron Taskmaster for the quest Kill 'Em With Sleep Deprivation.
+- Added Dark Iron Pillow to the loot table of Dark Iron Lookout for the quest Kill 'Em With Sleep Deprivation.
+- Updated the flags of Dark Iron Pillow to allow every member of a group to loot it.
