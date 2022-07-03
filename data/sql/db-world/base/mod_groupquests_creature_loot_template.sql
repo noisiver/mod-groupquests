@@ -7,12 +7,10 @@ DELETE FROM `creature_loot_template` WHERE `Entry`=480 AND `Item`=1528;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (480, 1528, 33, 1, 'Rusty Harvest Golem - Handful of Oats');
 
 -- Miners' Gear (Quest: Filthy Paws (Id: 307))
--- Tunnel Rat Geomancer
+-- Tunnel Rat Geomancer & Tunnel Rat Digger
 DELETE FROM `creature_loot_template` WHERE `Entry`=1174 AND `Item`=2640;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1174, 2640, 29, 1, 'Tunnel Rat Geomancer - Miners\' Gear');
--- Tunnel Rat Digger
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1174, 2640, 29, 1, 'Tunnel Rat Geomancer, Tunnel Rat Digger - Miners\' Gear');
 DELETE FROM `creature_loot_template` WHERE `Entry`=1175 AND `Item`=2640;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1175, 2640, 28, 1, 'Tunnel Rat Digger - Miners\' Gear');
 
 -- Sack of Supplies (Quest: Winds in the Desert (Id: 834))
 -- Dustwind Harpy
