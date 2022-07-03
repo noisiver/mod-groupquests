@@ -10,7 +10,6 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Tunnel Rat Geomancer & Tunnel Rat Digger
 DELETE FROM `creature_loot_template` WHERE `Entry`=1174 AND `Item`=2640;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1174, 2640, 29, 1, 'Tunnel Rat Geomancer, Tunnel Rat Digger - Miners\' Gear');
-DELETE FROM `creature_loot_template` WHERE `Entry`=1175 AND `Item`=2640;
 
 -- Sack of Supplies (Quest: Winds in the Desert (Id: 834))
 -- Dustwind Harpy
