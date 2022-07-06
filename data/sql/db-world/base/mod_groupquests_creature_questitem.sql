@@ -382,6 +382,21 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2681
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26812 AND `ItemId`=36825;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26812, 0, 36825);
 
+-- Filled Blood Gem (Quest: In Service of Blood (Id: 12125))
+-- Deranged Indu'le Villager
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26411 AND `ItemId`=36828;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26411, 0, 36828);
+
+-- Filled Unholy Gem (Quest: In Service of the Unholy (Id: 12126))
+-- Duke Vallenhal
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26926 AND `ItemId`=36836;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26926, 0, 36836);
+
+-- Filled Frost Gem (Quest: In Service of Frost (Id: 12127))
+-- Ice Revenant
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26283 AND `ItemId`=36836;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26283, 1, 36836);
+
 -- War Golem Part (Quest: From the Ground Up (Id: 12196))
 -- Runic War Golem
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26347 AND `ItemId`=36852;

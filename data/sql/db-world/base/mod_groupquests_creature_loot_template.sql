@@ -379,6 +379,21 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26812 AND `Item`=36825;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26812, 36825, 55, 1, 'Ancient Drakkari Soothsayer - Drakkari Canopic Jar');
 
+-- Filled Blood Gem (Quest: In Service of Blood (Id: 12125))
+-- Deranged Indu'le Villager
+DELETE FROM `creature_loot_template` WHERE `Entry`=26411 AND `Item`=36828;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26411, 36828, 43, 1, 'Deranged Indu\'le Villager - Filled Blood Gem');
+
+-- Filled Unholy Gem (Quest: In Service of the Unholy (Id: 12126))
+-- Duke Vallenhal
+DELETE FROM `creature_loot_template` WHERE `Entry`=26926 AND `Item`=36836;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26926, 36836, 100, 1, 'Duke Vallenhal - Filled Unholy Gem');
+
+-- Filled Frost Gem (Quest: In Service of Frost (Id: 12127))
+-- Ice Revenant
+DELETE FROM `creature_loot_template` WHERE `Entry`=26283 AND `Item`=36846;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26283, 36846, 44, 1, 'Ice Revenant - Filled Frost Gem');
+
 -- War Golem Part (Quest: From the Ground Up (Id: 12196))
 -- Runic War Golem
 DELETE FROM `creature_loot_template` WHERE `Entry`=26347 AND `Item`=36852;

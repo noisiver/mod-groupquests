@@ -2194,6 +2194,15 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36819;
 -- Drakkari Canopic Jar (Quest: It Takes Guts.... (Id: 12116))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36825;
 
+-- Filled Blood Gem (Quest: In Service of Blood (Id: 12125))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36828;
+
+-- Filled Unholy Gem (Quest: In Service of the Unholy (Id: 12126))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36836;
+
+-- Filled Frost Gem (Quest: In Service of Frost (Id: 12127))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36846;
+
 -- Golem Blueprint Section 1 (Quest: The Perfect Plan (Id: 12129), Quest: An Intriguing Plan (Id: 12165))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36849;
 
