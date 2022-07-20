@@ -186,6 +186,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188676;
 -- Changed from 1200 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=188677;
 
+-- Scrying Orb (Quest: Imprints on the Past (Id: 12282))
+-- Changed from 180 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=189291;
+
 -- Cedar Chest (Quest: Local Support (Id: 12292))
 -- Changed from 25 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=189298;

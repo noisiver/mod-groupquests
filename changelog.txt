@@ -477,3 +477,6 @@
 - Updated the flags of Filled Unholy Gem to allow every member of a group to loot it.
 - Added Filled Frost Gem to the loot table of Ice Revenant for the quest In Service of Frost.
 - Updated the flags of Filled Frost Gem to allow every member of a group to loot it.
+
+[2022-07-20]
+- Updated the respawn time of Scrying Orb.
