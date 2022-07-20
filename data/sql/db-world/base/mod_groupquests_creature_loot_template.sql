@@ -402,6 +402,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26408 AND `Item`=36852;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26408, 36852, 29, 1, 'Iron Rune-Smith - War Golem Part');
 
+-- Haze Leaf (Quest: Vial of Visions (Id: 12483))
+-- Tallhorn Stag
+DELETE FROM `creature_loot_template` WHERE `Entry`=26363 AND `Item`=37085;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26363, 37085, 27, 1, 'Tallhorn Stag - Haze Leaf');
+
 -- Sweetroot (Quest: Shimmercap Stew (Id: 12483))
 -- Diseased Drakkari
 DELETE FROM `creature_loot_template` WHERE `Entry`=26457 AND `Item`=37087;
@@ -435,10 +440,10 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26357 AND `Item`=37302;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26357, 37302, 29, 1, 'Frostpaw Warrior - Vordrassil\'s Seed');
 
--- Haze Leaf (Quest: Vial of Visions (Id: 12483))
--- Tallhorn Stag
-DELETE FROM `creature_loot_template` WHERE `Entry`=26363 AND `Item`=37085;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26363, 37085, 27, 1, 'Tallhorn Stag - Haze Leaf');
+-- Strange Ore (Quest: The Bleeding Ore (Id: 12272))
+-- Risen Wintergarde Miner
+DELETE FROM `creature_loot_template` WHERE `Entry`=27401 AND `Item`=37359;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (27401, 37359, 44, 1, 'Risen Wintergarde Miner - Strange Ore');
 
 -- Muddlecap Fungus (Quest: Mushroom Mixer (Id: 12514))
 -- Lurking Basilisk

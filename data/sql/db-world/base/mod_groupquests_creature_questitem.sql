@@ -443,6 +443,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2635
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26357 AND `ItemId`=37302;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26357, 1, 37302);
 
+-- Strange Ore (Quest: The Bleeding Ore (Id: 12272))
+-- Risen Wintergarde Miner
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27401 AND `ItemId`=37359;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (27401, 2, 37359);
+
 -- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
 -- Forgotten Peasant
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=27226 AND `ItemId`=37580;

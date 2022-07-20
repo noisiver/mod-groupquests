@@ -2272,6 +2272,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=37251;
 -- Vordrassil's Seed (Quest: Vordrassil's Seeds (Id: 12242), Quest: Vordrassil's Seeds (Id: 12250))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=37302;
 
+-- Strange Ore (Quest: The Bleeding Ore (Id: 12272))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=37359;
+
 -- Wintergarde Miner's Card (Quest: Not In Our Mine (Id: 12269))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=37411;
 
