@@ -77,22 +77,12 @@ public:
                 if (_textCounter == 5)
                 {
                     if (Group* group = player->GetGroup())
-                    {
                         for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        {
                             if (Player* member = groupRef->GetSource())
-                            {
-                                if (member->IsInMap(player))
-                                {
+                                if (member->GetDistance2d(player) < 200 && member != player)
                                     member->KilledMonsterCredit(NPC_TORTURER_LECRAFT);
-                                }
-                            }
-                        }
-                    }
-                    else
-                    {
-                        player->KilledMonsterCredit(NPC_TORTURER_LECRAFT);
-                    }
+
+                    player->KilledMonsterCredit(NPC_TORTURER_LECRAFT);
                 }
 
                 ++_textCounter;

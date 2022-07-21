@@ -119,24 +119,14 @@ public:
                     DoCast(me, SPELL_EXPLODE_CART, true);
                     if (Player* caster = ObjectAccessor::GetPlayer(*me, casterGuid))
                     {
-                        Player* player = caster->ToPlayer();
-                        if (Group* group = player->GetGroup())
-                        {
-                            for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                            {
-                                if (Player* member = groupRef->GetSource())
-                                {
-                                    if (member->IsInMap(player))
-                                    {
-                                        member->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
-                                    }
-                                }
-                            }
-                        }
-                        else
-                        {
-                            caster->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
-                        }
+                        if (Player* player = caster->ToPlayer())
+                            if (Group* group = player->GetGroup())
+                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                                    if (Player* member = groupRef->GetSource())
+                                        if (member->GetDistance2d(player) < 200 && member != player)
+                                            member->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
+
+                        caster->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
                     }
                     phaseTimer = 5000;
                     phase = 8;
@@ -242,23 +232,12 @@ public:
                             me->CastSpell(player, SPELL_ARCANE_CHAINS_CHARACTER_FORCE_CAST, TriggerCastFlags(TRIGGERED_FULL_MASK & ~TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS & ~TRIGGERED_IGNORE_CAST_ITEM));
 
                             if (Group* group = player->GetGroup())
-                            {
                                 for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                {
                                     if (Player* member = groupRef->GetSource())
-                                    {
-                                        if (member->IsInMap(player))
-                                        {
+                                        if (member->GetDistance2d(player) < 200 && member != player)
                                             member->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
-                                        }
-                                    }
-                                }
-                            }
-                            else
-                            {
-                                player->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
-                            }
 
+                            player->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
                             me->DisappearAndDie();
                         }
                     }
@@ -314,28 +293,13 @@ public:
             if (uiRand < 40)
             {
                 if (Group* group = player->GetGroup())
-                {
                     for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                    {
                         if (Player* member = groupRef->GetSource())
-                        {
-                            if (member->IsInMap(player) && member->GetQuestStatus(QUEST_TAKEN_BY_THE_SCOURGE) == QUEST_STATUS_INCOMPLETE)
-                            {
+                            if (member->GetDistance2d(player) < 200 && member != player)
                                 member->KilledMonsterCredit(NPC_WARSONG_PEON);
-                            }
-                        }
-                    }
 
-                    player->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
-                }
-                else
-                {
-                    if (player->GetQuestStatus(QUEST_TAKEN_BY_THE_SCOURGE) == QUEST_STATUS_INCOMPLETE)
-                    {
-                        player->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
-                        player->KilledMonsterCredit(NPC_WARSONG_PEON);
-                    }
-                }
+                player->KilledMonsterCredit(NPC_WARSONG_PEON);
+                player->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
             }
             else if (uiRand < 80)
             {
@@ -436,22 +400,12 @@ public:
                         if (Player* player = GetPlayerForEscort())
                         {
                             if (Group* group = player->GetGroup())
-                            {
                                 for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                {
                                     if (Player* member = groupRef->GetSource())
-                                    {
-                                        if (member->IsInMap(player))
-                                        {
+                                        if (member->GetDistance2d(player) < 200 && member != player)
                                             member->AreaExploredOrEventHappens(QUEST_ESCAPE_WINTERFIN_CAVERNS);
-                                        }
-                                    }
-                                }
-                            }
-                            else
-                            {
-                                player->AreaExploredOrEventHappens(QUEST_ESCAPE_WINTERFIN_CAVERNS);
-                            }
+
+                            player->AreaExploredOrEventHappens(QUEST_ESCAPE_WINTERFIN_CAVERNS);
                         }
                         IntroPhase = 7;
                         IntroTimer = 2500;

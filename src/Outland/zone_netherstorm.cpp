@@ -72,22 +72,12 @@ public:
                 break;
             case 36: //return and quest_complete
                 if (Group* group = player->GetGroup())
-                {
                     for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                    {
                         if (Player* member = groupRef->GetSource())
-                        {
-                            if (member->IsInMap(player))
-                            {
+                            if (member->GetDistance2d(player) < 200 && member != player)
                                 member->CompleteQuest(QUEST_MARK_V_IS_ALIVE);
-                            }
-                        }
-                    }
-                }
-                else
-                {
-                    player->CompleteQuest(QUEST_MARK_V_IS_ALIVE);
-                }
+
+                player->CompleteQuest(QUEST_MARK_V_IS_ALIVE);
                 break;
             }
         }
@@ -97,22 +87,12 @@ public:
             if (Player* player = GetPlayerForEscort())
             {
                 if (Group* group = player->GetGroup())
-                {
                     for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                    {
                         if (Player* member = groupRef->GetSource())
-                        {
-                            if (member->IsInMap(player))
-                            {
+                            if (member->GetDistance2d(player) < 200 && member != player)
                                 member->FailQuest(QUEST_MARK_V_IS_ALIVE);
-                            }
-                        }
-                    }
-                }
-                else
-                {
-                    player->FailQuest(QUEST_MARK_V_IS_ALIVE);
-                }
+
+                player->FailQuest(QUEST_MARK_V_IS_ALIVE);
             }
         }
 

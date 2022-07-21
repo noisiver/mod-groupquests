@@ -94,31 +94,14 @@ public:
                 if (Creature* rageclaw = ObjectAccessor::GetCreature(*me, _rageclawGUID))
                 {
                     if (Group* group = player->GetGroup())
-                    {
-                        UnlockRageclaw(player, rageclaw);
-
                         for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        {
                             if (Player* member = groupRef->GetSource())
-                            {
-                                if (member->IsInMap(player) && member->GetQuestStatus(QUEST_TROLLS_IS_GONE_CRAZY) == QUEST_STATUS_INCOMPLETE)
-                                {
+                                if (member->GetDistance2d(player) < 200 && member != player)
                                     member->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
-                                }
-                            }
-                        }
 
-                        me->DespawnOrUnsummon();
-                    }
-                    else
-                    {
-                        if (player->GetQuestStatus(QUEST_TROLLS_IS_GONE_CRAZY) == QUEST_STATUS_INCOMPLETE)
-                        {
-                            UnlockRageclaw(caster, rageclaw);
-                            player->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
-                            me->DespawnOrUnsummon();
-                        }
-                    }
+                    UnlockRageclaw(caster, rageclaw);
+                    player->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
+                    me->DespawnOrUnsummon();
                 }
                 else
                 {
@@ -214,22 +197,12 @@ public:
                             if (Player* player = owner->ToPlayer())
                             {
                                 if (Group* group = player->GetGroup())
-                                {
                                     for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                    {
                                         if (Player* member = groupRef->GetSource())
-                                        {
-                                            if (member->IsInMap(player))
-                                            {
+                                            if (member->GetDistance2d(player) < 200 && member != player)
                                                 member->KilledMonsterCredit(me->GetEntry());
-                                            }
-                                        }
-                                    }
-                                }
-                                else
-                                {
-                                    player->KilledMonsterCredit(me->GetEntry());
-                                }
+
+                                player->KilledMonsterCredit(me->GetEntry());
                             }
                         }
 

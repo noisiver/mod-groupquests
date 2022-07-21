@@ -132,22 +132,12 @@ public:
                         if (Player* player = owner->ToPlayer())
                         {
                             if (Group* group = player->GetGroup())
-                            {
                                 for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                {
                                     if (Player* member = groupRef->GetSource())
-                                    {
-                                        if (member->IsInMap(player))
-                                        {
+                                        if (member->GetDistance2d(player) < 200 && member != player)
                                             member->KilledMonsterCredit(credit);
-                                        }
-                                    }
-                                }
-                            }
-                            else
-                            {
-                                player->KilledMonsterCredit(credit);
-                            }
+
+                            player->KilledMonsterCredit(credit);
                         }
                     }
 

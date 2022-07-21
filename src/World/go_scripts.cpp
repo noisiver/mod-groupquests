@@ -58,23 +58,15 @@ public:
             return false;
 
         pPrisoner->DespawnOrUnsummon();
+
         if (Group* group = player->GetGroup())
-        {
             for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-            {
                 if (Player* member = groupRef->GetSource())
-                {
-                    if (member->IsInMap(player))
-                    {
+                    if (member->GetDistance2d(player) < 200 && member != player)
                         member->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
-                    }
-                }
-            }
-        }
-        else
-        {
-            player->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
-        }
+
+        player->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
+
         switch (pPrisoner->GetEntry())
         {
             case NPC_EBON_BLADE_PRISONER_HUMAN:
@@ -149,24 +141,12 @@ public:
                 (*itr)->GetMotionMaster()->MoveFollow(player, 1.0f, frand(0.0f, 2 * M_PI), MOTION_SLOT_CONTROLLED);
 
                 if (Group* group = player->GetGroup())
-                {
                     for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                    {
                         if (Player* member = groupRef->GetSource())
-                        {
-                            if (member->IsInMap(player))
-                            {
-                                if (member->GetQuestStatus(QUEST_OH_NOES_THE_TADPOLES) == QUEST_STATUS_INCOMPLETE)
+                            if (member->GetDistance2d(player) < 200 && member != player)
                                     member->KilledMonsterCredit(NPC_WINTERFIN_TADPOLE);
-                            }
-                        }
-                    }
-                }
-                else
-                {
-                    if (player->GetQuestStatus(QUEST_OH_NOES_THE_TADPOLES) == QUEST_STATUS_INCOMPLETE)
-                        player->KilledMonsterCredit(NPC_WINTERFIN_TADPOLE);
-                }
+
+                player->KilledMonsterCredit(NPC_WINTERFIN_TADPOLE);
             }
 
             return false;
