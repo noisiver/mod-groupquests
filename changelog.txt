@@ -482,3 +482,7 @@
 - Updated the respawn time of Scrying Orb.
 - Added Strange Ore to the loot table of Risen Wintergarde Miner for the quest The Bleeding Ore.
 - Updated the flags of Strange Ore to allow every member of a group to loot it.
+
+[2022-07-21]
+- Added the script for Sholazar Basin to make the quest Still At It give the item to every member of a group.
+- Added the script for Sholazar Basin to make the quest Kick, What Kick? trigger for every member of a group.
