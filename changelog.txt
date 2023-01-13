@@ -486,3 +486,7 @@
 [2022-07-21]
 - Added the script for Sholazar Basin to make the quest Still At It give the item to every member of a group.
 - Added the script for Sholazar Basin to make the quest Kick, What Kick? trigger for every member of a group.
+
+[2023-01-13]
+- Added Taillasher Egg to the loot table of Bloodtalon Taillasher for the quest Break a Few Eggs.
+- Updated the flags of Taillasher Egg to allow every member of a group to loot it.

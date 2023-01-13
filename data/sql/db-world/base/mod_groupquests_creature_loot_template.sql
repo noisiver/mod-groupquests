@@ -11,6 +11,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=1174 AND `Item`=2640;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1174, 2640, 29, 1, 'Tunnel Rat Geomancer, Tunnel Rat Digger - Miners\' Gear');
 
+-- Taillasher Egg (Quest: Break a Few Eggs (Id: 815))
+-- Bloodtalon Taillasher
+DELETE FROM `creature_loot_template` WHERE `Entry`=3122 AND `Item`=4890;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (3122, 4890, 29, 1, 'Bloodtalon Taillasher - Taillasher Egg');
+
 -- Sack of Supplies (Quest: Winds in the Desert (Id: 834))
 -- Dustwind Harpy
 DELETE FROM `creature_loot_template` WHERE `Entry`=3115 AND `Item`=4918;

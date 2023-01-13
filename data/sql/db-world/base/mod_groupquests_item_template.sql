@@ -493,6 +493,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4887;
 -- Crawler Mucus (Quest: A Solvent Spirit (Id: 818))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4888;
 
+-- Taillasher Egg (Quest: Break a Few Eggs (Id: 815))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4890;
+
 -- Durotar Tiger Fur (Quest: Practical Prey (Id: 817))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4892;
 

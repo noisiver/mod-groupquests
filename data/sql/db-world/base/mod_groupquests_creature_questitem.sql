@@ -14,6 +14,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1174
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=1175 AND `ItemId`=2640;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1175, 1, 2640);
 
+-- Taillasher Egg (Quest: Break a Few Eggs (Id: 815))
+-- Bloodtalon Taillasher
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=3122 AND `ItemId`=4890;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3122, 0, 4890);
+
 -- Sack of Supplies (Quest: Winds in the Desert (Id: 834))
 -- Dustwind Harpy
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=3115 AND `ItemId`=4918;
