@@ -14,6 +14,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1174
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=1175 AND `ItemId`=2640;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1175, 1, 2640);
 
+-- Fields of Grief (Quest: Fields of Grief (Id: 365))
+-- Tirisfal Farmer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=1934 AND `ItemId`=2846;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1934, 0, 2846);
+-- Tirisfal Farmhand
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=1935 AND `ItemId`=2846;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1935, 0, 2846);
+
 -- Taillasher Egg (Quest: Break a Few Eggs (Id: 815))
 -- Bloodtalon Taillasher
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=3122 AND `ItemId`=4890;

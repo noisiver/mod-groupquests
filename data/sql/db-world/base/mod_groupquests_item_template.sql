@@ -190,6 +190,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=2834;
 -- Dirty Knucklebones (Quest: Crushridge Bounty (Id: 500))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=2843;
 
+-- Fields of Grief (Quest: Fields of Grief (Id: 365))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=2846;
+
 -- Putrid Claw (Quest: A Putrid Task (Id: 404))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=2855;
 

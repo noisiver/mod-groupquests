@@ -490,3 +490,6 @@
 [2023-01-13]
 - Added Taillasher Egg to the loot table of Bloodtalon Taillasher for the quest Break a Few Eggs.
 - Updated the flags of Taillasher Egg to allow every member of a group to loot it.
+- Added Tirisfal Pumpkin to the loot table of Tirisfal Farmer for the quest Fields of Grief.
+- Added Tirisfal Pumpkin to the loot table of Tirisfal Farmhand for the quest Fields of Grief.
+- Updated the flags of Tirisfal Pumpkin to allow every member of a group to loot it.

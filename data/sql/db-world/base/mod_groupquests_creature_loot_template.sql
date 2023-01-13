@@ -11,6 +11,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=1174 AND `Item`=2640;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1174, 2640, 29, 1, 'Tunnel Rat Geomancer, Tunnel Rat Digger - Miners\' Gear');
 
+-- Fields of Grief (Quest: Fields of Grief (Id: 365))
+-- Tirisfal Farmer
+DELETE FROM `creature_loot_template` WHERE `Entry`=1934 AND `Item`=2846;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1934, 2846, 31, 1, 'Tirisfal Farmer - Tirisfal Pumpkin');
+-- Tirisfal Farmhand
+DELETE FROM `creature_loot_template` WHERE `Entry`=1935 AND `Item`=2846;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (1935, 2846, 32, 1, 'Tirisfal Farmhand - Tirisfal Pumpkin');
+
 -- Taillasher Egg (Quest: Break a Few Eggs (Id: 815))
 -- Bloodtalon Taillasher
 DELETE FROM `creature_loot_template` WHERE `Entry`=3122 AND `Item`=4890;
