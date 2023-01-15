@@ -493,3 +493,6 @@
 - Added Tirisfal Pumpkin to the loot table of Tirisfal Farmer for the quest Fields of Grief.
 - Added Tirisfal Pumpkin to the loot table of Tirisfal Farmhand for the quest Fields of Grief.
 - Updated the flags of Tirisfal Pumpkin to allow every member of a group to loot it.
+
+[2023-01-15]
+- Updated the flags of Discolored Worg Heart to allow every member of a group to loot it.

@@ -247,6 +247,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3162;
 -- Blackened Skull (Quest: The Mills Overrun (Id: 426))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3163;
 
+-- Discolored Worg Heart (Quest: Wild Hearts (Id: 429))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3164;
+
 -- Boar Intestines (Quest: Thelsamar Blood Sausages (Id: 418))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3172;
 
