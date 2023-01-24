@@ -117,6 +117,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4701
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4702 AND `ItemId`=13703;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4702, 1, 13703);
 
+-- Shellfish (Quest: Fish in a Bucket (Id: 5421))
+-- Drysnap Crawler
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=11562 AND `ItemId`=13545;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (11562, 1, 13545);
+-- Drysnap Pincer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=11563 AND `ItemId`=13545;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (11563, 1, 13545);
+
 -- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
 -- Pridewing Wyvern
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4012 AND `ItemId`=16205;

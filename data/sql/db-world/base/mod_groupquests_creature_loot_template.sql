@@ -114,6 +114,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=4702 AND `Item`=13703;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (4702, 13703, 35, 1, 'Ancient Kodo - Kodo Bone');
 
+-- Shellfish (Quest: Fish in a Bucket (Id: 5421))
+-- Drysnap Crawler
+DELETE FROM `creature_loot_template` WHERE `Entry`=11562 AND `Item`=13545;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (11562, 13545, 31, 0, 'Drysnap Crawler - Shellfish');
+-- Drysnap Pincer
+DELETE FROM `creature_loot_template` WHERE `Entry`=11563 AND `Item`=13545;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (11563, 13545, 33, 0, 'Drysnap Pincer - Shellfish');
+
 -- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
 -- Pridewing Wyvern
 DELETE FROM `creature_loot_template` WHERE `Entry`=4012 AND `Item`=16205;

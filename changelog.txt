@@ -496,3 +496,8 @@
 
 [2023-01-15]
 - Updated the flags of Discolored Worg Heart to allow every member of a group to loot it.
+
+[2023-01-24]
+- Added Shellfish to the loot table of Drysnap Crawler for the quest Fish in a Bucket.
+- Added Shellfish to the loot table of Drysnap Pincer for the quest Fish in a Bucket.
+- Updated the flags of Shellfish to allow every member of a group to loot it.

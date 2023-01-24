@@ -1138,6 +1138,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=13174;
 -- Insignia of the Black Guard (Quest: Corruption (Id: 5307))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=13350;
 
+-- Shellfish (Quest: Fish in a Bucket (Id: 5421))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=13545;
+
 -- Kodo Bone (Quest: Bone Collector (Id: 5501))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=13703;
 
