@@ -80,6 +80,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=4158 AND `Item`=5798;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (4158, 5798, 38, 1, 2, 'Salt Flats Vulture - Rocket Car Parts');
 
+-- Hinterlands Honey Ripple (Quest: A Sticky Situation (Id: 77))
+-- Green Sludge
+DELETE FROM `creature_loot_template` WHERE `Entry`=2655 AND `Item`=8684;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (2655, 8684, 28, 1, 'Green Sludge - Hinterlands Honey Ripple');
+-- Jade Ooze
+DELETE FROM `creature_loot_template` WHERE `Entry`=2656 AND `Item`=8684;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (2656, 8684, 30, 1, 'Jade Ooze - Hinterlands Honey Ripple');
+
 -- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
 -- Defias Thug
 DELETE FROM `creature_loot_template` WHERE `Entry`=38 AND `Item`=11119;

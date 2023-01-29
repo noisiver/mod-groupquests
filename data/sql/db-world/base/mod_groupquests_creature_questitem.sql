@@ -83,6 +83,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4154
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4158 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4158, 1, 5798);
 
+-- Hinterlands Honey Ripple (Quest: A Sticky Situation (Id: 77))
+-- Green Sludge
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=2655 AND `ItemId`=8684;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2655, 0, 8684);
+-- Jade Ooze
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=2656 AND `ItemId`=8684;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2656, 0, 8684);
+
 -- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
 -- Defias Thug
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=38 AND `ItemId`=11119;

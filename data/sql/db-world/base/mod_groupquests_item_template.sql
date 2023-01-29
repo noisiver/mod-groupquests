@@ -922,6 +922,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8483;
 -- Centipaar Insect Parts (Quest: Noxious Lair Investigation (Id: 82))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8587;
 
+-- Hinterlands Honey Ripple (Quest: A Sticky Situation (Id: 77))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8684;
+
 -- Thick Yeti Hide (Quest: The Mark of Quality (Id: 2821), Quest: The Mark of Quality (Id: 2822))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8973;
 
