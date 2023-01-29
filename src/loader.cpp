@@ -10,6 +10,8 @@ void AddSC_zone_zuldrak_groupquests();
 
 void AddSC_go_scripts_groupquests();
 
+void AddSC_item_spell_scripts_groupquests();
+
 void Addmod_groupquestsScripts()
 {
     AddSC_zone_borean_tundra_groupquests();
@@ -23,4 +25,6 @@ void Addmod_groupquestsScripts()
     AddSC_zone_zuldrak_groupquests();
 
     AddSC_go_scripts_groupquests();
+
+    AddSC_item_spell_scripts_groupquests();
 }

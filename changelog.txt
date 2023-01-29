@@ -506,3 +506,6 @@
 - Added Hinterlands Honey Ripple to the loot table of Green Sludge for the quest A Sticky Situation.
 - Added Hinterlands Honey Ripple to the loot table of Jade Ooze for the quest A Sticky Situation.
 - Updated the flags of Hinterlands Honey Ripple to allow every member of a group to loot it.
+
+[2023-01-30]
+- Added the script for the spell Capture Beast to make the quest Testing the Vessel give the item to every member of a group.
