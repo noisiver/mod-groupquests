@@ -509,3 +509,9 @@
 
 [2023-01-30]
 - Added the script for the spell Capture Beast to make the quests Hippogryph Muisek, Faerie Dragon Muisek, Treant Muisek and Mountain Giant Muisek give the item to every member of a group.
+- Added Gahz'ridian Ornament to the loot table of Dunemaul Ogre for the quest Gahz'ridian.
+- Added Gahz'ridian Ornament to the loot table of Dunemaul Enforcer for the quest Gahz'ridian.
+- Added Gahz'ridian Ornament to the loot table of Dunemaul Ogre Mage for the quest Gahz'ridian.
+- Added Gahz'ridian Ornament to the loot table of Dunemaul Brute for the quest Gahz'ridian.
+- Added Gahz'ridian Ornament to the loot table of Dunemaul Warlock for the quest Gahz'ridian.
+- Updated the flags of Gahz'ridian Ornament to allow every member of a group to loot it.

@@ -916,6 +916,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8394;
 -- Vulture Gizzard (Quest: The Decisive Striker (Id: 2585), Quest: Salt of the Scorpok (Id: 2586), Quest: The Basilisk's Bite (Id: 2601), Quest: Infallible Mind (Id: 2602), Quest: Vulture's Vigor (Id: 2603), Quest: Spiritual Domination (Id: 2604))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8396;
 
+-- Gahz'ridian Ornament (Quest: Gahz'ridian (Id: 3161))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8443;
+
 -- Wastewander Water Pouch (Quest: Slake That Thirst (Id: 379), Quest: Another Power Source? (Id: 841), Quest: Water Pouch Bounty (Id: 1707), Quest: Water Pouch Bounty (Id: 1878))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=8483;
 

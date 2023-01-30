@@ -83,6 +83,23 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4154
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4158 AND `ItemId`=5798;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4158, 1, 5798);
 
+-- Gahz'ridian Ornament (Quest: Gahz'ridian (Id: 3161))
+-- Dunemaul Ogre
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5471 AND `ItemId`=8443;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5471, 0, 8443);
+-- Dunemaul Enforcer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5472 AND `ItemId`=8443;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5472, 0, 8443);
+-- Dunemaul Ogre Mage
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5473 AND `ItemId`=8443;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5473, 0, 8443);
+-- Dunemaul Brute
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5474 AND `ItemId`=8443;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5474, 0, 8443);
+-- Dunemaul Warlock
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5475 AND `ItemId`=8443;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5475, 0, 8443);
+
 -- Hinterlands Honey Ripple (Quest: A Sticky Situation (Id: 77))
 -- Green Sludge
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=2655 AND `ItemId`=8684;
