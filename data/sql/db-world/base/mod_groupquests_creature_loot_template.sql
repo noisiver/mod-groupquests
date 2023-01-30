@@ -83,19 +83,19 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Gahz'ridian Ornament (Quest: Gahz'ridian (Id: 3161))
 -- Dunemaul Ogre
 DELETE FROM `creature_loot_template` WHERE `Entry`=5471 AND `Item`=8443;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5471, 8443, 31, 1, 1, 'Dunemaul Ogre - Gahz\'ridian Ornament');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5471, 8443, 31, 1, 2, 'Dunemaul Ogre - Gahz\'ridian Ornament');
 -- Dunemaul Enforcer
 DELETE FROM `creature_loot_template` WHERE `Entry`=5472 AND `Item`=8443;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5472, 8443, 28, 1, 1, 'Dunemaul Enforcer - Gahz\'ridian Ornament');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5472, 8443, 28, 1, 2, 'Dunemaul Enforcer - Gahz\'ridian Ornament');
 -- Dunemaul Ogre Mage
 DELETE FROM `creature_loot_template` WHERE `Entry`=5473 AND `Item`=8443;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5473, 8443, 32, 1, 1, 'Dunemaul Ogre Mage - Gahz\'ridian Ornament');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5473, 8443, 32, 1, 2, 'Dunemaul Ogre Mage - Gahz\'ridian Ornament');
 -- Dunemaul Brute
 DELETE FROM `creature_loot_template` WHERE `Entry`=5474 AND `Item`=8443;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5474, 8443, 28, 1, 1, 'Dunemaul Brute - Gahz\'ridian Ornament');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5474, 8443, 28, 1, 2, 'Dunemaul Brute - Gahz\'ridian Ornament');
 -- Dunemaul Warlock
 DELETE FROM `creature_loot_template` WHERE `Entry`=5475 AND `Item`=8443;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5475, 8443, 29, 1, 1, 'Dunemaul Warlock - Gahz\'ridian Ornament');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (5475, 8443, 29, 1, 2, 'Dunemaul Warlock - Gahz\'ridian Ornament');
 
 -- Hinterlands Honey Ripple (Quest: A Sticky Situation (Id: 77))
 -- Green Sludge
