@@ -41,12 +41,51 @@ public:
                     target->DespawnOrUnsummon();
 
             if (Player* player = GetCaster()->ToPlayer())
+            {
                 if (Group* group = player->GetGroup())
+                {
                     for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                    {
                         if (Player* member = groupRef->GetSource())
+                        {
                             if (member->GetDistance2d(player) < 200 && member != player)
-                                if (member->HasQuest(3123) && member->GetQuestStatus(3123) == QUEST_STATUS_INCOMPLETE)
-                                    member->AddItem(9594, 1);
+                            {
+                                switch (GetHitCreature()->GetCreatureTemplate()->Entry)
+                                {
+                                case 5276: // Sprite Dragon
+                                case 5278: // Sprite Darter
+                                    if (member->GetQuestStatus(3125) == QUEST_STATUS_INCOMPLETE)
+                                        member->AddItem(9596, 1);
+                                    break;
+                                case 5268: // Ironfur Bear
+                                case 5286: // Longtooth Runner
+                                    if (member->GetQuestStatus(3123) == QUEST_STATUS_INCOMPLETE)
+                                        member->AddItem(9594, 1);
+                                    break;
+                                case 5300: // Frayfeather Hippogryph
+                                case 5304: // Frayfeather Stagwing
+                                case 5305: // Frayfeather Skystormer
+                                case 5306: // Frayfeather Patriarch
+                                    if (member->GetQuestStatus(3124) == QUEST_STATUS_INCOMPLETE)
+                                        member->AddItem(9595, 1);
+                                    break;
+                                case 5357: // Land Walker
+                                case 5358: // Cliff Giant
+                                    if (member->GetQuestStatus(3127) == QUEST_STATUS_INCOMPLETE)
+                                        member->AddItem(9597, 1);
+                                    break;
+                                case 7584: // Wandering Forest Walker
+                                    if (member->GetQuestStatus(3126) == QUEST_STATUS_INCOMPLETE)
+                                        member->AddItem(9593, 1);
+                                    break;
+                                default:
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         void Register() override
