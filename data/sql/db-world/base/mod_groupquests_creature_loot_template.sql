@@ -366,9 +366,9 @@ DELETE FROM `creature_loot_template` WHERE `Entry`=25814 AND `Item`=34972;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25814, 34972, 29, 1, 'Fizzcrank Mechagnome - Fizzcrank Spare Parts');
 
 -- Bloodspore Carpel (Quest: The Wondrous Bloodspore (Id: 11716))
--- Bloodspore Roaster
-DELETE FROM `creature_loot_template` WHERE `Entry`=25468 AND `Item`=34974;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25468, 34974, 32, 1, 'Bloodspore Roaster - Bloodspore Carpel');
+-- Bloodspore Moth
+DELETE FROM `creature_loot_template` WHERE `Entry`=25464 AND `Item`=34974;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25464, 34974, 30, 1, 'Bloodspore Moth - Bloodspore Carpel');
 
 -- Microfilm (Quest: Lupus Pupus (Id: 11728))
 -- Scavenge-bot 005-B6

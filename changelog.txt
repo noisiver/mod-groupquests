@@ -517,5 +517,5 @@
 - Updated the flags of Gahz'ridian Ornament to allow every member of a group to loot it.
 
 [2023-02-10]
-- Added Bloodspore Carpel to the loot table of Bloodspore Roaster for the quest The Wondrous Bloodspore.
+- Added Bloodspore Carpel to the loot table of Bloodspore Moth for the quest The Wondrous Bloodspore.
 - Updated the flags of Bloodspore Carpel to allow every member of a group to loot it.
