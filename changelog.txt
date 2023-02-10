@@ -515,3 +515,7 @@
 - Added Gahz'ridian Ornament to the loot table of Dunemaul Brute for the quest Gahz'ridian.
 - Added Gahz'ridian Ornament to the loot table of Dunemaul Warlock for the quest Gahz'ridian.
 - Updated the flags of Gahz'ridian Ornament to allow every member of a group to loot it.
+
+[2023-02-10]
+- Added Bloodspore Carpel to the loot table of Bloodspore Roaster for the quest The Wondrous Bloodspore.
+- Updated the flags of Bloodspore Carpel to allow every member of a group to loot it.

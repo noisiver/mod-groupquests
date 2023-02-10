@@ -2059,9 +2059,6 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33420;
 -- Trapped Prey (Quest: Preying Upon the Weak (Id: 11292))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33487;
 
--- Winterfin Clam (Quest: Winterfin Commerce (Id: 11559))
-UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34597;
-
 -- Icy Core (Quest: Spirits of the Ice (Id: 11313))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33605;
 
@@ -2104,6 +2101,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34101;
 -- Barrel of Blasting Powder (Quest: Mutiny on the Mercy (Id: 11527))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34387;
 
+-- Winterfin Clam (Quest: Winterfin Commerce (Id: 11559))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34597;
+
 -- Succulent Orca Blubber (Quest: Succulent Orca Stew (Id: 11564))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34618;
 
@@ -2130,6 +2130,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34956;
 
 -- Fizzcrank Spare Parts (Quest: What's the Matter with the Transmatter? (Id: 11710), Quest: Cleaning Up the Pools (Id: 11906))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34972;
+
+-- Bloodspore Carpel (Quest: The Wondrous Bloodspore (Id: 11716))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34974;
 
 -- Bloodspore Moth Pollen (Quest: Pollen from the Source (Id: 11717))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34976;
