@@ -2155,6 +2155,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35222;
 -- Kaw's War Halberd (Quest: Kaw the Mammoth Destroyer (Id: 11879))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35234;
 
+-- Uncured Caribou Hide (Quest: Patching Up (Id: 11894))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35288;
+
 -- Glacial Splinter (Quest: Secrets of the Ancients (Id: 11910))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35483;
 
