@@ -341,6 +341,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2521
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=24566 AND `ItemId`=34709;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (24566, 0, 34709);
 
+-- Scourged Earth (Quest: The Bad Earth (Id: 11630))
+-- Scourged Mammoth
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25452 AND `ItemId`=34774;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25452, 2, 34774);
+-- Tundra Crawler
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25454 AND `ItemId`=34774;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25454, 0, 34774);
+-- Plagued Magnataur
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25615 AND `ItemId`=34774;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25615, 0, 34774);
+
 -- Super Strong Metal Plate (Quest: Super Strong Metal Plates! (Id: 11644))
 -- Kvaldir Mist Lord
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25496 AND `ItemId`=34786;

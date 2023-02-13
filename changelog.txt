@@ -521,4 +521,8 @@
 - Updated the flags of Bloodspore Carpel to allow every member of a group to loot it.
 
 [2023-02-13]
+- Added Scourged Earth to the loot table of Scourged Mammoth for the quest The Bad Earth.
+- Added Scourged Earth to the loot table of Tundra Crawler for the quest The Bad Earth.
+- Added Scourged Earth to the loot table of Plagued Magnataur for the quest The Bad Earth.
+- Updated the flags of Scourged Earth to allow every member of a group to loot it.
 - Updated the flags of Uncured Caribou Hide to allow every member of a group to loot it.
