@@ -526,3 +526,7 @@
 - Added Scourged Earth to the loot table of Plagued Magnataur for the quest The Bad Earth.
 - Updated the flags of Scourged Earth to allow every member of a group to loot it.
 - Updated the flags of Uncured Caribou Hide to allow every member of a group to loot it.
+
+[2023-02-16]
+- Updated the respawn time of Amani Vase.
+- Updated the respawn time of Eagle Figurine.

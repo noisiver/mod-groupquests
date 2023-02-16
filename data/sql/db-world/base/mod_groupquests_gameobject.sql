@@ -150,6 +150,14 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186329;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186684;
 
+-- Amani Vase (Quest: Forgotten Treasure (Id: 11434))
+-- Changed from 300 to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186885;
+
+-- Eagle Figurine (Quest: Forgotten Treasure (Id: 11434))
+-- Changed from 300 to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=186886;
+
 -- Pneumatic Tank Transjigamarig (Quest: Mobu's Pneumatic Tank Transjigamarig (Id: 11643))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=187683;
