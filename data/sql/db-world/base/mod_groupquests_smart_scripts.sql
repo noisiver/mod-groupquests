@@ -30,3 +30,6 @@ UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=29694 AND `id`=1
 
 -- Wyrmcult Blackwhelp (Quest: Whelps of the Wyrmcult (Id: 10747))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=2138700 AND `id`=2;
+
+-- Chicken Escapee (Quest: Flown the Coop! (Id: 12532), Quest: Chicken Party! (Id: 12702))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=2816101 AND `id`=0;

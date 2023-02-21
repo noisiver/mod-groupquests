@@ -537,3 +537,6 @@
 - Updated the smart script for Rustblood to give every member of a group credit for the quest The Conquest Pit: Blood and Metal.
 - Updated the smart script for Horgrenn Hellcleave to give every member of a group credit for the quest The Conquest Pit: Death Is Likely.
 - Updated the smart script for Conqueror Krenna to give every member of a group credit for the quest The Conquest Pit: Final Showdown.
+
+[2023-02-21]
+- Updated the smart script for Chicken Escapee to give every member of a group the quest item.
