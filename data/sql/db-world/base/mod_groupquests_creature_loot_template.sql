@@ -527,6 +527,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=16570 AND `Item`=38552;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16570, 38552, 27, 1, 'Crazed Water Spirit - Mature Water-Poppy');
 
+-- Skyreach Crystal Cluster (Quest: Mischief in the Making (Id: 12535))
+-- Sapphire Hive Drone
+DELETE FROM `creature_loot_template` WHERE `Entry`=28085 AND `Item`=38504;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28085, 38504, 27, 1, 'Sapphire Hive Drone - Skyreach Crystal Cluster');
+-- Sapphire Hive Wasp
+DELETE FROM `creature_loot_template` WHERE `Entry`=28086 AND `Item`=38504;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28086, 38504, 28, 1, 'Sapphire Hive Wasp - Skyreach Crystal Cluster');
+
 -- Sandfern (Quest: Crocolisk Mastery: The Plan (Id: 12560))
 -- Mangal Crocolisk
 DELETE FROM `creature_loot_template` WHERE `Entry`=28002 AND `Item`=38553;

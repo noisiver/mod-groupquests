@@ -530,6 +530,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2812
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28145 AND `ItemId`=38382;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28145, 0, 38382);
 
+-- Skyreach Crystal Cluster (Quest: Mischief in the Making (Id: 12535))
+-- Sapphire Hive Drone
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28085 AND `ItemId`=38504;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28085, 1, 38504);
+-- Sapphire Hive Wasp
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28086 AND `ItemId`=38504;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28086, 1, 38504);
+
 -- Mature Water-Poppy (Quest: Something for the Pain (Id: 12597), Quest: Troll Patrol: Something for the Pain (Id: 12564))
 -- Crazed Water Spirit
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16570 AND `ItemId`=38552;

@@ -2329,6 +2329,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38349;
 -- Basilisk Crystals (Quest: Gluttonous Lurkers (Id: 12527))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38382;
 
+-- Skyreach Crystal Cluster (Quest: Mischief in the Making (Id: 12535))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38504;
+
 -- Intact Cobra Fang (Quest: An Offering for Soo-rahm (Id: 12543))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38505;
 
