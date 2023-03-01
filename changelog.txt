@@ -546,3 +546,6 @@
 
 [2023-03-01]
 - Updated the respawn time of Small Proto-Drake Egg.
+
+[2023-03-02]
+- Updated the smart script for Dead Iron Giant to give every member of a group the quest item.

@@ -33,3 +33,9 @@ UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=2138700 AND `id`
 
 -- Chicken Escapee (Quest: Flown the Coop! (Id: 12532), Quest: Chicken Party! (Id: 12702))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=2816101 AND `id`=0;
+
+-- Dead Iron Giant (Quest: Forging a Head (Id: 12985))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=2991400 AND `id` IN (0, 1);
+
+-- Dead Iron Giant (Quest: Forging a Head (Id: 12985))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=3016300 AND `id` IN (0, 1);
