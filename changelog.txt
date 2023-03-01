@@ -549,3 +549,6 @@
 
 [2023-03-02]
 - Updated the smart script for Dead Iron Giant to give every member of a group the quest item.
+- Added Horn Fragment to the loot table of Restless Frostborn Warrior for the quest In Memoriam.
+- Added Horn Fragment to the loot table of Restless Frostborn Ghost for the quest In Memoriam.
+- Updated the flags of Horn Fragment to allow every member of a group to loot it.

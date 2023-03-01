@@ -2449,8 +2449,8 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=41514;
 -- Furious Spark (Quest: The Refiner's Fire (Id: 12922))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=41558;
 
--- Stormforged Eye (Quest: Forging a Head (Id: 12985))
-UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42423;
+-- Horn Fragment (Quest: In Memoriam (Id: 12975))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42162;
 
 -- Worg Fur (Quest: Emergency Measures (Id: 13000))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42510;

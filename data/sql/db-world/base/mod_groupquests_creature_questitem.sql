@@ -632,6 +632,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2945
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29452 AND `ItemId`=41399;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29452, 0, 41399);
 
+-- Horn Fragment (Quest: In Memoriam (Id: 12975))
+-- Restless Frostborn Warrior
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30135 AND `ItemId`=42162;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30135, 0, 42162);
+-- Restless Frostborn Ghost
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30144 AND `ItemId`=42162;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30144, 0, 42162);
+
 -- Crystalline Heartwood (Quest: The Stone That Started A Revolution (Id: 13130))
 -- Unbound Trickster
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30856 AND `ItemId`=43217;

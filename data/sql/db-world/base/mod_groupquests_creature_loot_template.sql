@@ -629,6 +629,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=29452 AND `Item`=41399;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29452, 41399, 29, 1, 'Vargul Blighthound - Scourge Scrap Metal');
 
+-- Horn Fragment (Quest: In Memoriam (Id: 12975))
+-- Restless Frostborn Warrior
+DELETE FROM `creature_loot_template` WHERE `Entry`=30135 AND `Item`=42162;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30135, 42162, 33, 1, 'Restless Frostborn Warrior - Horn Fragment');
+-- Restless Frostborn Ghost
+DELETE FROM `creature_loot_template` WHERE `Entry`=30144 AND `Item`=42162;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30144, 42162, 35, 1, 'Restless Frostborn Ghost - Horn Fragment');
+
 -- Crystalline Heartwood (Quest: The Stone That Started A Revolution (Id: 13130))
 -- Unbound Trickster
 DELETE FROM `creature_loot_template` WHERE `Entry`=30856 AND `Item`=43217;
