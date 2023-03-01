@@ -543,3 +543,6 @@
 - Added Skyreach Crystal Cluster to the loot table of Sapphire Hive Drone for the quest Mischief in the Making.
 - Added Skyreach Crystal Cluster to the loot table of Sapphire Hive Wasp for the quest Mischief in the Making.
 - Updated the flags of Skyreach Crystal Cluster to allow every member of a group to loot it.
+
+[2023-03-01]
+- Updated the respawn time of Small Proto-Drake Egg.

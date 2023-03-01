@@ -242,6 +242,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=191519;
 -- Changed respawn from 300 seconds to 1 seconds
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=191576;
 
+-- Small Proto-Drake Egg (Quest: Veranus (Id: 13050))
+-- Changed respawn from 120 seconds to 10 seconds
+UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=192536;
+
 -- Weeping Quarry Document (Quest: Amidst the Confusion (Id: 13174))
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=193403;
