@@ -555,3 +555,4 @@
 - Added Cave Mushroom to the loot table of Infesting Jormungar for the quest Cave Medicine.
 - Added Cave Mushroom to the loot table of Cavedweller Worg for the quest Cave Medicine.
 - Updated the flags of Cave Mushroom to allow every member of a group to loot it.
+- Updated the flags of Inventor's Disk Fragment to allow every member of a group to loot it.

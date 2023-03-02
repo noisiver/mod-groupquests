@@ -2425,6 +2425,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=40744;
 -- Icetip Venom Sac (Quest: Only Partly Forgotten (Id: 12831))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=40944;
 
+-- Inventor's Disk Fragment (Quest: Pieces of the Puzzle (Id: 12926), Quest: Pieces to the Puzzle (Id: 12858))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=41130;
+
 -- Scourge Essence (Quest: I Have an Idea, But First... (Id: 12891))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=41363;
 
