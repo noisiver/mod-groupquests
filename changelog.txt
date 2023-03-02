@@ -552,3 +552,6 @@
 - Added Horn Fragment to the loot table of Restless Frostborn Warrior for the quest In Memoriam.
 - Added Horn Fragment to the loot table of Restless Frostborn Ghost for the quest In Memoriam.
 - Updated the flags of Horn Fragment to allow every member of a group to loot it.
+- Added Cave Mushroom to the loot table of Infesting Jormungar for the quest Cave Medicine.
+- Added Cave Mushroom to the loot table of Cavedweller Worg for the quest Cave Medicine.
+- Updated the flags of Cave Mushroom to allow every member of a group to loot it.

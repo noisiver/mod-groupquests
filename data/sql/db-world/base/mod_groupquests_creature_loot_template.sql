@@ -637,6 +637,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=30144 AND `Item`=42162;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30144, 42162, 35, 1, 'Restless Frostborn Ghost - Horn Fragment');
 
+-- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
+-- Infesting Jormungar
+DELETE FROM `creature_loot_template` WHERE `Entry`=30148 AND `Item`=42926;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30148, 42926, 41, 1, 'Infesting Jormungar - Cave Mushroom');
+-- Cavedweller Worg
+DELETE FROM `creature_loot_template` WHERE `Entry`=30164 AND `Item`=42926;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30164, 42926, 36, 1, 'Cavedweller Worg - Cave Mushroom');
+
 -- Crystalline Heartwood (Quest: The Stone That Started A Revolution (Id: 13130))
 -- Unbound Trickster
 DELETE FROM `creature_loot_template` WHERE `Entry`=30856 AND `Item`=43217;

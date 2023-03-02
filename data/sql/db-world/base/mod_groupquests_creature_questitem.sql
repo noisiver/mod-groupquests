@@ -640,6 +640,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3013
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30144 AND `ItemId`=42162;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30144, 0, 42162);
 
+-- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
+-- Infesting Jormungar
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30148 AND `ItemId`=42926;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30148, 1, 42926);
+-- Cavedweller Worg
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30164 AND `ItemId`=42926;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30164, 1, 42926);
+
 -- Crystalline Heartwood (Quest: The Stone That Started A Revolution (Id: 13130))
 -- Unbound Trickster
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30856 AND `ItemId`=43217;
