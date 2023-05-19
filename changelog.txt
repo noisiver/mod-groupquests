@@ -559,3 +559,6 @@
 
 [2023-05-18]
 - Updated the respawn time of Umpi.
+
+[2023-05-19]
+- Updated the respawn time of Stanley.
