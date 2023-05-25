@@ -204,6 +204,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1811
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=20270 AND `ItemId`=24422;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (20270, 1, 24422);
 
+-- Bleeding Hollow Supply Crate (Quest: Bleeding Hollow Supply Crates (Id: 9916))
+-- Boulderfist Warrior
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17136 AND `ItemId`=25460;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17136, 1, 25460);
+-- Boulderfist Mage
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17137 AND `ItemId`=25460;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (17137, 1, 25460);
+
 -- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
 -- Marshfang Slicer
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18131 AND `ItemId`=24468;

@@ -562,3 +562,7 @@
 
 [2023-05-19]
 - Updated the respawn time of Stanley.
+
+[2023-05-25]
+- Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Warrior for the quest Bleeding Hollow Supply Crates.
+- Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Mage for the quest Bleeding Hollow Supply Crates.

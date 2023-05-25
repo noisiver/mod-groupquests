@@ -201,6 +201,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=20270 AND `Item`=24422;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20270, 24422, 27, 1, 'Feralfen Druid - Feralfen Idol');
 
+-- Bleeding Hollow Supply Crate (Quest: Bleeding Hollow Supply Crates (Id: 9916))
+-- Boulderfist Warrior
+DELETE FROM `creature_loot_template` WHERE `Entry`=17136 AND `Item`=25460;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17136, 25460, 31, 1, 'Boulderfist Warrior - Bleeding Hollow Supply Crate');
+-- Boulderfist Mage
+DELETE FROM `creature_loot_template` WHERE `Entry`=17137 AND `Item`=25460;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (17137, 25460, 30, 1, 'Boulderfist Mage - Bleeding Hollow Supply Crate');
+
 -- Burstcap Mushroom (Quest: Burstcap Mushrooms, Mon! (Id: 9814))
 -- Marshfang Slicer
 DELETE FROM `creature_loot_template` WHERE `Entry`=18131 AND `Item`=24468;
