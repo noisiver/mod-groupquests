@@ -566,3 +566,4 @@
 [2023-05-25]
 - Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Warrior for the quest Bleeding Hollow Supply Crates.
 - Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Mage for the quest Bleeding Hollow Supply Crates.
+- Added the script for the spell Plant Kil'sorrow Banner to make the quest Returning the Favor give credit to every member of a group.
