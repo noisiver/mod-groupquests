@@ -405,6 +405,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25792 AND `Item`=35123;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25792, 35123, 38, 1, 'Scavenge-bot 005-B6 - Microfilm');
 
+-- Shipment of Animal Parts (Quest: Not On Our Watch (Id: 11871))
+-- Northsea Mercenary
+DELETE FROM `creature_loot_template` WHERE `Entry`=25839 AND `Item`=35222;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25839, 35222, 41, 1, 'Northsea Mercenary - Shipment of Animal Parts');
+-- Northsea Thug
+DELETE FROM `creature_loot_template` WHERE `Entry`=25844 AND `Item`=35222;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25844, 35222, 45, 1, 'Northsea Thug - Shipment of Animal Parts');
+
 -- Frostberry (Quest: Nuts for Berries (Id: 11912))
 -- Coldarra Scalesworn
 DELETE FROM `creature_loot_template` WHERE `Entry`=25717 AND `Item`=35492;

@@ -408,6 +408,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2546
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25792 AND `ItemId`=35123;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25792, 0, 35123);
 
+-- Shipment of Animal Parts (Quest: Not On Our Watch (Id: 11871))
+-- Northsea Mercenary
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25839 AND `ItemId`=35222;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25839, 0, 35222);
+-- Northsea Thug
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25844 AND `ItemId`=35222;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25844, 0, 35222);
+
 -- Frostberry (Quest: Nuts for Berries (Id: 11912))
 -- Coldarra Scalesworn
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25717 AND `ItemId`=35492;

@@ -573,3 +573,5 @@
 - Added Sketh'lon Feather to the loot table of Dark Conclave Scorncrow for the quest Sketh'lon Feathers.
 - Added Sketh'lon Feather to the loot table of Skethyl Owl for the quest Sketh'lon Feathers.
 - Updated the flags of Sketh'lon Feather to allow every member of a group to loot it.
+- Added Shipment of Animal Parts to the loot table of Northsea Mercenary for the quest Not On Our Watch.
+- Added Shipment of Animal Parts to the loot table of Northsea Thug for the quest Not On Our Watch.
