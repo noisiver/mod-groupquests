@@ -365,6 +365,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=24566 AND `Item`=34709;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (24566, 34709, 32, 1, 'Nerub\'ar Skitterer - Warsong Munitions');
 
+-- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
+-- Beryl Reclaimer
+DELETE FROM `creature_loot_template` WHERE `Entry`=25449 AND `Item`=34713;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25449, 34713, 31, 1, 'Beryl Reclaimer - Tuskarr Ritual Object');
+
 -- Scourged Earth (Quest: The Bad Earth (Id: 11630))
 -- Scourged Mammoth
 DELETE FROM `creature_loot_template` WHERE `Entry`=25452 AND `Item`=34774;

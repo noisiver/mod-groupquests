@@ -360,6 +360,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2521
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=24566 AND `ItemId`=34709;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (24566, 0, 34709);
 
+-- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
+-- Beryl Reclaimer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25449 AND `ItemId`=34713;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25449, 1, 34713);
+
 -- Scourged Earth (Quest: The Bad Earth (Id: 11630))
 -- Scourged Mammoth
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25452 AND `ItemId`=34774;

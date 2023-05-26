@@ -2113,6 +2113,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34618;
 -- Warsong Munitions (Quest: Patience is a Virtue that We Don't Need (Id: 11606))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34709;
 
+-- Tuskarr Ritual Object (Quest: Picking Up the Pieces (Id: 11609))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34713;
+
 -- Scourged Earth (Quest: The Bad Earth (Id: 11630))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=34774;
 

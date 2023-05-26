@@ -575,3 +575,5 @@
 - Updated the flags of Sketh'lon Feather to allow every member of a group to loot it.
 - Added Shipment of Animal Parts to the loot table of Northsea Mercenary for the quest Not On Our Watch.
 - Added Shipment of Animal Parts to the loot table of Northsea Thug for the quest Not On Our Watch.
+- Added Tuskarr Ritual Object to the loot table of Beryl Reclaimer for the quest Picking Up the Pieces.
+Updated the flags of Tuskarr Ritual Object to allow every member of a group to loot it.
