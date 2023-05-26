@@ -1972,6 +1972,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31278;
 -- Rod of Lianthe (Quest: The Rod of Lianthe (Id: 10778))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31317;
 
+-- Sketh'lon Feather (Quest: Sketh'lon Feathers (Id: 10780))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31324;
+
 -- Bladespire Totem (Quest: The Totems of My Enemy (Id: 10851))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31651;
 

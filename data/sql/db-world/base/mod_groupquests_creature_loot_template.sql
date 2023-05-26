@@ -298,6 +298,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=21878 AND `Item`=30716;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21878, 30716, 30, 1, 'Felboar - Ever-burning Ash');
 
+-- Sketh'lon Feather (Quest: Sketh'lon Feathers (Id: 10780))
+-- Dark Conclave Talonite
+DELETE FROM `creature_loot_template` WHERE `Entry`=19825 AND `Item`=31324;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (19825, 31324, 39, 1, 'Dark Conclave Talonite - Sketh\'lon Feather');
+-- Dark Conclave Scorncrow
+DELETE FROM `creature_loot_template` WHERE `Entry`=21385 AND `Item`=31324;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21385, 31324, 41, 1, 'Dark Conclave Scorncrow - Sketh\'lon Feather');
+-- Skethyl Owl
+DELETE FROM `creature_loot_template` WHERE `Entry`=21450 AND `Item`=31324;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21450, 31324, 32, 1, 'Skethyl Owl - Sketh\'lon Feather');
+
 -- Blackhoof Armaments (Quest: Arms of the Grimtotems (Id: 11148), Quest: More than Coincidence (Id: 11200))
 -- Grimtotem Breaker
 DELETE FROM `creature_loot_template` WHERE `Entry`=23592 AND `Item`=33071;

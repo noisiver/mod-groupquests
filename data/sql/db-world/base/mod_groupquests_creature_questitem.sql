@@ -293,6 +293,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2140
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21878 AND `ItemId`=30716;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21878, 1, 30716);
 
+-- Sketh'lon Feather (Quest: Sketh'lon Feathers (Id: 10780))
+-- Dark Conclave Talonite
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=19825 AND `ItemId`=31324;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (19825, 0, 31324);
+-- Dark Conclave Scorncrow
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21385 AND `ItemId`=31324;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21385, 0, 31324);
+-- Skethyl Owl
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21450 AND `ItemId`=31324;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21450, 0, 31324);
+
 -- Blackhoof Armaments (Quest: Arms of the Grimtotems (Id: 11148), Quest: More than Coincidence (Id: 11200))
 -- Grimtotem Breaker
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=23592 AND `ItemId`=33071;

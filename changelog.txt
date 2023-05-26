@@ -567,3 +567,9 @@
 - Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Warrior for the quest Bleeding Hollow Supply Crates.
 - Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Mage for the quest Bleeding Hollow Supply Crates.
 - Added the script for the spell Plant Kil'sorrow Banner to make the quest Returning the Favor give credit to every member of a group.
+
+[2023-05-26]
+- Added Sketh'lon Feather to the loot table of Dark Conclave Talonite for the quest Sketh'lon Feathers.
+- Added Sketh'lon Feather to the loot table of Dark Conclave Scorncrow for the quest Sketh'lon Feathers.
+- Added Sketh'lon Feather to the loot table of Skethyl Owl for the quest Sketh'lon Feathers.
+- Updated the flags of Sketh'lon Feather to allow every member of a group to loot it.
