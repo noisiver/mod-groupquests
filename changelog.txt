@@ -576,4 +576,7 @@
 - Added Shipment of Animal Parts to the loot table of Northsea Mercenary for the quest Not On Our Watch.
 - Added Shipment of Animal Parts to the loot table of Northsea Thug for the quest Not On Our Watch.
 - Added Tuskarr Ritual Object to the loot table of Beryl Reclaimer for the quest Picking Up the Pieces.
-Updated the flags of Tuskarr Ritual Object to allow every member of a group to loot it.
+- Updated the flags of Tuskarr Ritual Object to allow every member of a group to loot it.
+
+[2023-05-27]
+- Updated the smart script for Fizzcrank Recon Pilot to give every member of a group the quest item.
