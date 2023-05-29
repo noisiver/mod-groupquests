@@ -580,3 +580,6 @@
 
 [2023-05-27]
 - Updated the smart script for Fizzcrank Recon Pilot to give every member of a group the quest item.
+
+[2023-05-29]
+- Updated the script for Envision Drakuru to add the aura to every member of a group.
