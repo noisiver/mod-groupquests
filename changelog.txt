@@ -583,3 +583,6 @@
 
 [2023-05-29]
 - Updated the script for Envision Drakuru to add the aura to every member of a group.
+
+[2023-06-03]
+- Updated the smart script for Tatjana's Horse to give every member of a group credit.
