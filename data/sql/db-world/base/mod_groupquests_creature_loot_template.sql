@@ -629,6 +629,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=28004 AND `Item`=38705;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28004, 38705, 30, 1, 'Goretalon Roc - Roc Egg');
 
+-- Lifeblood Shard (Quest: Lifeblood of the Mosswalker Shrine (Id: 12579))
+-- Lifeblood Elemental
+DELETE FROM `creature_loot_template` WHERE `Entry`=29124 AND `Item`=39063;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29124, 39063, 44, 1, 'Lifeblood Elemental - Lifeblood Shard');
+
 -- Charred Wreckage (Quest: Clean Up (Id: 12818))
 -- Savage Hill Scavenger
 DELETE FROM `creature_loot_template` WHERE `Entry`=29404 AND `Item`=40603;

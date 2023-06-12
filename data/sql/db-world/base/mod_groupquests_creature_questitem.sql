@@ -632,6 +632,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2856
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=28004 AND `ItemId`=38705;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (28004, 2, 38705);
 
+-- Lifeblood Shard (Quest: Lifeblood of the Mosswalker Shrine (Id: 12579))
+-- Lifeblood Elemental
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29124 AND `ItemId`=39063;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29124, 2, 39063);
+
 -- Charred Wreckage (Quest: Clean Up (Id: 12818))
 -- Savage Hill Scavenger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29404 AND `ItemId`=40603;

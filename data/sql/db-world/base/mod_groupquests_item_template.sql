@@ -2392,6 +2392,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38700;
 -- Roc Egg (Quest: My Pet Roc (Id: 12658))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38705;
 
+-- Lifeblood Shard (Quest: Lifeblood of the Mosswalker Shrine (Id: 12579))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=39063;
+
 -- Sacred Adornment (Quest: Preparations for the Underworld (Id: 12666))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=39150;
 

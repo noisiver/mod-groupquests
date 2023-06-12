@@ -591,3 +591,5 @@
 - Added Shiny Treasures to the loot table of Emperor Cobra for the quests Gods like Shiny Things and Appeasing the Great Rain Stone.
 - Updated the flags of Shiny Treasures to allow every member of a group to loot it
 - Updated the respawn time of Mistwhisper Treasure.
+- Added Lifeblood Shard to the loot table of Lifeblood Elemental for the quest Lifeblood of the Mosswalker Shrine.
+- Updated the flags of Lifeblood Shard to allow every member of a group to loot it.
