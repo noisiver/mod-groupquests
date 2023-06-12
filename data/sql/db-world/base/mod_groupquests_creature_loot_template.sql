@@ -577,6 +577,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=28145 AND `Item`=38563;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (28145, 38563, 33, 1, 3, 'Lurking Basilisk - Dead Thornwood');
 
+-- Shiny Treasures (Quest: Gods like Shiny Things (Id: 12572), Quest: Appeasing the Great Rain Stone (Id: 12704))
+-- Emperor Cobra
+DELETE FROM `creature_loot_template` WHERE `Entry`=28011 AND `Item`=38575;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (28011, 38575, 30, 1, 'Emperor Cobra - Shiny Treasures');
+
 -- Forgotten Treasure (Quest: Funding the War Effort (Id: 12303))
 -- Forgotten Peasant
 DELETE FROM `creature_loot_template` WHERE `Entry`=27226 AND `Item`=37580;

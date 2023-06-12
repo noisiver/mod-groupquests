@@ -2356,6 +2356,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38553;
 -- Dead Thornwood (Quest: Troll Patrol: Creature Comforts (Id: 12585), Quest: Creature Comforts (Id: 12599))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38563;
 
+-- Shiny Treasures (Quest: Gods like Shiny Things (Id: 12572), Quest: Appeasing the Great Rain Stone (Id: 12704))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38575;
+
 -- Fresh Spider Ichor (Quest: Stocking the Shelves (Id: 12609))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=38610;
 

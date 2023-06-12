@@ -586,3 +586,7 @@
 
 [2023-06-03]
 - Updated the smart script for Tatjana's Horse to give every member of a group credit.
+
+[2023-06-12]
+- Added Shiny Treasures to the loot table of Emperor Cobra for the quests Gods like Shiny Things and Appeasing the Great Rain Stone.
+- Updated the flags of Shiny Treasures to allow every member of a group to loot it
