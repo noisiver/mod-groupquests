@@ -222,6 +222,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=190537;
 -- Changed from 300 seconds to 10 second
 UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=190540;
 
+-- Mistwhisper Treasure (Quest: The Lost Mistwhisper Treasure (Id: 12575))
+-- Changed from 300 seconds to 10 second
+UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=190578;
+
 -- Harvested Blight Crystal (Quest: Hazardous Materials (Id: 12677))
 -- Changed respawn from 120 seconds to 10 seconds
 UPDATE `gameobject` SET `spawntimesecs`=10 WHERE `id`=190720;
