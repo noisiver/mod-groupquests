@@ -1,3 +1,6 @@
+-- Injured Goblin Miner (Quest: Bitter Departure (Id: 12832))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid` IN (-209188, -209187, -202337) AND `id`=6;
+
 -- Fizzcrank Recon Pilot (Quest: Emergency Protocol: Section 8.2, Paragraph C (Id: 11795))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=25841 AND `id`=4;
 
