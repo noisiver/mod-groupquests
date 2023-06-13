@@ -682,6 +682,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3013
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30144 AND `ItemId`=42162;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30144, 0, 42162);
 
+-- Frozen Iron Scrap (Quest: Hot and Cold (Id: 12981))
+-- Brittle Revenant
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30160 AND `ItemId`=42252;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30160, 2, 42252);
+-- Seething Revenant
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30387 AND `ItemId`=42252;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30387, 1, 42252);
+
 -- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
 -- Infesting Jormungar
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30148 AND `ItemId`=42926;

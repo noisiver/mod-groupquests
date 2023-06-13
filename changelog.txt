@@ -596,3 +596,6 @@
 
 [2023-06-13]
 - Updated the smart script for Injured Goblin Miner to give every member of a group credit.
+- Added Frozen Iron Scrap to the loot table of Brittle Revenant for the quest Hot and Cold.
+- Added Frozen Iron Scrap to the loot table of Seething Revenant for the quest Hot and Cold.
+- Updated the flags of Frozen Iron Scrap to allow every member of a group to loot it.

@@ -2467,6 +2467,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=41558;
 -- Horn Fragment (Quest: In Memoriam (Id: 12975))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42162;
 
+-- Frozen Iron Scrap (Quest: Hot and Cold (Id: 12981))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42252;
+
 -- Worg Fur (Quest: Emergency Measures (Id: 13000))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42510;
 

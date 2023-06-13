@@ -679,6 +679,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=30144 AND `Item`=42162;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30144, 42162, 35, 1, 'Restless Frostborn Ghost - Horn Fragment');
 
+-- Frozen Iron Scrap (Quest: Hot and Cold (Id: 12981))
+-- Brittle Revenant
+DELETE FROM `creature_loot_template` WHERE `Entry`=30160 AND `Item`=42252;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30160, 42252, 44, 1, 'Brittle Revenant - Frozen Iron Scrap');
+-- Seething Revenant
+DELETE FROM `creature_loot_template` WHERE `Entry`=30387 AND `Item`=42252;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30387, 42252, 42, 1, 'Seething Revenant - Frozen Iron Scrap');
+
 -- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
 -- Infesting Jormungar
 DELETE FROM `creature_loot_template` WHERE `Entry`=30148 AND `Item`=42926;
