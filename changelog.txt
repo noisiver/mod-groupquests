@@ -602,3 +602,17 @@
 
 [2023-06-14]
 - Updated the smart script for Torek to give every member of a group credit.
+
+[2023-06-19]
+- Added Olemba Seed to the loot table of Vicious Teromoth for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Dampscale Basilisk for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Dampscale Devourer for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Warp Stalker for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Dreadfang Lurker for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Teromoth for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Royal Teromoth for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Timber Worg for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Timber Worg Alpha for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Ironspine Chomper for the quests Olemba Seeds and Olemba Seed Oil.
+- Added Olemba Seed to the loot table of Ironspine Petrifier for the quests Olemba Seeds and Olemba Seed Oil.
+- Updated the flags of Olemba Seed to allow every member of a group to loot it.

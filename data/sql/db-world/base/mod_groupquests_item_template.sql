@@ -1771,6 +1771,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=25719;
 -- Dampscale Basilisk Eye (Quest: Voren'thal's Visions (Id: 10024), Quest: More Basilisk Eyes (Id: 10025))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=25744;
 
+-- Olemba Seed (Quest: Olemba Seeds (Id: 9992), Quest: Olemba Seed Oil (Id: 9993))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=25745;
+
 -- Dreadfang Venom Sac (Quest: Strained Supplies (Id: 10017), Quest: More Venom Sacs (Id: 10019))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=25802;
 

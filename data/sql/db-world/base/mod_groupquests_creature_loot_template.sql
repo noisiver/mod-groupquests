@@ -241,6 +241,41 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=18065 AND `Item`=25647;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18065, 25647, 28, 1, 'Warmaul Brute - Telaar Supply Crate');
 
+-- Olemba Seed (Quest: Olemba Seeds (Id: 9992), Quest: Olemba Seed Oil (Id: 9993))
+-- Vicious Teromoth
+DELETE FROM `creature_loot_template` WHERE `Entry`=18437 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (18437, 25745, 29, 1, 2, 'Vicious Teromoth - Olemba Seed');
+-- Dampscale Basilisk
+DELETE FROM `creature_loot_template` WHERE `Entry`=18461 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (18461, 25745, 29, 1, 2, 'Dampscale Basilisk - Olemba Seed');
+-- Dampscale Devourer
+DELETE FROM `creature_loot_template` WHERE `Entry`=18463 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (18463, 25745, 27, 1, 2, 'Dampscale Devourer - Olemba Seed');
+-- Warp Stalker
+DELETE FROM `creature_loot_template` WHERE `Entry`=18464 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18464, 25745, 26, 1, 'Warp Stalker - Olemba Seed');
+-- Dreadfang Lurker
+DELETE FROM `creature_loot_template` WHERE `Entry`=18466 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (18466, 25745, 27, 1, 2, 'Dreadfang Lurker - Olemba Seed');
+-- Teromoth
+DELETE FROM `creature_loot_template` WHERE `Entry`=18468 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18468, 25745, 26, 1, 'Teromoth - Olemba Seed');
+-- Royal Teromoth
+DELETE FROM `creature_loot_template` WHERE `Entry`=18469 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18469, 25745, 26, 1, 'Royal Teromoth - Olemba Seed');
+-- Timber Worg
+DELETE FROM `creature_loot_template` WHERE `Entry`=18476 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18476, 25745, 26, 1, 'Timber Worg - Olemba Seed');
+-- Timber Worg Alpha
+DELETE FROM `creature_loot_template` WHERE `Entry`=18477 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18477, 25745, 25, 1, 'Timber Worg Alpha - Olemba Seed');
+-- Ironspine Chomper
+DELETE FROM `creature_loot_template` WHERE `Entry`=21816 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21816, 25745, 26, 1, 'Ironspine Chomper - Olemba Seed');
+-- Ironspine Petrifier
+DELETE FROM `creature_loot_template` WHERE `Entry`=21854 AND `Item`=25745;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `MaxCount`, `Comment`) VALUES (21854, 25745, 27, 1, 2, 'Ironspine Petrifier - Olemba Seed');
+
 -- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
 -- Bonechewer Scavenger
 DELETE FROM `creature_loot_template` WHERE `Entry`=18952 AND `Item`=25911;

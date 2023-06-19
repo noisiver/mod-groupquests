@@ -236,6 +236,41 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1803
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18065 AND `ItemId`=25647;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18065, 2, 25647);
 
+-- Olemba Seed (Quest: Olemba Seeds (Id: 9992), Quest: Olemba Seed Oil (Id: 9993))
+-- Vicious Teromoth
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18437 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18437, 1, 25745);
+-- Dampscale Basilisk
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18461 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18461, 0, 25745);
+-- Dampscale Devourer
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18463 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18463, 0, 25745);
+-- Warp Stalker
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18464 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18464, 0, 25745);
+-- Dreadfang Lurker
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18466 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18466, 0, 25745);
+-- Teromoth
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18468 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18468, 1, 25745);
+-- Royal Teromoth
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18469 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18469, 1, 25745);
+-- Timber Worg
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18476 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18476, 2, 25745);
+-- Timber Worg Alpha
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18477 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18477, 2, 25745);
+-- Ironspine Chomper
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21816 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21816, 0, 25745);
+-- Ironspine Petrifier
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21854 AND `ItemId`=25745;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21854, 0, 25745);
+
 -- Salvaged Wood (Quest: I Work... For the Horde! (Id: 10086))
 -- Bonechewer Scavenger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18952 AND `ItemId`=25911;
