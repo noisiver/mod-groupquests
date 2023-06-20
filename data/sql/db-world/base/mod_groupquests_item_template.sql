@@ -1984,6 +1984,12 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31651;
 -- Lesser Nether Drake Spirit (Quest: Spirit Calling (Id: 10853))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31656;
 
+-- Raptor Ribs (Quest: Mok'Nathal Treats (Id: 10860))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31670;
+
+-- Serpent Flesh (Quest: Mok'Nathal Treats (Id: 10860))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31671;
+
 -- Essence of Infinity (Quest: Master of Elixirs (Id: 10902))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=31753;
 

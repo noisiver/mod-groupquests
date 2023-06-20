@@ -616,3 +616,7 @@
 - Added Olemba Seed to the loot table of Ironspine Chomper for the quests Olemba Seeds and Olemba Seed Oil.
 - Added Olemba Seed to the loot table of Ironspine Petrifier for the quests Olemba Seeds and Olemba Seed Oil.
 - Updated the flags of Olemba Seed to allow every member of a group to loot it.
+
+[2023-06-20]
+- Updated the flags of Raptor Ribs to allow every member of a group to loot it.
+- Updated the flags of Serpent Flesh to allow every member of a group to loot it.
