@@ -147,6 +147,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=11563 AND `Item`=13545;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (11563, 13545, 33, 0, 'Drysnap Pincer - Shellfish');
 
+-- Bundle of Wood (Quest: A Bundle of Trouble (Id: 5545))
+-- Murloc Forager
+DELETE FROM `creature_loot_template` WHERE `Entry`=46 AND `Item`=13872;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (46, 13872, 29, 0, 'Murloc Forager - Bundle of Wood');
+-- Murloc Lurker
+DELETE FROM `creature_loot_template` WHERE `Entry`=732 AND `Item`=13872;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (732, 13872, 32, 0, 'Murloc Lurker - Bundle of Wood');
+
 -- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
 -- Pridewing Wyvern
 DELETE FROM `creature_loot_template` WHERE `Entry`=4012 AND `Item`=16205;

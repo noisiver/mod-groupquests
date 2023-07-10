@@ -150,6 +150,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1156
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=11563 AND `ItemId`=13545;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (11563, 1, 13545);
 
+-- Bundle of Wood (Quest: A Bundle of Trouble (Id: 5545))
+-- Murloc Forager
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=46 AND `ItemId`=13872;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (46, 1, 13872);
+-- Murloc Lurker
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=732 AND `ItemId`=13872;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (732, 1, 13872);
+
 -- Gaea Seed (Quest: Cycle of Rebirth (Id: 6301))
 -- Pridewing Wyvern
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=4012 AND `ItemId`=16205;

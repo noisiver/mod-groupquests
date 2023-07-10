@@ -1153,6 +1153,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=13703;
 -- Slab of Carrion Worm Meat (Quest: Carrion Grubbage (Id: 5544))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=13853;
 
+-- Bundle of Wood (Quest: A Bundle of Trouble (Id: 5545))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=13872;
+
 -- Lieutenant's Insignia (Quest: Hidden Enemies (Id: 5726))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=14544;
 

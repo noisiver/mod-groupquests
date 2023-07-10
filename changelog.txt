@@ -620,3 +620,8 @@
 [2023-06-20]
 - Updated the flags of Raptor Ribs to allow every member of a group to loot it.
 - Updated the flags of Serpent Flesh to allow every member of a group to loot it.
+
+[2023-07-10]
+- Added Bundle of Wood to the loot table of Murloc Forager for the quest A Bundle of Trouble.
+- Added Bundle of Wood to the loot table of Murloc Lurker for the quest A Bundle of Trouble.
+- Updated the flags of Bundle of Wood to allow every member of a group to loot it.
