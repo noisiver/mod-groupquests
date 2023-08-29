@@ -625,3 +625,6 @@
 - Added Bundle of Wood to the loot table of Murloc Forager for the quest A Bundle of Trouble.
 - Added Bundle of Wood to the loot table of Murloc Lurker for the quest A Bundle of Trouble.
 - Updated the flags of Bundle of Wood to allow every member of a group to loot it.
+
+[2023-08-29]
+- Updated the flags of Prospector's Pick to allow every member of a group to loot it.

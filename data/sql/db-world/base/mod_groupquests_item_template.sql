@@ -436,6 +436,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4628;
 -- Scrap Metal (Quest: Scrounging (Id: 733))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4630;
 
+-- Prospector's Pick (Quest: Dwarven Digging (Id: 746))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4702;
+
 -- Plainstrider Meat (Quest: The Hunt Begins (Id: 747))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=4739;
 
