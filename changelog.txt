@@ -628,3 +628,6 @@
 
 [2023-08-29]
 - Updated the flags of Prospector's Pick to allow every member of a group to loot it.
+
+[2023-09-01]
+- Updated the restock time of Berard's Bookshelf to prevent having to wait for it.
