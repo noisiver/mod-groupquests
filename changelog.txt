@@ -631,3 +631,6 @@
 
 [2023-09-01]
 - Updated the restock time of Berard's Bookshelf to prevent having to wait for it.
+
+[2023-09-24]
+- Added the script for Tirisfal Glades to make the quest A Rogue's Deal trigger for every member of a group.
