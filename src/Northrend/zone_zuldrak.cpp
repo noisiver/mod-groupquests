@@ -105,7 +105,7 @@ public:
                 }
                 else
                 {
-                    me->setDeathState(JUST_DIED);
+                    me->setDeathState(DeathState::JustDied);
                 }
             }
         }
