@@ -639,3 +639,6 @@
 - Updated the restock time of Stone of West Binding to prevent having to wait for it.
 - Updated the restock time of Stone of Outer Binding to prevent having to wait for it.
 - Updated the restock time of Stone of East Binding to prevent having to wait for it.
+
+[2023-12-02]
+- Updated the respawn time of Kim'jael's Equipment.
