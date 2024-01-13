@@ -449,10 +449,63 @@ public:
     }
 };
 
+enum Khunok
+{
+    NPC_ORPHANED_MAMMOTH_CALF = 25861,
+    SPELL_MAMMOTH_CALF_ESCORT_CREDIT = 46231,
+    QUEST_KHU_NOK_WILL_KNOW = 11878
+};
+
+class npc_khunok_the_behemoth_groupquests : public CreatureScript
+{
+public:
+    npc_khunok_the_behemoth_groupquests() : CreatureScript("npc_khunok_the_behemoth") { }
+
+    struct npc_khunok_the_behemoth_groupquestsAI : public ScriptedAI
+    {
+        npc_khunok_the_behemoth_groupquestsAI(Creature* creature) : ScriptedAI(creature) { }
+
+        void MoveInLineOfSight(Unit* who) override
+
+        {
+            ScriptedAI::MoveInLineOfSight(who);
+
+            if (who->GetTypeId() != TYPEID_UNIT)
+                return;
+
+            if (who->GetEntry() == NPC_ORPHANED_MAMMOTH_CALF && me->IsWithinDistInMap(who, 10.0f))
+            {
+                if (Unit* owner = who->GetOwner())
+                {
+                    if (owner->GetTypeId() == TYPEID_PLAYER)
+                    {
+                        owner->CastSpell(owner, SPELL_MAMMOTH_CALF_ESCORT_CREDIT, true);
+                        who->ToCreature()->DespawnOrUnsummon();
+
+                        if (Player* player = owner->ToPlayer())
+                            if (Group* group = player->GetGroup())
+                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                                    if (Player* member = groupRef->GetSource())
+                                        if (member->GetDistance2d(player) < 200 && member != player)
+                                            if (member->GetQuestStatus(QUEST_KHU_NOK_WILL_KNOW) == QUEST_STATUS_INCOMPLETE)
+                                                member->CompleteQuest(QUEST_KHU_NOK_WILL_KNOW);
+                    }
+                }
+            }
+        }
+    };
+
+    CreatureAI* GetAI(Creature* creature) const override
+    {
+        return new npc_khunok_the_behemoth_groupquestsAI(creature);
+    }
+};
+
 void AddSC_zone_borean_tundra_groupquests()
 {
     new npc_sinkhole_kill_credit_groupquests();
     new npc_beryl_sorcerer_groupquests();
     new npc_nerubar_victim_groupquests();
     new npc_lurgglbr_groupquests();
+    new npc_khunok_the_behemoth_groupquests();
 }

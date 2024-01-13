@@ -642,3 +642,6 @@
 
 [2023-12-02]
 - Updated the respawn time of Kim'jael's Equipment.
+
+[2024-01-13]
+- Updated the script for Khu'nok the Behemoth to give every member of a group credit.
