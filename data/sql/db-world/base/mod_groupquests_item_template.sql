@@ -967,6 +967,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=9442;
 -- Grimtotem Horn (Quest: A Grim Discovery (Id: 2974))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=9460;
 
+-- Gordunni Cobalt (Quest: Gordunni Cobalt (Id: 2987))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=9463;
+
 -- Troll Temper (Quest: Troll Temper (Id: 3042))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=9523;
 

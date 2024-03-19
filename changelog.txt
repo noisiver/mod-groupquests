@@ -645,3 +645,9 @@
 
 [2024-01-13]
 - Updated the script for Khu'nok the Behemoth to give every member of a group credit.
+
+[2024-03-19]
+- Added Gordunni Cobalt to the loot table of Gordunni Ogre for the quest Gordunni Cobalt.
+- Added Gordunni Cobalt to the loot table of Gordunni Brute for the quest Gordunni Cobalt.
+- Added Gordunni Cobalt to the loot table of Gordunni Ogre Mage for the quest Gordunni Cobalt.
+- Updated the flags of Gordunni Cobalt to allow every member of a group to loot it.

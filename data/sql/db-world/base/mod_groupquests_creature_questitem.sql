@@ -108,6 +108,17 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2655
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=2656 AND `ItemId`=8684;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2656, 0, 8684);
 
+-- Gordunni Cobalt (Quest: Gordunni Cobalt (Id: 2987))
+-- Gordunni Ogre
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5229 AND `ItemId`=9463;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5229, 0, 9463);
+-- Gordunni Brute
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5232 AND `ItemId`=9463;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5232, 0, 9463);
+-- Gordunni Ogre Mage
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=5237 AND `ItemId`=9463;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (5237, 0, 9463);
+
 -- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
 -- Defias Thug
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=38 AND `ItemId`=11119;

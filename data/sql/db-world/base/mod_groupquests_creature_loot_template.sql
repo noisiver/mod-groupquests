@@ -105,6 +105,17 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=2656 AND `Item`=8684;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (2656, 8684, 30, 1, 'Jade Ooze - Hinterlands Honey Ripple');
 
+-- Gordunni Cobalt (Quest: Gordunni Cobalt (Id: 2987))
+-- Gordunni Ogre
+DELETE FROM `creature_loot_template` WHERE `Entry`=5229 AND `Item`=9463;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (5229, 9463, 32, 1, 'Gordunni Ogre - Gordunni Cobalt');
+-- Gordunni Brute
+DELETE FROM `creature_loot_template` WHERE `Entry`=5232 AND `Item`=9463;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (5232, 9463, 30, 1, 'Gordunni Brute - Gordunni Cobalt');
+-- Gordunni Ogre Mage
+DELETE FROM `creature_loot_template` WHERE `Entry`=5237 AND `Item`=9463;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (5237, 9463, 33, 1, 'Gordunni Ogre Mage - Gordunni Cobalt');
+
 -- Milly's Harvest (Quest: Milly's Harvest (Id: 3904))
 -- Defias Thug
 DELETE FROM `creature_loot_template` WHERE `Entry`=38 AND `Item`=11119;
