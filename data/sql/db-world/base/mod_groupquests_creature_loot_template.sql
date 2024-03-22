@@ -469,8 +469,8 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25839 AND `Item`=35222;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25839, 35222, 41, 1, 'Northsea Mercenary - Shipment of Animal Parts');
 -- Northsea Thug
-DELETE FROM `creature_loot_template` WHERE `Entry`=25844 AND `Item`=35222;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25844, 35222, 45, 1, 'Northsea Thug - Shipment of Animal Parts');
+DELETE FROM `creature_loot_template` WHERE `Entry`=25843 AND `Item`=35222;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25843, 35222, 59, 1, 'Northsea Thug - Shipment of Animal Parts');
 
 -- Frostberry (Quest: Nuts for Berries (Id: 11912))
 -- Coldarra Scalesworn
