@@ -9,3 +9,6 @@ UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=2690;
 
 -- Stone of East Binding (Quest: Stones of Binding (Id: 651))
 UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=2691;
+
+-- Sealed Box (Quest: Investigate Tuurem (Id: 9990))
+UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=182542;

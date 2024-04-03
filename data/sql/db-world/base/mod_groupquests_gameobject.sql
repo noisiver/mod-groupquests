@@ -106,6 +106,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182122;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182166;
 
+-- Sealed Box (Quest: Investigate Tuurem (Id: 9990))
+-- Changed from 60 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=182542;
+
 -- Krasus's Compendium - Chapter 1 (Quest: Krasus's Compendium (Id: 10192))
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184121;

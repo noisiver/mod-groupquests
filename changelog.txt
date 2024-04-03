@@ -651,3 +651,7 @@
 - Added Gordunni Cobalt to the loot table of Gordunni Brute for the quest Gordunni Cobalt.
 - Added Gordunni Cobalt to the loot table of Gordunni Ogre Mage for the quest Gordunni Cobalt.
 - Updated the flags of Gordunni Cobalt to allow every member of a group to loot it.
+
+[2024-04-03]
+- Updated the respawn time of Sealed Box.
+- Updated the restock time of Sealed Box.
