@@ -1672,6 +1672,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24152;
 -- Bloodcursed Soul (Quest: The Hopeless Ones... (Id: 9682))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24153;
 
+-- Discarded Nutriment (Quest: A Question of Gluttony (Id: 9702))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24233;
+
 -- Medical Supplies (Quest: The Cryo-Core (Id: 9703))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24236;
 

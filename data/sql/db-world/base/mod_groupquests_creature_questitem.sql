@@ -231,6 +231,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1811
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=20270 AND `ItemId`=24422;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (20270, 1, 24422);
 
+-- Discarded Nutriment (Quest: A Question of Gluttony (Id: 9702))
+-- Bog Lord
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18127 AND `ItemId`=24233;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18127, 0, 24233);
+-- Fungal Giant
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=19734 AND `ItemId`=24233;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (19734, 0, 24233);
+
 -- Bleeding Hollow Supply Crate (Quest: Bleeding Hollow Supply Crates (Id: 9916))
 -- Boulderfist Warrior
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=17136 AND `ItemId`=25460;

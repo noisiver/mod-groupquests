@@ -196,6 +196,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=16972 AND `Item`=23205;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16972, 23205, 30, 1, 'Bonestripper Buzzard - Hellfire Spineleaf');
 
+-- Discarded Nutriment (Quest: A Question of Gluttony (Id: 9702))
+-- Bog Lord
+DELETE FROM `creature_loot_template` WHERE `Entry`=18127 AND `Item`=24233;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18127, 24233, 34, 1, 'Bog Lord - Discarded Nutriment');
+-- Fungal Giant
+DELETE FROM `creature_loot_template` WHERE `Entry`=19734 AND `Item`=24233;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (19734, 24233, 31, 1, 'Fungal Giant - Discarded Nutriment');
+
 -- Mature Spore Sac (Quest: The Sporelings' Plight (Id: 9739), Quest: More Spore Sacs (Id: 9742))
 -- Starving Fungal Giant
 DELETE FROM `creature_loot_template` WHERE `Entry`=18125 AND `Item`=24290;
