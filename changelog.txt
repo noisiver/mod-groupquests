@@ -655,3 +655,6 @@
 [2024-04-03]
 - Updated the respawn time of Sealed Box.
 - Updated the restock time of Sealed Box.
+
+[2024-04-04]
+- Updated the restock time of Ikeyen's Belongings.
