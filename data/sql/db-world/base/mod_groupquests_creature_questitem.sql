@@ -199,6 +199,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (1687
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=16972 AND `ItemId`=23205;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (16972, 1, 23205);
 
+-- Mature Spore Sac (Quest: The Sporelings' Plight (Id: 9739), Quest: More Spore Sacs (Id: 9742))
+-- Starving Fungal Giant
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18125 AND `ItemId`=24290;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (18125, 0, 24290);
+-- Starving Bog Lord
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=19519 AND `ItemId`=24290;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (19519, 1, 24290);
+
 -- Fulgor Spore (Quest: Fulgor Spores (Id: 9777))
 -- Umbraglow Stinger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=18132 AND `ItemId`=24383;

@@ -196,6 +196,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=16972 AND `Item`=23205;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16972, 23205, 30, 1, 'Bonestripper Buzzard - Hellfire Spineleaf');
 
+-- Mature Spore Sac (Quest: The Sporelings' Plight (Id: 9739), Quest: More Spore Sacs (Id: 9742))
+-- Starving Fungal Giant
+DELETE FROM `creature_loot_template` WHERE `Entry`=18125 AND `Item`=24290;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (18125, 24290, 31, 1, 'Starving Fungal Giant - Mature Spore Sac');
+-- Starving Bog Lord
+DELETE FROM `creature_loot_template` WHERE `Entry`=19519 AND `Item`=24290;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (19519, 24290, 34, 1, 'Starving Bog Lord - Mature Spore Sac');
+
 -- Fulgor Spore (Quest: Fulgor Spores (Id: 9777))
 -- Umbraglow Stinger
 DELETE FROM `creature_loot_template` WHERE `Entry`=18132 AND `Item`=24383;

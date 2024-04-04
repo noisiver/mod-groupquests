@@ -658,3 +658,6 @@
 
 [2024-04-04]
 - Updated the restock time of Ikeyen's Belongings.
+- Added Mature Spore Sac to the loot table of Starving Fungal Giant for the quests The Sporelings' Plight and More Spore Sacs.
+- Added Mature Spore Sac to the loot table of Starving Bog Lord for the quests The Sporelings' Plight and More Spore Sacs.
+- Updated the flags of Mature Spore Sac to allow every member of a group to loot it.

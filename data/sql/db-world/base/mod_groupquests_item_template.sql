@@ -1690,6 +1690,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24279;
 -- Naga Claws (Quest: A Warm Welcome (Id: 9728))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24280;
 
+-- Mature Spore Sac (Quest: The Sporelings' Plight (Id: 9739), Quest: More Spore Sacs (Id: 9742))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24290;
+
 -- Bog Lord Tendril (Quest: Natural Enemies (Id: 9743), Quest: More Tendrils! (Id: 9744))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=24291;
 
