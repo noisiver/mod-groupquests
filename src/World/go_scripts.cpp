@@ -159,8 +159,48 @@ public:
     }
 };
 
+enum MissingFriends
+{
+    QUEST_MISSING_FRIENDS    = 10852,
+    NPC_CAPTIVE_CHILD        = 22314,
+    SAY_FREE_0               = 0,
+};
+
+class go_veil_skith_cage_groupquests : public GameObjectScript
+{
+public:
+    go_veil_skith_cage_groupquests() : GameObjectScript("go_veil_skith_cage") { }
+
+    bool OnGossipHello(Player* player, GameObject* go) override
+    {
+        go->UseDoorOrButton();
+
+        std::list<Creature*> childrenList;
+        GetCreatureListWithEntryInGrid(childrenList, go, NPC_CAPTIVE_CHILD, INTERACTION_DISTANCE);
+        for (std::list<Creature*>::const_iterator itr = childrenList.begin(); itr != childrenList.end(); ++itr)
+        {
+            if (Group* group = player->GetGroup())
+                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                    if (Player* member = groupRef->GetSource())
+                        if (member->GetDistance2d(player) < 200 && member != player && member->GetQuestStatus(QUEST_MISSING_FRIENDS) == QUEST_STATUS_INCOMPLETE)
+                                member->KilledMonsterCredit(NPC_CAPTIVE_CHILD, (*itr)->GetGUID());
+
+            if (player->GetQuestStatus(QUEST_MISSING_FRIENDS) == QUEST_STATUS_INCOMPLETE)
+                player->KilledMonsterCredit(NPC_CAPTIVE_CHILD, (*itr)->GetGUID());
+
+            (*itr)->DespawnOrUnsummon(5000);
+            (*itr)->GetMotionMaster()->MovePoint(1, go->GetPositionX() + 5, go->GetPositionY(), go->GetPositionZ());
+            (*itr)->AI()->Talk(SAY_FREE_0);
+            (*itr)->GetMotionMaster()->Clear();
+        }
+
+        return false;
+    }
+};
+
 void AddSC_go_scripts_groupquests()
 {
     new go_jotunheim_cage_groupquests();
     new go_tadpole_cage_groupquests();
+    new go_veil_skith_cage_groupquests();
 }

@@ -664,3 +664,4 @@
 - Added Discarded Nutriment to the loot table of Bog Lord for the quest A Question of Gluttony.
 - Added Discarded Nutriment to the loot table of Fungal Giant for the quest A Question of Gluttony.
 - Updated the flags of Discarded Nutriment to allow every member of a group to loot it.
+- Added the script for world gameobjects to make the quest Missing Friends trigger for every member of a group.
