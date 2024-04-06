@@ -4,6 +4,9 @@ UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid` IN (-209188, -20
 -- Torek (Quest: Torek's Assault (Id: 6544))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=12858 AND `id`=1;
 
+-- Avatar of Terokk (Quest: The Skettis Offensive (Id: 10879))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=22375 AND `id`=2;
+
 -- Fizzcrank Recon Pilot (Quest: Emergency Protocol: Section 8.2, Paragraph C (Id: 11795))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=25841 AND `id`=4;
 
