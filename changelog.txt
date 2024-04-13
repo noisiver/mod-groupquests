@@ -668,3 +668,6 @@
 
 [2024-04-06]
 - Updated the smart script for Avatar of Terokk to give every member of a group the kill credit.
+
+[2024-04-13]
+- Added the script for the spell Imbue Crystal to make the quest The Stones of Vekh'nir give the item to every member of a group.

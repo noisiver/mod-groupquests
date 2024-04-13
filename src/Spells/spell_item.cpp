@@ -142,8 +142,40 @@ public:
     }
 };
 
+class spell_item_vekhnir_crystal : public SpellScript
+{
+    PrepareSpellScript(spell_item_vekhnir_crystal);
+
+    void OnChangeItem(SpellEffIndex /*effIndex*/)
+    {
+        if (Player* player = GetCaster()->ToPlayer())
+        {
+            if (Group* group = player->GetGroup())
+            {
+                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                {
+                    if (Player* member = groupRef->GetSource())
+                    {
+                        if (member->GetDistance2d(player) < 200 && member != player)
+                        {
+                            if (member->GetQuestStatus(10565) == QUEST_STATUS_INCOMPLETE)
+                                member->AddItem(30567, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    void Register() override
+    {
+        OnEffectHit += SpellEffectFn(spell_item_vekhnir_crystal::OnChangeItem, EFFECT_0, SPELL_EFFECT_SUMMON_CHANGE_ITEM);
+    }
+};
+
 void AddSC_item_spell_scripts_groupquests()
 {
     new spell_item_muisek_vessel_groupquests();
     new spell_item_kilsorrow_banner_groupquests();
+    RegisterSpellScript(spell_item_vekhnir_crystal);
 }
