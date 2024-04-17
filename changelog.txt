@@ -16,9 +16,7 @@
 - Updated the flags of Charred Razormane Wand to allow every member of a group to loot it.
 - Updated the flags of Razormane Backstabber to allow every member of a group to loot it.
 - Updated the flags of Razormane War Shield to allow every member of a group to loot it.
-
 - Updated the respawn time of Alien Egg.
-
 - Added Highperch Wyvern Egg to the loot table of Highperch Wyvern for the quest Wind Rider.
 - Updated the flags of Highperch Wyvern Egg to allow every member of a group to loot it.
 
@@ -630,15 +628,15 @@
 - Updated the flags of Prospector's Pick to allow every member of a group to loot it.
 
 [2023-09-01]
-- Updated the restock time of Berard's Bookshelf to prevent having to wait for it.
+- Updated the restock time of Berard's Bookshelf.
 
 [2023-09-24]
 - Added the script for Tirisfal Glades to make the quest A Rogue's Deal trigger for every member of a group.
 
 [2023-11-14]
-- Updated the restock time of Stone of West Binding to prevent having to wait for it.
-- Updated the restock time of Stone of Outer Binding to prevent having to wait for it.
-- Updated the restock time of Stone of East Binding to prevent having to wait for it.
+- Updated the restock time of Stone of West Binding.
+- Updated the restock time of Stone of Outer Binding.
+- Updated the restock time of Stone of East Binding.
 
 [2023-12-02]
 - Updated the respawn time of Kim'jael's Equipment.
