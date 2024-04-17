@@ -124,14 +124,21 @@ public:
             {
                 Unit* passenger = me->GetVehicleKit()->GetPassenger(1); // player should be on seat 1
                 if (passenger && passenger->GetTypeId() == TYPEID_PLAYER)
-                {
+                {                                  
                     if (Group* group = passenger->ToPlayer()->GetGroup())
-                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                            if (Player* member = groupRef->GetSource())
-                                if (member->GetDistance2d(passenger) < 200 && member != passenger)
-                                    member->CastSpell(member, SPELL_CREDIT, true);
-
-                    passenger->CastSpell(passenger, SPELL_CREDIT, true);
+                    {
+                        group->DoForAllMembers([passenger](Player* member)
+                        {
+                            if (member->IsAtGroupRewardDistance(passenger->ToPlayer()))
+                            {
+                                member->CastSpell(member, SPELL_CREDIT, true);
+                            }
+                        });
+                    }
+                    else
+                    {
+                        passenger->CastSpell(passenger, SPELL_CREDIT, true);
+                    }
                 }
 
                 me->DespawnOrUnsummon();
@@ -248,15 +255,20 @@ public:
                         if (Player* player = shooter->ToPlayer())
                         {
                             if (Group* group = player->GetGroup())
-                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                    if (Player* member = groupRef->GetSource())
-                                        if (member->GetDistance2d(player) < 200 && member != player)
-                                            member->KilledMonsterCredit(NPC_APPLE);
-
-                            player->KilledMonsterCredit(NPC_APPLE);
-                            //apple->DespawnOrUnsummon(); zomg!
+                            {
+                                group->DoForAllMembers([player](Player* member)
+                                {
+                                    if (member->IsAtGroupRewardDistance(player))
+                                    {
+                                        member->KilledMonsterCredit(NPC_APPLE);
+                                    }
+                                });
+                            }
+                            else
+                            {
+                                player->KilledMonsterCredit(NPC_APPLE);
+                            }
                         }
-
                         break;
                     }
             }
@@ -419,15 +431,22 @@ public:
                     Player* player = ObjectAccessor::FindConnectedPlayer(playerGUID);
                     if (Group* group = player->GetGroup())
                     {
-                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                            if (Player* member = groupRef->GetSource())
-                                if (member->GetDistance2d(player) < 200 && member->GetQuestStatus(QUEST_STILL_AT_IT) == QUEST_STATUS_INCOMPLETE)
+                        group->DoForAllMembers([player](Player* member)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
+                                if (member->GetQuestStatus(QUEST_STILL_AT_IT) == QUEST_STATUS_INCOMPLETE)
+                                {
                                     member->AddItem(38688, 1);
+                                }
+                            }
+                        });
                     }
                     else
                     {
                         me->SummonGameObject(190643, 5546.55f, 5768.0f, -78.03f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0);
                     }
+
                     Reset();
                 }
                 else if (expectedaction != 0) // didn't make it in 10 seconds

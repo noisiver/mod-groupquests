@@ -44,11 +44,11 @@ public:
             {
                 if (Group* group = player->GetGroup())
                 {
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                    group->DoForAllMembers([this, player](Player* member)
                     {
-                        if (Player* member = groupRef->GetSource())
+                        if (member != player)
                         {
-                            if (member->GetDistance2d(player) < 200 && member != player)
+                            if (member->IsAtGroupRewardDistance(player))
                             {
                                 switch (GetHitCreature()->GetCreatureTemplate()->Entry)
                                 {
@@ -83,7 +83,7 @@ public:
                                 }
                             }
                         }
-                    }
+                    });
                 }
             }
         }
@@ -115,17 +115,19 @@ public:
             {
                 if (Group* group = player->GetGroup())
                 {
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                    group->DoForAllMembers([player](Player* member)
                     {
-                        if (Player* member = groupRef->GetSource())
+                        if (member != player)
                         {
-                            if (member->GetDistance2d(player) < 200 && member != player)
+                            if (member->IsAtGroupRewardDistance(player))
                             {
                                 if (member->GetQuestStatus(9931) == QUEST_STATUS_INCOMPLETE)
+                                {
                                     member->KilledMonsterCredit(18393);
+                                }
                             }
                         }
-                    }
+                    });
                 }
             }
         }
@@ -152,17 +154,19 @@ class spell_item_vekhnir_crystal : public SpellScript
         {
             if (Group* group = player->GetGroup())
             {
-                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                group->DoForAllMembers([player](Player* member)
                 {
-                    if (Player* member = groupRef->GetSource())
+                    if (member != player)
                     {
-                        if (member->GetDistance2d(player) < 200 && member != player)
+                        if (member->IsAtGroupRewardDistance(player))
                         {
                             if (member->GetQuestStatus(10565) == QUEST_STATUS_INCOMPLETE)
+                            {
                                 member->AddItem(30567, 1);
+                            }
                         }
                     }
-                }
+                });
             }
         }
     }
@@ -183,17 +187,19 @@ class spell_item_bloodgem_shard : public SpellScript
         {
             if (Group* group = player->GetGroup())
             {
-                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                group->DoForAllMembers([player](Player* member)
                 {
-                    if (Player* member = groupRef->GetSource())
+                    if (member != player)
                     {
-                        if (member->GetDistance2d(player) < 200 && member != player)
+                        if (member->IsAtGroupRewardDistance(player))
                         {
                             if (member->GetQuestStatus(10204) == QUEST_STATUS_INCOMPLETE)
+                            {
                                 member->CompleteQuest(10204);
+                            }
                         }
                     }
-                }
+                });
             }
         }
     }

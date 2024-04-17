@@ -117,16 +117,23 @@ public:
                     break;
                 case 7:
                     DoCast(me, SPELL_EXPLODE_CART, true);
-                    if (Player* caster = ObjectAccessor::GetPlayer(*me, casterGuid))
+                    if (Player* player = ObjectAccessor::GetPlayer(*me, casterGuid))
                     {
-                        if (Player* player = caster->ToPlayer())
-                            if (Group* group = player->GetGroup())
-                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                    if (Player* member = groupRef->GetSource())
-                                        if (member->GetDistance2d(player) < 200 && member != player)
-                                            member->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
-
-                        caster->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
+                        if (Group* group = player->GetGroup())
+                        {
+                            group->DoForAllMembers([this, player](Player* member)
+                            {
+                                if (member->IsAtGroupRewardDistance(player))
+                                {
+                                    member->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
+                                }
+                            });
+                        }
+                        else
+                        {
+                            player->KilledMonster(me->GetCreatureTemplate(), me->GetGUID());
+                        }
+                        
                     }
                     phaseTimer = 5000;
                     phase = 8;
@@ -232,12 +239,20 @@ public:
                             me->CastSpell(player, SPELL_ARCANE_CHAINS_CHARACTER_FORCE_CAST, TriggerCastFlags(TRIGGERED_FULL_MASK & ~TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS & ~TRIGGERED_IGNORE_CAST_ITEM));
 
                             if (Group* group = player->GetGroup())
-                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                    if (Player* member = groupRef->GetSource())
-                                        if (member->GetDistance2d(player) < 200 && member != player)
-                                            member->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
+                            {
+                                group->DoForAllMembers([player](Player* member)
+                                {
+                                    if (member->IsAtGroupRewardDistance(player))
+                                    {
+                                        member->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
+                                    }
+                                });
+                            }
+                            else
+                            {
+                                player->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
+                            }
 
-                            player->KilledMonsterCredit(NPC_CAPTURED_BERLY_SORCERER);
                             me->DisappearAndDie();
                         }
                     }
@@ -293,12 +308,20 @@ public:
             if (uiRand < 40)
             {
                 if (Group* group = player->GetGroup())
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        if (Player* member = groupRef->GetSource())
-                            if (member->GetDistance2d(player) < 200 && member != player)
-                                member->KilledMonsterCredit(NPC_WARSONG_PEON);
+                {
+                    group->DoForAllMembers([player](Player* member)
+                    {
+                        if (member->IsAtGroupRewardDistance(player))
+                        {
+                            member->KilledMonsterCredit(NPC_WARSONG_PEON);
+                        }
+                    });
+                }
+                else
+                {
+                    player->KilledMonsterCredit(NPC_WARSONG_PEON);
+                }
 
-                player->KilledMonsterCredit(NPC_WARSONG_PEON);
                 player->CastSpell(me, SPELL_FREED_WARSONG_PEON, true);
             }
             else if (uiRand < 80)
@@ -400,12 +423,19 @@ public:
                         if (Player* player = GetPlayerForEscort())
                         {
                             if (Group* group = player->GetGroup())
-                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                    if (Player* member = groupRef->GetSource())
-                                        if (member->GetDistance2d(player) < 200 && member != player)
-                                            member->AreaExploredOrEventHappens(QUEST_ESCAPE_WINTERFIN_CAVERNS);
-
-                            player->AreaExploredOrEventHappens(QUEST_ESCAPE_WINTERFIN_CAVERNS);
+                            {
+                                group->DoForAllMembers([player](Player* member)
+                                {
+                                    if (member->IsAtGroupRewardDistance(player))
+                                    {
+                                        member->AreaExploredOrEventHappens(QUEST_ESCAPE_WINTERFIN_CAVERNS);
+                                    }
+                                });
+                            }
+                            else
+                            {
+                                player->AreaExploredOrEventHappens(QUEST_ESCAPE_WINTERFIN_CAVERNS);
+                            }
                         }
                         IntroPhase = 7;
                         IntroTimer = 2500;
@@ -483,12 +513,24 @@ public:
                         who->ToCreature()->DespawnOrUnsummon();
 
                         if (Player* player = owner->ToPlayer())
+                        {
                             if (Group* group = player->GetGroup())
-                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                    if (Player* member = groupRef->GetSource())
-                                        if (member->GetDistance2d(player) < 200 && member != player)
+                            {
+                                group->DoForAllMembers([player](Player* member)
+                                {
+                                    if (member != player)
+                                    {
+                                        if (member->IsAtGroupRewardDistance(player))
+                                        {
                                             if (member->GetQuestStatus(QUEST_KHU_NOK_WILL_KNOW) == QUEST_STATUS_INCOMPLETE)
+                                            {
                                                 member->CompleteQuest(QUEST_KHU_NOK_WILL_KNOW);
+                                            }
+                                        }
+                                    }
+                                });
+                            }
+                        }
                     }
                 }
             }

@@ -16,13 +16,22 @@ public:
 
         void HandleEffect(SpellEffIndex /*effIndex*/)
         {
-            if (Unit* caster = GetCaster())
-                if (Player* player = caster->ToCreature()->GetOwner()->ToPlayer())
-                    if (Group* group = player->GetGroup())
-                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                            if (Player* member = groupRef->GetSource())
-                                if (member->GetDistance2d(player) < 200 && member != player)
-                                    member->KilledMonsterCredit(NPC_CAPTURED_CRUSADER);
+            if (Player* player = GetCaster()->ToCreature()->GetOwner()->ToPlayer())
+            {
+                if (Group* group = player->GetGroup())
+                {
+                    group->DoForAllMembers([player](Player* member)
+                    {
+                        if (member != player)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
+                                member->KilledMonsterCredit(NPC_CAPTURED_CRUSADER);
+                            }
+                        }
+                    });
+                }
+            }
         }
 
         void Register() override

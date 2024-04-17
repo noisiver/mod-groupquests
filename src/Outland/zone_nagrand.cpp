@@ -40,12 +40,20 @@ public:
         if (Creature* prisoner = go->FindNearestCreature(NPC_MAGHAR_PRISONER, 5.0f))
         {
             if (Group* group = player->GetGroup())
-                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                    if (Player* member = groupRef->GetSource())
-                        if (member->GetDistance2d(player) < 200 && member != player)
-                            member->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
+            {
+                group->DoForAllMembers([player](Player* member)
+                {
+                    if (member->IsAtGroupRewardDistance(player))
+                    {
+                        member->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
+                    }
+                });
+            }
+            else
+            {
+                player->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
+            }
 
-            player->KilledMonsterCredit(NPC_MAGHAR_PRISONER);
             prisoner->AI()->Talk(SAY_FREE, player);
             prisoner->DespawnOrUnsummon(6000);
         }

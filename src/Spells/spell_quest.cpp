@@ -56,12 +56,21 @@ public:
                 caster->CastSpell(caster, 47118, false);
 
                 if (Group* group = player->GetGroup())
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        if (Player* member = groupRef->GetSource())
-                            if (member->GetDistance2d(player) < 40 && member != player)
+                {
+                    group->DoForAllMembers([player](Player* member)
+                    {
+                        if (member != player)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
                                 if (!member->HasAura(47118))
+                                {
                                     member->AddAura(47118, member);
-
+                                }
+                            }
+                        }
+                    });
+                }
                 return;
             }
 
@@ -71,12 +80,21 @@ public:
                 caster->CastSpell(caster, 47150, false);
 
                 if (Group* group = player->GetGroup())
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        if (Player* member = groupRef->GetSource())
-                            if (member->GetDistance2d(player) < 40 && member != player)
+                {
+                    group->DoForAllMembers([player](Player* member)
+                    {
+                        if (member != player)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
                                 if (!member->HasAura(47118))
+                                {
                                     member->AddAura(47118, member);
-
+                                }
+                            }
+                        }
+                    });
+                }
                 return;
             }
 
@@ -87,12 +105,21 @@ public:
                 caster->CastSpell(caster, 47317, false);
 
                 if (Group* group = player->GetGroup())
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        if (Player* member = groupRef->GetSource())
-                            if (member->GetDistance2d(player) < 40 && member != player)
+                {
+                    group->DoForAllMembers([player](Player* member)
+                    {
+                        if (member != player)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
                                 if (!member->HasAura(47118))
+                                {
                                     member->AddAura(47118, member);
-
+                                }
+                            }
+                        }
+                    });
+                }
                 return;
             }
 
@@ -102,12 +129,21 @@ public:
                 caster->CastSpell(caster, 47406, false);
 
                 if (Group* group = player->GetGroup())
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        if (Player* member = groupRef->GetSource())
-                            if (member->GetDistance2d(player) < 40 && member != player)
+                {
+                    group->DoForAllMembers([player](Player* member)
+                    {
+                        if (member != player)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
                                 if (!member->HasAura(47118))
+                                {
                                     member->AddAura(47118, member);
-
+                                }
+                            }
+                        }
+                    });
+                }
                 return;
             }
 
@@ -117,12 +153,21 @@ public:
                 caster->CastSpell(caster, 50440, false);
 
                 if (Group* group = player->GetGroup())
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        if (Player* member = groupRef->GetSource())
-                            if (member->GetDistance2d(player) < 40 && member != player)
+                {
+                    group->DoForAllMembers([player](Player* member)
+                    {
+                        if (member != player)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
                                 if (!member->HasAura(47118))
+                                {
                                     member->AddAura(47118, member);
-
+                                }
+                            }
+                        }
+                    });
+                }
                 return;
             }
         }

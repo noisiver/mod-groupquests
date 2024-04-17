@@ -60,12 +60,19 @@ public:
         pPrisoner->DespawnOrUnsummon();
 
         if (Group* group = player->GetGroup())
-            for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                if (Player* member = groupRef->GetSource())
-                    if (member->GetDistance2d(player) < 200 && member != player)
-                        member->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
-
-        player->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
+        {
+            group->DoForAllMembers([this, player](Player* member)
+            {
+                if (member->IsAtGroupRewardDistance(player))
+                {
+                    member->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
+                }
+            });
+        }
+        else
+        {
+            player->KilledMonsterCredit(NPC_EBON_BLADE_PRISONER_HUMAN);
+        }
 
         switch (pPrisoner->GetEntry())
         {
@@ -141,12 +148,19 @@ public:
                 (*itr)->GetMotionMaster()->MoveFollow(player, 1.0f, frand(0.0f, 2 * M_PI), MOTION_SLOT_CONTROLLED);
 
                 if (Group* group = player->GetGroup())
-                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                        if (Player* member = groupRef->GetSource())
-                            if (member->GetDistance2d(player) < 200 && member != player)
-                                    member->KilledMonsterCredit(NPC_WINTERFIN_TADPOLE);
-
-                player->KilledMonsterCredit(NPC_WINTERFIN_TADPOLE);
+                {
+                    group->DoForAllMembers([this, player](Player* member)
+                    {
+                        if (member->IsAtGroupRewardDistance(player))
+                        {
+                            member->KilledMonsterCredit(NPC_WINTERFIN_TADPOLE);
+                        }
+                    });
+                }
+                else
+                {
+                    player->KilledMonsterCredit(NPC_WINTERFIN_TADPOLE);
+                }
             }
 
             return false;
@@ -180,13 +194,25 @@ public:
         for (std::list<Creature*>::const_iterator itr = childrenList.begin(); itr != childrenList.end(); ++itr)
         {
             if (Group* group = player->GetGroup())
-                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                    if (Player* member = groupRef->GetSource())
-                        if (member->GetDistance2d(player) < 200 && member != player && member->GetQuestStatus(QUEST_MISSING_FRIENDS) == QUEST_STATUS_INCOMPLETE)
-                                member->KilledMonsterCredit(NPC_CAPTIVE_CHILD, (*itr)->GetGUID());
-
-            if (player->GetQuestStatus(QUEST_MISSING_FRIENDS) == QUEST_STATUS_INCOMPLETE)
-                player->KilledMonsterCredit(NPC_CAPTIVE_CHILD, (*itr)->GetGUID());
+            {
+                group->DoForAllMembers([this, player, itr](Player* member)
+                {
+                    if (member->IsAtGroupRewardDistance(player))
+                    {
+                        if (member->GetQuestStatus(QUEST_MISSING_FRIENDS) == QUEST_STATUS_INCOMPLETE)
+                        {
+                            member->KilledMonsterCredit(NPC_CAPTIVE_CHILD, (*itr)->GetGUID());
+                        }
+                    }
+                });
+            }
+            else
+            {
+                if (player->GetQuestStatus(QUEST_MISSING_FRIENDS) == QUEST_STATUS_INCOMPLETE)
+                {
+                    player->KilledMonsterCredit(NPC_CAPTIVE_CHILD, (*itr)->GetGUID());
+                }
+            }
 
             (*itr)->DespawnOrUnsummon(5000);
             (*itr)->GetMotionMaster()->MovePoint(1, go->GetPositionX() + 5, go->GetPositionY(), go->GetPositionZ());

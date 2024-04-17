@@ -95,12 +95,20 @@ public:
         if (player->HasAura(SPELL_KODO_KOMBO_PLAYER_BUFF) && creature->HasAura(SPELL_KODO_KOMBO_DESPAWN_BUFF))
         {
             if (Group* group = player->GetGroup())
-                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                    if (Player* member = groupRef->GetSource())
-                        if (member->GetDistance2d(player) < 200 && member != player)
-                            member->TalkedToCreature(creature->GetEntry(), ObjectGuid::Empty);
+            {
+                group->DoForAllMembers([player, creature](Player* member)
+                {
+                    if (member->IsAtGroupRewardDistance(player))
+                    {
+                        member->TalkedToCreature(creature->GetEntry(), ObjectGuid::Empty);
+                    }
+                });
+            }
+            else
+            {
+                player->TalkedToCreature(creature->GetEntry(), ObjectGuid::Empty);
+            }
 
-            player->TalkedToCreature(creature->GetEntry(), ObjectGuid::Empty);
             player->RemoveAurasDueToSpell(SPELL_KODO_KOMBO_PLAYER_BUFF);
         }
 

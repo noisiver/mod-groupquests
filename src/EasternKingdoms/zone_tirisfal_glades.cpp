@@ -149,12 +149,19 @@ public:
                         if (Player* player = ObjectAccessor::GetPlayer(*me, m_uiPlayerGUID))
                         {
                             if (Group* group = player->GetGroup())
-                                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                    if (Player* member = groupRef->GetSource())
-                                        if (member->GetDistance2d(player) < 200 && member != player)
-                                            member->AreaExploredOrEventHappens(QUEST_590);
-
-                            player->AreaExploredOrEventHappens(QUEST_590);
+                            {
+                                group->DoForAllMembers([player](Player* member)
+                                {
+                                    if (member->IsAtGroupRewardDistance(player))
+                                    {
+                                        member->AreaExploredOrEventHappens(QUEST_590);
+                                    }
+                                });
+                            }
+                            else
+                            {
+                                player->AreaExploredOrEventHappens(QUEST_590);
+                            }
                         }
 
                         DoCast(me, SPELL_DRINK, true);

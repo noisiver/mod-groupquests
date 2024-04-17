@@ -94,13 +94,21 @@ public:
                 if (Creature* rageclaw = ObjectAccessor::GetCreature(*me, _rageclawGUID))
                 {
                     if (Group* group = player->GetGroup())
-                        for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                            if (Player* member = groupRef->GetSource())
-                                if (member->GetDistance2d(player) < 200 && member != player)
-                                    member->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
+                    {
+                        group->DoForAllMembers([this, player, rageclaw](Player* member)
+                        {
+                            if (member->IsAtGroupRewardDistance(player))
+                            {
+                                member->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
+                            }
+                        });
+                    }
+                    else
+                    {
+                        player->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
+                    }
 
                     UnlockRageclaw(caster, rageclaw);
-                    player->KilledMonster(rageclaw->GetCreatureTemplate(), _rageclawGUID);
                     me->DespawnOrUnsummon();
                 }
                 else
@@ -197,12 +205,19 @@ public:
                             if (Player* player = owner->ToPlayer())
                             {
                                 if (Group* group = player->GetGroup())
-                                    for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
-                                        if (Player* member = groupRef->GetSource())
-                                            if (member->GetDistance2d(player) < 200 && member != player)
-                                                member->KilledMonsterCredit(me->GetEntry());
-
-                                player->KilledMonsterCredit(me->GetEntry());
+                                {
+                                    group->DoForAllMembers([this, player](Player* member)
+                                    {
+                                        if (member->IsAtGroupRewardDistance(player))
+                                        {
+                                            member->KilledMonsterCredit(me->GetEntry());
+                                        }
+                                    });
+                                }
+                                else
+                                {
+                                    player->KilledMonsterCredit(me->GetEntry());
+                                }
                             }
                         }
 
