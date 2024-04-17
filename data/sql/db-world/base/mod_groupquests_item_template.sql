@@ -1837,6 +1837,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=28551;
 -- A Mysterious Tome (Quest: Decipher the Tome (Id: 10229))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=28552;
 
+-- Energy Isolation Cube (Quest: Potential Energy Source (Id: 10239))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=28564;
+
 -- Nether Dragon Essence (Quest: Getting Down to Business (Id: 10271))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=28970;
 

@@ -347,6 +347,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=16948 AND `Item`=28551;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (16948, 28551, 30, 1, 'Gan\'arg Engineer - Fel Reaver Part');
 
+-- Energy Isolation Cube (Quest: Potential Energy Source (Id: 10239))
+-- Sunfury Arcanist
+DELETE FROM `creature_loot_template` WHERE `Entry`=20134 AND `Item`=28564;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20134, 28564, 33, 1, 'Sunfury Arcanist - Energy Isolation Cube');
+
 -- Bloodmaul Brutebane Brew (Quest: Strange Brew (Id: 10511), Quest: They Stole Me Hookah and Me Brews! (Id: 10542))
 -- Bloodmaul Brewmaster
 DELETE FROM `creature_loot_template` WHERE `Entry`=19957 AND `Item`=29443;
