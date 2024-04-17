@@ -9,3 +9,7 @@ INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (32314, 'spel
 -- Imbue Crystal (Quest: The Stones of Vekh'nir (Id: 10565))
 DELETE FROM `spell_script_names` WHERE `spell_id`=37172;
 INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (37172, 'spell_item_vekhnir_crystal');
+
+-- Bloodgem Infusion (Quest: Bloodgem Crystals (Id: 10204))
+DELETE FROM `spell_script_names` WHERE `spell_id`=34379;
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (34379, 'spell_item_bloodgem_shard');

@@ -173,9 +173,41 @@ class spell_item_vekhnir_crystal : public SpellScript
     }
 };
 
+class spell_item_bloodgem_shard : public SpellScript
+{
+    PrepareSpellScript(spell_item_bloodgem_shard);
+
+    void OnCompleteQuest(SpellEffIndex /*effIndex*/)
+    {
+        if (Player* player = GetCaster()->ToPlayer())
+        {
+            if (Group* group = player->GetGroup())
+            {
+                for (GroupReference* groupRef = group->GetFirstMember(); groupRef != nullptr; groupRef = groupRef->next())
+                {
+                    if (Player* member = groupRef->GetSource())
+                    {
+                        if (member->GetDistance2d(player) < 200 && member != player)
+                        {
+                            if (member->GetQuestStatus(10204) == QUEST_STATUS_INCOMPLETE)
+                                member->CompleteQuest(10204);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    void Register() override
+    {
+        OnEffectHitTarget += SpellEffectFn(spell_item_bloodgem_shard::OnCompleteQuest, EFFECT_2, SPELL_EFFECT_QUEST_COMPLETE);
+    }
+};
+
 void AddSC_item_spell_scripts_groupquests()
 {
     new spell_item_muisek_vessel_groupquests();
     new spell_item_kilsorrow_banner_groupquests();
     RegisterSpellScript(spell_item_vekhnir_crystal);
+    RegisterSpellScript(spell_item_bloodgem_shard);
 }
