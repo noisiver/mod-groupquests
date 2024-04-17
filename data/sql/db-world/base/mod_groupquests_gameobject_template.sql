@@ -13,5 +13,8 @@ UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=2691;
 -- Ikeyen's Belongings (Quest: A Damp, Dark Place (Id: 9788))
 UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=182122;
 
+-- Suspicious Outhouse (Quest: Capturing the Phylactery (Id: 10319))
+UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=184310;
+
 -- Sealed Box (Quest: Investigate Tuurem (Id: 9990))
 UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=182542;

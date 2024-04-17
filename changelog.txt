@@ -676,3 +676,4 @@
 - Added the script for the spell Bloodgem Infusion to make the quest Bloodgem Crystals complete for every member of a group.
 - Added the script for Commander Dawnforge to make the quest Information Gathering trigger for every member of a group.
 - Updated the respawn time of Mana Bomb Fragment.
+- Updated the restock time of Suspicious Outhouse.
