@@ -122,6 +122,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184122;
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184123;
 
+-- Mana Bomb Fragment (Quest: The Unending Invasion (Id: 10343))
+-- Changed from 181 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184433;
+
 -- Metal Coffer (Quest: A Traitor Among Us (Id: 10367))
 -- Changed from 181 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=184466;
