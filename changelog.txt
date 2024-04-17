@@ -677,6 +677,5 @@
 - Added the script for Commander Dawnforge to make the quest Information Gathering trigger for every member of a group.
 - Updated the respawn time of Mana Bomb Fragment.
 - Updated the restock time of Suspicious Outhouse.
-
 - Added Energy Isolation Cube to the loot table of Sunfury Arcanist for the quest Potential Energy Source.
 - Updated the flags of Energy Isolation Cube to allow every member of a group to loot it.
