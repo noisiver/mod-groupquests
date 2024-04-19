@@ -2059,6 +2059,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33103;
 -- Forest Troll Tusk (Quest: Tuskin' Raiders (Id: 11164))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33106;
 
+-- Steel Gate Artifact (Quest: The Artifacts of Steel Gate (Id: 11286))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33109;
+
 -- Witchbane (Quest: The Witch's Bane (Id: 11181))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33112;
 

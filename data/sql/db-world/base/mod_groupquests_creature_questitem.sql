@@ -398,6 +398,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2386
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=23934 AND `ItemId`=33099;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23934, 0, 33099);
 
+-- Steel Gate Artifact (Quest: The Artifacts of Steel Gate (Id: 11286))
+-- Steel Gate Excavator <Explorers' League>
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=24398 AND `ItemId`=33109;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (24398, 0, 33109);
+
 -- Witchbane (Quest: The Witch's Bane (Id: 11181))
 -- Risen Spirit
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=23554 AND `ItemId`=33112;
