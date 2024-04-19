@@ -406,7 +406,7 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 -- Steel Gate Artifact (Quest: The Artifacts of Steel Gate (Id: 11286))
 -- Steel Gate Excavator <Explorers' League>
 DELETE FROM `creature_loot_template` WHERE `Entry`=24398 AND `Item`=33109;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (24398, 33109, 34, 1, 'North Fleet Salvager - Steel Gate Artifact');
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (24398, 33109, 34, 1, 'Steel Gate Excavator - Steel Gate Artifact');
 
 -- Witchbane (Quest: The Witch's Bane (Id: 11181))
 -- Risen Spirit
