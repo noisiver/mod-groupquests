@@ -61,7 +61,7 @@ public:
 
         if (Group* group = player->GetGroup())
         {
-            group->DoForAllMembers([this, player](Player* member)
+            group->DoForAllMembers([player](Player* member)
             {
                 if (member->IsAtGroupRewardDistance(player))
                 {
@@ -149,7 +149,7 @@ public:
 
                 if (Group* group = player->GetGroup())
                 {
-                    group->DoForAllMembers([this, player](Player* member)
+                    group->DoForAllMembers([player](Player* member)
                     {
                         if (member->IsAtGroupRewardDistance(player))
                         {
@@ -195,7 +195,7 @@ public:
         {
             if (Group* group = player->GetGroup())
             {
-                group->DoForAllMembers([this, player, itr](Player* member)
+                group->DoForAllMembers([player, itr](Player* member)
                 {
                     if (member->IsAtGroupRewardDistance(player))
                     {
