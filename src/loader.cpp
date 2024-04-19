@@ -1,6 +1,7 @@
 void AddSC_zone_borean_tundra_groupquests();
 void AddSC_zone_desolace_groupquests();
 void AddSC_zone_dragonblight_groupquests();
+void AddSC_zone_howling_fjord_groupquests();
 void AddSC_zone_icecrown_groupquests();
 void AddSC_zone_nagrand_groupquests();
 void AddSC_zone_netherstorm_groupquests();
@@ -19,6 +20,7 @@ void Addmod_groupquestsScripts()
     AddSC_zone_borean_tundra_groupquests();
     AddSC_zone_desolace_groupquests();
     AddSC_zone_dragonblight_groupquests();
+    AddSC_zone_howling_fjord_groupquests();
     AddSC_zone_icecrown_groupquests();
     AddSC_zone_nagrand_groupquests();
     AddSC_zone_netherstorm_groupquests();

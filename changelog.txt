@@ -3,43 +3,43 @@
 
 [2021-12-16]
 - Added Cactus Apple to the loot table of Mottled Boar for the quest Galgar's Cactus Apple Surprise.
-- Updated the flags of Cactus Apple to allow every member of a group to loot it.
+- Updated the flags of Cactus Apple to allow all members of a group to loot it.
 
 - Added Sack of Supplies to the loot table of Dustwind Harpy and Dustwind Pillager for the quest Winds in the Desert.
-- Updated the flags of Sack of Supplies to allow every member of a group to loot it.
+- Updated the flags of Sack of Supplies to allow all members of a group to loot it.
 
 [2021-12-17]
 - Added Fungal Spores to the loot table of Oasis Snapjaw for the quest Fungal Spores.
-- Updated the flags of Fungal Spores to allow every member of a group to loot it.
+- Updated the flags of Fungal Spores to allow all members of a group to loot it.
 
 [2021-12-18]
-- Updated the flags of Charred Razormane Wand to allow every member of a group to loot it.
-- Updated the flags of Razormane Backstabber to allow every member of a group to loot it.
-- Updated the flags of Razormane War Shield to allow every member of a group to loot it.
+- Updated the flags of Charred Razormane Wand to allow all members of a group to loot it.
+- Updated the flags of Razormane Backstabber to allow all members of a group to loot it.
+- Updated the flags of Razormane War Shield to allow all members of a group to loot it.
 - Updated the respawn time of Alien Egg.
 - Added Highperch Wyvern Egg to the loot table of Highperch Wyvern for the quest Wind Rider.
-- Updated the flags of Highperch Wyvern Egg to allow every member of a group to loot it.
+- Updated the flags of Highperch Wyvern Egg to allow all members of a group to loot it.
 
 [2021-12-20]
 - Added Venomhide Ravasaur Egg to the loot table of Venomhide Ravasaur for the quest Venomhide Eggs.
-- Updated the flags of Venomhide Ravasaur Egg to allow every member of a group to loot it.
+- Updated the flags of Venomhide Ravasaur Egg to allow all members of a group to loot it.
 
 [2021-12-21]
 - Added Deepmoss Egg to the loot table of Deepmoss Creeper for the quest Deepmoss Spider Eggs.
 - Added Deepmoss Egg to the loot table of Deepmoss Webspinner for the quest Deepmoss Spider Eggs.
 - Added Deepmoss Egg to the loot table of Deepmoss Venomspitter for the quest Deepmoss Spider Eggs.
-- Updated the flags of Deepmoss Egg to allow every member of a group to loot it.
+- Updated the flags of Deepmoss Egg to allow all members of a group to loot it.
 
 [2021-12-22]
 - Added Gaea Seed to the loot table of Pridewing Wyvern for the quest Cycle of Rebirth.
 - Added Gaea Seed to the loot table of Pridewing Skyhunter for the quest Cycle of Rebirth.
 - Added Gaea Seed to the loot table of Pridewing Consort for the quest Cycle of Rebirth.
-- Updated the flags of Gaea Seed to allow every member of a group to loot it.
+- Updated the flags of Gaea Seed to allow all members of a group to loot it.
 - Added Kodo Bone to the loot table of Aged Kodo for the quest Bone Collector.
 - Added Kodo Bone to the loot table of Dying Kodo for the quest Bone Collector.
 - Added Kodo Bone to the loot table of Ancient Kodo for the quest Bone Collector.
-- Updated the flags of Kodo Bone to allow every member of a group to loot it.
-- Added the script for Desolace to make the quest Kodo Roundup trigger for every member of a group.
+- Updated the flags of Kodo Bone to allow all members of a group to loot it.
+- Added the script for Desolace to make the quest Kodo Roundup trigger for all members of a group.
 
 [2021-12-24]
 - Updated the respawn time of Gri'lek the Wanderer.
@@ -47,83 +47,83 @@
 [2021-12-25]
 - Added Salvaged Wood to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
 - Added Salvaged Metal to the loot table of Bonechewer Scavenger for the quest I Work... For the Horde!
-- Updated the flags of Salvaged Wood to allow every member of a group to loot it.
-- Updated the flags of Salvaged Metal to allow every member of a group to loot it.
+- Updated the flags of Salvaged Wood to allow all members of a group to loot it.
+- Updated the flags of Salvaged Metal to allow all members of a group to loot it.
 - Updated the respawn time of Metal Coffer.
 
 [2021-12-26]
 - Added Ever-burning Ash to the loot table of Felfire Diemetradon for the quests A Haunted History and A Ghost in the Machine.
 - Added Ever-burning Ash to the loot table of Felboar for the quests A Haunted History and A Ghost in the Machine.
-- Updated the flags of Ever-burning Ash to allow every member of a group to loot it.
+- Updated the flags of Ever-burning Ash to allow all members of a group to loot it.
 
 [2021-12-27]
 - Added Etherlithium Matrix Crystal to the loot table of Disembodied Vindicator for the quest You're Hired!
 - Added Etherlithium Matrix Crystal to the loot table of Disembodied Protector for the quest You're Hired!
-- Updated the flags of Etherlithium Matrix Crystal to allow every member of a group to loot it.
+- Updated the flags of Etherlithium Matrix Crystal to allow all members of a group to loot it.
 - Added Ethereal Technology to the loot table of Zaxxis Raider for the quest Pick Your Part.
-- Updated the flags of Ethereal Technology to allow every member of a group to loot it.
+- Updated the flags of Ethereal Technology to allow all members of a group to loot it.
 
 [2021-12-29]
 - Added Warsong Munitions to the loot table of Nerub'ar Skitterer for the quest Patience is a Virtue that We Don't Need.
-- Updated the flags of Warsong Munitions to allow every member of a group to loot it.
+- Updated the flags of Warsong Munitions to allow all members of a group to loot it.
 
 [2022-01-06]
 - Added Digested Caracoli to the loot table of Talbuk Thorngrazer for the quest A Rare Bean.
-- Updated the flags of Digested Caracoli to allow every member of a group to loot it.
+- Updated the flags of Digested Caracoli to allow all members of a group to loot it.
 - Added Intact Plague Container to the loot table of North Fleet Salvager for the quest The New Plague.
 - Added Intact Plague Container to the loot table of North Fleet Sailor for the quest The New Plague.
-- Updated the flags of Intact Plague Container to allow every member of a group to loot it.
+- Updated the flags of Intact Plague Container to allow all members of a group to loot it.
 
 [2022-01-07]
 - Added Spotted Hippogryph Down to the loot table of Shoveltusk Forager for the quest Hasty Preparations.
-- Updated the flags of Spotted Hippogryph Down to allow every member of a group to loot it.
-- Updated the flags of Book of Runes - Chapter 1 to allow every member of a group to loot it.
-- Updated the flags of Book of Runes - Chapter 2 to allow every member of a group to loot it.
-- Updated the flags of Book of Runes - Chapter 3 to allow every member of a group to loot it.
+- Updated the flags of Spotted Hippogryph Down to allow all members of a group to loot it.
+- Updated the flags of Book of Runes - Chapter 1 to allow all members of a group to loot it.
+- Updated the flags of Book of Runes - Chapter 2 to allow all members of a group to loot it.
+- Updated the flags of Book of Runes - Chapter 3 to allow all members of a group to loot it.
 - Updated the respawn time of Iron Rune Carving Tools.
 
 [2022-01-09]
 - Added Wyrmtail to the loot table of Searing Whelp for the quest Catch a Dragon by the Tail.
 - Added Wyrmtail to the loot table of Drywallow Daggermaw for the quest Catch a Dragon by the Tail.
-- Updated the flags of Wyrmtail to allow every member of a group to loot it.
+- Updated the flags of Wyrmtail to allow all members of a group to loot it.
 - Added Milly's Harvest to the loot table of Defias Thug for the quest Milly's Harvest.
-- Updated the flags of Milly's Harvest to allow every member of a group to loot it.
+- Updated the flags of Milly's Harvest to allow all members of a group to loot it.
 
 [2022-01-10]
 - Added Handful of Oats to the loot table of Harvest Golem for the quest Poor Old Blanchy.
 - Added Handful of Oats to the loot table of Rusty Harvest Golem for the quest Poor Old Blanchy.
-- Updated the flags of Handful of Oats to allow every member of a group to loot it.
-- Updated the flags of Goretusk Liver to allow every member of a group to loot it.
-- Updated the flags of Stringy Vulture Meat to allow every member of a group to loot it.
-- Updated the flags of Murloc Eye to allow every member of a group to loot it.
-- Updated the flags of Goretusk Snout to allow every member of a group to loot it.
+- Updated the flags of Handful of Oats to allow all members of a group to loot it.
+- Updated the flags of Goretusk Liver to allow all members of a group to loot it.
+- Updated the flags of Stringy Vulture Meat to allow all members of a group to loot it.
+- Updated the flags of Murloc Eye to allow all members of a group to loot it.
+- Updated the flags of Goretusk Snout to allow all members of a group to loot it.
 
 [2022-01-12]
 - Added Hellfire Spineleaf to the loot table of Starving Helboar for the quest Preparing the Salve.
 - Added Hellfire Spineleaf to the loot table of Bonestripper Buzzard for the quest Preparing the Salve.
-- Updated the flags of Hellfire Spineleaf to allow every member of a group to loot it.
-- Updated the flags of Bleeding Hollow Blood to allow every member of a group to loot it.
+- Updated the flags of Hellfire Spineleaf to allow all members of a group to loot it.
+- Updated the flags of Bleeding Hollow Blood to allow all members of a group to loot it.
 - Added Zeppelin Debris to the loot table of Deranged Helboar for the quest In Case of Emergency...
 - Added Zeppelin Debris to the loot table of Starving Helboar for the quest In Case of Emergency...
-- Updated the flags of Zeppelin Debris to allow every member of a group to loot it.
+- Updated the flags of Zeppelin Debris to allow all members of a group to loot it.
 - Updated the respawn time of Torn Pilgrim's Pack.
 
 [2022-01-13]
 - Added Burstcap Mushroom to the loot table of Marshfang Slicer for the quest Burstcap Mushrooms, Mon!
-- Updated the flags of Burstcap Mushroom to allow every member of a group to loot it.
+- Updated the flags of Burstcap Mushroom to allow all members of a group to loot it.
 - Updated the respawn time of Ango'rosh Attack Plans.
 
 [2022-01-14]
 - Added Frostberry to the loot table of Coldarra Scalesworn for the quest Nuts for Berries.
 - Added Frostberry to the loot table of Coldarra Spellweaver for the quest Nuts for Berries.
 - Added Frostberry to the loot table of Coldarra Wyrmkin for the quest Nuts for Berries.
-- Updated the flags of Frostberry to allow every member of a group to loot it.
+- Updated the flags of Frostberry to allow all members of a group to loot it.
 - Added Black Blood of Yogg-Saron Sample to the loot table of Anub'ar Underlord for the quest Black Blood of Yogg-Saron.
-- Updated the flags of Black Blood of Yogg-Saron Sample to allow every member of a group to loot it.
+- Updated the flags of Black Blood of Yogg-Saron Sample to allow all members of a group to loot it.
 - Updated the respawn time of Ruby Lilac.
 - Added Vordrassil's Seed to the loot table of Redfang Hunter for the quest Vordrassil's Seeds.
 - Added Vordrassil's Seed to the loot table of Frostpaw Warrior for the quest Vordrassil's Seeds.
-- Updated the flags of Vordrassil's Seed to allow every member of a group to loot it.
+- Updated the flags of Vordrassil's Seed to allow all members of a group to loot it.
 - Updated the respawn time of Flying Machine Engine.
 
 [2022-01-15]
@@ -133,9 +133,9 @@
 - Added Papaya to the loot table of Emperor Cobra for the quest Some Make Lemonade, Some Make Liquor.
 - Added Orange to the loot table of Mangal Crocolisk for the quest Some Make Lemonade, Some Make Liquor.
 - Added Orange to the loot table of Emperor Cobra for the quest Some Make Lemonade, Some Make Liquor.
-- Updated the flags of Banana Bunch to allow every member of a group to loot it.
-- Updated the flags of Papaya to allow every member of a group to loot it.
-- Updated the flags of Orange to allow every member of a group to loot it.
+- Updated the flags of Banana Bunch to allow all members of a group to loot it.
+- Updated the flags of Papaya to allow all members of a group to loot it.
+- Updated the flags of Orange to allow all members of a group to loot it.
 - Updated the respawn time of Dusty Journal.
 
 [2022-02-20]
@@ -145,8 +145,8 @@
 - Added Blackhoof Armaments to the loot table of Grimtotem Breaker for the quests Arms of the Grimtotems and More than Coincidence.
 - Added Blackhoof Armaments to the loot table of Grimtotem Spirit-Shifter for the quests Arms of the Grimtotems and More than Coincidence.
 - Added Blackhoof Armaments to the loot table of Grimtotem Elder for the quests Arms of the Grimtotems and More than Coincidence.
-- Updated the flags of Blackhoof Armaments to allow every member of a group to loot it.
-- Updated the flags of Grimtotem Note to allow every member of a group to loot it.
+- Updated the flags of Blackhoof Armaments to allow all members of a group to loot it.
+- Updated the flags of Grimtotem Note to allow all members of a group to loot it.
 
 [2022-03-08]
 - Added Gooey Ghoul Drool to the loot table of Decaying Ghoul for the quest You Can Run, But You Can't Hide and Silver Lining.
@@ -156,20 +156,20 @@
 - Added Scourge Scrap Metal to the loot table of Vargul Blighthound for the quest Making Something Out Of Nothing.
 - Added Basilisk Crystals to the loot table of Lurking Basilisk for the quest Gluttonous Lurkers.
 - Added Dead Thornwood to the loot table of Lurking Basilisk for the quests Troll Patrol: Creature Comforts and Creature Comforts.
-- Updated the flags of Gooey Ghoul Drool to allow every member of a group to loot it.
-- Updated the flags of Scourge Scrap Metal to allow every member of a group to loot it.
-- Updated the flags of Basilisk Crystals to allow every member of a group to loot it.
-- Updated the flags of Dead Thornwood to allow every member of a group to loot it.
+- Updated the flags of Gooey Ghoul Drool to allow all members of a group to loot it.
+- Updated the flags of Scourge Scrap Metal to allow all members of a group to loot it.
+- Updated the flags of Basilisk Crystals to allow all members of a group to loot it.
+- Updated the flags of Dead Thornwood to allow all members of a group to loot it.
 - Updated the respawn time of Harvested Blight Crystal.
 
 [2022-03-09]
 - Added Muddlecap Fungus to the loot table of Lurking Basilisk for the quest Mushroom Mixer.
-- Updated the flags of Muddlecap Fungus to allow every member of a group to loot it.
+- Updated the flags of Muddlecap Fungus to allow all members of a group to loot it.
 
 [2022-03-16]
 - Added Witchbane to the loot table of Risen Spirit for the quest The Witch's Bane.
 - Added Witchbane to the loot table of Risen Husk for the quest The Witch's Bane.
-- Updated the flags of Witchbane to allow every member of a group to loot it.
+- Updated the flags of Witchbane to allow all members of a group to loot it.
 - Updated the respawn time of Stonemaul Clan Banner.
 
 [2022-03-24]
@@ -179,22 +179,22 @@
 - Updated the respawn time of Tablet of Beth'Amara.
 
 [2022-04-26]
-- Added the script for Nagrand to make the quest Finding the Survivors trigger for every member of a group.
+- Added the script for Nagrand to make the quest Finding the Survivors trigger for all members of a group.
 - Added Bloodmaul Brutebane Brew to the loot table of Bloodmaul Brewmaster for the quests Strange Brew and They Stole Me Hookah and Me Brews!
-- Updated the flags of Bloodmaul Brutebane Brew to allow every member of a group to loot it.
+- Updated the flags of Bloodmaul Brutebane Brew to allow all members of a group to loot it.
 - Updated the respawn time of T'chali's Hookah.
-- Updated the flags of Costume Scraps to allow every member of a group to loot it.
-- Updated the smart script for Wyrmcult Blackwhelp to give every member of a group the quest item.
+- Updated the flags of Costume Scraps to allow all members of a group to loot it.
+- Updated the smart script for Wyrmcult Blackwhelp to give all members of a group the quest item.
 
 [2022-04-27]
-- Added the script for Netherstorm to make the quest Mark V is Alive! trigger for every member of a group.
+- Added the script for Netherstorm to make the quest Mark V is Alive! trigger for all members of a group.
 - Updated the respawn time of Fel Reaver Power Core.
 - Updated the respawn time of Fel Reaver Armor Plating.
 
 [2022-04-28]
 - Updated the respawn time of Pneumatic Tank Transjigamarig.
 - Added Super Strong Metal Plate to the loot table of Kvaldir Mist Lord for the quest Super Strong Metal Plates!
-- Updated the flags of Strong Metal Plate to allow every member of a group to loot it.
+- Updated the flags of Strong Metal Plate to allow all members of a group to loot it.
 
 [2022-04-29]
 - Added Fizzcrank Spare Parts to the loot table of Scavenge-bot 004-A8 for the quests What's the Matter with the Transmatter? and Cleaning Up the Pools.
@@ -208,63 +208,63 @@
 - Added Winterfin Clam to the loot table of Winterfin Warrior for the quest Winterfin Commerce.
 
 [2022-04-30]
-- Added the script for world gameobjects to make the quest Oh Noes, the Tadpoles! trigger for every member of a group.
-- Added the script for Borean Tundra to make the quest Escape from the Winterfin Caverns trigger for every member of a group.
+- Added the script for world gameobjects to make the quest Oh Noes, the Tadpoles! trigger for all members of a group.
+- Added the script for Borean Tundra to make the quest Escape from the Winterfin Caverns trigger for all members of a group.
 
 [2022-05-01]
-- Added the script for Borean Tundra to make the quest Abduction trigger for every member of a group.
+- Added the script for Borean Tundra to make the quest Abduction trigger for all members of a group.
 - Added Crystallized Mana Shard to the loot table of Coldarra Mage Slayer for the quest Bait and Switch.
-- Updated the flags of Crystallized Mana Shard to allow every member of a group to loot it.
+- Updated the flags of Crystallized Mana Shard to allow all members of a group to loot it.
 
 [2022-05-02]
 - Added Scarlet Onslaught Armor to the loot table of Onslaught Footman for the quest Materiel Plunder.
 - Added Scarlet Onslaught Weapon to the loot table of Onslaught Workman for the quest Materiel Plunder.
-- Updated the flags of Onslaught Armor to allow every member of a group to loot it.
-- Updated the flags of Onslaught Weapon to allow every member of a group to loot it.
+- Updated the flags of Onslaught Armor to allow all members of a group to loot it.
+- Updated the flags of Onslaught Weapon to allow all members of a group to loot it.
 - Added Forgotten Treasure to the loot table of Forgotten Peasant for the quest Funding the War Effort.
-- Updated the flags of Forgotten Treasure to allow every member of a group to loot it.
+- Updated the flags of Forgotten Treasure to allow all members of a group to loot it.
 - Updated the respawn time of Scarlet Onslaught Daily Orders: Barracks.
 - Updated the respawn time of Scarlet Onslaught Daily Orders: Abbey.
 - Updated the respawn time of Scarlet Onslaught Daily Orders: Beach.
 - Added Emerald Dragon Tear to the loot table of Emerald Lasher for the quest Emerald Dragon Tears.
-- Updated the flags of Emerald Dragon Tear to allow every member of a group to loot it.
+- Updated the flags of Emerald Dragon Tear to allow all members of a group to loot it.
 - Updated the respawn time of The Diary of High General Abbendis.
 
 [2022-05-04]
 - Added Shimmering Snowcap to the loot table of Ice Serpent for the quest Shimmercap Stew.
-- Updated the flags of Shimmering Snowcap to allow every member of a group to loot it.
+- Updated the flags of Shimmering Snowcap to allow all members of a group to loot it.
 - Added Sweetroot to the loot table of Diseased Drakkari for the quest Shimmercap Stew.
-- Updated the flags of Sweetroot to allow every member of a group to loot it.
+- Updated the flags of Sweetroot to allow all members of a group to loot it.
 - Added Waterweed Frond to the loot table of River Thresher for the quest Vial of Visions.
-- Updated the flags of Waterweed Frond to allow every member of a group to loot it.
+- Updated the flags of Waterweed Frond to allow all members of a group to loot it.
 - Added Haze Leaf to the loot table of Tallhorn Stag for the quest Vial of Visions.
-- Updated the flags of Haze Leaf to allow every member of a group to loot it.
+- Updated the flags of Haze Leaf to allow all members of a group to loot it.
 - Updated the respawn time of Scourged Troll Mummy.
 - Added War Golem Part to the loot table of Runic War Golem for the quest From the Ground Up.
 - Added War Golem Part to the loot table of Iron Rune-Smith for the quest From the Ground Up.
-- Updated the flags of War Golem Part to allow every member of a group to loot it.
+- Updated the flags of War Golem Part to allow all members of a group to loot it.
 
 [2022-05-05]
 - Added Drakkari Canopic Jar to the loot table of Ancient Drakkari Warmonger for the quest It Takes Guts....
 - Added Drakkari Canopic Jar to the loot table of Ancient Drakkari Soothsayer for the quest It Takes Guts....
-- Updated the flags of Drakkari Canopic Jar to allow every member of a group to loot it.
+- Updated the flags of Drakkari Canopic Jar to allow all members of a group to loot it.
 - Added Missing Journal Page to the loot table of Runic Battle Golem for the quests The Damaged Journal and The Damaged Journal.
 - Added Missing Journal Page to the loot table of Iron Rune-Shaper for the quests The Damaged Journal and The Damaged Journal.
 - Added Missing Journal Page to the loot table of Rune Reaver for the quests The Damaged Journal and The Damaged Journal.
-- Updated the flags of Missing Journal Page to allow every member of a group to loot it.
+- Updated the flags of Missing Journal Page to allow all members of a group to loot it.
 
 [2022-05-06]
 - Added Mature Water-Poppy to the loot table of Crazed Water Spirit for the quests Something for the Pain and Troll Patrol: Something for the Pain.
-- Updated the flags of Mature Water-Poppy to allow every member of a group to loot it.
+- Updated the flags of Mature Water-Poppy to allow all members of a group to loot it.
 - Updated the respawn time of Crashed Plague Sprayer.
 - Updated the respawn time of Chunk of Saronite.
 - Added Venture Co. Spare Parts to the loot table of Venture Co. Excavator for the quest Have a Part, Give a Part.
-- Updated the flags of Venture Co. Spare Parts to allow every member of a group to loot it.
+- Updated the flags of Venture Co. Spare Parts to allow all members of a group to loot it.
 
 [2022-05-08]
 - Added Sandfern to the loot table of Mangal Crocolisk for the quest Crocolisk Mastery: The Plan.
-- Updated the flags of Sandfern to allow every member of a group to loot it.
-- Added the script for Sholazar Basin to make the quest Reconnaissance Flight trigger for every member of a group.
+- Updated the flags of Sandfern to allow all members of a group to loot it.
+- Added the script for Sholazar Basin to make the quest Reconnaissance Flight trigger for all members of a group.
 - Updated the respawn time of Raised Mud.
 - Updated the alternate raised mud to instead spawn as the regular one.
 - Removed the pool for Raised Mud.
@@ -277,7 +277,7 @@
 - Added Crystalline Heartwood to the loot table of Shandaral Warrior Spirit for the quest The Stone That Started A Revolution.
 - Added Crystalline Heartwood to the loot table of Unbound Corrupter for the quest The Stone That Started A Revolution.
 - Added Crystalline Heartwood to the loot table of Shandaral Spirit Wolf for the quest The Stone That Started A Revolution.
-- Updated the flags of Crystalline Heartwood to allow every member of a group to loot it.
+- Updated the flags of Crystalline Heartwood to allow all members of a group to loot it.
 - Added Ancient Elven Masonry to the loot table of Unbound Trickster for the quest The Stone That Started A Revolution.
 - Added Ancient Elven Masonry to the loot table of Unbound Dryad for the quest The Stone That Started A Revolution.
 - Added Ancient Elven Masonry to the loot table of Unbound Ancient for the quest The Stone That Started A Revolution.
@@ -287,44 +287,44 @@
 - Added Ancient Elven Masonry to the loot table of Shandaral Warrior Spirit for the quest The Stone That Started A Revolution.
 - Added Ancient Elven Masonry to the loot table of Unbound Corrupter for the quest The Stone That Started A Revolution.
 - Added Ancient Elven Masonry to the loot table of Shandaral Spirit Wolf for the quest The Stone That Started A Revolution.
-- Updated the flags of Ancient Elven Masonry to allow every member of a group to loot it.
+- Updated the flags of Ancient Elven Masonry to allow all members of a group to loot it.
 
 [2022-05-09]
 - Updated the drop chance of Flesh Giant Spine from Pustulent Horror for the quests Neutralizing the Plague and Neutralizing the Plague.
 
 [2022-05-10]
-- Updated the flags of Cult of the Damned Research - Page 1 to allow every member of a group to loot it.
-- Updated the flags of Cult of the Damned Research - Page 2 to allow every member of a group to loot it.
-- Updated the flags of Cult of the Damned Research - Page 3 to allow every member of a group to loot it.
+- Updated the flags of Cult of the Damned Research - Page 1 to allow all members of a group to loot it.
+- Updated the flags of Cult of the Damned Research - Page 2 to allow all members of a group to loot it.
+- Updated the flags of Cult of the Damned Research - Page 3 to allow all members of a group to loot it.
 - Added Emerald Acorn to the loot table of Nightmare Figment for the quest Hope Within the Emerald Nightmare.
-- Updated the flags of Emerald Acorn to allow every member of a group to loot it.
+- Updated the flags of Emerald Acorn to allow all members of a group to loot it.
 
 [2022-05-11]
 - Added Broken Shard of Horror to the loot table of Cultist Shard Watcher for the quests Shatter the Shards and Shatter the Shards.
 - Added Broken Shard of Despair to the loot table of Cultist Shard Watcher for the quests Shatter the Shards and Shatter the Shards.
 - Added Broken Shard of Suffering to the loot table of Cultist Shard Watcher for the quests Shatter the Shards and Shatter the Shards.
-- Updated the flags of Broken Shard of Horror to allow every member of a group to loot it.
-- Updated the flags of Broken Shard of Despair to allow every member of a group to loot it.
-- Updated the flags of Broken Shard of Suffering to allow every member of a group to loot it.
+- Updated the flags of Broken Shard of Horror to allow all members of a group to loot it.
+- Updated the flags of Broken Shard of Despair to allow all members of a group to loot it.
+- Updated the flags of Broken Shard of Suffering to allow all members of a group to loot it.
 
 [2022-05-13]
 - Added Charred Wreckage to the loot table of Savage Hill Scavenger for the quest Clean Up.
-- Updated the flags of Charred Wreckage to allow every member of a group to loot it.
+- Updated the flags of Charred Wreckage to allow all members of a group to loot it.
 
 [2022-05-14]
 - Added K3 Equipment to the loot table of Sifreldar Storm Maiden for the quest Equipment Recovery.
 - Added K3 Equipment to the loot table of Sifreldar Runekeeper for the quest Equipment Recovery.
-- Updated the flags of K3 Equipment to allow every member of a group to loot it.
+- Updated the flags of K3 Equipment to allow all members of a group to loot it.
 - Updated the respawn time of Sparksocket's Tools.
 - Added Hearty Mammoth Meat to the loot table of Ironwool Mammoth for the quest Ample Inspiration.
-- Updated the flags of Hearty Mammoth Meat to allow every member of a group to loot it.
+- Updated the flags of Hearty Mammoth Meat to allow all members of a group to loot it.
 - Updated the respawn time of Transporter Power Cell.
 
 [2022-05-21]
-- Updated the flags of Lean Wolf Flank to allow every member of a group to loot it.
+- Updated the flags of Lean Wolf Flank to allow all members of a group to loot it.
 
 [2022-05-22]
-- Updated the flags of Jungle Remedy to allow every member of a group to loot it.
+- Updated the flags of Jungle Remedy to allow all members of a group to loot it.
 - Update the respawn time of Kurzen Supplies.
 - Updated the respawn time of Fall of Gurubashi.
 - Updated the respawn time of The Emperor's Tomb.
@@ -333,7 +333,7 @@
 - Updated the respawn time of Bloodsail Orders.
 
 [2022-05-26]
-- Updated the flags of Troll Tribal Necklace to allow every member of a group to loot it.
+- Updated the flags of Troll Tribal Necklace to allow all members of a group to loot it.
 
 [2022-05-29]
 - Updated the respawn time of First Relic Fragment.
@@ -345,18 +345,18 @@
 - Updated the respawn time of Ikeyen's Belongings.
 - Added Fulgor Spore to the loot table of Umbraglow Stinger for the quest Fulgor Spores.
 - Added Fulgor Spore to the loot table of Young Sporebat for the quest Fulgor Spores.
-- Updated the flags of Fulgor Spore to allow every member of a group to loot it.
+- Updated the flags of Fulgor Spore to allow all members of a group to loot it.
 - Updated the respawn time of Dead Mire Soil.
 - Added Feralfen Idol to the loot table of Feralfen Hunter for the quest Idols of the Feralfen.
 - Added Feralfen Idol to the loot table of Feralfen Mystic for the quest Idols of the Feralfen.
 - Added Feralfen Idol to the loot table of Feralfen Druid for the quest Idols of the Feralfen.
-- Updated the flags of Feralfen Idol to allow every member of a group to loot it.
+- Updated the flags of Feralfen Idol to allow all members of a group to loot it.
 
 [2022-05-31]
-- Added the script for Nagrand to make the quest HELP! trigger for every member of a group.
+- Added the script for Nagrand to make the quest HELP! trigger for all members of a group.
 - Added Telaar Supply Crate to the loot table of Warmaul Warlock for the quest The Ravaged Caravan.
 - Added Telaar Supply Crate to the loot table of Warmaul Brute for the quest The Ravaged Caravan.
-- Updated the flags of Telaar Supply Crate to allow every member of a group to loot it.
+- Updated the flags of Telaar Supply Crate to allow all members of a group to loot it.
 - Added Kil'sorrow Armaments to the loot table of Kil'sorrow Spellbinder for the quest Armaments for Deception.
 - Added Kil'sorrow Armaments to the loot table of Kil'sorrow Cultist for the quest Armaments for Deception.
 - Added Kil'sorrow Armaments to the loot table of Kil'sorrow Deathsworn for the quest Armaments for Deception.
@@ -366,49 +366,49 @@
 
 [2022-06-02]
 - Added Fel Reaver Part to the loot table of Gan'arg Engineer for the quest One Demon's Trash...
-- Updated the flags of Fel Reaver Part to allow every member of a group to loot it.
+- Updated the flags of Fel Reaver Part to allow all members of a group to loot it.
 - Added Ivory Bell to the loot table of Ripfang Lynx for the quest New Opportunities.
 - Added Ivory Bell to the loot table of Barbscale Crocolisk for the quest New Opportunities.
-- Updated the flags of Ivory Bell to allow every member of a group to loot it.
+- Updated the flags of Ivory Bell to allow all members of a group to loot it.
 - Updated the respawn time of Krasus's Compendium - Chapter 1.
 - Updated the respawn time of Krasus's Compendium - Chapter 2.
 - Updated the respawn time of Krasus's Compendium - Chapter 3.
 - Updated the respawn time of Diagnostic Equipment.
 
 [2022-06-03]
-- Added the script for Borean Tundra to make the quest Plug the Sinkholes trigger for every member of a group.
+- Added the script for Borean Tundra to make the quest Plug the Sinkholes trigger for all members of a group.
 - Updated the respawn time of Fields, Factories and Workshops.
 - Updated the respawn time of Wine Crate.
 - Added Kaskala Supplies to the loot table of Kvaldir Raider for the quest Preparing for the Worst.
-- Updated the flags of Kaskala Supplies to allow every member of a group to loot it.
+- Updated the flags of Kaskala Supplies to allow all members of a group to loot it.
 - Added Crafty's Stuff to the loot table of Magmoth Shaman for the quest Dirty, Stinkin' Snobolds!
 - Added Crafty's Stuff to the loot table of Magmoth Forager for the quest Dirty, Stinkin' Snobolds!
-- Updated the flags of Crafty's Stuff to allow every member of a group to loot it.
+- Updated the flags of Crafty's Stuff to allow all members of a group to loot it.
 
 [2022-06-04]
 - Added Microfilm to the loot table of Scavenge-bot 005-B6 for the quest Lupus Pupus.
-- Updated the flags of Microfilm to allow every member of a group to loot it.
-- Updated the smart script for Fizzcrank Recon Pilot to give every member of a group the quest item.
-- Updated the smart script for Snowfall Glade Pup to give every member of a group the quest item.
+- Updated the flags of Microfilm to allow all members of a group to loot it.
+- Updated the smart script for Fizzcrank Recon Pilot to give all members of a group the quest item.
+- Updated the smart script for Snowfall Glade Pup to give all members of a group the quest item.
 
 [2022-06-05]
-- Updated the smart script for Dead Mage Hunter to give every member of a group the quest item.
+- Updated the smart script for Dead Mage Hunter to give all members of a group the quest item.
 - Updated the respawn time of Cedar Chest.
 - Added Blackroot Stalk to the loot table of Grizzly Bear for the quest Just Passing Through.
-- Updated the flags of Blackroot Stalk to allow every member of a group to loot it.
+- Updated the flags of Blackroot Stalk to allow all members of a group to loot it.
 
 [2022-06-06]
-- Updated the flags of Golem Blueprint Section 1 to allow every member of a group to loot it.
-- Updated the flags of Golem Blueprint Section 2 to allow every member of a group to loot it.
-- Updated the flags of Golem Blueprint Section 3 to allow every member of a group to loot it.
+- Updated the flags of Golem Blueprint Section 1 to allow all members of a group to loot it.
+- Updated the flags of Golem Blueprint Section 2 to allow all members of a group to loot it.
+- Updated the flags of Golem Blueprint Section 3 to allow all members of a group to loot it.
 
 [2022-06-07]
 - Updated the smart script for Primordial Drake Egg to spawn one creature per group member.
 - Added Roc Egg to the loot table of Goretalon Roc for the quest My Pet Roc.
-- Updated the flags of Roc Egg to allow every member of a group to loot it.
+- Updated the flags of Roc Egg to allow all members of a group to loot it.
 - Added Har'koan Relic to the loot table of Claw of Har'koa for the quest Relics of the Snow Leopard Goddess.
 - Added Har'koan Relic to the loot table of Har'koan Subduer for the quest Relics of the Snow Leopard Goddess.
-- Updated the flags of Har'koan Relic to allow every member of a group to loot it.
+- Updated the flags of Har'koan Relic to allow all members of a group to loot it.
 - Added Gundrak Raptor Egg to the loot table of Gundrak Raptor for the quest Eggs for Dubra'Jin.
 - Updated the respawn time of Weeping Quarry Document.
 - Updated the respawn time of Weeping Quarry Ledger.
@@ -416,17 +416,17 @@
 - Updated the respawn time of Weeping Quarry Schedule.
 
 [2022-06-08]
-- Added the script for world gameobjects to make the quest Ebon Blade Prisoners trigger for every member of a group.
+- Added the script for world gameobjects to make the quest Ebon Blade Prisoners trigger for all members of a group.
 
 [2022-06-09]
-- Added the script for Icecrown to make the quest Into The Wild Green Yonder trigger for every member of a group.
+- Added the script for Icecrown to make the quest Into The Wild Green Yonder trigger for all members of a group.
 
 [2022-06-11]
-- Updated the smart script for Hyldsmeet Drakerider to give every member of a group the kill credit.
+- Updated the smart script for Hyldsmeet Drakerider to give all members of a group the kill credit.
 - Updated the respawn time of Stolen Tournament Invitation.
 - Updated the respawn time of Black Knight's Orders.
 - Added Onslaught Intel Documents to the loot table of Onslaught Raven Bishop for the quest Intelligence Gathering.
-- Updated the flags of Onslaught Intel Documents to allow every member of a group to loot it.
+- Updated the flags of Onslaught Intel Documents to allow all members of a group to loot it.
 
 [2022-06-23]
 - Updated the respawn time of Felix's Box.
@@ -435,13 +435,13 @@
 
 [2022-06-24]
 - Updated the respawn time of Ammo Crate.
-- Updated the flags of Chunk of Boar Meat to allow every member of a group to loot it.
-- Updated the flags of Chunk of Boar Intestines to allow every member of a group to loot it.
-- Updated the flags of Chunk of Bear Meat to allow every member of a group to loot it.
-- Updated the flags of Chunk of Spider Ichor to allow every member of a group to loot it.
+- Updated the flags of Chunk of Boar Meat to allow all members of a group to loot it.
+- Updated the flags of Chunk of Boar Intestines to allow all members of a group to loot it.
+- Updated the flags of Chunk of Bear Meat to allow all members of a group to loot it.
+- Updated the flags of Chunk of Spider Ichor to allow all members of a group to loot it.
 - Added Miners' Gear to the loot table of Tunnel Rat Geomancer for the quest Filthy Paws.
 - Added Miners' Gear to the loot table of Tunnel Rat Digger for the quest Filthy Paws.
-- Updated the flags of Miners' Gear to allow every member of a group to loot it.
+- Updated the flags of Miners' Gear to allow all members of a group to loot it.
 
 [2022-06-25]
 - Updated the respawn time of Clara's Fresh Apples.
@@ -449,7 +449,7 @@
 [2022-06-29]
 - Added Incendia Agave to the loot table of Scalding Elemental for the quest Sacred Fire.
 - Added Incendia Agave to the loot table of Boiling Elemental for the quest Sacred Fire.
-- Updated the flags of Incendia Agave to allow every member of a group to loot it.
+- Updated the flags of Incendia Agave to allow all members of a group to loot it.
 - Added Rocket Car Parts to the loot table of Scorpid Terror for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Scorpid Reaver for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Sparkleshell Tortoise for the quest Rocket Car Parts.
@@ -460,100 +460,100 @@
 - Added Rocket Car Parts to the loot table of Saltstone Crystalhide for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Salt Flats Scavenger for the quest Rocket Car Parts.
 - Added Rocket Car Parts to the loot table of Salt Flats Vulture for the quest Rocket Car Parts.
-- Updated the flags of Rocket Car Parts to allow every member of a group to loot it.
+- Updated the flags of Rocket Car Parts to allow all members of a group to loot it.
 
 [2022-07-01]
 - Added Dark Iron Pillow to the loot table of Dark Iron Slaver for the quest Kill 'Em With Sleep Deprivation.
 - Added Dark Iron Pillow to the loot table of Dark Iron Taskmaster for the quest Kill 'Em With Sleep Deprivation.
 - Added Dark Iron Pillow to the loot table of Dark Iron Lookout for the quest Kill 'Em With Sleep Deprivation.
-- Updated the flags of Dark Iron Pillow to allow every member of a group to loot it.
+- Updated the flags of Dark Iron Pillow to allow all members of a group to loot it.
 
 [2022-07-06]
 - Added Filled Blood Gem to the loot table of Deranged Indu'le Villager for the quest In Service of Blood.
-- Updated the flags of Filled Blood Gem to allow every member of a group to loot it.
+- Updated the flags of Filled Blood Gem to allow all members of a group to loot it.
 - Added Filled Unholy Gem to the loot table of Duke Vallenhal for the quest In Service of the Unholy.
-- Updated the flags of Filled Unholy Gem to allow every member of a group to loot it.
+- Updated the flags of Filled Unholy Gem to allow all members of a group to loot it.
 - Added Filled Frost Gem to the loot table of Ice Revenant for the quest In Service of Frost.
-- Updated the flags of Filled Frost Gem to allow every member of a group to loot it.
+- Updated the flags of Filled Frost Gem to allow all members of a group to loot it.
 
 [2022-07-20]
 - Updated the respawn time of Scrying Orb.
 - Added Strange Ore to the loot table of Risen Wintergarde Miner for the quest The Bleeding Ore.
-- Updated the flags of Strange Ore to allow every member of a group to loot it.
+- Updated the flags of Strange Ore to allow all members of a group to loot it.
 
 [2022-07-21]
-- Added the script for Sholazar Basin to make the quest Still At It give the item to every member of a group.
-- Added the script for Sholazar Basin to make the quest Kick, What Kick? trigger for every member of a group.
+- Added the script for Sholazar Basin to make the quest Still At It give the item to all members of a group.
+- Added the script for Sholazar Basin to make the quest Kick, What Kick? trigger for all members of a group.
 
 [2023-01-13]
 - Added Taillasher Egg to the loot table of Bloodtalon Taillasher for the quest Break a Few Eggs.
-- Updated the flags of Taillasher Egg to allow every member of a group to loot it.
+- Updated the flags of Taillasher Egg to allow all members of a group to loot it.
 - Added Tirisfal Pumpkin to the loot table of Tirisfal Farmer for the quest Fields of Grief.
 - Added Tirisfal Pumpkin to the loot table of Tirisfal Farmhand for the quest Fields of Grief.
-- Updated the flags of Tirisfal Pumpkin to allow every member of a group to loot it.
+- Updated the flags of Tirisfal Pumpkin to allow all members of a group to loot it.
 
 [2023-01-15]
-- Updated the flags of Discolored Worg Heart to allow every member of a group to loot it.
+- Updated the flags of Discolored Worg Heart to allow all members of a group to loot it.
 
 [2023-01-24]
 - Added Shellfish to the loot table of Drysnap Crawler for the quest Fish in a Bucket.
 - Added Shellfish to the loot table of Drysnap Pincer for the quest Fish in a Bucket.
-- Updated the flags of Shellfish to allow every member of a group to loot it.
+- Updated the flags of Shellfish to allow all members of a group to loot it.
 
 [2023-01-29]
 - Added Hinterlands Honey Ripple to the loot table of Green Sludge for the quest A Sticky Situation.
 - Added Hinterlands Honey Ripple to the loot table of Jade Ooze for the quest A Sticky Situation.
-- Updated the flags of Hinterlands Honey Ripple to allow every member of a group to loot it.
+- Updated the flags of Hinterlands Honey Ripple to allow all members of a group to loot it.
 
 [2023-01-30]
-- Added the script for the spell Capture Beast to make the quests Hippogryph Muisek, Faerie Dragon Muisek, Treant Muisek and Mountain Giant Muisek give the item to every member of a group.
+- Added the script for the spell Capture Beast to make the quests Hippogryph Muisek, Faerie Dragon Muisek, Treant Muisek and Mountain Giant Muisek give the item to all members of a group.
 - Added Gahz'ridian Ornament to the loot table of Dunemaul Ogre for the quest Gahz'ridian.
 - Added Gahz'ridian Ornament to the loot table of Dunemaul Enforcer for the quest Gahz'ridian.
 - Added Gahz'ridian Ornament to the loot table of Dunemaul Ogre Mage for the quest Gahz'ridian.
 - Added Gahz'ridian Ornament to the loot table of Dunemaul Brute for the quest Gahz'ridian.
 - Added Gahz'ridian Ornament to the loot table of Dunemaul Warlock for the quest Gahz'ridian.
-- Updated the flags of Gahz'ridian Ornament to allow every member of a group to loot it.
+- Updated the flags of Gahz'ridian Ornament to allow all members of a group to loot it.
 
 [2023-02-10]
 - Added Bloodspore Carpel to the loot table of Bloodspore Moth for the quest The Wondrous Bloodspore.
-- Updated the flags of Bloodspore Carpel to allow every member of a group to loot it.
+- Updated the flags of Bloodspore Carpel to allow all members of a group to loot it.
 
 [2023-02-13]
 - Added Scourged Earth to the loot table of Scourged Mammoth for the quest The Bad Earth.
 - Added Scourged Earth to the loot table of Tundra Crawler for the quest The Bad Earth.
 - Added Scourged Earth to the loot table of Plagued Magnataur for the quest The Bad Earth.
-- Updated the flags of Scourged Earth to allow every member of a group to loot it.
-- Updated the flags of Uncured Caribou Hide to allow every member of a group to loot it.
+- Updated the flags of Scourged Earth to allow all members of a group to loot it.
+- Updated the flags of Uncured Caribou Hide to allow all members of a group to loot it.
 
 [2023-02-16]
 - Updated the respawn time of Amani Vase.
 - Updated the respawn time of Eagle Figurine.
 
 [2023-02-18]
-- Updated the smart script for Ironhide to give every member of a group credit for the quest The Conquest Pit: Bear Wrestling!
-- Updated the smart script for Torgg Thundertotem to give every member of a group credit for the quest The Conquest Pit: Mad Furbolg Fighting.
-- Updated the smart script for Rustblood to give every member of a group credit for the quest The Conquest Pit: Blood and Metal.
-- Updated the smart script for Horgrenn Hellcleave to give every member of a group credit for the quest The Conquest Pit: Death Is Likely.
-- Updated the smart script for Conqueror Krenna to give every member of a group credit for the quest The Conquest Pit: Final Showdown.
+- Updated the smart script for Ironhide to give all members of a group credit for the quest The Conquest Pit: Bear Wrestling!
+- Updated the smart script for Torgg Thundertotem to give all members of a group credit for the quest The Conquest Pit: Mad Furbolg Fighting.
+- Updated the smart script for Rustblood to give all members of a group credit for the quest The Conquest Pit: Blood and Metal.
+- Updated the smart script for Horgrenn Hellcleave to give all members of a group credit for the quest The Conquest Pit: Death Is Likely.
+- Updated the smart script for Conqueror Krenna to give all members of a group credit for the quest The Conquest Pit: Final Showdown.
 
 [2023-02-21]
-- Updated the smart script for Chicken Escapee to give every member of a group the quest item.
+- Updated the smart script for Chicken Escapee to give all members of a group the quest item.
 - Added Skyreach Crystal Cluster to the loot table of Sapphire Hive Drone for the quest Mischief in the Making.
 - Added Skyreach Crystal Cluster to the loot table of Sapphire Hive Wasp for the quest Mischief in the Making.
-- Updated the flags of Skyreach Crystal Cluster to allow every member of a group to loot it.
+- Updated the flags of Skyreach Crystal Cluster to allow all members of a group to loot it.
 
 [2023-03-01]
 - Updated the respawn time of Small Proto-Drake Egg.
 
 [2023-03-02]
-- Updated the smart script for Dead Iron Giant to give every member of a group the quest item.
+- Updated the smart script for Dead Iron Giant to give all members of a group the quest item.
 - Added Horn Fragment to the loot table of Restless Frostborn Warrior for the quest In Memoriam.
 - Added Horn Fragment to the loot table of Restless Frostborn Ghost for the quest In Memoriam.
-- Updated the flags of Horn Fragment to allow every member of a group to loot it.
+- Updated the flags of Horn Fragment to allow all members of a group to loot it.
 - Added Cave Mushroom to the loot table of Infesting Jormungar for the quest Cave Medicine.
 - Added Cave Mushroom to the loot table of Cavedweller Worg for the quest Cave Medicine.
-- Updated the flags of Cave Mushroom to allow every member of a group to loot it.
-- Updated the flags of Inventor's Disk Fragment to allow every member of a group to loot it.
+- Updated the flags of Cave Mushroom to allow all members of a group to loot it.
+- Updated the flags of Inventor's Disk Fragment to allow all members of a group to loot it.
 
 [2023-05-18]
 - Updated the respawn time of Umpi.
@@ -564,42 +564,42 @@
 [2023-05-25]
 - Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Warrior for the quest Bleeding Hollow Supply Crates.
 - Added Bleeding Hollow Supply Crate to the loot table of Boulderfist Mage for the quest Bleeding Hollow Supply Crates.
-- Added the script for the spell Plant Kil'sorrow Banner to make the quest Returning the Favor give credit to every member of a group.
+- Added the script for the spell Plant Kil'sorrow Banner to make the quest Returning the Favor give credit to all members of a group.
 
 [2023-05-26]
 - Added Sketh'lon Feather to the loot table of Dark Conclave Talonite for the quest Sketh'lon Feathers.
 - Added Sketh'lon Feather to the loot table of Dark Conclave Scorncrow for the quest Sketh'lon Feathers.
 - Added Sketh'lon Feather to the loot table of Skethyl Owl for the quest Sketh'lon Feathers.
-- Updated the flags of Sketh'lon Feather to allow every member of a group to loot it.
+- Updated the flags of Sketh'lon Feather to allow all members of a group to loot it.
 - Added Shipment of Animal Parts to the loot table of Northsea Mercenary for the quest Not On Our Watch.
 - Added Shipment of Animal Parts to the loot table of Northsea Thug for the quest Not On Our Watch.
 - Added Tuskarr Ritual Object to the loot table of Beryl Reclaimer for the quest Picking Up the Pieces.
-- Updated the flags of Tuskarr Ritual Object to allow every member of a group to loot it.
+- Updated the flags of Tuskarr Ritual Object to allow all members of a group to loot it.
 
 [2023-05-27]
-- Updated the smart script for Fizzcrank Recon Pilot to give every member of a group the quest item.
+- Updated the smart script for Fizzcrank Recon Pilot to give all members of a group the quest item.
 
 [2023-05-29]
-- Updated the script for Envision Drakuru to add the aura to every member of a group.
+- Updated the script for Envision Drakuru to add the aura to all members of a group.
 
 [2023-06-03]
-- Updated the smart script for Tatjana's Horse to give every member of a group credit.
+- Updated the smart script for Tatjana's Horse to give all members of a group credit.
 
 [2023-06-12]
 - Added Shiny Treasures to the loot table of Emperor Cobra for the quests Gods like Shiny Things and Appeasing the Great Rain Stone.
-- Updated the flags of Shiny Treasures to allow every member of a group to loot it
+- Updated the flags of Shiny Treasures to allow all members of a group to loot it
 - Updated the respawn time of Mistwhisper Treasure.
 - Added Lifeblood Shard to the loot table of Lifeblood Elemental for the quest Lifeblood of the Mosswalker Shrine.
-- Updated the flags of Lifeblood Shard to allow every member of a group to loot it.
+- Updated the flags of Lifeblood Shard to allow all members of a group to loot it.
 
 [2023-06-13]
-- Updated the smart script for Injured Goblin Miner to give every member of a group credit.
+- Updated the smart script for Injured Goblin Miner to give all members of a group credit.
 - Added Frozen Iron Scrap to the loot table of Brittle Revenant for the quest Hot and Cold.
 - Added Frozen Iron Scrap to the loot table of Seething Revenant for the quest Hot and Cold.
-- Updated the flags of Frozen Iron Scrap to allow every member of a group to loot it.
+- Updated the flags of Frozen Iron Scrap to allow all members of a group to loot it.
 
 [2023-06-14]
-- Updated the smart script for Torek to give every member of a group credit.
+- Updated the smart script for Torek to give all members of a group credit.
 
 [2023-06-19]
 - Added Olemba Seed to the loot table of Vicious Teromoth for the quests Olemba Seeds and Olemba Seed Oil.
@@ -613,25 +613,25 @@
 - Added Olemba Seed to the loot table of Timber Worg Alpha for the quests Olemba Seeds and Olemba Seed Oil.
 - Added Olemba Seed to the loot table of Ironspine Chomper for the quests Olemba Seeds and Olemba Seed Oil.
 - Added Olemba Seed to the loot table of Ironspine Petrifier for the quests Olemba Seeds and Olemba Seed Oil.
-- Updated the flags of Olemba Seed to allow every member of a group to loot it.
+- Updated the flags of Olemba Seed to allow all members of a group to loot it.
 
 [2023-06-20]
-- Updated the flags of Raptor Ribs to allow every member of a group to loot it.
-- Updated the flags of Serpent Flesh to allow every member of a group to loot it.
+- Updated the flags of Raptor Ribs to allow all members of a group to loot it.
+- Updated the flags of Serpent Flesh to allow all members of a group to loot it.
 
 [2023-07-10]
 - Added Bundle of Wood to the loot table of Murloc Forager for the quest A Bundle of Trouble.
 - Added Bundle of Wood to the loot table of Murloc Lurker for the quest A Bundle of Trouble.
-- Updated the flags of Bundle of Wood to allow every member of a group to loot it.
+- Updated the flags of Bundle of Wood to allow all members of a group to loot it.
 
 [2023-08-29]
-- Updated the flags of Prospector's Pick to allow every member of a group to loot it.
+- Updated the flags of Prospector's Pick to allow all members of a group to loot it.
 
 [2023-09-01]
 - Updated the restock time of Berard's Bookshelf.
 
 [2023-09-24]
-- Added the script for Tirisfal Glades to make the quest A Rogue's Deal trigger for every member of a group.
+- Added the script for Tirisfal Glades to make the quest A Rogue's Deal trigger for all members of a group.
 
 [2023-11-14]
 - Updated the restock time of Stone of West Binding.
@@ -642,13 +642,13 @@
 - Updated the respawn time of Kim'jael's Equipment.
 
 [2024-01-13]
-- Updated the script for Khu'nok the Behemoth to give every member of a group credit.
+- Updated the script for Khu'nok the Behemoth to give all members of a group credit.
 
 [2024-03-19]
 - Added Gordunni Cobalt to the loot table of Gordunni Ogre for the quest Gordunni Cobalt.
 - Added Gordunni Cobalt to the loot table of Gordunni Brute for the quest Gordunni Cobalt.
 - Added Gordunni Cobalt to the loot table of Gordunni Ogre Mage for the quest Gordunni Cobalt.
-- Updated the flags of Gordunni Cobalt to allow every member of a group to loot it.
+- Updated the flags of Gordunni Cobalt to allow all members of a group to loot it.
 
 [2024-04-03]
 - Updated the respawn time of Sealed Box.
@@ -658,28 +658,29 @@
 - Updated the restock time of Ikeyen's Belongings.
 - Added Mature Spore Sac to the loot table of Starving Fungal Giant for the quests The Sporelings' Plight and More Spore Sacs.
 - Added Mature Spore Sac to the loot table of Starving Bog Lord for the quests The Sporelings' Plight and More Spore Sacs.
-- Updated the flags of Mature Spore Sac to allow every member of a group to loot it.
+- Updated the flags of Mature Spore Sac to allow all members of a group to loot it.
 - Added Discarded Nutriment to the loot table of Bog Lord for the quest A Question of Gluttony.
 - Added Discarded Nutriment to the loot table of Fungal Giant for the quest A Question of Gluttony.
-- Updated the flags of Discarded Nutriment to allow every member of a group to loot it.
-- Added the script for world gameobjects to make the quest Missing Friends trigger for every member of a group.
+- Updated the flags of Discarded Nutriment to allow all members of a group to loot it.
+- Added the script for world gameobjects to make the quest Missing Friends trigger for all members of a group.
 
 [2024-04-06]
-- Updated the smart script for Avatar of Terokk to give every member of a group the kill credit.
+- Updated the smart script for Avatar of Terokk to give all members of a group the kill credit.
 
 [2024-04-13]
-- Added the script for the spell Imbue Crystal to make the quest The Stones of Vekh'nir give the item to every member of a group.
+- Added the script for the spell Imbue Crystal to make the quest The Stones of Vekh'nir give the item to all members of a group.
 
 [2024-04-17]
-- Added the script for the spell Bloodgem Infusion to make the quest Bloodgem Crystals complete for every member of a group.
-- Added the script for Commander Dawnforge to make the quest Information Gathering trigger for every member of a group.
+- Added the script for the spell Bloodgem Infusion to make the quest Bloodgem Crystals complete for all members of a group.
+- Added the script for Commander Dawnforge to make the quest Information Gathering trigger for all members of a group.
 - Updated the respawn time of Mana Bomb Fragment.
 - Updated the restock time of Suspicious Outhouse.
 - Added Energy Isolation Cube to the loot table of Sunfury Arcanist for the quest Potential Energy Source.
-- Updated the flags of Energy Isolation Cube to allow every member of a group to loot it.
+- Updated the flags of Energy Isolation Cube to allow all members of a group to loot it.
 
 [2024-04-19]
-- Updated the smart script for Longrunner Proudhoof to give every member of a group credit for the quest We Strike!
+- Updated the smart script for Longrunner Proudhoof to give all members of a group credit for the quest We Strike!
 - Updated the restock time of Eagle Figurine.
 - Updated the restock time of Amani Vase.
-- Updated the smart script for "Silvermoon" Harry to give every member of a group the quest item.
+- Updated the smart script for "Silvermoon" Harry to give all members of a group the quest item.
+- Added the script for Attracted Reef Bull to make the quest The Way to His Heart... trigger for all members of a group.
