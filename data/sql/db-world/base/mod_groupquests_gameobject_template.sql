@@ -19,5 +19,8 @@ UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=182542;
 -- Suspicious Outhouse (Quest: Capturing the Phylactery (Id: 10319))
 UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=184310;
 
+-- Amani Vase (Quest: Forgotten Treasure (Id: 11434))
+UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=186885;
+
 -- Eagle Figurine (Quest: Forgotten Treasure (Id: 11434))
 UPDATE `gameobject_template` SET `Data2`=0 WHERE `entry`=186886;
