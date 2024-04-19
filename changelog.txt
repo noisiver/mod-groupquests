@@ -677,3 +677,6 @@
 - Updated the restock time of Suspicious Outhouse.
 - Added Energy Isolation Cube to the loot table of Sunfury Arcanist for the quest Potential Energy Source.
 - Updated the flags of Energy Isolation Cube to allow every member of a group to loot it.
+
+[2024-04-19]
+- Updated the smart script for Longrunner Proudhoof to give every member of a group credit for the quest We Strike!

@@ -7,6 +7,9 @@ UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=12858 AND `id`=1
 -- Avatar of Terokk (Quest: The Skettis Offensive (Id: 10879))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=22375 AND `id`=2;
 
+-- Longrunner Proudhoof (Quest: We Strike! (Id: 11592))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=25335 AND `id`=0;
+
 -- Fizzcrank Recon Pilot (Quest: Emergency Protocol: Section 8.2, Paragraph C (Id: 11795))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=25841 AND `id`=4;
 
