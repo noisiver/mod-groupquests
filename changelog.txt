@@ -682,3 +682,4 @@
 - Updated the smart script for Longrunner Proudhoof to give every member of a group credit for the quest We Strike!
 - Updated the restock time of Eagle Figurine.
 - Updated the restock time of Amani Vase.
+- Updated the smart script for "Silvermoon" Harry to give every member of a group the quest item.

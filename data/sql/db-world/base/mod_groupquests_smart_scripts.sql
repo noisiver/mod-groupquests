@@ -7,6 +7,9 @@ UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=12858 AND `id`=1
 -- Avatar of Terokk (Quest: The Skettis Offensive (Id: 10879))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=22375 AND `id`=2;
 
+-- "Silvermoon" Harry (Quest: Gambling Debt (Id: 11464))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=24539 AND `id`=3;
+
 -- Longrunner Proudhoof (Quest: We Strike! (Id: 11592))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=25335 AND `id`=0;
 

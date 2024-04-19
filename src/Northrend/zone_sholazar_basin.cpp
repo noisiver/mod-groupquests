@@ -124,7 +124,7 @@ public:
             {
                 Unit* passenger = me->GetVehicleKit()->GetPassenger(1); // player should be on seat 1
                 if (passenger && passenger->GetTypeId() == TYPEID_PLAYER)
-                {
+                {                                  
                     if (Group* group = passenger->ToPlayer()->GetGroup())
                     {
                         group->DoForAllMembers([passenger](Player* member)
