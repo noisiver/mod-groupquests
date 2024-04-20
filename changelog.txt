@@ -686,3 +686,7 @@
 - Added the script for Attracted Reef Bull to make the quest The Way to His Heart... trigger for all members of a group.
 - Added Steel Gate Artifact to the loot table of Steel Gate Excavator for the quest The Artifacts of Steel Gate.
 - Updated the flags of Steel Gate Artifact to allow all members of a group to loot it.
+
+[2024-04-20]
+- Added Dwarven Keg to the loot table of Deranged Explorer for the quest What's in That Brew?.
+- Updated the flags of Dwarven Keg to allow all members of a group to loot it.

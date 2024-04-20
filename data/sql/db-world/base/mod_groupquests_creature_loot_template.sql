@@ -429,6 +429,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=29479 AND `Item`=33348;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (29479, 33348, 28, 1, 'Shoveltusk Forager - Spotted Hippogryph Down');
 
+-- Dwarven Keg (Quest: What's in That Brew? (Id: 11298))
+-- Deranged Explorer <Explorers' League>
+DELETE FROM `creature_loot_template` WHERE `Entry`=23967 AND `Item`=33541;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (23967, 33541, 27, 1, 'Deranged Explorer - Dwarven Keg');
+
 -- Winterfin Clam (Quest: Winterfin Commerce (Id: 11559))
 -- Winterfin Shorestriker
 DELETE FROM `creature_loot_template` WHERE `Entry`=25215 AND `Item`=34597;

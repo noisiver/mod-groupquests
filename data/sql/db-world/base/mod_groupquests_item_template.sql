@@ -2092,6 +2092,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33420;
 -- Trapped Prey (Quest: Preying Upon the Weak (Id: 11292))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33487;
 
+-- Dwarven Keg (Quest: What's in That Brew? (Id: 11298))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33541;
+
 -- Icy Core (Quest: Spirits of the Ice (Id: 11313))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=33605;
 

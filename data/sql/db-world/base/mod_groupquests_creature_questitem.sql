@@ -424,6 +424,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (4345
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29479 AND `ItemId`=33348;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29479, 1, 33348);
 
+-- Dwarven Keg (Quest: What's in That Brew? (Id: 11298))
+-- Deranged Explorer <Explorers' League>
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=23967 AND `ItemId`=33541;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (23967, 0, 33541);
+
 -- Winterfin Clam (Quest: Winterfin Commerce (Id: 11559))
 -- Winterfin Shorestriker
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25215 AND `ItemId`=34597;
