@@ -527,6 +527,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2571
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=25760 AND `ItemId`=35711;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (25760, 1, 35711);
 
+-- Horde Armaments (Quest: Into the Fold (Id: 11978))
+-- Anub'ar Ambusher
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26402 AND `ItemId`=35726;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26402, 1, 35726);
+
 -- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
 -- Runic Battle Golem
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26284 AND `ItemId`=35737;

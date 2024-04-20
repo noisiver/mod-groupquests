@@ -2224,6 +2224,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35686;
 -- Kaskala Supplies (Quest: Preparing for the Worst (Id: 11945))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35711;
 
+-- Horde Armaments (Quest: Into the Fold (Id: 11978))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35726;
+
 -- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35737;
 

@@ -524,6 +524,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=25760 AND `Item`=35711;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (25760, 35711, 29, 1, 'Kvaldir Raider - Kaskala Supplies');
 
+-- Horde Armaments (Quest: Into the Fold (Id: 11978))
+-- Anub'ar Ambusher
+DELETE FROM `creature_loot_template` WHERE `Entry`=26402 AND `Item`=35726;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26402, 35726, 26, 1, 'Anub\'ar Ambusher - Horde Armaments');
+
 -- Missing Journal Page (Quest: The Damaged Journal (Id: 11986), Quest: The Damaged Journal (Id: 12026))
 -- Runic Battle Golem
 DELETE FROM `creature_loot_template` WHERE `Entry`=26284 AND `Item`=35737;
