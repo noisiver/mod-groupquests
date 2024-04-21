@@ -184,7 +184,7 @@ public:
     }
 };
 
-void AddSC_quest_spell_scriptsk_groupquests()
+void AddSC_quest_spell_scripts_groupquests()
 {
     new spell_image_of_drakuru_reagent_check_groupquests();
 }

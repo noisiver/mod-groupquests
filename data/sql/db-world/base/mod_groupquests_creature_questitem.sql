@@ -558,6 +558,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2761
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26605 AND `ItemId`=36725;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26605, 2, 36725);
 
+-- Composite Ore (Quest: Stocking Up (Id: 12044))
+-- Wastes Digger
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26492 AND `ItemId`=36727;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (26492, 1, 36727);
+
 -- Drakkari Canopic Jar (Quest: It Takes Guts.... (Id: 12116))
 -- Ancient Drakkari Warmonger
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=26811 AND `ItemId`=36825;

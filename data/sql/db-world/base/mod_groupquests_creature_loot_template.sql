@@ -555,6 +555,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=26605 AND `Item`=36725;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26605, 36725, 29, 1, 'Anub\'ar Underlord - Black Blood of Yogg-Saron Sample');
 
+-- Composite Ore (Quest: Stocking Up (Id: 12044))
+-- Wastes Digger
+DELETE FROM `creature_loot_template` WHERE `Entry`=26492 AND `Item`=36727;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (26492, 36727, 20, 1, 'Wastes Digger - Composite Ore');
+
 -- Drakkari Canopic Jar (Quest: It Takes Guts.... (Id: 12116))
 -- Ancient Drakkari Warmonger
 DELETE FROM `creature_loot_template` WHERE `Entry`=26811 AND `Item`=36825;

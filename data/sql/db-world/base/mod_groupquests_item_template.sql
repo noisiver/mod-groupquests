@@ -2245,6 +2245,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=35798;
 -- Black Blood of Yogg-Saron Sample (Quest: Black Blood of Yogg-Saron (Id: 12039))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36725;
 
+-- Composite Ore (Quest: Stocking Up (Id: 12044))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36727;
+
 -- Ice Shard Cluster (Quest: Shaved Ice (Id: 12045))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=36728;
 

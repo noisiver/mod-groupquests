@@ -13,7 +13,7 @@ void AddSC_zone_zuldrak_groupquests();
 void AddSC_go_scripts_groupquests();
 
 void AddSC_item_spell_scripts_groupquests();
-void AddSC_quest_spell_scriptsk_groupquests();
+void AddSC_quest_spell_scripts_groupquests();
 
 void Addmod_groupquestsScripts()
 {
@@ -32,5 +32,5 @@ void Addmod_groupquestsScripts()
     AddSC_go_scripts_groupquests();
 
     AddSC_item_spell_scripts_groupquests();
-    AddSC_quest_spell_scriptsk_groupquests();
+    AddSC_quest_spell_scripts_groupquests();
 }
