@@ -701,3 +701,5 @@
 - Added Everfrost Shard to the loot table of Ravenous Jormungar for the quest Raising Hodir's Spear.
 - Added Everfrost Shard to the loot table of Viscous Oil for the quest Raising Hodir's Spear.
 - Updated the flags of Everfrost Shard to allow all members of a group to loot it.
+- Added Small Proto-Drake Egg to the loot table of Stormpeak Hatchling for the quest Veranus.
+- Updated the flags of Small Proto-Drake Egg to allow all members of a group to loot it.

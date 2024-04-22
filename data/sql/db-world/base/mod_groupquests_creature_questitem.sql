@@ -793,6 +793,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3029
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30325 AND `ItemId`=42541;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30325, 1, 42541);
 
+-- Small Proto-Drake Egg (Quest: Veranus (Id: 13050))
+-- Stormpeak Hatchling
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=29755 AND `ItemId`=42784;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (29755, 1, 42784);
+
 -- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
 -- Infesting Jormungar
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30148 AND `ItemId`=42926;

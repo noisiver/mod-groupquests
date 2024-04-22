@@ -2527,6 +2527,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42770;
 -- Relic of Ulduar (Quest: Ancient Relics (Id: 12870), Quest: Ancient Relics (Id: 12882), Quest: Hodir's Tribute (Id: 13559))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42780;
 
+-- Small Proto-Drake Egg (Quest: Veranus (Id: 13050))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42784;
+
 -- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42926;
 
