@@ -782,6 +782,14 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=30387 AND `Item`=42252;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30387, 42252, 42, 1, 'Seething Revenant - Frozen Iron Scrap');
 
+-- Everfrost Shard (Quest: Raising Hodir's Spear (Id: 13001))
+-- Ravenous Jormungar
+DELETE FROM `creature_loot_template` WHERE `Entry`=30291 AND `Item`=42541;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30291, 42541, 18, 1, 'Ravenous Jormungar - Everfrost Shard');
+-- Viscous Oil
+DELETE FROM `creature_loot_template` WHERE `Entry`=30325 AND `Item`=42541;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (30325, 42541, 33, 1, 'Viscous Oil - Everfrost Shard');
+
 -- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
 -- Infesting Jormungar
 DELETE FROM `creature_loot_template` WHERE `Entry`=30148 AND `Item`=42926;

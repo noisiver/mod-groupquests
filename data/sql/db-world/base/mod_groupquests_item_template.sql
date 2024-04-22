@@ -2512,6 +2512,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42252;
 -- Worg Fur (Quest: Emergency Measures (Id: 13000))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42510;
 
+-- Everfrost Shard (Quest: Raising Hodir's Spear (Id: 13001))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42541;
+
 -- Stoic Mammoth Hide (Quest: Raising Hodir's Spear (Id: 13001))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=42542;
 

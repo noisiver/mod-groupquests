@@ -785,6 +785,14 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (3016
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30387 AND `ItemId`=42252;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30387, 1, 42252);
 
+-- Everfrost Shard (Quest: Raising Hodir's Spear (Id: 13001))
+-- Ravenous Jormungar
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30291 AND `ItemId`=42541;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30291, 1, 42541);
+-- Viscous Oil
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30325 AND `ItemId`=42541;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (30325, 1, 42541);
+
 -- Cave Mushroom (Quest: Cave Medicine (Id: 13055))
 -- Infesting Jormungar
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=30148 AND `ItemId`=42926;

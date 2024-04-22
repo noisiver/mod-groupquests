@@ -696,3 +696,8 @@
 [2024-04-21]
 - Added Composite Ore to the loot table of Wastes Digger for the quest Stocking Up.
 - Updated the flags of Composite Ore to allow all members of a group to loot it.
+
+[2024-04-22]
+- Added Everfrost Shard to the loot table of Ravenous Jormungar for the quest Raising Hodir's Spear.
+- Added Everfrost Shard to the loot table of Viscous Oil for the quest Raising Hodir's Spear.
+- Updated the flags of Everfrost Shard to allow all members of a group to loot it.
