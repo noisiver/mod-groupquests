@@ -184,7 +184,44 @@ public:
     }
 };
 
+class spell_summon_dark_messenger : public SpellScript
+{
+    PrepareSpellScript(spell_summon_dark_messenger);
+
+    void HandleEffect(SpellEffIndex /*effIndex*/)
+    {
+        if (Player* player = GetCaster()->ToPlayer())
+        {
+            if (Group* group = player->GetGroup())
+            {
+                group->DoForAllMembers([player](Player* member)
+                {
+                    if (member != player)
+                    {
+                        if (member->IsAtGroupRewardDistance(player))
+                        {
+                            if (member->GetQuestStatus(13342) == QUEST_STATUS_INCOMPLETE ||
+                                member->GetQuestStatus(13344) == QUEST_STATUS_INCOMPLETE ||
+                                member->GetQuestStatus(13358) == QUEST_STATUS_INCOMPLETE ||
+                                member->GetQuestStatus(13365) == QUEST_STATUS_INCOMPLETE)
+                            {
+                                member->KilledMonsterCredit(32314);
+                            }
+                        }
+                    }
+                });
+            }
+        }
+    }
+
+    void Register() override
+    {
+        OnEffectLaunch += SpellEffectFn(spell_summon_dark_messenger::HandleEffect, EFFECT_1, SPELL_EFFECT_KILL_CREDIT);
+    }
+};
+
 void AddSC_quest_spell_scripts_groupquests()
 {
     new spell_image_of_drakuru_reagent_check_groupquests();
+    RegisterSpellScript(spell_summon_dark_messenger);
 }

@@ -13,3 +13,7 @@ INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (37172, 'spel
 -- Bloodgem Infusion (Quest: Bloodgem Crystals (Id: 10204))
 DELETE FROM `spell_script_names` WHERE `spell_id`=34379;
 INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (34379, 'spell_item_bloodgem_shard');
+
+-- Summon Dark Messenger (Quest: Not a Bug (Id: 13342), Quest: Not a Bug (Id: 13344), Quest: Not a Bug (Id: 13358), Quest: Not a Bug (Id: 13365))
+DELETE FROM `spell_script_names` WHERE `spell_id`=60563;
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (60563, 'spell_summon_dark_messenger');

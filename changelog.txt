@@ -703,3 +703,6 @@
 - Updated the flags of Everfrost Shard to allow all members of a group to loot it.
 - Added Small Proto-Drake Egg to the loot table of Stormpeak Hatchling for the quest Veranus.
 - Updated the flags of Small Proto-Drake Egg to allow all members of a group to loot it.
+
+[2024-04-22]
+- Added the script for the spell Summon Dark Messenger to make the quest Not a Bug give credit to all members of a group.
