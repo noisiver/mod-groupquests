@@ -200,13 +200,7 @@ class spell_summon_dark_messenger : public SpellScript
                     {
                         if (member->IsAtGroupRewardDistance(player))
                         {
-                            if (member->GetQuestStatus(13342) == QUEST_STATUS_INCOMPLETE ||
-                                member->GetQuestStatus(13344) == QUEST_STATUS_INCOMPLETE ||
-                                member->GetQuestStatus(13358) == QUEST_STATUS_INCOMPLETE ||
-                                member->GetQuestStatus(13365) == QUEST_STATUS_INCOMPLETE)
-                            {
-                                member->KilledMonsterCredit(32314);
-                            }
+                            member->KilledMonsterCredit(32314);
                         }
                     }
                 });
