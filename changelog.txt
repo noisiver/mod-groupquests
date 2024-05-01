@@ -706,3 +706,6 @@
 
 [2024-04-22]
 - Added the script for the spell Summon Dark Messenger to make the quest Not a Bug give credit to all members of a group.
+
+[2024-05-02]
+- Added the script for Zul'Drak to make the quest Our Only Hope trigger for all members of a group.

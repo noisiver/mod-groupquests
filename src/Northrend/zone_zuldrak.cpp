@@ -229,8 +229,53 @@ public:
     };
 };
 
+enum ScourgeEnclosure
+{
+    QUEST_OUR_ONLY_HOPE                      = 12916,
+    NPC_GYMER_DUMMY                          = 29928, // From quest template
+    SPELL_GYMER_LOCK_EXPLOSION               = 55529
+};
+
+class go_scourge_enclosure_groupquests : public GameObjectScript
+{
+public:
+    go_scourge_enclosure_groupquests() : GameObjectScript("go_scourge_enclosure") { }
+
+    bool OnGossipHello(Player* player, GameObject* go) override
+    {
+        go->UseDoorOrButton();
+
+        if (player->GetQuestStatus(QUEST_OUR_ONLY_HOPE) == QUEST_STATUS_INCOMPLETE)
+        {
+            Creature* gymerDummy = go->FindNearestCreature(NPC_GYMER_DUMMY, 20.0f);
+            if (gymerDummy)
+            {
+                gymerDummy->CastSpell(gymerDummy, SPELL_GYMER_LOCK_EXPLOSION, true);
+                gymerDummy->DespawnOrUnsummon();
+            }
+
+            if (Group* group = player->GetGroup())
+            {
+                group->DoForAllMembers([this, player, gymerDummy](Player* member)
+                {
+                    if (member->IsAtGroupRewardDistance(player))
+                    {
+                        member->KilledMonsterCredit(gymerDummy->GetEntry(), gymerDummy->GetGUID());
+                    }
+                });
+            }
+            else
+            {
+                player->KilledMonsterCredit(gymerDummy->GetEntry(), gymerDummy->GetGUID());
+            }
+        }
+        return true;
+    }
+};
+
 void AddSC_zone_zuldrak_groupquests()
 {
     new npc_drakuru_shackles_groupquests();
     new npc_feedin_da_goolz_groupquests();
+    new go_scourge_enclosure_groupquests();
 }
