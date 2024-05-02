@@ -214,8 +214,64 @@ class spell_summon_dark_messenger : public SpellScript
     }
 };
 
+enum Quest12659Data
+{
+    NPC_SCALPS_KC_BUNNY = 28622,
+};
+
+class spell_q12659_ahunaes_knife_groupquests : public SpellScriptLoader
+{
+public:
+    spell_q12659_ahunaes_knife_groupquests() : SpellScriptLoader("spell_q12659_ahunaes_knife") { }
+
+    class spell_q12659_ahunaes_knife_groupquests_SpellScript : public SpellScript
+    {
+        PrepareSpellScript(spell_q12659_ahunaes_knife_groupquests_SpellScript);
+
+        bool Load() override
+        {
+            return GetCaster()->GetTypeId() == TYPEID_PLAYER;
+        }
+
+        void HandleDummy(SpellEffIndex /*effIndex*/)
+        {
+            Player* caster = GetCaster()->ToPlayer();
+            if (Creature* target = GetHitCreature())
+            {
+                target->DespawnOrUnsummon();
+
+                if (Group* group = caster->GetGroup())
+                {
+                    group->DoForAllMembers([caster](Player* member)
+                    {
+                        if (member->IsAtGroupRewardDistance(caster))
+                        {
+                            member->KilledMonsterCredit(NPC_SCALPS_KC_BUNNY);
+                        }
+                    });
+                }
+                else
+                {
+                    caster->KilledMonsterCredit(NPC_SCALPS_KC_BUNNY);
+                }
+            }
+        }
+
+        void Register() override
+        {
+            OnEffectHitTarget += SpellEffectFn(spell_q12659_ahunaes_knife_groupquests_SpellScript::HandleDummy, EFFECT_0, SPELL_EFFECT_DUMMY);
+        }
+    };
+
+    SpellScript* GetSpellScript() const override
+    {
+        return new spell_q12659_ahunaes_knife_groupquests_SpellScript();
+    }
+};
+
 void AddSC_quest_spell_scripts_groupquests()
 {
     new spell_image_of_drakuru_reagent_check_groupquests();
     RegisterSpellScript(spell_summon_dark_messenger);
+    new spell_q12659_ahunaes_knife_groupquests();
 }

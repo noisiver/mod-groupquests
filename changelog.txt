@@ -709,3 +709,4 @@
 
 [2024-05-02]
 - Added the script for Zul'Drak to make the quest Our Only Hope trigger for all members of a group.
+- Added the script for the spell Ahunae's Knife to make the quest Scalps! give credit to all members of a group.
