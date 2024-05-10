@@ -256,7 +256,7 @@ public:
 
             if (Group* group = player->GetGroup())
             {
-                group->DoForAllMembers([this, player, gymerDummy](Player* member)
+                group->DoForAllMembers([player, gymerDummy](Player* member)
                 {
                     if (member->IsAtGroupRewardDistance(player))
                     {
