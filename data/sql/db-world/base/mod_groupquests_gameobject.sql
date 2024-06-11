@@ -78,6 +78,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=153123;
 -- Changed from 300 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
 
+-- Crossroads' Supply Crates (Quest: Supplies for the Crossroads (Id: 5041))
+-- Changed from 120 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175708;
+
 -- Ammo Crate (Quest: Ammo for Rumbleshot (Id: 5541))
 -- Changed from 15 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=176785;

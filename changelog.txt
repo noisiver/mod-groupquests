@@ -713,3 +713,6 @@
 
 [2024-05-25]
 - Updated the smart script for Argent Valiant to give all members of a group the kill credit.
+
+[2024-06-11]
+- Updated the respawn time of Crossroads' Supply Crates.
