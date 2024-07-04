@@ -799,6 +799,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=6259;
 -- Deviate Hide (Quest: Deviate Hides (Id: 1486))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=6443;
 
+-- Wailing Essence (Quest: Smart Drinks (Id: 1491))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=6464;
+
 -- Ritual Salve (Quest: Call of Earth (Id: 1519))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=6634;
 

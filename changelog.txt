@@ -716,3 +716,6 @@
 
 [2024-06-11]
 - Updated the respawn time of Crossroads' Supply Crates.
+
+[2024-07-04]
+- Updated the flags of Wailing Essence to allow all members of a group to loot it.
