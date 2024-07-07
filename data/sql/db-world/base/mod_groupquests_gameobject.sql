@@ -22,6 +22,18 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=263;
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=264;
 
+-- Loose Soil (Quest: Uncovering the Past (Id: 299))
+-- Changed from 300/90 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=331;
+
+-- Ancient Relic (Quest: Uncovering the Past (Id: 299))
+-- Changed from 90 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=333;
+
+-- Ancient Relic (Quest: Uncovering the Past (Id: 299))
+-- Changed from 90 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=334;
+
 -- Bloodsail Charts (Quest: The Bloodsail Buccaneers (Id: 604))
 -- Changed from 180 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=2086;
@@ -45,6 +57,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12898;
 -- Fourth Relic Fragment (Quest: Troubled Spirits of Kel'Theril (Id: 5245))
 -- Changed from 900 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=12899;
+
+-- Ancient Relic (Quest: Uncovering the Past (Id: 299))
+-- Changed from 90 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=35252;
 
 -- Clara's Fresh Apples (Quest: Items of Some Consequence (Id: 2746))
 -- Changed from 120 seconds to 1 second
