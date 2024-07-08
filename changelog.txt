@@ -723,3 +723,4 @@
 [2024-07-08]
 - Updated the respawn time of Loose Soil.
 - Updated the respawn time of Ancient Relic.
+- Updated the flags of Turtle Meat to allow all members of a group to loot it.

@@ -337,6 +337,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3658;
 -- Hillsbrad Human Skull (Quest: Souvenirs of Death (Id: 546))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3692;
 
+-- Turtle Meat (Quest: Soothing Turtle Bisque (Id: 555), Quest: Soothing Turtle Bisque (Id: 7321))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3712;
+
 -- Worn Stone Token (Quest: Stone Tokens (Id: 556))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=3714;
 
