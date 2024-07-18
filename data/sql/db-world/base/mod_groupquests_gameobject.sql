@@ -98,6 +98,10 @@ UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175565;
 -- Changed from 120 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=175708;
 
+-- Highborne Relic Fragment (Quest: Troubled Spirits of Kel'Theril (Id: 5245))
+-- Changed from 300 seconds to 1 second
+UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id` IN (175888, 175891, 175892, 175893);
+
 -- Ammo Crate (Quest: Ammo for Rumbleshot (Id: 5541))
 -- Changed from 15 seconds to 1 second
 UPDATE `gameobject` SET `spawntimesecs`=1 WHERE `id`=176785;

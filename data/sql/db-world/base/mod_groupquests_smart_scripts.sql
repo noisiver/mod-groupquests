@@ -49,6 +49,9 @@ UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=29694 AND `id`=1
 -- Argent Valiant (Quest: The Aspirant's Challenge (Id: 13679), Quest: The Aspirant's Challenge (Id: 13680))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=33448 AND `id`=16;
 
+-- Kalaran Windblade (Quest: The Torch of Retribution (Id: 3453))
+UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=847900 AND `id`=5;
+
 -- Wyrmcult Blackwhelp (Quest: Whelps of the Wyrmcult (Id: 10747))
 UPDATE `smart_scripts` SET `target_type`=16 WHERE `entryorguid`=2138700 AND `id`=2;
 
