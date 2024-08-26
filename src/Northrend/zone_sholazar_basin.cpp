@@ -175,14 +175,19 @@ enum KickWhatKick
     SAY_DROSTAN_REPLY_MISS = 0,
 };
 
-class spell_q12589_shoot_rjr : public SpellScriptLoader
+class spell_q12589_shoot_rjr_groupquests : public SpellScriptLoader
 {
 public:
-    spell_q12589_shoot_rjr() : SpellScriptLoader("spell_q12589_shoot_rjr") { }
+    spell_q12589_shoot_rjr_groupquests() : SpellScriptLoader("spell_q12589_shoot_rjr") { }
 
-    class spell_q12589_shoot_rjr_SpellScript : public SpellScript
+    class spell_q12589_shoot_rjr : public SpellScript
     {
-        PrepareSpellScript(spell_q12589_shoot_rjr_SpellScript);
+        PrepareSpellScript(spell_q12589_shoot_rjr);
+
+        bool Validate(SpellInfo const* /*spellInfo*/) override
+        {
+            return ValidateSpellInfo({ SPELL_MISS_BIRD_APPLE, SPELL_BIRD_FALL, SPELL_MISS_APPLE, SPELL_HIT_APPLE, SPELL_APPLE_FALL });
+        }
 
         SpellCastResult CheckCast()
         {
@@ -216,74 +221,77 @@ public:
 
             switch (ev)
             {
-                case EVENT_MISS_BIRD:
+            case EVENT_MISS_BIRD:
+            {
+                Creature* crunchy = shooter->FindNearestCreature(NPC_CRUNCHY, 30);
+                Creature* bird = shooter->FindNearestCreature(NPC_THICKBIRD, 30);
+
+                if (!bird || !crunchy)
+                    ; // fall to EVENT_MISS
+                else
+                {
+                    shooter->CastSpell(bird, SPELL_MISS_BIRD_APPLE);
+                    bird->CastSpell(bird, SPELL_BIRD_FALL);
+                    wilhelm->AI()->Talk(SAY_WILHELM_MISS);
+                    drostan->AI()->Talk(SAY_DROSTAN_REPLY_MISS);
+
+                    Unit::Kill(bird, bird);
+                    crunchy->GetMotionMaster()->MovePoint(0, bird->GetPositionX(), bird->GetPositionY(),
+                        bird->GetMapWaterOrGroundLevel(bird->GetPositionX(), bird->GetPositionY(), bird->GetPositionZ()));
+                    /// @todo Make crunchy perform emote eat when he reaches the bird
+
+                    break;
+                }
+                [[fallthrough]];
+            }
+            case EVENT_MISS:
+            {
+                shooter->CastSpell(wilhelm, SPELL_MISS_APPLE);
+                wilhelm->AI()->Talk(SAY_WILHELM_MISS);
+                drostan->AI()->Talk(SAY_DROSTAN_REPLY_MISS);
+                break;
+            }
+            case EVENT_HIT:
+            {
+                shooter->CastSpell(apple, SPELL_HIT_APPLE);
+                apple->CastSpell(apple, SPELL_APPLE_FALL);
+                wilhelm->AI()->Talk(SAY_WILHELM_HIT);
+
+                if (Player* player = shooter->ToPlayer())
+                {
+                    if (Group* group = player->GetGroup())
                     {
-                        Creature* crunchy = shooter->FindNearestCreature(NPC_CRUNCHY, 30);
-                        Creature* bird = shooter->FindNearestCreature(NPC_THICKBIRD, 30);
-
-                        if (!bird || !crunchy)
-                            ; // fall to EVENT_MISS
-                        else
-                        {
-                            shooter->CastSpell(bird, SPELL_MISS_BIRD_APPLE);
-                            bird->CastSpell(bird, SPELL_BIRD_FALL);
-                            wilhelm->AI()->Talk(SAY_WILHELM_MISS);
-                            drostan->AI()->Talk(SAY_DROSTAN_REPLY_MISS);
-
-                            Unit::Kill(bird, bird);
-                            crunchy->GetMotionMaster()->MovePoint(0, bird->GetPositionX(), bird->GetPositionY(),
-                                                                  bird->GetMapWaterOrGroundLevel(bird->GetPositionX(), bird->GetPositionY(), bird->GetPositionZ()));
-                            /// @todo Make crunchy perform emote eat when he reaches the bird
-
-                            break;
-                        }
-                        [[fallthrough]];
-                    }
-                case EVENT_MISS:
-                    {
-                        shooter->CastSpell(wilhelm, SPELL_MISS_APPLE);
-                        wilhelm->AI()->Talk(SAY_WILHELM_MISS);
-                        drostan->AI()->Talk(SAY_DROSTAN_REPLY_MISS);
-                        break;
-                    }
-                case EVENT_HIT:
-                    {
-                        shooter->CastSpell(apple, SPELL_HIT_APPLE);
-                        apple->CastSpell(apple, SPELL_APPLE_FALL);
-                        wilhelm->AI()->Talk(SAY_WILHELM_HIT);
-
-                        if (Player* player = shooter->ToPlayer())
-                        {
-                            if (Group* group = player->GetGroup())
+                        group->DoForAllMembers([player](Player* member)
                             {
-                                group->DoForAllMembers([player](Player* member)
+                                if (member->IsAtGroupRewardDistance(player))
                                 {
-                                    if (member->IsAtGroupRewardDistance(player))
-                                    {
-                                        member->KilledMonsterCredit(NPC_APPLE);
-                                    }
-                                });
-                            }
-                            else
-                            {
-                                player->KilledMonsterCredit(NPC_APPLE);
-                            }
-                        }
-                        break;
+                                    member->KilledMonsterCredit(NPC_APPLE);
+                                }
+                            });
                     }
+                    else
+                    {
+                        player->KilledMonsterCredit(NPC_APPLE);
+                    }
+                }
+
+                //apple->DespawnOrUnsummon(); zomg!
+
+                break;
+            }
             }
         }
 
         void Register() override
         {
-            OnCheckCast += SpellCheckCastFn(spell_q12589_shoot_rjr_SpellScript::CheckCast);
-            OnEffectHitTarget += SpellEffectFn(spell_q12589_shoot_rjr_SpellScript::HandleDummy, EFFECT_0, SPELL_EFFECT_DUMMY);
+            OnCheckCast += SpellCheckCastFn(spell_q12589_shoot_rjr::CheckCast);
+            OnEffectHitTarget += SpellEffectFn(spell_q12589_shoot_rjr::HandleDummy, EFFECT_0, SPELL_EFFECT_DUMMY);
         }
     };
 
     SpellScript* GetSpellScript() const override
     {
-        return new spell_q12589_shoot_rjr_SpellScript();
+        return new spell_q12589_shoot_rjr();
     }
 };
 
@@ -565,7 +573,7 @@ public:
 void AddSC_zone_sholazar_basin_groupquests()
 {
     new npc_vics_flying_machine_groupquests();
-    new spell_q12589_shoot_rjr();
+    new spell_q12589_shoot_rjr_groupquests();
     new npc_still_at_it_trigger_groupquests();
     new npc_mcmanus_groupquests();
     new go_pressure_valve_groupquests();
