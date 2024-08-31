@@ -9,3 +9,8 @@ I play with blizzlike rates and want to be able to complete as many quests as po
 Quest objectives like escorting someone, destroying something or rescuing creatures by destroying a cocoon until they appear etc don't always give +1 to every member of the group and I really wanted to fix that.
 
 The same goes for looting items from objects on the ground. Skipping those really cripple you as a multiboxer if the rates are blizzlike. That's why I'm adding those items to nearby creatures with a reasonably low drop chance as they're only there as an alternative, not replacement.
+
+# Pull Requests
+I don't accept pull requests. There are a few exceptions listed below, and all of them have to be true for me to consider merging a pull request.
+- It's something I *really* want or that I think should be included with the module.
+- It matches my code style.
