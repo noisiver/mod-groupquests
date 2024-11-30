@@ -730,3 +730,8 @@
 
 [2024-07-18]
 - Updated the respawn time of Highborne Relic Fragment.
+
+[2024-10-12]
+- Added Shadowmoon Tuber to the loot table of Domesticated Felboar for the quest I Was A Lot Of Things...
+- Updated the flags of Shadowmoon Tuber to allow all members of a group to loot it.
+- Updated the lootid for Domesticated Felboar.

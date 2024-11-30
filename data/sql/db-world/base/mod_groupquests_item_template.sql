@@ -1930,6 +1930,9 @@ UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=30315;
 -- Bonechewer Blood (Quest: Bonechewer Blood (Id: 10450))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=30327;
 
+-- Shadowmoon Tuber (Quest: I Was A Lot Of Things... (Id: 10514))
+UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=30356;
+
 -- Bleeding Hollow Blood (Quest: Boiling Blood (Id: 10538))
 UPDATE `item_template` SET `Flags`=`Flags`|2048 WHERE `entry`=30425;
 

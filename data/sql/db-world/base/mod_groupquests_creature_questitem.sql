@@ -360,6 +360,11 @@ INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (2067
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=20773 AND `ItemId`=29474;
 INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (20773, 0, 29474);
 
+-- Shadowmoon Tuber (Quest: I Was A Lot Of Things... (Id: 10514))
+-- Domesticated Felboar
+DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21195 AND `ItemId`=30356;
+INSERT INTO `creature_questitem` (`CreatureEntry`, `Idx`, `ItemId`) VALUES (21195, 0, 30356);
+
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon
 DELETE FROM `creature_questitem` WHERE `CreatureEntry`=21408 AND `ItemId`=30716;

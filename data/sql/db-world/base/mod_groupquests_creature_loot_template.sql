@@ -365,6 +365,11 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`
 DELETE FROM `creature_loot_template` WHERE `Entry`=20773 AND `Item`=29474;
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (20773, 29474, 38, 1, 'Barbscale Crocolisk - Ivory Bell');
 
+-- Shadowmoon Tuber (Quest: I Was A Lot Of Things... (Id: 10514))
+-- Domesticated Felboar
+DELETE FROM `creature_loot_template` WHERE `Entry`=21195 AND `Item`=30356;
+INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Chance`, `QuestRequired`, `Comment`) VALUES (21195, 30356, 34, 1, 'Domesticated Felboar - Shadowmoon Tuber');
+
 -- Ever-burning Ash (Quest: A Haunted History (Id: 10624), Quest: A Ghost in the Machine (Id: 10642))
 -- Felfire Diemetradon
 DELETE FROM `creature_loot_template` WHERE `Entry`=21408 AND `Item`=30716;
