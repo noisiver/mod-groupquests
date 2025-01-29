@@ -1,3 +1,6 @@
+# Important
+I am no longer maintaining this module. I created it to help multiboxers but since I have stopped multiboxing I no longer have any need for it. I only use playerbots now and this module isn't needed when using them.
+
 # Features
 This module is used to make quest items drop for all members of a group. In some cases it also help other objectives count for all members of a group. It adds items that you normally loot from the ground to the loot tables of nearby creatures to make it easier for groups to complete those quests.
 
